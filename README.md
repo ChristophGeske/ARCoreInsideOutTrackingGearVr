@@ -3,7 +3,7 @@ Inside Out Tracking for the Galaxy S7
 
       - The Galaxy S7 is officially not supported but it works non the less. 
       After about 2 minutes the phone gets to hot for the GearVr and the phone needs a short cooldown time. 
-      Keep that in mind when planing to build a > 2 minute application or use a wet tissue to cool the phone.  
+      Keep that in mind when planing to build a > 2 minute application or use a wet tissue to cool the phone down.  
 
 Steps:
 
@@ -23,7 +23,7 @@ Steps:
 
 6.) Place the osig file under Assets -> Plugins -> Android -> assets. If those folders don't exist add them yourselfe.  
 
-7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus simbole.
+7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbole.
 
 
 
