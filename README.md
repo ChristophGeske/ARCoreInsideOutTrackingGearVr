@@ -36,8 +36,10 @@ Steps:
 12.) To improve the experiance further you can do the following tricks:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
-      This will make head movements smoother. If that dose not work uncheck the checkmark of the Camera under "First Person Camera" and
-      try again.
+      This will make head movements smoother. If the head rotation is tracked but not the head movement try to uncheck the checkmark
+      of "Camera" under "First Person Camera" and try agein. If the head rotation is still not recognised, try to restart the phone. I
+      encountered thosse problems when the ARCore Preview 2 stooped in the backround.
+      try again. If you than still 
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" 
