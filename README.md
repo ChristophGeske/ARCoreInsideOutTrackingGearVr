@@ -1,4 +1,4 @@
-# ARCore Inside Out Tracking S7
+# ARCore Inside Out Tracking for Galaxy S7
 ARCore enabled Inside Out Tracking for the Galaxy S7
 
       - The Galaxy S7 is officially not ARCore supported but it works non the less. 
