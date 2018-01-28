@@ -10,5 +10,9 @@ Steps:
       
 2.) Download the latest Oculus Utilities for Unity here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
 
-3.) Import the arcore-unity-sdk-preview2.unitypackage in Unity the same way you imported the arcore-unity-sdk-preview2.unitypackage from step 1.)
+3.) Import the arcore-unity-sdk-preview2.unitypackage into Unity in the same way you imported the arcore-unity-sdk-preview2.unitypackage described in step 1.) 
+
+
+
+
 
