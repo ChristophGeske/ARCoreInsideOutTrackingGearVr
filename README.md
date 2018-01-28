@@ -3,7 +3,7 @@ ARCore enabled Inside Out Tracking for the Galaxy S7
 
       - The Galaxy S7 is officially not ARCore supported but it works non the less.   
 
-You can directly download a working Inside-Out-Tracking Unity project by cloning or download the project, adding your phone specific osig file and build your apk file.
+You can directly download a working Inside-Out-Tracking Unity project by cloning/downloading the project to your pc, adding your phone specific osig file (Oculus) and build/run your apk file.
 
 or
 
