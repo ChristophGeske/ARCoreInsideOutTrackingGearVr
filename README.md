@@ -4,12 +4,12 @@ Inside Out Tracking for the Galaxy S7
 Steps:
 
 
-1.) Follow the ARCore installation steps outlined here: https://developers.google.com/ar/develop/unity/getting-started
+1.) Follow the ARCore Preview 2 installation steps outlined here: https://developers.google.com/ar/develop/unity/getting-started
 
       - Make sure to install Unity 2017.3.0f2 or higher! Older Unity versions do not work!
       - Try out the HalloAR app before you continue!
       
-2.) Download the latest Oculus Utilities for Unity here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
+2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
 
 3.) Import the arcore-unity-sdk-preview2.unitypackage into Unity in the same way you imported the arcore-unity-sdk-preview2.unitypackage described in step 1.) 
 
