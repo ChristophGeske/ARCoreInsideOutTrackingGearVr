@@ -36,7 +36,8 @@ Steps:
 12.) To improve the experiance further you can do the following tricks:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
-      Also uncheck the checkmark of the Camera. This will make head movements smoother.
+      This will make head movements smoother. If that dose not work uncheck the checkmark of the Camera under "First Person Camera" and
+      try again.
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" 
