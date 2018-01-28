@@ -33,7 +33,7 @@ Steps:
 
 11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is now active. Sometimes the still experimental ARCore Preview 2 stops in the backround so if you encounter tracking issues try restarting the phone get the ARCore Preview 2 running agein.
 
-12.) To improve the experiance further you can do the following tricks:
+12.) To improve the experiance further you can also do the following improvements:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
       This will make head movements smoother. If the head rotation is tracked but not the head movement try to uncheck the checkmark
