@@ -35,12 +35,12 @@ Steps:
 
 12.) To improve the experiance further you can do the following tricks:
       
-      - go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
+      - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
       This will make head movements smoother.
-      - if you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
+      - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
-      - to get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" 
-      - to dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None 
+      - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" 
+      - To dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None 
 
 
 
