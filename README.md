@@ -1,11 +1,13 @@
 # ARCore Inside Out Tracking for Galaxy S7
 ARCore enabled Inside Out Tracking for the Galaxy S7
 
-      - The Galaxy S7 is officially not ARCore supported but it works non the less. 
-      After about 2 minutes the phone gets to hot for the GearVR and you get a prompt to take out the phone and let it cool down. 
-      Keep that in mind when planing to build a > 2 minute application or use a wet tissue to cool the phone.  
+      - The Galaxy S7 is officially not ARCore supported but it works non the less.   
 
-Steps:
+You can directly download a working Inside-Out-Tracking Unity project by cloning or download the project, adding your phone specific osig file and build your apk file.
+
+or
+
+Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 
 1.) Follow the ARCore Preview 2 installation steps outlined here: https://developers.google.com/ar/develop/unity/getting-started
