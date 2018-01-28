@@ -31,16 +31,17 @@ Steps:
 
 10.) Add a cube and bring it close to the camera. 
 
-11.) Build and Run. You should now see the cube and the camera feed in the backround. 6 degrees of freedome should also work now.
+11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is now active.
 
 12.) To improve the experiance further you can do the following tricks:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
-      This will make head movements smoother.
+      Also uncheck the checkmark of the Camera. This will make head movements smoother.
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" 
       - To dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None 
+ 
 
 
 
