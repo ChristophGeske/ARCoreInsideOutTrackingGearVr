@@ -3,7 +3,7 @@ ARCore enabled Inside Out Tracking for the Galaxy S7
 
       - The Galaxy S7 is officially not ARCore supported but it works non the less.   
 
-You can directly download a working Inside-Out-Tracking Unity project by cloning/downloading the "ARCoreInsideOutTrackingBasic" project to your pc, adding your phone specific osig file (Oculus) and build/run your apk file.
+You can directly download a working Inside-Out-Tracking Unity project by cloning/downloading the "ARCoreInsideOutTrackingBasic" project to your pc, adding your phone specific osig (Oculus) file and build/run the .apk file.
 
 or
 
@@ -35,7 +35,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is now active. Sometimes the still experimental ARCore Preview 2 stops in the backround so if you encounter tracking issues try restarting the phone get the ARCore Preview 2 running agein.
 
-12.) To improve the experiance further you can also do the following improvements:
+12.) To improve the experiance further you can also do the following steps:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
       This will make head movements smoother. If the head rotation is tracked but not the head movement try to uncheck the checkmark
