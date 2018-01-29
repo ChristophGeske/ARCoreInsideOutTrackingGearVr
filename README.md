@@ -3,7 +3,7 @@ ARCore enabled Inside Out Tracking for the Galaxy S7
 
       - The Galaxy S7 is officially not ARCore supported but it works non the less.   
 
-You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets and at last build and run the .apk file with Unity 2017.3.0f2 or higher.
+You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, build and run the .apk file with Unity 2017.3.0f2 or higher.
 
 or
 
@@ -12,7 +12,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 1.) Follow the ARCore Preview 2 installation steps outlined here: https://developers.google.com/ar/develop/unity/getting-started
 
-      - Make sure to install Unity 2017.3.0f2 or higher! Older Unity versions do not work!
+      - Make sure to install Unity 2017.3.0f2 or higher! Older Unity versions don't work!
       - Try out the HalloAR app before you continue!
       
 2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
@@ -27,7 +27,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbole.
 
-8.) "Remove Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierachy in Unity so you are left with "ARCore Device" and "Directional light"
+8.) Remove "Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierachy in Unity so you are left with "ARCore Device" and "Directional light"
 
 9.) Ckick on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
 
