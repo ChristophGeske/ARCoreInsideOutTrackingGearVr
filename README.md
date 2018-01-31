@@ -29,7 +29,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 8.) Remove "Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierachy in Unity so you are left with "ARCore Device" and "Directional light"
 
-9.) Ckick on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
+9.) Click on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
 
 10.) Add a cube and bring it close to the camera. 
 
