@@ -1,7 +1,7 @@
 # ARCore Inside Out Positional Tracking for Galaxy S7
 ARCore enabled Inside Out Positional Tracking for the Galaxy S7
 
-      - The Galaxy S7 is officially not ARCore supported but it works non the less.   
+      - The Galaxy S7 is not officially ARCore supported but it works non the less. 
 
 You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, build and run the .apk file with Unity 2017.3.0f2 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
 
