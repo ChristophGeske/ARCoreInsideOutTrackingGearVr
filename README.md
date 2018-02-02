@@ -1,5 +1,5 @@
-# ARCore Inside Out Positional Tracking for Galaxy S7
-ARCore enabled Inside Out Positional Tracking for the Galaxy S7
+# ARCore Inside Out Positional Tracking for Galaxy S7 and ARCore preview 2
+ARCore enabled Inside Out Positional Tracking for the Galaxy S7 using the ARCore preview 2.
 
       - The Galaxy S7 is not officially ARCore supported but it works non the less. 
 
