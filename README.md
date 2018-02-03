@@ -70,7 +70,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" and "Enable 
       Light Estimation" 
       - To dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None
-      - In build setting set Texture Compression to "ETC2 (GLES 3.0)
+      - In build settings set Texture Compression to "ETC2 (GLES 3.0)"
  
 
 
