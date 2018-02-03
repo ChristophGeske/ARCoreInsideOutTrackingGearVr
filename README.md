@@ -15,6 +15,8 @@ Go to: file -> build settings -> player settings -> other settings
 
 Change the package name to for example "com.unity3d.test"
 
+Uncheck Multithreaded Rendering
+
 Set the Minimum API Level to 7.0 
 
 Set the Target API Level to 7.0
