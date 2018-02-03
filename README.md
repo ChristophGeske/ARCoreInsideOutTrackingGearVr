@@ -8,7 +8,7 @@ You can directly download or clone the working "ARCoreInsideOutTrackingBasic" pr
 
 Go to: file -> build settings -> player settings -> other settings
 Change the package name to for example "com.unity3d.test"
-Set the Minimum API Level to 7.0
+Set the Minimum API Level to 7.0 
 Set the Target API Level to 7.0
 Also go to: file -> build settings -> player settings -> XR settings
 check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
