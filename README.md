@@ -5,6 +5,7 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
 
 You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, set the player settings 
 (
+
 Go to: file -> build settings -> player settings -> other settings
 Change the package name to for example "com.unity3d.test"
 Set the Minimum API Level to 7.0
