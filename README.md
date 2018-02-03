@@ -3,7 +3,16 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
 
       - The Galaxy S7 is not officially ARCore supported but with the new preview 2 it works non the less. 
 
-You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, build and run the .apk file with Unity 2017.3.0f2 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
+You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, set the player settings 
+(
+Go to: file -> build settings -> player settings -> other settings
+Change the package name to for example "com.unity3d.test"
+Set the Minimum API Level to 7.0
+Set the Target API Level to 7.0
+Also go to: file -> build settings -> player settings -> XR settings
+check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
+) 
+build and run the .apk file with Unity 2017.3.0f2 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
 
 or
 
