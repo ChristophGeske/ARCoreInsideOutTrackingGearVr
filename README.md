@@ -16,7 +16,7 @@ Set the Target API Level to 7.0
 
 Also go to: file -> build settings -> player settings -> XR settings
 check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
-) 
+), 
 
 build and run the .apk file with Unity 2017.3.0f2 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
 
