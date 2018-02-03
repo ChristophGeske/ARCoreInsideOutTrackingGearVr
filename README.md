@@ -3,7 +3,11 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
 
       - The Galaxy S7 is not officially ARCore supported but with the new preview 2 it works non the less. 
 
-You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, set the player settings 
+You have two options to get the positional tracking to run on your S7. Booth options need you to install Unity 2017.3.0f2 or higher (https://store.unity.com/download?ref=personal).  
+
+Option 1:
+
+You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, change the following player settings in Unity 
 (
 
 Go to: file -> build settings -> player settings -> other settings
