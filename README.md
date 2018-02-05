@@ -6,7 +6,7 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
       
       - Fast movements, looking up to the ceiling and poorly lit areas can effect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
-      Looking up leads to loss of tracking possibly because ARCore is optimized for plain and ground detection.
+      Loss of tracking when looking up might be caused by ARCore only beeing optimized for plain and ground detection.
 
 You have two options to get the positional tracking to run on your S7. Booth options need you to install Unity 2017.3.0f2 or higher (https://store.unity.com/download?ref=personal).  
 
