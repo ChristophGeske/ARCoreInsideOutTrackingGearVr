@@ -3,7 +3,7 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
 
       - The Galaxy S7 is not officially ARCore supported but with the new preview 2 it works non the less.
       
-      - Fast head movements, looking up to the ceiling and poorly lit areas can effect the quality of tracking sevearly. 
+      - Fast movements, looking up to the ceiling and poorly lit areas can effect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
       Looking up leads to loss of tracking possibly because ARCore is optimized for plain and ground detection.
 
