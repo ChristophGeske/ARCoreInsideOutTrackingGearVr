@@ -13,7 +13,8 @@ You have three options to get the positional tracking to run on your S7. I liste
 
 Option 1 (quick option installing the apk):
 
-Download the ARCoreInsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCoreInsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. 
+Download the ARCoreInsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCoreInsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the arcore-preview2.apk (https://developers.google.com/ar/develop/unity/getting-started). The arcore-preview2.apk doesn't need to be signed just install the apk file. 
+ 
 
 or
 
