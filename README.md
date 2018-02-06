@@ -4,7 +4,7 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
       
       - The Galaxy S7 is not officially ARCore supported but with the new preview 2 it works non the less.
       
-      - Fast movements and poorly lit areas can effect the quality of tracking sevearly. 
+      - Fast movements and poorly lit areas can affect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
       The reason for that seems to be the low camera frame rate which the ARCore preview 2 is using. 
       The issue was discussed here: (https://github.com/google-ar/arcore-unity-sdk/issues/34).     
