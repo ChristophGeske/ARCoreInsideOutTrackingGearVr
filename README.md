@@ -7,10 +7,15 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
       - Fast movements and poorly lit areas can effect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
 
-You have two options to get the positional tracking to run on your S7. Booth options need you to install Unity 2017.3.0f2 or higher (https://store.unity.com/download?ref=personal).  
+You have three options to get the positional tracking to run on your S7. I listed them in order of ease of use. 
 
+Option 1 (quick option installing the apk):
 
-Option 1 (quick option):
+Download the ARCoreInsideOutTrackingBasic.apk for a scene with a simple block you can walk around or the ARCoreInsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. 
+
+or
+
+Option 2 (working unity project):
 
 You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, change the following player settings in Unity 
 (
@@ -33,7 +38,7 @@ build and run the .apk file with Unity 2017.3.0f2 or higher. The project just co
 
 or
 
-Option 2 (more detailed option):
+Option 3 (more detailed option):
 
 Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
