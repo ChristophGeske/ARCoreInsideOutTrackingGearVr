@@ -7,7 +7,7 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
       - Fast movements and poorly lit areas can affect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
       The reason for that seems to be the low camera frame rate which the ARCore preview 2 is using. 
-      The issue was discussed here: (https://github.com/google-ar/arcore-unity-sdk/issues/34).     
+      (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
 
 You have three options to get the positional tracking to run on your S7. I listed them in order of ease of use. 
 
