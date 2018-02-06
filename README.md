@@ -2,7 +2,7 @@
 ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7.
       
       
-      - The Galaxy S7 is not officially ARCore supported but with the new preview 2 it works non the less.
+      - The Galaxy S7 is now officially ARCore preview 2 supported (https://developers.google.com/ar/discover/#supported_devices).
       
       - Fast movements and poorly lit areas can affect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
