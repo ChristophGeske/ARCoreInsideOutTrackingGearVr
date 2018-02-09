@@ -81,8 +81,8 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       not recognised correctly, try to restart the phone, because sometimes the ARCore Preview 2 stops in the backround.
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
-      - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding" and "Enable 
-      Light Estimation" 
+      - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
+      "Match Camera Framerate" and "Enable Light Estimation" 
       - To dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None
       - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
