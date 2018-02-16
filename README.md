@@ -1,4 +1,4 @@
-# Inside Out Positional Tracking (6DOF) for Galaxy S7 using ARCore preview 2
+# Inside Out Positional Tracking (6DoF) for Galaxy S7 using ARCore preview 2
 ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7.
       
       
