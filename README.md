@@ -6,9 +6,9 @@ ARCore v1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for 
       supported as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
-      - Fast movements and poorly lit areas can affect the quality of tracking sevearly. 
+      - Fast movements, featureles white areas and poorly lit areas can affect the quality of tracking sevearly. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
-      The reason for that seems to be the low camera frame rate which the ARCore is using. 
+      The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using.  
       (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
 
 You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
