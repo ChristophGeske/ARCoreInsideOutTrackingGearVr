@@ -1,12 +1,12 @@
 # Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
-ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8.
+ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and possibly the S8, S8+ and Note8.
       
       
       - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 which should be
       supported with the new ARCore v1.0.0.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
-      - Fast movements, featureles white areas and poorly lit areas can affect the quality of tracking sevearly. 
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
       The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
       The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using.  
       (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
@@ -15,14 +15,14 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled.
 
-++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchped on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room.
+++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room.
 
 
 You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
 
 Option 1 (quick option installing the apk):
 
-Download the ARCore1.0InsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
+Download the ARCore1.0InsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
 
 or
 
@@ -72,7 +72,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbole.
 
-8.) Remove "Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierachy in Unity so you are left with "ARCore Device" and "Directional light"
+8.) Remove "Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierarchy in Unity so you are left with "ARCore Device" and "Directional light"
 
 9.) Click on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
 
@@ -80,17 +80,17 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
 
-12.) To improve the experiance further you can also do the following steps:
+12.) To improve the experience further you can also do the following steps:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position"
       (makes head movements smoother) also set Update Type to "Update and before Render" (makes ARCore tracking better).
-      Uncheck the checkmark of "Camera" under "First Person Camera". If the head rotation is 
-      not recognised correctly, try to restart the phone, because sometimes the ARCore Preview 2 stops in the backround.
-      - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your coice.
+      Uncheck the check mark of "Camera" under "First Person Camera". If the head rotation is 
+      not recognised correctly, try to restart the phone, because sometimes the ARCore Preview 2 stops in the background.
+      - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
       "Match Camera Framerate" and "Enable Light Estimation" 
-      - To dissable the live camera feed in the backround set "Backround Material" under "AR Core Backround Renderer" to  None
+      - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
       - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
  
