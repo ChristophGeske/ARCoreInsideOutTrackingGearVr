@@ -1,5 +1,5 @@
-# Inside Out Positional Tracking (6DoF) for ARCore v1.0
-ARCore v1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8.
+# Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
+ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8.
       
       
       - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 which should be
@@ -15,7 +15,7 @@ You have three options to get the positional tracking to run on your phone. I li
 
 Option 1 (quick option installing the apk):
 
-Download the ARCore1.0InsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the ARCore1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
+Download the ARCore1.0InsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
 
 or
 
