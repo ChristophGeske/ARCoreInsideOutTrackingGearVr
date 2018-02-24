@@ -11,7 +11,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using.  
       (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
 
-++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it bevore importing it to Unity 2017.3.1f1 or later.
+++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
 
 ++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled.
 
