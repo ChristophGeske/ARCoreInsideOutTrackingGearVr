@@ -1,5 +1,5 @@
 # Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
-ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8.
+ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8 (not tested yet).
       
       
       - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 which should be
