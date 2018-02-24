@@ -1,8 +1,9 @@
-# Inside Out Positional Tracking (6DoF) for Galaxy S7 using ARCore preview 2
-ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7.
+# Inside Out Positional Tracking (6DoF) for ARCore v1.0
+ARCore v1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and prossibly the S8, S8+ and Note8.
       
       
-      - The Galaxy S7 is now officially ARCore preview 2 supported 
+      - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 which should be
+      supported as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements and poorly lit areas can affect the quality of tracking sevearly. 
@@ -10,12 +11,11 @@ ARCore preview 2 enabled Inside Out Positional Tracking (six degrees of freedom)
       The reason for that seems to be the low camera frame rate which the ARCore is using. 
       (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
 
-You have three options to get the positional tracking to run on your S7. I listed them in order of ease of use. 
+You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
 
 Option 1 (quick option installing the apk):
 
-Download the ARCoreInsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCoreInsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the arcore-preview2.apk (https://developers.google.com/ar/develop/unity/getting-started). The arcore-preview2.apk doesn't need to be signed just install the apk file. 
- 
+Download the ARCore1.0InsideOutTrackingBasic.apk for a simple scene with a block you can walk around or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene with some objects to interact and play with (supports the touchpad and the GearVR hand controller). Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommand the option where you download the addosig.bat programm to sign the apk. You also have to download and install the ARCore App via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
 
 or
 
@@ -38,7 +38,7 @@ Also go to: file -> build settings -> player settings -> XR settings
 check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
 ), 
 
-build and run the .apk file with Unity 2017.3.0f2 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
+build and run the .apk file with Unity 2017.3.1f1 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
 
 or
 
@@ -47,15 +47,15 @@ Option 3 (more detailed option):
 Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 
-1.) Follow the ARCore Preview 2 installation steps outlined here: https://developers.google.com/ar/develop/unity/getting-started
+1.) Import the arcore-unity-sdk-v1.0.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
-      - Make sure to install Unity 2017.3.0f2 or higher! Older Unity versions don't work!
+      - Make sure to install Unity 2017.3.1f1 or higher! Older Unity versions or Unity 2018 don't work!
       
       - Try out the HalloAR app before you continue!
       
 2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
 
-3.) Import the arcore-unity-sdk-preview2.unitypackage into Unity in the same way you imported the arcore-unity-sdk-preview2.unitypackage described in step 1.) 
+3.) Install the ARCore App on your phone via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core
 
 4.) Find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/
 
@@ -71,7 +71,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 10.) Add a cube and bring it close to the camera. 
 
-11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is now active. Sometimes the still experimental ARCore Preview 2 stops in the backround so if you encounter tracking issues try restarting the phone get the ARCore Preview 2 running agein.
+11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
 
 12.) To improve the experiance further you can also do the following steps:
       
