@@ -12,7 +12,9 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a Unity project you can use to build your own app with positional tracking enabled. You have to unzip it bevore importing it to Unity 2017.3.1f1 or later.
+
 ++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled.
+
 ++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchped on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room.
 
 
