@@ -1,6 +1,8 @@
 # Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
 ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and possibly the S8, S8+ and Note8.
       
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely.
+      
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when standing still or moving 
        slowly. 
        The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
