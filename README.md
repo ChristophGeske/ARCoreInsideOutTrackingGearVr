@@ -1,5 +1,5 @@
-# Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
-ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and possibly the S8, S8+ and Note8.
+# Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.0.0
+ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+ and Note 8.
       
       
       
@@ -12,8 +12,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        This app dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
        (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
       
-      - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 
-      which should be supported with the new ARCore v1.0.0.   
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work also thanks to the new ARCore v1.0   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
