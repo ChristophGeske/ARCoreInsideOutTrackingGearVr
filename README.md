@@ -4,8 +4,8 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
       
       
-       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when standing 
-       still or moving slowly. 
+       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
+       standing still or moving slowly. 
        The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
        The position changes in the environment therfore can only be updated 30 times per seconed. 
        Oculus recomends at least 60fps or better 90fps. 
