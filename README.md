@@ -16,8 +16,11 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       which should be supported with the new ARCore v1.0.0.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
-      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely.
-      
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
+      When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
+      and onle move slightly from left to right. 
+      After the tracking is initialised slowly move and look once around your room to allow ARCore to scann the area. 
+      Now the tracking should be stable enought for faster head movements.   
          
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
