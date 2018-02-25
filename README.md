@@ -1,15 +1,19 @@
 # Inside Out Positional Tracking (6DoF) for ARCore v1.0.0
 ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7 and possibly the S8, S8+ and Note8.
       
+       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when standing still or moving 
+       slowly. The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. The position changes in 
+       the environment therfore can only be updated 30 times every seconed. Oculus recomends at least 60fps or better 90fps. This app 
+       dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
+       (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
       
       - This was only tested on the Samsung Galaxy S7. Please leave a comment if it works on your S8, S8+ and Note8 which should be
       supported with the new ARCore v1.0.0.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
-      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
-      The positional tracking via the camera leads to small movements even when standing still or moving slowly. 
-      The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using.  
-      (https://github.com/google-ar/arcore-unity-sdk/issues/34)     
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely.
+      
+         
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
 
