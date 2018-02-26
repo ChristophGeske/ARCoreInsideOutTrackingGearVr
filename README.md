@@ -11,6 +11,9 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        Oculus recomends at least 60fps or better 90fps. 
        This app dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
        (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
+       The Positional Tracking Demo App  available on sidload (http://sideloadvr.com/detail.php?id=11424) seems to 
+       have solved this issue partly. Please try out the version on sidload for a smoother Positional Tracking Demo. 
+       I will update this version as soon as I know how the issue can be solved.
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
@@ -110,7 +113,9 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
  
 
-
+I wanna give credit to the following developers which published useful informations for this project:
++ FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
++ Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
 
 
