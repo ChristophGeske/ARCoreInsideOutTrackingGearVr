@@ -12,7 +12,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        This app dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
        (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work also thanks to the new ARCore v1.0   
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
