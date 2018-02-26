@@ -31,6 +31,8 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room.
 
+++ HelloARCore.apk	small app which makes plain detection by the ARCore app visable.
+
 
 You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
 
