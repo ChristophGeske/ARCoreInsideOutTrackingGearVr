@@ -11,9 +11,6 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        Oculus recomends at least 60fps or better 90fps. 
        This app dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
        (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
-       The Positional Tracking Demo App  available on sidload (http://sideloadvr.com/detail.php?id=11424) seems to 
-       have solved this issue partly. Please try out the version on sidload for a smoother Positional Tracking Demo. 
-       I will update this version as soon as I know how the issue can be solved.
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
@@ -36,7 +33,10 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 ++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and higly textured vertical plaines (posters/bookshelf).
 
 
-You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
+You have four options to get positional tracking to run on your phone. I listed them in order of ease of use. 
+
+Option 0:
+There is a positional tracking App available on sidload (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but some of you might prefer it because instalation is easy.
 
 Option 1 (quick option installing the apk):
 
