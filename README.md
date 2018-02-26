@@ -28,7 +28,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled. Should run smooth on all devices and delivers the overall best experience.
 
-++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I experienced frequent frame drops and will make it run smoother in the near future. 
+++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I will work on it to enhance the performance in the near future.
 
 ++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and higly textured vertical plaines (posters/bookshelf).
 
