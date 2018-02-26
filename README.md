@@ -21,8 +21,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       After the tracking is initialised slowly move and look once around your room to allow ARCore to scann the area. 
       Now the tracking should be stable enought for faster head movements. If the vr and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
-      how ARCore scans the room you can install the HelloARCore.apk (no signing needed) which visualises the scanning 
-      process. ARCore can scan horizontal plains (floor/ceiling) and higly textured vertical plaines (posters/bookshelf).
+      how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
@@ -31,7 +30,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room.
 
-++ HelloARCore.apk	small app which makes plain detection by the ARCore app visable.
+++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and higly textured vertical plaines (posters/bookshelf).
 
 
 You have three options to get the positional tracking to run on your phone. I listed them in order of ease of use. 
