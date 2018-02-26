@@ -21,7 +21,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       After the tracking is initialised slowly move and look once around your room to allow ARCore to scann the area. 
       Now the tracking should be stable enought for faster head movements. If the vr and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand how 
-      ARCore scans the room you can install the HelloARCore.apk which visualises the scanning process. ARCore can scan 
+      ARCore scans the room you can install the HelloARCore.apk (no signing needed) which visualises the scanning process. ARCore can scan 
       horizontal plains (floor/table/ceiling) and higly textured vertical plaines (posters/bookshelf).
          
 
