@@ -7,18 +7,18 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
        standing still or moving slowly. 
        The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
-       The position changes in the environment therfore can only be updated 30 times per seconed. 
+       The position changes in the environment therefore can only be updated 30 times per second. 
        Oculus recommends at least 60fps or better. 
-       This app dose not reach those fps and therefore can make you sick. 
+       This app does not reach those fps and therefore can make you sick. 
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
       When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
-      and onle move slightly from left to right. 
-      After the tracking is initialised slowly move and look once around your room to allow ARCore to scann the area. 
-      Now the tracking should be stable enought for faster head movements. If the vr and real world movement don't
+      and only move slightly from left to right. 
+      After the tracking is initialised slowly move and look once around your room to allow ARCore to scan the area. 
+      Now the tracking should be stable enough for faster head movements. If the vr and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
       how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
@@ -29,7 +29,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I will work on it to enhance the performance in the near future.
 
-++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and higly textured vertical plaines (posters/bookshelf).
+++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 You have four options to get positional tracking to run on your phone. I listed them in order of ease of use. 
@@ -86,17 +86,17 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 5.) Generate an osig file which you need for your app to run on your GearVr https://dashboard.oculus.com/tools/osig-generator/
 
-6.) Place the osig file under Assets -> Plugins -> Android -> assets. If those folders don't exist add them yourselfe.  
+6.) Place the osig file under Assets -> Plugins -> Android -> assets. If those folders don't exist add them yourself.  
 
-7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbole.
+7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbol.
 
-8.) Remove "Canves", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierarchy in Unity so you are left with "ARCore Device" and "Directional light"
+8.) Remove "Canvas", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierarchy in Unity so you are left with "ARCore Device" and "Directional light"
 
 9.) Click on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
 
 10.) Add a cube and bring it close to the camera. 
 
-11.) Build and Run. You should now see the cube and the camera feed in the backround. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
+11.) Build and Run. You should now see the cube and the camera feed in the background. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
 
 12.) To improve the experience further you can also do the following steps:
       
@@ -114,7 +114,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
  
 TODO's and future work:
 
-Regarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more compatitive towards ARKit. 
+Regarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more competitive towards ARKit. 
 
 I also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. I have some doubts that the S7 can handle the extra load but with a simpler environment it might just work.
 
