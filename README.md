@@ -9,8 +9,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
        The position changes in the environment therfore can only be updated 30 times per seconed. 
        Oculus recommends at least 60fps or better. 
-       This app dose not reach those fps and therefore can make you sick. The frame rate issue was discussed here: 
-       (https://github.com/google-ar/arcore-unity-sdk/issues/34) 
+       This app dose not reach those fps and therefore can make you sick. 
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
@@ -113,8 +112,16 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
  
+TODO's and future work:
 
-I wanna give credit to the following developers which published useful informations for this project:
+Regarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more compatitive towards ARKit. 
+
+I also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. I have some doubts that the S7 can handle the extra load but with a simpler environment it might just work.
+
+
+Credit:
+
+I wanna give credit to the following developers which published useful informations I used in realising this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
