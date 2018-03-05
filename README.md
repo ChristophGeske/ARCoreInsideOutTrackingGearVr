@@ -32,9 +32,9 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 You have four options to get positional tracking to run on your phone. I listed them in order of ease of use. 
 
-Option 0:
+Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App available on sidload (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
+There is a positional tracking App available on sidloadVR (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
 
 Option 1 (quick option installing the apk):
 
