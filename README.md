@@ -25,9 +25,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
 
-++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled. Should run smooth on all devices and delivers the overall best experience.
-
-++ ARCore1.0InsideOutTrackingSkyRoom.apk complex scene with some objects to interact with. Use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I will work on it to enhance the performance in the near future.
+++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled. Should run smooth on all devices even the S7 and delivers the overall best experience.
 
 ++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
@@ -36,11 +34,11 @@ You have four options to get positional tracking to run on your phone. I listed 
 
 Option 0:
 
-There is a positional tracking App available on sidload (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but some of you might prefer it because installation is easy.
+There is a positional tracking App available on sidload (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
 
 Option 1 (quick option installing the apk):
 
-Download the ARCore1.0InsideOutTrackingBasic.apk or the ARCore1.0InsideOutTrackingSkyRoom.apk with a more interesting scene. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
+Download the ARCore1.0InsideOutTrackingBasic.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
 
 or
 
@@ -117,6 +115,8 @@ TODO's and future work:
 Regarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more competitive towards ARKit. 
 
 I also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. I have some doubts that the S7 can handle the extra load but with a simpler environment it might just work.
+
+The ARCore1.0InsideOutTrackingSkyRoom.apk is a more complex scene with some objects to interact with. This scene is for testing the limits to find out how much the S7 can handle. If you wanne try the app use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I will work on it to enhance the performance in the near future.
 
 
 Credit:
