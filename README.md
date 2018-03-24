@@ -8,8 +8,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        standing still or moving slowly. 
        The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
        The position changes in the environment therefore can only be updated 30 times per second. 
-       Oculus recommends at least 60fps or better. 
-       This app does not reach those fps and therefore can make you sick. 
+       Oculus recommends at least 60fps or higer and ARCore does not reach those fps possibly making you sick. 
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
