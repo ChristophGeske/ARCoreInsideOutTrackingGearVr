@@ -24,12 +24,12 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ ARCore1.0InsideOutPositionalTracking.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
 
-++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled. Should run smooth on all devices even the S7 and delivers the overall best experience.
+++ ARCore1.0InsideOutPositionalTrackingBasic.apk simple scene with positional tracking enabled. Should run smoothly on all devices even the S7 and will deliver the overall best performance.
 
-++ HelloARCore.apk	small app which visualises the scanning process of the ARCore app. Doesn't need to be signed because it does not run on the GearVR. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
+++ HelloARCore.apk	small non GearVR app which can visualise the scanning process of the ARCore app for you. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf) and this app shows you how that lokes like.
 
 
-You have four options to get positional tracking to run on your phone. I listed them in order of ease of use. 
+You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. 
 
 Option 0 (quick option installing via sideloadVR):
 
