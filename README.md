@@ -43,7 +43,7 @@ or
 
 Option 2 (working unity project):
 
-You can directly download or clone the working "ARCoreInsideOutTrackingBasic" project to your pc, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, change the following player settings in Unity 
+You can directly download or clone the working "ARCoreInsideOutTracking.rar" project to your pc, decopmpress it, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, change the following player settings in Unity 
 (
 
 Go to: file -> build settings -> player settings -> other settings
