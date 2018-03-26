@@ -1,5 +1,5 @@
 # Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.0.0
-ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+ and Note 8.
+ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8, S9 and S9+.
       
       
       
