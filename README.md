@@ -99,8 +99,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position"
       (makes head movements smoother) also set Update Type to "Update and before Render" (makes ARCore tracking better).
-      Uncheck the check mark of "Camera" under "First Person Camera". If the head rotation is 
-      not recognised correctly, try to restart the phone, because sometimes the ARCore Preview 2 stops in the background.
+      Uncheck the check mark of "Camera" under "First Person Camera". 
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
