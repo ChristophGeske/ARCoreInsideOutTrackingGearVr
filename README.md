@@ -10,7 +10,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        The position changes in the environment therefore can only be updated 30 times per second. 
        Oculus recommends at least 60fps or higer and ARCore does not reach those fps possibly making you sick. 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
