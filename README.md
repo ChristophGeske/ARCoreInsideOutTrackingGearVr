@@ -35,11 +35,11 @@ You have four options to get positional tracking to run on your phone and GearVR
 
 Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App available on sidloadVR (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+ and Note 8. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
+There is a positional tracking App available on sidloadVR (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8, S9 and S9+. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
 
 Option 1 (quick option installing the apk):
 
-Download the ARCore1.0InsideOutTrackingBasic.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. You also have to download and install the ARCore v1.0.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
+Download the ARCore1.0InsideOutTrackingBasic.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. You also have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
 
 or
 
@@ -71,7 +71,7 @@ Option 3 (more detailed option):
 Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 
-1.) Import the arcore-unity-sdk-v1.0.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
+1.) Import the arcore-unity-sdk-v1.1.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
       - Make sure to install Unity 2017.3.1f1 or higher! Older Unity versions or Unity 2018 don't work!
       
