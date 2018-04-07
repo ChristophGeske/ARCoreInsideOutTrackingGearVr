@@ -10,7 +10,7 @@ ARCore v1.0.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        The position changes in the environment therefore can only be updated 30 times per second. 
        Oculus recommends at least 60fps or higer and ARCore does not reach those fps possibly making you sick. 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+ and Note8 seem to work as well.   
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
@@ -99,8 +99,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       
       - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position"
       (makes head movements smoother) also set Update Type to "Update and before Render" (makes ARCore tracking better).
-      Uncheck the check mark of "Camera" under "First Person Camera". If the head rotation is 
-      not recognised correctly, try to restart the phone, because sometimes the ARCore Preview 2 stops in the background.
+      Uncheck the check mark of "Camera" under "First Person Camera". 
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
