@@ -129,7 +129,7 @@ I wanna give credit to the following developers which published useful informati
 
 Interesting Projects:
 
-This developer recorded the head position, safed the location data and used smooth position changes (Lerp.position.transform) to end up with a smooth video. I think this could be used for some interesting games where the head tracking is recorded and played back with full 60 fps.
+This developer recorded the head position, safed the location data and used smooth position changes in post processing to end up with a smooth video. I think this could be used for some interesting games where the head tracking is recorded and played back with full 60 fps.
 https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
 
 Daydream Support:
