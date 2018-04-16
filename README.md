@@ -1,5 +1,5 @@
 # Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.1.0
-ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8.  S9 and S9+ need to be tested let us know if ot works.
+ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8. S9 and S9+ probably get supported soon.
       
       
       
@@ -126,6 +126,11 @@ I wanna give credit to the following developers which published useful informati
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
+
+Interesting Projects:
+
+This developer recorded the head position, safed the location data and used smooth position changes (Lerp.position.transform) to end up with a smooth video. I think this could be used for some interesting games where the head tracking is recorded and played back with full 60 fps.
+https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
 
 Daydream Support:
 
