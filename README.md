@@ -110,6 +110,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
  
+
 TODO's and future work:
 
 Regarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more competitive towards ARKit. Therefore I asked more specifically hoping for good news from Google in the future (https://github.com/google-ar/arcore-unity-sdk/issues/141).
@@ -124,6 +125,11 @@ Credit:
 I wanna give credit to the following developers which published useful informations I used in realising this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
+
+
+Daydream Support:
+
+It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. The project seems not to be public maybe the developer makes it public if enought people ask for it.
 
 
 
