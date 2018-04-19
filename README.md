@@ -134,7 +134,7 @@ https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
 
 Daydream Support:
 
-It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. The project seems not to be public maybe the developer makes it public if enought people ask for it.
+It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
 
 
