@@ -6,9 +6,6 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
        standing still or moving slowly. 
-       The reason for that seems to be the low camera frame rate (30fps) which the ARCore app is using. 
-       The position changes in the environment therefore can only be updated 30 times per second. 
-       Oculus recommends at least 60fps or higer and ARCore does not reach those fps possibly making you sick. 
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8 seem to work as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
@@ -17,35 +14,33 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
       and only move slightly from left to right. 
       After the tracking is initialised slowly move and look once around your room to allow ARCore to scan the area. 
-      Now the tracking should be stable enough for faster head movements. If the vr and real world movement don't
+      Now the tracking should be stable enough for faster head movements. If the VR and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
       how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
 
-++ ARCore1.1InsideOutPositionalTrackingGearVRBasic.rar is a working Unity project you can use to build your own app with positional tracking enabled. You have to unzip it before importing it to Unity 2017.3.1f1 or later.
-
-++ ARCore1.1InsideOutPositionalTrackingGearVRBasic.apk simple scene with positional tracking enabled. Should run smoothly on all devices even the S7 and will deliver the overall best performance.
+++ ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
 
 ++ ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom.apk optimesed positional tracking scene which should run smoothly on all devices even the S7.
 
 ++ HelloARCore.apk	small non GearVR app which can visualise the scanning process of the ARCore app for you. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf) and this app shows you how that lokes like.
 
 
-You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. 
+You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
 Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App available on sidloadVR (http://sideloadvr.com/detail.php?id=11424). Which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8, S9 and S9+. It was not developed by me but you can also download it for free. The installation is easy and the app runs smooth even on the S7 without overheating. The app has the same problem of jittery corners probably caused by low frame rate of the ARCore app.
+There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is still very jittery at the corners. It also dosen't hit 60 fps on the S7. Booth these facts make it prone to motion sickness so use with caution. The download is free and installation easy. 
 
-Option 1 (quick option installing the apk):
+Option 1 (quick option installing the apk provided here):
 
-Download the ARCore1.0InsideOutTrackingBasic.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. You also have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.  
+First download the ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 or
 
 Option 2 (working unity project):
 
-You can directly download or clone the working "ARCoreInsideOutTracking.rar" project to your pc, decopmpress it, add your phone specific osig file to the path ARCoreInsideOutTrackingBasic/Assets/Plugins/Android/assets, change the following player settings in Unity 
+You can directly download or clone the working "ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom" project folder to your pc, add your phone specific osig file to the path ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom/Assets/Plugins/Android/assets, change the following player settings in Unity 
 (
 
 Go to: file -> build settings -> player settings -> other settings
