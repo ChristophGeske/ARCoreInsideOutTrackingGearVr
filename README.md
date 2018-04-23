@@ -108,16 +108,14 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
 
 TODO's and future work:
 
-The Tracking could be more stableRegarding the issue with the low frame rates (30fps) of the ARCamera. The issue was shortly discussed in the ARCore developer forum (https://github.com/google-ar/arcore-unity-sdk/issues/34) but it is unclear of Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo) and it seems to be less jittery at the corners. I hope the issue can be solved with one of the next updates of ARCore. Hoping that the ARCore developers get a bit more competitive towards ARKit. Therefore I asked more specifically hoping for good news from Google in the future (https://github.com/google-ar/arcore-unity-sdk/issues/141).
+The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest update fixes the problem by making it less noticable but it is still there. The issue was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo).  
 
-I also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. I have some doubts that the S7 can handle the extra load but with a simpler environment it might just work.
-
-The ARCore1.0InsideOutTrackingSkyRoom.apk is a more complex scene with some objects to interact with. This scene is for testing the limits to find out how much the S7 can handle. If you wanne try the app use the touchpad on the headset or the trigger button on your GearVR hand controller to fly through the room. The GearVR hand controller transforms into a wooden bat and allows you to interact with the objects in the room. Due to the additional objects, textures and physics this app runs not as smoothly on the S7. I will work on it to enhance the performance in the near future.
+I am also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. A beta version is already available but I have some issues getting it to work properly.
 
 
 Credit:
 
-I wanna give credit to the following developers which published useful informations I used in realising this project:
+I wanna give credit to the following developers which published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
