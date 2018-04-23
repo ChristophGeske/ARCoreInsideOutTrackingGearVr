@@ -1,7 +1,5 @@
 # Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.1.0
 ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8. S9 and S9+ probably get supported soon.
-
-      ATTENTION! There is an error in the last push I am currently working on fixing it give me one hour and it should be fixed.
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
        standing still or moving slowly. 
@@ -18,7 +16,7 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
 
-++ ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
+++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
 
 ++ ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom.apk optimesed positional tracking scene which should run smoothly on all devices even the S7.
 
