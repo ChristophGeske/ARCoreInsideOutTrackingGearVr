@@ -4,7 +4,7 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
        standing still or moving slowly. 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8 seem to work as well.   
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8 are officially supported as well.   
       (https://developers.google.com/ar/discover/#supported_devices)
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
