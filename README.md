@@ -59,9 +59,9 @@ build and run the .apk file with Unity 2017.3.1f1 or higher. The project just co
 
 or
 
-Option 3 (more detailed option):
+Option 3 (more detailed way):
 
-Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
+Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 
 1.) Import the arcore-unity-sdk-v1.1.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
