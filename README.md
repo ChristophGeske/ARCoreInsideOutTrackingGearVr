@@ -101,7 +101,7 @@ Follow these steps to get Inside-Out-Tracking working on your S7 and GearVR:
       - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
       - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
-      - Usefull tips on how to create a low requirement scene: https://www.youtube.com/watch?v=KPwkzcxCrnk, 
+      - Usefull tip on how to create a low requirement scene: 
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
  
 
