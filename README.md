@@ -18,9 +18,9 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
 
-++ ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom.apk optimesed positional tracking scene which should run smoothly on all devices even the S7.
+++ WhiteRoom.apk is an optimesed positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
-++ HelloARCore.apk	small non GearVR app which can visualise the scanning process of the ARCore app for you. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf) and this app shows you how that lokes like.
+++ HelloARCore.apk is a small non GearVR app which can help you understand the the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf) and this app shows you how that lokes like.
 
 
 You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
@@ -31,15 +31,16 @@ There is a positional tracking App not developed by me available on sidloadVR (h
 
 Option 1 (quick option installing the apk provided here):
 
-First download the ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom.apk. Than you have to find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device id you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 or
 
 Option 2 (working unity project):
 
-You can directly download or clone the working "ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom" project folder to your pc, add your phone specific osig file to the path ARCore1.1InsideOutPositionalTrackingGearVRWhiteRoom/Assets/Plugins/Android/assets, change the following player settings in Unity 
-(
+You can directly download or clone the working "WhiteRoom" project folder to your pc, add your phone specific osig file to the path WhiteRoom/Assets/Plugins/Android/assets.
 
+Then change the following player settings in Unity 
+(
 Go to: file -> build settings -> player settings -> other settings
 
 Change the package name to for example "com.unity3d.test"
