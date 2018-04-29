@@ -17,6 +17,8 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
          
 <a href="https://imgflip.com/gif/29c4j4"><img src="https://i.imgflip.com/29c4j4.gif" title="made at imgflip.com"/></a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LgwdZGWZvXk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
 
 ++ WhiteRoom.apk is an optimesed positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
