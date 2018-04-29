@@ -15,7 +15,7 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
       how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
-<video src="GamePlayExample.mp4" width="320" height="200" controls preload></video>
+<a href="https://imgflip.com/gif/29c4j4"><img src="https://i.imgflip.com/29c4j4.gif" title="made at imgflip.com"/></a>
 
 ++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
 
