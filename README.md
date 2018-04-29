@@ -15,7 +15,6 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
       how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
          
-<a href="https://imgflip.com/gif/29c4j4"><img src="https://i.imgflip.com/29c4j4.gif" title="made at imgflip.com"/></a>
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
