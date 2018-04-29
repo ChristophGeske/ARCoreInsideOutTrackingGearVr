@@ -96,8 +96,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 12.) To improve the experience further you can also do the following steps:
       
-      - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position"
-      (makes head movements smoother) also set Update Type to "Update and before Render" (makes ARCore tracking better).
+      - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
       Uncheck the check mark of "Camera" under "First Person Camera". 
       - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
       This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
