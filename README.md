@@ -24,18 +24,18 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteRoom.apk is an optimesed positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
-++ HelloARCore.apk is a small non GearVR app which can help you understand the the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf) and this app shows you how that lokes like.
+++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
 Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is still very jittery at the corners. It also dosen't hit 60 fps on the S7. Booth these facts make it prone to motion sickness so use with caution. The download is free and installation easy. 
+There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therfore still very jittery at the corners. It also dosen't hit 60 fps on the S7. 
 
 Option 1 (quick option installing the apk provided here):
 
-First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY.
+First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you dont need to use the terminal for that. 
 
 or
 
@@ -59,7 +59,7 @@ Also go to: file -> build settings -> player settings -> XR settings
 check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
 ), 
 
-build and run the .apk file with Unity 2017.3.1f1 or higher. The project just contains a basic cube that you can walk around using Inside Out Tracking.
+build and run the .apk file as an Android project with Unity 2017.3.1f1 or higher. The project contains a room and a gun to shoot the objects. 
 
 or
 
@@ -125,7 +125,7 @@ I wanna give credit to the following developers which published useful informati
 
 Interesting Projects:
 
-This developer recorded the head position, safed the location data and used smooth position changes in post processing to end up with a smooth video. I think this could be used for some interesting games where the head tracking is recorded and played back with full 60 fps.
+This developer recorded the head position, safed the location data and used smooth position changes in post processing to end up with a smooth video. I was inspired by his idea to let the users camera follow the ARCore camera to acive 60 fps surounding not seen in other apps before.
 https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
 
 Daydream Support:
