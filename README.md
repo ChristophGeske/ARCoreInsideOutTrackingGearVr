@@ -13,14 +13,14 @@ ARCore v1.1.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       After the tracking is initialised slowly move and look once around your room to allow ARCore to scan the area. 
       Now the tracking should be stable enough for faster head movements. If the VR and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
-      how ARCore scans the room you can install the HelloARCore.apk (no signing needed).
+      how ARCore scans the room you can install the HelloARCore.apk (no .apk signing needed for this one).
          
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
 https://www.youtube.com/watch?v=LgwdZGWZvXk
 
-++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2017.3.1f1 or higher.
+++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
 ++ WhiteRoom.apk is an optimesed positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
@@ -59,7 +59,7 @@ Also go to: file -> build settings -> player settings -> XR settings
 check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
 ), 
 
-build and run the .apk file as an Android project with Unity 2017.3.1f1 or higher. The project contains a room and a gun to shoot the objects. 
+build and run the .apk file as an Android project with Unity 2018.1.0 or higher. The project contains a room and a gun to shoot the objects. 
 
 or
 
