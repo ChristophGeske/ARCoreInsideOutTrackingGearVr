@@ -22,24 +22,24 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
-++ WhiteRoom.apk is an optimesed positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
+++ WhiteRoom.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore v1.1.0 app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
-Option 0 (quick option installing via sideloadVR):
+# Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therfore still very jittery at the corners. It also dosen't hit 60 fps on the S7. 
+There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7. 
 
-Option 1 (quick option installing the apk provided here):
+# Option 1 (quick option installing the apk provided here):
 
-First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you dont need to use the terminal for that. 
+First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
 or
 
-Option 2 (working unity project):
+# Option 2 (working unity project):
 
 You can directly download or clone the working "WhiteRoom" project folder to your pc, add your phone specific osig file to the path WhiteRoom/Assets/Plugins/Android/assets.
 
@@ -63,7 +63,7 @@ build and run the .apk file as an Android project with Unity 2018.1.0 or higher.
 
 or
 
-Option 3 (more detailed way):
+# Option 3 (more detailed way):
 
 Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
@@ -103,34 +103,37 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
       - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
       "Match Camera Framerate" and "Enable Light Estimation" 
       - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
-      - Follow Oculus guidlines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
+      - Follow Oculus guidelines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
-      - Usefull tip on how to create a low requirement scene: 
+      - Useful tip on how to create a low requirement scene: 
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
  
 
-TODO's and future work:
+# TODO's and future work:
 
-The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest update fixes the problem by making it less noticable but it is still there. The issue was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo).  
+The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest update fixes the problem by making it less noticeable but it is still there. The issue was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it does not seem such a big issue for most AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo).  
 
 I am also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. Right now Manomotion is working hard on getting their hand tracking software compatible with ARCore 1.0.0. A beta version is already available but I have some issues getting it to work properly.
 
 
-Credit:
+# Other Interesting Projects:
+
+This developer recorded the head position, saved the location data and used smooth position changes in post processing to end up with a smooth video. I was inspired by his idea to let the users camera follow the ARCore camera to archive 60 fps. Now the surrounding is not uptating in 30fps but in 60fps instead which improves the visuals noticeably.
+https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
+
+Daydream Support:
+
+It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
+
+
+# Credit:
 
 I wanna give credit to the following developers which published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
 
-Interesting Projects:
 
-This developer recorded the head position, safed the location data and used smooth position changes in post processing to end up with a smooth video. I was inspired by his idea to let the users camera follow the ARCore camera to acive 60 fps surounding not seen in other apps before.
-https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments
-
-Daydream Support:
-
-It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
 
 
