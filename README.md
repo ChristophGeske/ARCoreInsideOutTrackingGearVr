@@ -1,5 +1,5 @@
 # Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.2.0
-ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8, S9 and S9+.
+ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8, S9 and S9+. 
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
        standing still or moving slowly (major improvements in latest updates). 
@@ -14,7 +14,12 @@ ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Now the tracking should be stable enough for faster head movements. If the VR and real world movement don't
       line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
       how ARCore scans the room you can install the HelloARCore.apk (no .apk signing needed for the HalloARCore app).
-         
+      
+      - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the Daydream powered 
+      Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use two cameras 
+      and dedicated hardware they can offer better tracking and will run with better graphics. 
+      The Oculus Santa Cruz which is expected in late 2018 will also offer 6DoF tracking and feature two 6DoF tracked 
+      hand controllers which should make it a highly desirable device.    
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
