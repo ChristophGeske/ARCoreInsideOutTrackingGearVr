@@ -16,7 +16,7 @@ ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       how ARCore scans the room you can install the HelloARCore.apk (no .apk signing needed for the HalloARCore app).
       
       - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the Daydream powered 
-      Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use two cameras 
+      Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use two cameras 
       and dedicated hardware they can offer better tracking and will run with better graphics. 
       The Oculus Santa Cruz which is expected in late 2018 will also offer 6DoF tracking and feature two 6DoF tracked 
       hand controllers which should make it a highly desirable device.    
