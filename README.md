@@ -129,10 +129,13 @@ Daydream Support:
 
 It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
+# Support this Project:
+
+If you like my work and you wanna support me you can send me bitcoins. My bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 # Credit:
 
-I wanna give credit to the following developers which published useful informations I used in building this project:
+I wanna give credit to the following developers who published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
