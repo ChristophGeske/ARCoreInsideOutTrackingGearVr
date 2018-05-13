@@ -112,6 +112,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
       - Useful tip on how to create a low requirement scene: 
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
+      https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
       - For the latest improvements please have a look in the project file directly. 
       - For great performance 3 things are important: Be aware that no multithreaded rendering can be used because of ARCore, ARCore
       takes up some part of your available resources. Therefore you should use low polygon assets, Mobil/Diffuse Material, use baked
