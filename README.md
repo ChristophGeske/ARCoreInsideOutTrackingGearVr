@@ -112,6 +112,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
       - Useful tip on how to create a low requirement scene:
       https://unity3d.com/how-to/optimize-mobile-VR-games
+      https://cgcookie.com/articles/maximizing-your-unity-games-performance
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
       https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
       - For the latest improvements in low jittery headtracking please have a look in the project files directly. 
