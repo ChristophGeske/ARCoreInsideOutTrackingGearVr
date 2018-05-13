@@ -110,13 +110,13 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
       - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
       - Follow Oculus guidelines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
       but uncheck "Multithreaded Rendering" and check "GPU Skinning"
-      - Useful tip on how to create a low requirement scene: 
+      - Useful tip on how to create a low requirement scene:
+      https://unity3d.com/how-to/optimize-mobile-VR-games
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
       https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
-      - For the latest improvements please have a look in the project file directly. 
-      - For great performance 3 things are important: Be aware that no multithreaded rendering can be used because of ARCore, ARCore
-      takes up some part of your available resources. Therefore you should use low polygon assets, Mobil/Diffuse Material, use baked
-      lights and make as many object as possible static.  
+      - For the latest improvements in low jittery headtracking please have a look in the project files directly. 
+      - Be aware of the fact that multithreaded rendering can't be used limiting the performance dramiticaly.
+      - ARCore takes up some part of your available resources limiting your abilities even further.  
  
 
 # TODO's and future work:
