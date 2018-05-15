@@ -138,6 +138,11 @@ Daydream Support:
 
 It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
+# Trouble Shooting:
+
+If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
+Sometimes the ARCore App seems to crash in the background too force stop ARCore or restart the phone might help.
+
 # Support this Project:
 
 If you like my work and you wanna support me you can send me bitcoins. My bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
