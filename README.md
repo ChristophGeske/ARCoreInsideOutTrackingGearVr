@@ -5,7 +5,8 @@ ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
        standing still or moving slowly (major improvements in latest updates). 
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially supported as well.   
-      (https://developers.google.com/ar/discover/supported-devices)
+      (https://developers.google.com/ar/discover/supported-devices) If one of these devices is not working please let 
+      me know.
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
       When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
