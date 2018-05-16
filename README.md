@@ -142,10 +142,11 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
 Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working simply force stop ARCore or restart the phone to fix this issue.
+I test everything on the S7 if you did everything rigt and it is still not working please open a new issue and let me know.
 
 # Support this Project:
 
-If you like my work and you wanna support me you can send me bitcoins. My bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+If you like my work and you wanna support me with bitcoins, my bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 # Credit:
 
