@@ -1,26 +1,28 @@
 # Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.2.0
-ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8, S9 and S9+. 
+ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, 
+Note 8, S9 and S9+. 
       
-       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
-       standing still or moving slowly (major improvements in latest updates). 
+       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
+       when standing still or moving slowly (major improvements in latest updates). 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially supported as well.   
-      (https://developers.google.com/ar/discover/supported-devices) If one of these devices is not working please let 
-      me know.
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially 
+      supported as well.(https://developers.google.com/ar/discover/supported-devices)
+     
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking 
+      severely.When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is
+      best to stay still and only move slightly from left to right. 
+      After the tracking is initialised slowly move and look once around your room to allow ARCore to 
+      scan the area. Now the tracking should be stable enough for faster head movements. If the VR and 
+      real world movement don't line up correctly restart the app and keep your head steady when the app 
+      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk 
+      (no .apk signing needed for the HalloARCore app).
       
-      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
-      When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
-      and only move slightly from left to right. 
-      After the tracking is initialised slowly move and look once around your room to allow ARCore to scan the area. 
-      Now the tracking should be stable enough for faster head movements. If the VR and real world movement don't
-      line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
-      how ARCore scans the room you can install the HelloARCore.apk (no .apk signing needed for the HalloARCore app).
-      
-      - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the Daydream powered 
-      Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use two cameras 
-      and dedicated hardware they can offer better tracking and will run with better graphics. 
-      The Oculus Santa Cruz which is expected in late 2018 will also offer 6DoF tracking and feature two 6DoF tracked 
-      hand controllers which should make it a highly desirable device.    
+      - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the 
+      Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
+      yet. Because they use two cameras and dedicated hardware they can offer better tracking and will 
+      run with better graphics. The Oculus Santa Cruz which is expected in late 2018 will also offer 
+      6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly 
+      desirable device.    
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
