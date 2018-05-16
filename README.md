@@ -141,7 +141,7 @@ It is possible to create a positional tracking app for daydream devices as well.
 # Trouble Shooting:
 
 If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
-Sometimes the ARCore App seems to crash in the background too force stop ARCore or restart the phone might help.
+Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working simply force stop ARCore or restart the phone to fix this issue.
 
 # Support this Project:
 
