@@ -43,8 +43,6 @@ There is a positional tracking App not developed by me available on sidloadVR (h
 
 First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
-or
-
 # Option 2 (working unity project):
 
 You can directly download or clone the working "WhiteRoom" project folder to your pc, add your phone specific osig file to the path WhiteRoom/Assets/Plugins/Android/assets.
@@ -66,8 +64,6 @@ check mark virtual reality supported and choose Oculus by using the plus symbol 
 ), 
 
 build and run the .apk file as an Android project with Unity 2018.1.0 or higher. The project contains a room and a gun to shoot the objects. 
-
-or
 
 # Option 3 (more detailed way):
 
@@ -127,7 +123,6 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem compleatly by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it does not seem such a big issue for most non VR AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo).  
 
 I am also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
-
 
 # Other Interesting Projects:
 
