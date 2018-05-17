@@ -17,7 +17,7 @@ Note 8, S9 and S9+.
       is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk 
       (no .apk signing needed for the HalloARCore app).
       
-      - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the 
+      - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
       yet. Because they use two cameras and dedicated hardware they can offer better tracking and will 
       run with better graphics. A good review can be found here (https://medium.com/@iBrews/standalone
