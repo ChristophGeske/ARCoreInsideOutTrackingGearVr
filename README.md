@@ -20,8 +20,9 @@ Note 8, S9 and S9+.
       - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
       yet. Because they use two cameras and dedicated hardware they can offer better tracking and will 
-      run with better graphics. The Oculus Santa Cruz which is expected in late 2018 will also offer 
-      6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly 
+      run with better graphics. A good review can be found here (https://medium.com/@iBrews/standalone
+      -vr-a-developers-review-1bb69feb6dcc) The Oculus Santa Cruz which is expected in late 2018 will 
+      also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly 
       desirable device.    
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
