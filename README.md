@@ -40,7 +40,7 @@ You have four options to get positional tracking to run on your phone and GearVR
 
 # Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. I am working on publishing my app on sidload but the sidloadteam isn`t responding to my mails. Therefore I can only offer you the apk file which you need to sign yourself. 
+There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. I am hoping to be able to publish my app on sidloadVR but the sidload team isn`t responding to my mails and therefore I can only offer you the apk file which you need to sign yourself like I explain under option 1. 
 
 # Option 1 (quick option installing the apk provided in this github repository):
 
