@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteRoom.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
-++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
+++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
