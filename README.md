@@ -131,7 +131,7 @@ I am also working on implementing hand tracking using software from Manomotion (
 
 # Other Interesting Projects:
 
-Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues though. I would love to know if their project is public somewhere so we could try out all the improvements they came up with.
+Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues though. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Daydream Support:
