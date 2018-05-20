@@ -131,8 +131,8 @@ I am also working on implementing hand tracking using software from Manomotion (
 
 # Other Interesting Projects:
 
-This developer recorded the head position, saved the location data and used smooth position changes in post processing to end up with a smooth video. https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments I was inspired by his idea to let the users camera follow the ARCore camera to archive 60 fps. Now the surrounding is not uptating in 60fps which improves the visuals noticeably.
-
+Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues though. I would love to know if their project is public somewhere so we could try out all the improvements they came up with.
+https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Daydream Support:
 
