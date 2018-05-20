@@ -77,8 +77,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 1.) Import the arcore-unity-sdk-v1.2.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
-      - Make sure to install Unity 2018.0 or higher!
-      - Try out the HalloAR app before you continue!
+      - Try out the HalloAR app before you continue!
       
 2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
 
