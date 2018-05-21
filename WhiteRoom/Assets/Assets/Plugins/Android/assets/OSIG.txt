@@ -1,0 +1,1 @@
+Make sure to get an OSIG file from Oculus : https://dashboard.oculus.com/tools/osig-generator/
