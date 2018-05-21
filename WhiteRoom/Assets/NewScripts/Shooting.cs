@@ -7,7 +7,7 @@ public class Shooting : MonoBehaviour {
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
 	public int counter = 0;
-	public AudioSource shootSound; 
+	private AudioSource shootSound; 
 
 	// Use this for initialization
 	void Start () {

@@ -181,7 +181,7 @@ QualitySettings:
     excludedTargetPlatforms:
     - Android
   - serializedVersion: 2
-    name: e for GearVRearVR
+    name: Simple for GearVR
     pixelLightCount: 0
     shadows: 0
     shadowResolution: 0
