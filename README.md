@@ -1,26 +1,29 @@
-# Inside Out Positional Tracking (6DoF) for GearVR using ARCore v1.2.0
-ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, Note 8, S9 and S9+. 
+# Inside Out Positional Head Tracking (6DoF) for GearVR using ARCore v1.2.0
+ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, 
+Note 8, S9 and S9+. 
       
-       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even when 
-       standing still or moving slowly (major improvements in latest updates). 
+       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
+       when standing still or moving slowly (major improvements in latest updates). 
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially supported as well.   
-      (https://developers.google.com/ar/discover/supported-devices) If one of these devices is not working please let 
-      me know.
+      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially 
+      supported as well.(https://developers.google.com/ar/discover/supported-devices)
       
-      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking severely. 
-      When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still 
-      and only move slightly from left to right. 
-      After the tracking is initialised slowly move and look once around your room to allow ARCore to scan the area. 
-      Now the tracking should be stable enough for faster head movements. If the VR and real world movement don't
-      line up correctly restart the app and keep your head steady when the app is starting up. To better understand 
-      how ARCore scans the room you can install the HelloARCore.apk (no .apk signing needed for the HalloARCore app).
+      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking
+      severely.When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is
+      best to stay still and only move slightly from left to right. 
+      After the tracking is initialised slowly move and look once around your room to allow ARCore to 
+      scan the area. Now the tracking should be stable enough for faster head movements. If the VR and 
+      real world movement don't line up correctly restart the app and keep your head steady when the app 
+      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk 
+      (no .apk signing needed for the HalloARCore app).
       
-      - This project can give you a good taste for the capabilities of to the HTC Vive Focus and the Daydream powered 
-      Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use two cameras 
-      and dedicated hardware they can offer better tracking and will run with better graphics. 
-      The Oculus Santa Cruz which is expected in late 2018 will also offer 6DoF tracking and feature two 6DoF tracked 
-      hand controllers which should make it a highly desirable device.    
+      - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
+      Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
+      yet. Because they use two cameras and dedicated hardware they can offer better tracking and will 
+      run with better graphics. A good review can be found here (https://medium.com/@iBrews/standalone
+      -vr-a-developers-review-1bb69feb6dcc) The Oculus Santa Cruz which is expected in late 2018 will 
+      also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly 
+      desirable device.    
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
@@ -30,20 +33,20 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteRoom.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
-++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
+++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
 # Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. I am working on publishing my app on sidload but the sidloadteam isn`t responding to my mails. Therefore I can only offer you the apk file which you need to sign yourself. 
+There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. I am hoping to be able to publish my app on sidloadVR but the sidload team isn`t responding to my mails and therefore I can only offer you the apk file which you need to sign yourself like I explain under option 1. 
 
 # Option 1 (quick option installing the apk provided in this github repository):
 
-First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
+First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
-or
+Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
 # Option 2 (working unity project):
 
@@ -67,18 +70,14 @@ check mark virtual reality supported and choose Oculus by using the plus symbol 
 
 build and run the .apk file as an Android project with Unity 2018.1.0 or higher. The project contains a room and a gun to shoot the objects. 
 
-or
-
 # Option 3 (more detailed way):
 
 Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 
-1.) Import the arcore-unity-sdk-v1.1.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
+1.) Import the arcore-unity-sdk-v1.2.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
-      - Make sure to install Unity 2017.3.1f1 or higher! Older Unity versions or Unity 2018 don't work!
-      
-      - Try out the HalloAR app before you continue!
+      - Try out the HalloAR app before you continue!
       
 2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
 
@@ -124,15 +123,14 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 # TODO's and future work:
 
-The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem compleatly by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it does not seem such a big issue for most non VR AR apps. Interestingly the ARKit from Apple seems to render with higher fps. I found one video showing off positional tracking using ARKit (https://www.youtube.com/watch?v=jrzffJPekRo).  
+The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem compleatly by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it doesn't seems to be such a big issue for most non VR apps.  
 
-I am also work on implementing hand tracking into the app using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
-
+I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
 # Other Interesting Projects:
 
-This developer recorded the head position, saved the location data and used smooth position changes in post processing to end up with a smooth video. https://www.youtube.com/watch?v=L9VjQKvirxs&feature=em-comments I was inspired by his idea to let the users camera follow the ARCore camera to archive 60 fps. Now the surrounding is not uptating in 60fps which improves the visuals noticeably.
-
+Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues though. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
+https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Daydream Support:
 
@@ -141,11 +139,12 @@ It is possible to create a positional tracking app for daydream devices as well.
 # Trouble Shooting:
 
 If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
-Sometimes the ARCore App seems to crash in the background too force stop ARCore or restart the phone might help.
+Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working simply force stop ARCore or restart the phone to fix this issue.
+I test everything on the S7 if you did everything rigt and it is still not working please open a new issue and let me know.
 
 # Support this Project:
 
-If you like my work and you wanna support me you can send me bitcoins. My bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+If you like my work and you wanna support me with bitcoins, my bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 # Credit:
 
