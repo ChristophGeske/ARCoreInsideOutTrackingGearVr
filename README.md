@@ -116,6 +116,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
       https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
       https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
       https://sassybot.com/blog/lightmapping-in-unity-5/
+      https://www.youtube.com/watch?v=N0zr0Eqh6ac
       - For the latest improvements in low jittery headtracking please have a look in the project files directly. 
       - Be aware of the fact that multithreaded rendering can't be used limiting the performance dramiticaly.
       - ARCore takes up some part of your available resources limiting your abilities even further.  
