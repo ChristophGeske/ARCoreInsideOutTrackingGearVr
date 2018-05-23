@@ -44,7 +44,7 @@ There is a positional tracking App not developed by me available on sidloadVR (h
 
 # Option 1 (quick option installing the apk provided in this github repository):
 
-First download the WhiteIsland.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+First download the WhiteIsland.apk. Then you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
@@ -125,13 +125,13 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 # TODO's and future work:
 
-The Tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem compleatly by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it doesn't seems to be such a big issue for most non VR apps.  
+The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem completely by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it doesn't seems to be such a big issue for most non VR apps.  
 
 I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
 # Other Interesting Projects:
 
-Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues though. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
+Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Daydream Support:
@@ -140,15 +140,15 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 # Trouble Shooting:
 
-Loosing tracking is a problem you will experience when the room is not tracked compleatly and you moved your head very fast. Try to make slow movemnts and hold your head still for the first few seconds until ARCore has detected the surrounding.
+Loosing tracking is a problem you will experience when the room is not tracked completely and you moved your head very fast. Try to make slow movements and hold your head still for the first few seconds until ARCore has detected the surrounding.
 
-If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
+If the positional tracking does not work, please make sure you installed the right ARCore App (ARCore 1.2). 
 
-Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working simply force stop ARCore or restart the phone to fix this issue.
+Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working (in my case even the regular Camera freezes) restart the phone to fix this issue.
 
-If you experience very low frames and bad jittering please restart the phone and try agein sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
+If you experience very low frames and bad jittering please restart the phone and try again sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
 
-I test everything on the S7 if you did everything rigt and it is still not working please open a new issue and let me know.
+I have tested everything on the S7 if you have problems getting it to work please open a new issue and let me know.
 
 # Support this Project:
 
