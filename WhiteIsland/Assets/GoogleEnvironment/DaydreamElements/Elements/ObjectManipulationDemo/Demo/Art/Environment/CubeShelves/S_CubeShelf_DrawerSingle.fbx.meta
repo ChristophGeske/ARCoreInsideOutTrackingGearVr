@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: c274e2fe65a6944c58878e755c115136
+timeCreated: 1499783752
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CubeShelf_Drawer0
+    100002: CubeShelf_Drawer1
+    100004: CubeShelf_Drawer2
+    100006: CubeShelf_Drawer3
+    100008: CubeShelf_Drawer4
+    100010: CubeShelf_Drawer5
+    100012: //RootNode
+    100014: CubeShelfFrame
+    100016: CubeShelfFrame_DrawersB
+    100018: SignHalf0
+    100020: SignHalf1
+    100022: CubeShelfFrame_Drawers
+    100024: CubeShelf_DrawerSide_GRP
+    100026: CubeShelf_DrawerSingle
+    100028: CubeShelfFrame_DrawerSingle
+    400000: CubeShelf_Drawer0
+    400002: CubeShelf_Drawer1
+    400004: CubeShelf_Drawer2
+    400006: CubeShelf_Drawer3
+    400008: CubeShelf_Drawer4
+    400010: CubeShelf_Drawer5
+    400012: //RootNode
+    400014: CubeShelfFrame
+    400016: CubeShelfFrame_DrawersB
+    400018: SignHalf0
+    400020: SignHalf1
+    400022: CubeShelfFrame_Drawers
+    400024: CubeShelf_DrawerSide_GRP
+    400026: CubeShelf_DrawerSingle
+    400028: CubeShelfFrame_DrawerSingle
+    2300000: CubeShelf_Drawer0
+    2300002: CubeShelf_Drawer1
+    2300004: CubeShelf_Drawer2
+    2300006: CubeShelf_Drawer3
+    2300008: CubeShelf_Drawer4
+    2300010: CubeShelf_Drawer5
+    2300012: CubeShelfFrame
+    2300014: CubeShelfFrame_DrawersB
+    2300016: SignHalf0
+    2300018: SignHalf1
+    2300020: CubeShelfFrame_Drawers
+    2300022: CubeShelf_DrawerSingle
+    2300024: CubeShelfFrame_DrawerSingle
+    3300000: CubeShelf_Drawer0
+    3300002: CubeShelf_Drawer1
+    3300004: CubeShelf_Drawer2
+    3300006: CubeShelf_Drawer3
+    3300008: CubeShelf_Drawer4
+    3300010: CubeShelf_Drawer5
+    3300012: CubeShelfFrame
+    3300014: CubeShelfFrame_DrawersB
+    3300016: SignHalf0
+    3300018: SignHalf1
+    3300020: CubeShelfFrame_Drawers
+    3300022: CubeShelf_DrawerSingle
+    3300024: CubeShelfFrame_DrawerSingle
+    4300000: CubeShelfFrame
+    4300002: CubeShelfFrame_DrawersB
+    4300004: CubeShelf_Drawer0
+    4300006: CubeShelf_Drawer1
+    4300008: CubeShelf_Drawer2
+    4300010: CubeShelf_Drawer3
+    4300012: CubeShelf_Drawer4
+    4300014: CubeShelf_Drawer5
+    4300016: SignHalf0
+    4300018: SignHalf1
+    4300020: CubeShelfFrame_Drawers
+    4300022: CubeShelf_DrawerSingle
+    4300024: CubeShelfFrame_DrawerSingle
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
