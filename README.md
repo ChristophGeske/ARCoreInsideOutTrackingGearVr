@@ -33,6 +33,8 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
+++ WhiteRoomShootingColours.apk is the game you can see in the video. Only the environment is differnt from the WhiteIsland.apk.  
+
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
