@@ -29,9 +29,9 @@ Note 8, S9 and S9+.
 
 https://www.youtube.com/watch?v=LgwdZGWZvXk
 
-++ WhiteRoom is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
+++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
-++ WhiteRoom.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
+++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
@@ -44,13 +44,13 @@ There is a positional tracking App not developed by me available on sidloadVR (h
 
 # Option 1 (quick option installing the apk provided in this github repository):
 
-First download the WhiteRoom.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+First download the WhiteIsland.apk. Than you have to find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
 # Option 2 (working unity project):
 
-You can directly download or clone the working "WhiteRoom" project folder to your pc, add your phone specific osig file to the path WhiteRoom/Assets/Plugins/Android/assets.
+You can directly download or clone the working "WhiteIsland" project folder to your pc, add your phone specific osig file to the path WhiteIsland/Assets/Plugins/Android/assets.
 
 Then change the following player settings in Unity 
 (
@@ -140,8 +140,14 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 # Trouble Shooting:
 
+Loosing tracking is a problem you will experience when the room is not tracked compleatly and you moved your head very fast. Try to make slow movemnts and hold your head still for the first few seconds until ARCore has detected the surrounding.
+
 If the positional tracking does not work, please make sure you installed the right ARCore App 1.2 at the moment. 
+
 Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working simply force stop ARCore or restart the phone to fix this issue.
+
+If you experience very low frames and bad jittering please restart the phone and try agein sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
+
 I test everything on the S7 if you did everything rigt and it is still not working please open a new issue and let me know.
 
 # Support this Project:
