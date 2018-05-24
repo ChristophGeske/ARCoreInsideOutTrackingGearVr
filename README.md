@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
-You have four options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
+You have three options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
 # Option 0 (quick option installing via sideloadVR):
 
@@ -50,29 +50,7 @@ First download the WhiteIsland.apk. Then you have to find out your device ID htt
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that. 
 
-# Option 2 (working unity project):
-
-You can directly download or clone the working "WhiteIsland" project folder to your pc, add your phone specific osig file to the path WhiteIsland/Assets/Plugins/Android/assets.
-
-Then change the following player settings in Unity 
-(
-Go to: file -> build settings -> player settings -> other settings
-
-Change the package name to for example "com.unity3d.test"
-
-Uncheck Multithreaded Rendering
-
-Set the Minimum API Level to 7.0 
-
-Set the Target API Level to 7.0
-
-Also go to: file -> build settings -> player settings -> XR settings
-check mark virtual reality supported and choose Oculus by using the plus symbol also check mark ARCore supported
-), 
-
-build and run the .apk file as an Android project with Unity 2018.1.0 or higher. The project contains a room and a gun to shoot the objects. 
-
-# Option 3 (more detailed way):
+# Option 2 (more detailed way):
 
 Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
