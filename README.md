@@ -120,7 +120,7 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 # Trouble Shooting:
 
-Loosing tracking is a problem you will experience when the room is not tracked completely and you moved your head very fast. Try to make slow movements and hold your head still for the first few seconds until ARCore has detected the surrounding.
+Loosing tracking is a problem you will experience when the room is not tracked completely and you moved your head to fast. Try to make slow movements and hold your head still for the first few seconds until ARCore has detected the surrounding.
 
 If the positional tracking does not work, please make sure you installed the right ARCore App (ARCore 1.2). 
 
