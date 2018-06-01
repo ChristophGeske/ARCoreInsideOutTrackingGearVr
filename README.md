@@ -109,6 +109,10 @@ The tracking could be more stable regarding the issue with the low frame rates (
 
 I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
+In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this but recognition is to slow to be paractical at this stage. On the google developer phage it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
+
+Using mashine learning and mobile tensor flow might be a path to get 6DoF hand tracking working. This is an interesting video https://youtu.be/9KqNk5keyCc and I will try if something useable comes out of it when I find some time.
+
 # Other Interesting Projects:
 
 Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
