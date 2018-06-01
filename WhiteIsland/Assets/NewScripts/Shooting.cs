@@ -7,10 +7,13 @@ public class Shooting : MonoBehaviour {
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
 	public int counter = 0;
-	private AudioSource shootSound; 
+	private AudioSource shootSound;
+    private Vector3 oldRockPosition;
+    private Vector3 newRockPosition;
+    
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		shootSound = GetComponent<AudioSource> ();
 	}
 
@@ -24,7 +27,6 @@ public class Shooting : MonoBehaviour {
 				shootSound.Play();
 			}
 		}
-
 	}
 
 	void Fire()
