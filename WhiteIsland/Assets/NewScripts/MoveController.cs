@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveController : MonoBehaviour { // By using the touchpad you can fly through the Scene.
 
     public Vector2 touchPadDirection;
-    public float distance = 2;
+    public float distance = 1.5f;
     // Use this for initialization
     void Start () {
         
@@ -14,9 +14,7 @@ public class MoveController : MonoBehaviour { // By using the touchpad you can f
 	// Update is called once per frame
 	void Update () {
 
-        touchPadDirection = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad, OVRInput.Controller.RTrackedRemote);
-
-        if (touchPadDirection.y > 0.4f) // this code moves the player forward when the upper part of the touchpad is pressed
+        if (OVRInput.Get(OVRInput.Button.One)) // this code moves the player forward when the touchpad is pressed
         {
             transform.position = transform.position + Camera.main.transform.forward * distance * Time.deltaTime;
         }
