@@ -31,9 +31,9 @@ https://www.youtube.com/watch?v=LgwdZGWZvXk
 
 ++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
-++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install.
+++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward. (Will contain the latest updates, Head tracking should be even smoother since latest update)
 
-++ WhiteRoomShootingColours.apk is the game you can see in the video. Only the environment is differnt from the WhiteIsland.apk.  
+++ WhiteRoomShootingColours.apk is the game you can see in the video. (It will not be updated any longer)  
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
@@ -138,6 +138,8 @@ Sometimes the ARCore App seems to crash in the background stoping the positional
 If you experience very low frames and bad jittering please restart the phone and try again sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
 
 I have tested everything on the S7 if you have problems getting it to work please open a new issue and let me know.
+
+Overheating on the S7 might be an issue. Sticking wet toilet paper to the back of the phone is an effective, cheap and simple solution.
 
 # Support this Project:
 
