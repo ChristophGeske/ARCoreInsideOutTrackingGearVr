@@ -19,11 +19,12 @@ Note 8, S9 and S9+.
       
       - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
-      yet. Because they use two cameras and dedicated hardware they can offer better tracking and will 
-      run with better graphics. A good review can be found here (https://medium.com/@iBrews/standalone
-      -vr-a-developers-review-1bb69feb6dcc) The Oculus Santa Cruz which is expected in late 2018 will 
-      also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly 
-      desirable device.    
+      yet. Because they use dedicated hardware they can offer better performance. A good review can be 
+      found here (https://medium.com/@iBrews/standalone-vr-a-developers-review-1bb69feb6dcc) The Oculus 
+      Santa Cruz which is expected in 2019 will also offer 6DoF tracking and feature two 6DoF 
+      tracked hand controllers which should make it a highly desirable device. Interestingly the HTC 
+      Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
+      positional tracking.    
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
@@ -143,7 +144,8 @@ Overheating on the S7 might be an issue. Sticking wet toilet paper to the back o
 
 # Support this Project:
 
-If you like my work and you wanna support me with bitcoins, my bitcoin wallet adress is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+If you like this work and you wanna support the development of free software, please consider a donation via Bitcoin. 
+Bitcoin wallet adress: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 # Credit:
 
