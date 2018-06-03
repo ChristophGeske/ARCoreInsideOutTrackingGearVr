@@ -106,7 +106,9 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem completely by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it doesn't seems to be such a big issue for most non VR apps.  
 
-I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
+I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888289-617a2404-6755-11e8-9a27-5111db94294a.png)](https://youtu.be/z7-JSaSOgfU "Demo Day Pitch - AI Category - ManoMotion"=
 
 uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the beta at the moment.
 
