@@ -110,6 +110,8 @@ The tracking could be more stable regarding the issue with the low frame rates (
 
 I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
+uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the developer beta at the moment.
+
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this but recognition is to slow to be paractical at this stage. On the google developer phage it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
 Using mashine learning and mobile tensor flow might be a path to get 6DoF hand tracking working. This is an interesting video https://youtu.be/9KqNk5keyCc and I will try if something useable comes out of it when I find some time.
