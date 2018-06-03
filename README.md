@@ -108,7 +108,9 @@ The tracking could be more stable regarding the issue with the low frame rates (
 
 I am also working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
-uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the developer beta at the moment.
+uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the beta at the moment.
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888223-27de9df2-6754-11e8-854a-d06d5c9fde83.png)](https://youtu.be/wdiC7l_Wecg "Single RGB Hand/Face Tracking on Smart Phone with uSensAR")
 
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this but recognition is to slow to be paractical at this stage. On the google developer phage it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
