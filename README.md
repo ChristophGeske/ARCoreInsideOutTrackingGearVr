@@ -26,6 +26,9 @@ Note 8, S9 and S9+.
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking.    
 
+
+![schreenshot](https://user-images.githubusercontent.com/12700187/40882251-2a6ff228-66dc-11e8-8324-ee489d13c660.png)
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
 https://www.youtube.com/watch?v=LgwdZGWZvXk
