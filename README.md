@@ -127,7 +127,7 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 # No GearVR => No problem:
 
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40882299-a1473fcc-66dd-11e8-8246-87fe5224c136.png)](https://youtu.be/gTlR9yPeH80 "Use GearVr apps without a GearVR headset.")
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40882299-a1473fcc-66dd-11e8-8246-87fe5224c136.png)](https://youtu.be/HnfqYk2YqA8 "How to Install GearVr Apps Without a GearVR Headset.")
 
 You can use this app (and all the other GearVR apps as well) without ever touching a GearVR headset but you need at least a Galaxy S6 for this trick. See the following video (https://youtu.be/gTlR9yPeH80) to learn how to install the Oculus software without a GearVr headset. You can put the phone in the daydream headset, Google cardboard or any other headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
 
