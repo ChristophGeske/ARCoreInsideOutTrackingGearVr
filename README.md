@@ -133,6 +133,8 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40882299-a1473fcc-66dd-11e8-8246-87fe5224c136.png)](https://youtu.be/HnfqYk2YqA8 "How to Install GearVr Apps Without a GearVR Headset.")
 
+
+
 You can use this app (and all the other GearVR apps as well) without ever touching a GearVR headset but you need at least a Galaxy S6 or higher for this trick. You can put the phone in the daydream headset, Google cardboard or any other headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
 
 
@@ -155,7 +157,7 @@ Overheating on the S7 might be an issue. Sticking wet toilet paper to the back o
 If you like this work and you wanna support the development of free software, please consider a donation via Bitcoin. 
 Bitcoin wallet adress: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
-![bitcoin-accepted-here](https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg)
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg)](https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf "Bitcoin accepted here")
 
 If you want to start a bitcoin account you can support me by opening a new coinbase account via this link. https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf
 
