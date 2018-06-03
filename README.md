@@ -26,9 +26,7 @@ Note 8, S9 and S9+.
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking.    
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/LgwdZGWZvXk/0.jpg)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
-
-https://www.youtube.com/watch?v=LgwdZGWZvXk
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888099-8e625070-6752-11e8-81f8-a38fba206351.png)](http://www.youtube.com/watch?v=LgwdZGWZvXk "GearVR Positional Tracking (6DoF) Shooter Game")
 
 ++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
@@ -131,7 +129,7 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40882299-a1473fcc-66dd-11e8-8246-87fe5224c136.png)](https://youtu.be/HnfqYk2YqA8 "How to Install GearVr Apps Without a GearVR Headset.")
 
-You can use this app (and all the other GearVR apps as well) without ever touching a GearVR headset but you need at least a Galaxy S6 for this trick. See the following video (https://youtu.be/HnfqYk2YqA8) to learn how to install the Oculus software without a GearVr headset. You can put the phone in the daydream headset, Google cardboard or any other headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
+You can use this app (and all the other GearVR apps as well) without ever touching a GearVR headset but you need at least a Galaxy S6 or higher for this trick. You can put the phone in the daydream headset, Google cardboard or any other headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
 
 
 # Trouble Shooting:
