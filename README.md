@@ -155,7 +155,8 @@ Overheating on the S7 might be an issue. Sticking wet toilet paper to the back o
 If you like this work and you wanna support the development of free software, please consider a donation via Bitcoin. 
 Bitcoin wallet adress: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
-![bitcoin_accepted_here_sign_horizontal2](https://user-images.githubusercontent.com/12700187/40888327-e57f15de-6755-11e8-99d6-26532374f600.png)
+![bitcoin-accepted-here](https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg)
+
 
 # Credit:
 
