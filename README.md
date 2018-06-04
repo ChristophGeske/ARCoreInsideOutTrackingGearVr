@@ -108,7 +108,7 @@ The tracking could be more stable regarding the issue with the low frame rates (
 
 I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888289-617a2404-6755-11e8-9a27-5111db94294a.png)](https://youtu.be/z7-JSaSOgfU "Demo Day Pitch - AI Category - ManoMotion"=
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/12700187/40888289-617a2404-6755-11e8-9a27-5111db94294a.png)](https://youtu.be/z7-JSaSOgfU "Demo Day Pitch - AI Category - ManoMotion")
 
 uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the beta at the moment.
 
