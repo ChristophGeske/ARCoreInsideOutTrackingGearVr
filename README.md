@@ -159,9 +159,6 @@ Bitcoin wallet adress: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="248"></a>
 
-If you want to start a bitcoin account you can support me by opening a new coinbase account via this link. https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf
-
-
 # Credit:
 
 I wanna give credit to the following developers who published useful informations I used in building this project:
