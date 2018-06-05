@@ -26,7 +26,7 @@ Note 8, S9 and S9+.
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking.    
 
-<a href="http://www.youtube.com/watch?v=LgwdZGWZvXk"><img src="https://user-images.githubusercontent.com/12700187/40888099-8e625070-6752-11e8-81f8-a38fba206351.png" width="648"></a>
+<a href="http://www.youtube.com/watch?v=LgwdZGWZvXk"><img src="https://user-images.githubusercontent.com/12700187/41001435-2893f04e-6911-11e8-82eb-f9d0df9ebdca.png" width="448"></a>
 
 ++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
 
@@ -108,11 +108,11 @@ The tracking could be more stable regarding the issue with the low frame rates (
 
 I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
-<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/40888289-617a2404-6755-11e8-9a27-5111db94294a.png" width="648"></a>
+<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
 uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the beta at the moment.
 
-<a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/40888223-27de9df2-6754-11e8-854a-d06d5c9fde83.png" width="648"></a>
+<a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="648"></a>
 
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this but recognition is to slow to be paractical at this stage. On the google developer phage it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
@@ -131,7 +131,7 @@ It is possible to create a positional tracking app for daydream devices as well.
 
 # No GearVR => No problem:
 
-<a href="https://youtu.be/HnfqYk2YqA8"><img src="https://user-images.githubusercontent.com/12700187/40882299-a1473fcc-66dd-11e8-8246-87fe5224c136.png" width="648"></a>
+<a href="https://youtu.be/HnfqYk2YqA8"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
 
 
 The video shows how to instal GearVR apps without a GearVR headset. For that you need a GearVR supported device (let me know if it workes with other phones too). Instead of using a GearVR you can than put the phone in a daydream or even Google cardboard headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
