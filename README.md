@@ -104,7 +104,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 # TODO's and future work:
 
-The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera. The latest updates almost fixes the problem completely by making it less noticeable. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving it because it doesn't seems to be such a big issue for most non VR apps.  
+The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by Lerp. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
 
 I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
 
@@ -114,9 +114,9 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 
 <a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
 
-In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this but recognition is to slow to be paractical at this stage. On the google developer phage it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
+In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
-Using mashine learning and mobile tensor flow might be a path to get 6DoF hand tracking working. This is an interesting video https://youtu.be/9KqNk5keyCc and I will try if something useable comes out of it when I find some time.
+Using machine learning and mobile tensor flow might be a path to get 6DoF hand tracking working. This is an interesting video https://youtu.be/9KqNk5keyCc and I will try if something useable comes out of it when I find some time.
 
 # Other Interesting Projects:
 
@@ -137,7 +137,7 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 <a href="https://youtu.be/HnfqYk2YqA8"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
 
 
-The video shows how to instal GearVR apps without a GearVR headset. For that you need a GearVR supported device (let me know if it workes with other phones too). Instead of using a GearVR you can than put the phone in a daydream or even Google cardboard headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
+The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device (let me know if it works with other phones too). Instead of using a GearVR you can put the phone in a daydream or even Google cardboard headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
 
 
 # Trouble Shooting:
@@ -150,20 +150,20 @@ Sometimes the ARCore App seems to crash in the background stoping the positional
 
 If you experience very low frames and bad jittering please restart the phone and try again sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
 
-I have tested everything on the S7 if you have problems getting it to work please open a new issue and let me know.
+Everything here was tested on the S7 if you have problems getting it to work please open a new issue and let me know.
 
 Overheating on the S7 might be an issue. Sticking wet toilet paper to the back of the phone is an effective, cheap and simple solution.
 
 # Support this Project:
 
-If you like this work and you wanna support the development of free software, please consider a donation via Bitcoin. 
-Bitcoin wallet adress: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+If you like this work and you want to support the development of free software, please consider a donation via Bitcoin. 
+Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="248"></a>
 
 # Credit:
 
-I wanna give credit to the following developers who published useful informations I used in building this project:
+I want to give credit to the following developers who published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
