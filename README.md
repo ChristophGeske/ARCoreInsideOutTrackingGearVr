@@ -124,10 +124,13 @@ Fast Travel Games also experiment with ARCore and GearVR. They put some serious 
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Daydream Support:
-
 It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
+Using Google Tango:
+Tango is only available on the Asus Zenfone AR and has better room tracking abilities than ARCore. How to use it for 6DoF tracking is described here: https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity
 
+Cardboard AR (HoloKit): 
+https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well. 
 
 # No GearVR => No problem:
 
