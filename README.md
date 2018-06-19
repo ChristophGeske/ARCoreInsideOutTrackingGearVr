@@ -116,7 +116,7 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
-Using machine learning and mobile tensor flow might be a path to get 6DoF hand tracking working. This is an interesting video https://youtu.be/9KqNk5keyCc and I will try if something useable comes out of it when I find some time.
+I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using two GearVR and ARCores cloud ancor is doable.
 
 # Other Interesting Projects:
 
