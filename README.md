@@ -46,7 +46,8 @@ There is a positional tracking App not developed by me available on sidloadVR (h
 # Option 1 (quick option installing the apk provided in this github repository):
 
 Download the WhiteIsland.apk. Get out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
-Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. 
+
+Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. Instead of Warp which doesn't seem to work anymore please use the app Device ID to acess your ID. You might also need to create your own asset folder when following the given steps.
 
 # Option 2 (more detailed way):
 
