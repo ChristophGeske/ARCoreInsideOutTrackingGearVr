@@ -135,7 +135,7 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 
 # No GearVR => No problem:
 
-<a href="https://youtu.be/HnfqYk2YqA8"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
+<a href="https://youtu.be/gWHdzIsRPLg"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
 
 
 The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device (let me know if it works with other phones too). Instead of using a GearVR you can put the phone in a daydream or even Google cardboard headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
