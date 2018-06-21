@@ -153,7 +153,7 @@ If you experience very low frames and bad jittering please restart the phone and
 
 Everything here was tested on the S7 if you have problems getting it to work please open a new issue and let me know.
 
-Overheating on the S7 might be an issue. Sticking wet toilet paper to the back of the phone is an effective, cheap and simple solution.
+Overheating on the S7 might be an issue. Sticking a wet tissue to the back of the phone is an effective, cheap and simple solution.
 
 # Support this Project:
 
