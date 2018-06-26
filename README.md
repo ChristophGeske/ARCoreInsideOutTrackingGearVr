@@ -107,7 +107,7 @@ ALVR might profit from some good head tracking. Check out the project if you hav
 
 The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by Lerp. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
 
-I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future.
+I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. 
 
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
@@ -118,6 +118,10 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
 I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using two GearVR and ARCores cloud ancor is doable.
+
+Support for non GearVr devices is high on my list after ARCore now supports so many devices. I will work on a cardboard version first and look into Daydream at a later stage.
+
+I have a guardian boundery system in the workings which should be ready very soon preventing the user from hitting real objects ( happend to me multiple times :D ). I try to display the point cloud when comming to close to a real object by measuring the distance between head and feature point. 
 
 # Other Interesting Projects:
 
