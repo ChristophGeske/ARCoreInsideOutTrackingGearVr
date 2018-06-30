@@ -1,5 +1,5 @@
-# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR using ARCore v1.2.0
-ARCore v1.2.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, 
+# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR using ARCore v1.3.0
+ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, 
 Note 8, S9 and S9+. 
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
@@ -28,14 +28,11 @@ Note 8, S9 and S9+.
 
 <a href="http://www.youtube.com/watch?v=LgwdZGWZvXk"><img src="https://user-images.githubusercontent.com/12700187/41001435-2893f04e-6911-11e8-82eb-f9d0df9ebdca.png" width="448"></a>
 
-++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. You can simply import it to Unity 2018.1.0 or higher.
+++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. 
 
-++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward. (Will contain the latest updates, Head tracking should be even smoother since latest update)
-
-++ WhiteRoomShootingColours.apk is the game you can see in the video. (It will not be updated any longer)  
+++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
-
 
 You have three options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
 
@@ -53,7 +50,7 @@ Another option for signing an .apk file is explained in this video https://www.y
 
 Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
-1.) Import the arcore-unity-sdk-v1.2.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
+1.) Import the arcore-unity-sdk-v1.3.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
       - Try out the HalloAR app before you continue!
       
@@ -120,8 +117,6 @@ In the future ARCore agumented image might be better in tracking a moving marker
 I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using two GearVR and ARCores cloud ancor is doable.
 
 Support for non GearVr devices is high on my list after ARCore now supports so many devices. I will work on a cardboard version first and look into Daydream at a later stage.
-
-I have a guardian boundery system in the workings which should be ready very soon preventing the user from hitting real objects ( happend to me multiple times :D ). I try to display the point cloud when comming to close to a real object by measuring the distance between head and feature point. 
 
 # Other Interesting Projects:
 
