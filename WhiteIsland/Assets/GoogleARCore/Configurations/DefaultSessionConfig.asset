@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Name: DefaultSessionConfig
   m_EditorClassIdentifier: 
   MatchCameraFramerate: 0
-  PlaneFindingMode: 0
+  PlaneFindingMode: 1
   EnableLightEstimation: 0
   EnableCloudAnchor: 0
-  AugmentedImageDatabase: {fileID: 11400000, guid: c3e077e231877401e8d2163ebbbc9dc6,
-    type: 2}
+  AugmentedImageDatabase: {fileID: 0}
