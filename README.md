@@ -34,10 +34,6 @@ Note 8, S9 and S9+.
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
-++ WhiteRoomShootingColours.apk Game shown in the video. (No longer recieving updates.) 
-
-You have three options to get positional tracking to run on your phone and GearVR. I listed them in order of ease of use. For all options you have to download and install the ARCore app via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core.   
-
 # Option 0 (quick option installing via sideloadVR):
 
 There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+.
