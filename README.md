@@ -26,7 +26,7 @@ Note 8, S9 and S9+.
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking.    
 
-<a href="http://www.youtube.com/watch?v=LgwdZGWZvXk"><img src="https://user-images.githubusercontent.com/12700187/41001435-2893f04e-6911-11e8-82eb-f9d0df9ebdca.png" width="448"></a>
+<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42129417-2d619f2e-7cc4-11e8-8bb0-418e1afcd3b6.png" width="448"></a>
 
 ++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. 
 
