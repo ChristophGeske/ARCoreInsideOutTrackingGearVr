@@ -9990,7 +9990,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 570719095}
-  - component: {fileID: 570719096}
   m_Layer: 0
   m_Name: GearVrControllerModel
   m_TagString: Untagged
@@ -10019,18 +10018,6 @@ Transform:
   m_Father: {fileID: 1056751146}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &570719096
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 570719094}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.049059838, y: 0.02188092, z: 0.0484074}
-  m_Center: {x: 0.00017361219, y: -0.006543276, z: -0.030378686}
 --- !u!1 &573223740
 GameObject:
   m_ObjectHideFlags: 0
