@@ -128,15 +128,12 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
-I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using two GearVR and ARCores cloud ancor is doable.
+I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using ARCores cloud ancor is doable.
 
 # Other Interesting Projects:
 
 Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
-
-Daydream Support:
-It is possible to create a positional tracking app for daydream devices as well. Check out this video: https://www.youtube.com/watch?v=_yg4urvqoBQ. More informations about the project can be found here: https://bitbucket.org/TobiasPott/noxp.morsvr/
 
 Using Google Tango:
 Tango is only available on the Asus Zenfone AR and has better room tracking abilities than ARCore. How to use it for 6DoF tracking is described here: https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity
@@ -149,8 +146,7 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 <a href="https://youtu.be/gWHdzIsRPLg"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
 
 
-The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device (let me know if it works with other phones too). Instead of using a GearVR you can put the phone in a daydream or even Google cardboard headset. Check out laurenweinstein1's website to learn how to modify your daydream headset for use with the camera https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications.
-
+The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device so S6 to S9 should work. Instead of using a GearVR you can than put the phone in a daydream or even Google cardboard headset. 
 
 # Trouble Shooting:
 
