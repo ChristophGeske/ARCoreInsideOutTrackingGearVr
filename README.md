@@ -161,20 +161,18 @@ Everything here was tested on the S7 if you have problems getting it to work ple
 
 Overheating on the S7 might be an issue. Sticking a wet tissue to the back of the phone is an effective, cheap and simple solution.
 
-# Support this Project:
-
-If you like this work and you want to support the development of free software, please consider a donation via Bitcoin. 
-Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
-
-<a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="248"></a>
-
 # Credit:
 
 I want to give credit to the following developers who published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
 
+# Support this Project:
 
+If you like this work and you want to support the development of free software, please consider a donation via Bitcoin. 
+Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+
+<a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="148"></a>
 
 
 
