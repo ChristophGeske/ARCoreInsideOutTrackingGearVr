@@ -6,17 +6,14 @@ Note 8, S9 and S9+.
        when standing still or moving slowly. When using the cardboard version without a daydream ready phone
        the tracking is noticably worse. If you can please use the GearVR or Daydream version.
       
-      - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially 
-      supported as well.(https://developers.google.com/ar/discover/supported-devices)
-      
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking
-      severely.When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is
+      severely. When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is
       best to stay still and only move slightly from left to right. 
       After the tracking is initialised slowly move and look once around your room to allow ARCore to 
       scan the area. Now the tracking should be stable enough for faster head movements. If the VR and 
       real world movement don't line up correctly restart the app and keep your head steady when the app 
-      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk 
-      (no .apk signing needed for the HalloARCore app).
+      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk
+      and the ARCore app.
       
       - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
@@ -29,7 +26,7 @@ Note 8, S9 and S9+.
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42129417-2d619f2e-7cc4-11e8-8bb0-418e1afcd3b6.png" width="448"></a>
 
-++ WhiteIsland is a working Unity project you can use to build your own app with positional tracking enabled. 
+++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. 
 
 ++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
 
