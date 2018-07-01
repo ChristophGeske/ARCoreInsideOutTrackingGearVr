@@ -1,6 +1,5 @@
 # Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.3.0
-ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) for the Galaxy S7, S8, S8+, 
-Note 8, S9 and S9+. 
+ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
        when standing still or moving slowly. When using the cardboard version without a daydream ready phone
