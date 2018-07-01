@@ -33,7 +33,7 @@ Video showing GearVR version.
 
 ++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. 
 
-++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchpad to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
+++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable real world boundary visualisation.
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone but positional tracking needs ARCore which is only supported by some newer smartphones. Check out which devices support ARCore and install before installing the .apk file. https://developers.google.com/ar/discover/supported-devices ( Currently the controller is not supported so you have to walk through the room. ;) )
 
