@@ -3,7 +3,8 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 Note 8, S9 and S9+. 
       
        - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
-       when standing still or moving slowly (major improvements in latest updates). 
+       when standing still or moving slowly. When using the cardboard version without a daydream ready phone
+       the tracking is noticably worse. If you can please use the GearVR or Daydream version.
       
       - This was tested on the Samsung Galaxy S7 but the S8, S8+, Note8, S9 and S9+ are officially 
       supported as well.(https://developers.google.com/ar/discover/supported-devices)
@@ -32,15 +33,21 @@ Note 8, S9 and S9+.
 
 ++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
 
+++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone but positional tracking needs ARCore which is only supported by some newer smarthphones. Check out which devices support ARCore and install bevore installing the .apk file. https://developers.google.com/ar/discover/supported-devices ( Currently the controller is not supported so you have to walk through the room. ;) )
+
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
-# Option 0 (quick option installing via sideloadVR):
 
-There is a positional tracking App not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+.
+# Option 0 (quickest option):
 
-# Option 1 (quick option installing the apk provided in this github repository):
+Cardboard (works with all non GearVR phones as well, if you can use daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
 
-Download the WhiteIsland.apk. Get out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+GearVR: Installing is a bit more compicated because apps need to be signed.
+There is a positional tracking app not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. 
+
+# Option 1 (quick option installing and sign the GearVR apk provided in this github repository):
+
+Download the WhiteIsland.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. Instead of Warp which doesn't seem to work anymore please use the app Device ID to acess your ID. You might also need to create your own asset folder when following the given steps.
 
@@ -100,7 +107,7 @@ Follow these steps to get Inside-Out-Tracking working on your GearVR:
 
 ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
 
-The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by Lerp. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
+The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by the Lerp function. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
 
 I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. 
 
@@ -113,8 +120,6 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
 
 I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using two GearVR and ARCores cloud ancor is doable.
-
-Support for non GearVr devices is high on my list after ARCore now supports so many devices. I will work on a cardboard version first and look into Daydream at a later stage.
 
 # Other Interesting Projects:
 
