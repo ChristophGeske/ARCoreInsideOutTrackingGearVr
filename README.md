@@ -1,24 +1,23 @@
 # Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.3.0
 ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
       
-       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
-       when standing still or moving slowly. When using the cardboard version without a daydream ready phone
-       the tracking is noticably worse. If you can please use the GearVR or Daydream version.
+      - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
+      when standing still or moving slowly. When using the cardboard version without a daydream ready phone
+      the tracking is noticeably worse. If possible use the GearVR or Daydream capable device.  
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking
-      severely. When the app starts it takes 3-5 seconds for ARCore to detect a plain at this stage it is
+      severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is
       best to stay still and only move slightly from left to right. 
       After the tracking is initialised slowly move and look once around your room to allow ARCore to 
       scan the area. Now the tracking should be stable enough for faster head movements. If the VR and 
-      real world movement don't line up correctly restart the app and keep your head steady when the app 
-      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk
-      and the ARCore app.
+      real world movement doesn't line up correctly restart the app and keep your head steady when the app 
+      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk.
       
       - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
       yet. Because they use dedicated hardware they can offer better performance. A good review can be 
       found here (https://medium.com/@iBrews/standalone-vr-a-developers-review-1bb69feb6dcc) The Oculus 
-      Santa Cruz which is expected in 2019 will also offer 6DoF tracking and feature two 6DoF 
+      Santa Cruz which is expected for 2019 will also offer 6DoF tracking and feature two 6DoF 
       tracked hand controllers which should make it a highly desirable device. Interestingly the HTC 
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking.    
@@ -27,21 +26,21 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. 
 
-++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchped to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
+++ WhiteIsland.apk is an optimised positional tracking scene which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchpad to fly forward and the trigger button to enable/disable real world boundary visualisation. (Will contain the latest updates)
 
-++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone but positional tracking needs ARCore which is only supported by some newer smarthphones. Check out which devices support ARCore and install bevore installing the .apk file. https://developers.google.com/ar/discover/supported-devices ( Currently the controller is not supported so you have to walk through the room. ;) )
+++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone but positional tracking needs ARCore which is only supported by some newer smartphones. Check out which devices support ARCore and install before installing the .apk file. https://developers.google.com/ar/discover/supported-devices ( Currently the controller is not supported so you have to walk through the room. ;) )
 
-++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn`t a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
+++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn't a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 
 # Option 0 (quickest option):
 
-Cardboard (works with all non GearVR phones as well, if you can use daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
+Cardboard (works with all the non GearVR phones as well, if you can use a daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
 
-GearVR: Installing is a bit more compicated because apps need to be signed.
-There is a positional tracking app not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. 
+GearVR: Installing is a bit more complicated because apps need to be signed.
+There is a positional tracking app not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. But it's the quickest installation option I know of.
 
-# Option 1 (quick option installing and sign the GearVR apk provided in this github repository):
+# Option 1 (quick option instal and sign the GearVR apk provided in this github repository):
 
 Download the WhiteIsland.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
