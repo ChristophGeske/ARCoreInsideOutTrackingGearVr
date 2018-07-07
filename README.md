@@ -126,13 +126,13 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 
 <a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
 
-In the future ARCore agumented image might be better in tracking a moving marker for example on your hand to allow for 6DoF hand tracking. I tried this, but recognition is to slow to be paractical at this stage. On the google developer phage, it says: "ARCore cannot track a moving image, but it can resume tracking that image after it stops moving." 
+In the future ARCore agumented image might be able to track a moving marker for example one on a glove. ARKit2 is already able to do it (https://www.youtube.com/watch?v=ySYFZwkZoio) and a 6DoF VR Game with hand control should already be possible on iPhones. This will be the first thing I implement when ARCore supports moving markers.
 
-I just saw this cool video (https://www.reddit.com/r/daydream/comments/8s9d3z/we_turned_off_the_safety_boundaries_on_our_lenovo/?utm_source=reddit-android) and I think a multiplayer game using ARCores cloud ancor is doable.
+A multiplayer VR game using ARCores cloud ancor should be possible but I am currently not working on it. Here is how it could look like. https://i.imgur.com/ZX9Veen.gifv
 
 # Other Interesting Projects:
 
-Fast Travel Games also experiment with ARCore and GearVR. They put some serious thought in solving many of the little issues. I am not sure if they managed to solve all the issues. I would love to know if their project is public somewhere so we can try out all the improvements they came up with.
+Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues. 
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Using Google Tango:
