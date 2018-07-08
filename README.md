@@ -36,7 +36,9 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore here: (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published an interesting solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications
 
-++ vikingVillage.apk is a 6DoF app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high quality environments and allows for free movement in this captured area.   
+++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high quality environments and allows for free movement in this captured area.
+
+++ VikingVillageCardboard.apk is the Daydream/Cardboard version of the Seurat experience. No signing needed just install ARcore and the .apk file.
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn't a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
