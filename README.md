@@ -47,16 +47,16 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 # Daydream and Cardboard Version + Seurat (quickest option):
 
-Cardboard (works with all the non GearVR phones as well, if you can use a daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
+Works with all the daydream ready phones. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. Also install Google ARCore from the Play Store.   
 
-GearVR: Installing is a bit more complicated because apps need to be signed, see Option 1. 
-The quickest option I know of is a positional tracking app not developed by me available on sidloadVR (http://sideloadvr.com/detail.php?id=11424) which uses ARCore 1.0.0. and seems to work with S7, S8, S8+, Note8. The app has not jet implemented the latest improvements and is therefore still very jittery at the corners. It also doesn't hit 60 fps on the S7 and dose not support the S9 and S9+. 
 
 <a href="https://youtu.be/EFglp19C8tg"><img src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg" width="448"></a>
 
 Video showing Daydream/Cardboard version.
 
 # GearVR Version + Seurat (apps need to be signed first):
+
+GearVR: Installing is a bit more complicated because apps need to be signed. If you have a S8 or S9 it's much easier to use the Cardboard/Daydream version which doesn't need to be signed. 
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
