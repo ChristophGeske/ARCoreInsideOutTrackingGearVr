@@ -28,7 +28,9 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 # Software Description:
 
-++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. 
+++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled.
+
+++ VikingVillage is a unity project where a Seurat generated mesh was imported. Attention: Some bigger folders are compressed and need to be unzipped bevore starting the project.
 
 ++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. See option 1 on how to install. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable real world boundary visualisation.
 
@@ -130,7 +132,8 @@ Overheating on the S7 might be an issue. Sticking a wet tissue to the back of th
 I want to give credit to the following developers who published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
-+ Reddit user st6315 provided me with a mesh for the vikingVillage app and posted usefull informations. 
++ Dimitri Diakopoulos (ddiakopoulos) provided a simplefied Seurat pipeline (https://github.com/ddiakopoulos/seurat/releases)
++ Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted usefull informations (https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
 
 # Support this Project:
 
@@ -138,11 +141,6 @@ If you like this work and you want to support the development of free software, 
 Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="148"></a>
-
-
-
-
-
 
 # Detailed Implementation Information :
 
