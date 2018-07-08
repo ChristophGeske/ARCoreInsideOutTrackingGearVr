@@ -45,7 +45,7 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 # Installation options:
 
-# Daydream and Cardboard Version (quickest option):
+# Daydream and Cardboard Version + Seurat (quickest option):
 
 Cardboard (works with all the non GearVR phones as well, if you can use a daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
 
@@ -56,7 +56,7 @@ The quickest option I know of is a positional tracking app not developed by me a
 
 Video showing Daydream/Cardboard version.
 
-# GearVR and Seurat Version (apps need to be signed first):
+# GearVR Version + Seurat (apps need to be signed first):
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
