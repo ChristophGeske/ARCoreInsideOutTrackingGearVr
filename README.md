@@ -56,7 +56,7 @@ Video showing Daydream/Cardboard version.
 
 # GearVR and Seurat Version (apps need to be signed first):
 
-<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42129417-2d619f2e-7cc4-11e8-8bb0-418e1afcd3b6.png" width="448"></a>
+<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
 
 Video showing GearVR 6DoF version.
 
