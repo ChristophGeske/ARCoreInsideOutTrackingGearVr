@@ -56,14 +56,14 @@ Video showing Daydream/Cardboard version.
 
 # GearVR and Seurat Version (apps need to be signed first):
 
-<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
+<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
 Video showing GearVR 6DoF version.
 
 Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 
-<a href="https://youtu.be/WX626Dbj1Cc"><img src="https://user-images.githubusercontent.com/12700187/42417343-ed14bcca-8287-11e8-8d23-eb5752578162.png" width="448"></a>
+<a href="https://youtu.be/WX626Dbj1Cc"><img src="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
 
 
 Video showing Seurat 6DoF GearVR version.
