@@ -41,7 +41,7 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 # Installation options:
 
-# Option 0 (quickest option):
+# Daydream and Cardboard Version (quickest option):
 
 Cardboard (works with all the non GearVR phones as well, if you can use a daydream ready phone): Download the BoxyRoomCardboard.apk and install. Also install Google ARCore from the Play Store.   
 
@@ -52,67 +52,21 @@ The quickest option I know of is a positional tracking app not developed by me a
 
 Video showing Daydream/Cardboard version.
 
-# Option 1 (quick option install and sign the GearVR apk provided in this github repository):
+# GearVR and Seurat Version (apps need to be signed first):
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42129417-2d619f2e-7cc4-11e8-8bb0-418e1afcd3b6.png" width="448"></a>
 
-Video showing GearVR version.
+Video showing GearVR 6DoF version.
 
-Download the WhiteIsland.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+Download the WhiteIsland.apk. or the  Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+
+
+<a href="https://youtu.be/WX626Dbj1Cc"><img src="https://user-images.githubusercontent.com/12700187/42129417-2d619f2e-7cc4-11e8-8bb0-418e1afcd3b6.png" width="448"></a>
+
+
+Video showing Seurat version.
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. Instead of Warp which doesn't seem to work anymore please use the app Device ID to acess your ID. You might also need to create your own asset folder when following the given steps.
-
-# Option 2 (more detailed way):
-
-Follow these steps to get Inside-Out-Tracking working on your GearVR:
-
-1.) Import the arcore-unity-sdk-v1.3.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
-      
-      - Try out the HalloAR app before you continue!
-      
-2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
-
-3.) Install the ARCore App on your phone via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core
-
-4.) Find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/
-
-5.) Generate an osig file which you need for your app to run on your GearVr https://dashboard.oculus.com/tools/osig-generator/
-
-6.) Place the osig file under Assets -> Plugins -> Android -> assets. If those folders don't exist add them yourself.  
-
-7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbol.
-
-8.) Remove "Canvas", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierarchy in Unity so you are left with "ARCore Device" and "Directional light"
-
-9.) Click on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
-
-10.) Add a cube and bring it close to the camera. 
-
-11.) Build and Run. You should now see the cube and the camera feed in the background. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
-
-12.) To improve the experience further you can also do the following steps:
-      
-      - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
-      Uncheck the check mark of "Camera" under "First Person Camera". 
-      - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
-      This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
-      - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
-      "Match Camera Framerate" and "Enable Light Estimation" 
-      - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
-      - Follow Oculus guidelines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
-      but uncheck "Multithreaded Rendering" and check "GPU Skinning"
-      - Useful tip on how to create a low requirement scene:
-      https://unity3d.com/how-to/optimize-mobile-VR-games
-      https://cgcookie.com/articles/maximizing-your-unity-games-performance
-      https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
-      https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
-      https://sassybot.com/blog/lightmapping-in-unity-5/
-      https://www.youtube.com/watch?v=N0zr0Eqh6ac
-      - Use the Oculus Metrics Tool to see your FPS in game.
-      - For the latest improvements in low jittery headtracking please have a look in the project files directly. 
-      - Be aware of the fact that multithreaded rendering can't be used limiting the performance dramiticaly.
-      - ARCore takes up some part of your available resources limiting your abilities even further.  
- 
 
 # TODO's and future work:
 
@@ -189,4 +143,56 @@ Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 
 
+
+# Detailed Implementation Information :
+
+Follow these steps to get Inside-Out-Tracking working on your GearVR:
+
+1.) Import the arcore-unity-sdk-v1.3.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
+      
+      - Try out the HalloAR app before you continue!
+      
+2.) Download the "Oculus Utilities for Unity" here: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
+
+3.) Install the ARCore App on your phone via the Play Store. https://play.google.com/store/apps/details?id=com.google.ar.core
+
+4.) Find out your Device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/
+
+5.) Generate an osig file which you need for your app to run on your GearVr https://dashboard.oculus.com/tools/osig-generator/
+
+6.) Place the osig file under Assets -> Plugins -> Android -> assets. If those folders don't exist add them yourself.  
+
+7.) Under Build Settings -> Player Settings -> XR Settings check Virtual Reality Supported and choose Oculus via the plus symbol.
+
+8.) Remove "Canvas", "ExampleController", "PointCloud", "Environmental Light" and "EventSystem" from the Hierarchy in Unity so you are left with "ARCore Device" and "Directional light"
+
+9.) Click on "First Person Camera" under "ARCore Device". Click the "add Component" button and add "OVR Camera Rig" and "OVR Manager" to the "First Person Camera"
+
+10.) Add a cube and bring it close to the camera. 
+
+11.) Build and Run. You should now see the cube and the camera feed in the background. Inside out positional tracking is active after a few seconds. If you get the app to run on your GearVR but you don't get any positional tracking to work try to restart the app.
+
+12.) To improve the experience further you can also do the following steps:
+      
+      - Go to "First Person Camera" -> "Tracked Pose driver" -> "Tracking Type" and set it from "Rotation and Position" to "Position".
+      Uncheck the check mark of "Camera" under "First Person Camera". 
+      - If you experience flickering corners add "QualitySettings.antiAliasing = 2;" to a Start function of your choice.
+      This could look like this:  void Start () { QualitySettings.antiAliasing = 2;}
+      - To get better performance click on the "DefaultSessionConfig" and remove the checkmark from "Enable Plane Finding",
+      "Match Camera Framerate" and "Enable Light Estimation" 
+      - To disable the live camera feed in the background set "Background Material" under "AR Core Background Renderer" to  None
+      - Follow Oculus guidelines for VR settings https://developer.oculus.com/documentation/unity/latest/concepts/unity-build-android/ 
+      but uncheck "Multithreaded Rendering" and check "GPU Skinning"
+      - Useful tip on how to create a low requirement scene:
+      https://unity3d.com/how-to/optimize-mobile-VR-games
+      https://cgcookie.com/articles/maximizing-your-unity-games-performance
+      https://developer.oculus.com/documentation/unity/latest/concepts/unity-single-pass/
+      https://developer.oculus.com/blog/tech-note-unity-settings-for-mobile-vr/
+      https://sassybot.com/blog/lightmapping-in-unity-5/
+      https://www.youtube.com/watch?v=N0zr0Eqh6ac
+      - Use the Oculus Metrics Tool to see your FPS in game.
+      - For the latest improvements in low jittery headtracking please have a look in the project files directly. 
+      - Be aware of the fact that multithreaded rendering can't be used limiting the performance dramiticaly.
+      - ARCore takes up some part of your available resources limiting your abilities even further.  
+ 
 
