@@ -34,6 +34,8 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore here: (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published an interesting solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications
 
+++ vikingVillage.apk is a 6DoF app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high quality environments and allows for free movement in this captured area.   
+
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn't a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
       
@@ -148,6 +150,13 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 
 The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device so S6 to S9 should work. Instead of using a GearVR you can than put the phone in a daydream or even Google cardboard headset. 
 
+# How to Seurat:
+
+Here you can learn how to capture your high quality scene: 
+https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/
+Here you can learn how to bring the captured scene in your mobile project:
+https://github.com/googlevr/seurat-unity-plugin
+
 # Trouble Shooting:
 
 Loosing tracking is a problem you will experience when the room is not tracked completely and you moved your head to fast. Try to make slow movements and hold your head still for the first few seconds until ARCore has detected the surrounding.
@@ -167,6 +176,7 @@ Overheating on the S7 might be an issue. Sticking a wet tissue to the back of th
 I want to give credit to the following developers who published useful informations I used in building this project:
 + FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
 + Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
++ Reddit user st6315 provided me with a mesh for the vikingVillage app and posted usefull informations. 
 
 # Support this Project:
 
