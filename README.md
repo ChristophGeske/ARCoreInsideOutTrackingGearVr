@@ -103,13 +103,6 @@ Tango is only available on the Asus Zenfone AR and has better room tracking abil
 Cardboard AR (HoloKit): 
 https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well. 
 
-# No GearVR => No problem:
-
-<a href="https://youtu.be/gWHdzIsRPLg"><img src="https://user-images.githubusercontent.com/12700187/41001597-acc7548c-6911-11e8-985e-2e0595028fbe.png" width="448"></a>
-
-
-The video shows how to instal GearVR apps without a GearVR headset. For that you need, a GearVR supported device so S6 to S9 should work. Instead of using a GearVR you can than put the phone in a daydream or even Google cardboard headset. 
-
 # How to Seurat:
 
 Here you can learn how to capture your high quality scene: 
