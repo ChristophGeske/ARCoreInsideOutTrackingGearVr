@@ -107,7 +107,8 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 
 Here you can learn how to capture your high quality scene: 
 https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/
-Here you can learn how to bring the captured scene in your mobile project:
+You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipline to transform the capturad data. See the reddit post for more details 
+Here you can learn how to bring the captured scene in your unity project:
 https://github.com/googlevr/seurat-unity-plugin
 
 # Trouble Shooting:
