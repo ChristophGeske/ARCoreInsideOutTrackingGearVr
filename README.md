@@ -36,7 +36,7 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking also needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published an possible solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slighly outward after first putting them in the center of the daydream headset.
 
-++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high quality environments and allows for free movement in this captured area.
+++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high-quality environments and allows for free movement in this captured area.
 
 ++ VikingVillageForOculusGO.apk The Go has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users I added controller support and Go users can now fly through the scene by pressing the touchpad.
 
@@ -106,15 +106,15 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 # How to Seurat:
 
 What is seurat? Read the introduction here: https://developers.google.com/vr/discover/seurat
-In short it can capture a high quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see blue areas and distorted meshes. This is the limitation of this teqneque but the are can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
+In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see blue areas and distorted meshes. This is the limitation of this technique but the are can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
 Here you can learn how to capture your high quality scenes: 
-https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/ . Please watch this video if you are interested in how the scene was captured.
+https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/. Please watch this video if you are interested in how the scene was captured.
 
 
 <a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/42789551-2fcdf678-8966-11e8-9f7d-95efef814bc2.png" width="448"></a>
 
 
-You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipline to transform the capturad data. See the reddit post for more details 
+You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipeline to transform the captured data. See the reddit post for more details 
 Here you can learn how to bring the captured scene in your unity project:
 https://github.com/googlevr/seurat-unity-plugin
 
