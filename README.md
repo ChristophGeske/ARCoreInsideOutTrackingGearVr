@@ -25,7 +25,8 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking. 
       
-      - Your phone will probably heat up. Don't let the apps run for to long. 
+      - Your phone will probably heat up quicker than when using normal VR apps. Don't let the apps run 
+      for to long and close the app when your phone gets to hot. 
 
 
 # Software Description:
