@@ -23,7 +23,9 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Santa Cruz which is expected for 2019 will also offer 6DoF tracking and feature two 6DoF 
       tracked hand controllers which should make it a highly desirable device. Interestingly the HTC 
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
-      positional tracking.    
+      positional tracking. 
+      
+      - Your phone will probably heat up. Don't let the apps run for to long. 
 
 
 # Software Description:
