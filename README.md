@@ -79,6 +79,11 @@ Another option for signing an .apk file is explained in this video https://www.y
 
 # TODO's and future work:
 
+I am currently working on a version using the Vuforia Fusion Unity Plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
+There are a few disadvantages that I can already see and which will properly prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
+The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
+Because of these drawbacks and the bucket of bugs in my current version, I haven't published the 6DoF controller feature yet. If you can't wait to try it out let me know than I upload the buggy version for you.
+
 ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
 
 The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by the Lerp function. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
