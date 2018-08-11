@@ -80,7 +80,7 @@ Another option for signing an .apk file is explained in this video https://www.y
 # TODO's and future work:
 
 I am currently working on a version using the Vuforia Fusion Unity Plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
-There are a few disadvantages that I can already see and which will properly prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
+There are a few disadvantages that I can already see and which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
 The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
 Because of these drawbacks and the bucket of bugs in my current version, I haven't published the 6DoF controller feature yet. If you can't wait to try it out let me know than I upload the buggy version for you.
 
