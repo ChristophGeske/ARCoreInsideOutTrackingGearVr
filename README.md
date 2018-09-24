@@ -79,6 +79,8 @@ Another option for signing an .apk file is explained in this video https://www.y
 
 # TODO's and future work:
 
+Since ARCores latest version supports multithreaded rendering, I expect much better performance when I switch to the latest ARCore Unity plugin. I will test this soon.
+
 I am currently working on a version using the Vuforia Fusion Unity Plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
 There are a few disadvantages that I can already see and which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
 The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
@@ -88,7 +90,7 @@ ALVR might profit from some good head tracking. Check out the project if you hav
 
 The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by the Lerp function. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
 
-I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) and I hope to tell you more about it in the future. 
+I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore this should be possible now. 
 
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
