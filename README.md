@@ -37,35 +37,34 @@ ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable real world boundary visualisation.
 
-++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking also needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published an possible solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slighly outward after first putting them in the center of the daydream headset.
+++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking also needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published a possible solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slighly outward after first putting them in the center of the daydream headset.
 
 ++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high-quality environments and allows for free movement in this captured area.
-
-++ VikingVillageForOculusGO.apk The Go has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users I added controller support and Go users can now fly through the scene by pressing the touchpad.
 
 ++ VikingVillageCardboard.apk is the Daydream/Cardboard version of the Seurat experience. No signing needed just install ARcore and the .apk file.
 
 ++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn't a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
+++ VikingVillageForOculusGO.apk The Oculus GO has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users I added controller support and Go users can now fly through the scene by pressing the touchpad. (Should work on the GO device but I haven't tested it myself. Let me know if it doesn't work.)
       
 # Installation options:
 
-# Daydream and Cardboard Version + Seurat (quickest option):
+# Daydream and Cardboard Versions (quickest option):
 
 Works with all the daydream ready phones. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. Also install Google ARCore from the Play Store.   
 
 
 <a href="https://youtu.be/EFglp19C8tg"><img src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg" width="448"></a>
 
-Video showing Daydream/Cardboard version.
+Video showing BoxyRoomCardboard.apk in action.
 
-# GearVR Version + Seurat (apps need to be signed first):
+# GearVR Versions (apps need to be signed first):
 
-GearVR: Installing is a bit more complicated because apps need to be signed. If you have a S8 or S9 it's much easier to use the Cardboard/Daydream version which doesn't need to be signed. 
+GearVR: Installing is a bit more complicated because apps need to be signed to work on your device. If you have a S8 or S9 it's much easier to just use the Cardboard/Daydream version which doesn't need to be signed. 
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
-Video showing GearVR 6DoF version.
+Video showing WhiteIsland.apk 6DoF GearVR version.
 
 Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
@@ -73,7 +72,7 @@ Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID 
 <a href="https://youtu.be/WX626Dbj1Cc"><img src="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
 
 
-Video showing Seurat 6DoF GearVR version.
+Video showing VikingVillage (Seurat) 6DoF GearVR version.
 
 Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. Instead of Warp which doesn't seem to work anymore please use the app Device ID to acess your ID. You might also need to create your own asset folder when following the given steps.
 
