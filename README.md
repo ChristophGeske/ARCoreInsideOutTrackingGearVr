@@ -26,12 +26,12 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 # Software Description:
 
-++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. The WhiteIsland project is meant for GearVR and the BoxyRoomChardboard project is meant for Cardboard/Daydream devices. The WhiteIsland project uses the latest improvements and should be your first choice. The BoxyRoomChardboard project still has some bugs and I actively work on improving it. 
+++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. The WhiteIsland project is meant for GearVR and the BoxyRoomChardboard project is meant for Cardboard/Daydream devices. The WhiteIsland project uses the latest improvements, runns on ARCore 1.5.0. and should be your first choice. The BoxyRoomChardboard project still runns on ARCore 1.2.0, has some bugs and desperatly needs some improvements. 
 
 ++ VikingVillage is a unity project where a Seurat generated mesh was imported. Attention: Some bigger folders are compressed and need to be unzipped bevore starting the project.
 
 ++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button (press half a second and relese quickly) to 
-enable/disable visualisation of real world boundaries. Press the touchped on the GearVR or the gear controller to recenter view when it gets missaligned.
+enable/disable visualisation of real world boundaries. Press the touchped on the GearVR or the gear controller to recenter view when it gets missaligned. Uses ARCore 1.5.0.
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking also needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published a possible solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slighly outward after first putting them in the center of the daydream headset.
 
