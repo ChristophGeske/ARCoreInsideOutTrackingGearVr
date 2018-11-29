@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* By using the touchpad you can fly through the Scene.
+ */
 public class MoveController : MonoBehaviour { // By using the touchpad you can fly through the Scene.
 
     public Vector2 touchPadDirection;
@@ -14,8 +16,9 @@ public class MoveController : MonoBehaviour { // By using the touchpad you can f
 	// Update is called once per frame
 	void Update () {
 
-        if (OVRInput.Get(OVRInput.Button.One)) // this code moves the player forward when the touchpad is pressed
+        if (OVRInput.Get(OVRInput.Button.One)) 
         {
+            // moves the player forward in viewing direction when the controller touchpad is pressed.
             transform.position = transform.position + Camera.main.transform.forward * distance * Time.deltaTime;
         }
 
@@ -26,5 +29,5 @@ public class MoveController : MonoBehaviour { // By using the touchpad you can f
             
         }
         */
-    }     
+    }
 }

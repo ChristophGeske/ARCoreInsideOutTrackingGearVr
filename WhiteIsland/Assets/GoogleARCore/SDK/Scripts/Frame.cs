@@ -84,10 +84,11 @@ namespace GoogleARCore
         /// </summary>
         /// <param name="x">Horizontal touch position in Unity's screen coordiante.</param>
         /// <param name="y">Vertical touch position in Unity's screen coordiante.</param>
-        /// <param name="filter">A filter bitmask where each {@link TrackableHitFlag} which is set represents a category
+        /// <param name="filter">A filter bitmask where each set bit in {@link TrackableHitFlags} represents a category
         /// of raycast hits the method call should consider valid.</param>
         /// <param name="hitResult">A {@link TrackableHit} that will be set if the raycast is successful.</param>
         /// <returns><c>true</c> if the raycast had a hit, otherwise <c>false</c>.</returns>
+        [SuppressMemoryAllocationError(IsWarning = true, Reason = "List could be resized")]
         public static bool Raycast(float x, float y, TrackableHitFlags filter,
             out TrackableHit hitResult)
         {
@@ -100,7 +101,40 @@ namespace GoogleARCore
 
             // Note that the Unity's screen coordinate (0, 0) starts from bottom left.
             bool foundHit = nativeSession.HitTestApi.Raycast(nativeSession.FrameHandle, x, Screen.height - y, filter,
-                s_TmpTrackableHitList, true);
+                s_TmpTrackableHitList);
+
+            if (foundHit && s_TmpTrackableHitList.Count != 0)
+            {
+                hitResult = s_TmpTrackableHitList[0];
+            }
+
+            return foundHit;
+        }
+
+        /// <summary>
+        /// Performs a raycast against physical objects being tracked by ARCore.
+        /// Output the closest hit from the origin.
+        /// </summary>
+        /// <param name="origin">The starting point of the ray in world coordinates.</param>
+        /// <param name="direction">The direction of the ray.</param>
+        /// <param name="hitResult">A {@link TrackableHit} that will be set if the raycast is successful.</param>
+        /// <param name="maxDistance">The max distance the ray should check for collisions.</param>
+        /// <param name="filter">A filter bitmask where each set bit in {@link TrackableHitFlags} represents a category
+        /// of raycast hits the method call should consider valid.</param>
+        /// <returns><c>true</c> if the raycast had a hit, otherwise <c>false</c>.</returns>
+        [SuppressMemoryAllocationError(IsWarning = true, Reason = "List could be resized")]
+        public static bool Raycast(Vector3 origin, Vector3 direction, out TrackableHit hitResult,
+            float maxDistance = Mathf.Infinity, TrackableHitFlags filter = TrackableHitFlags.Default)
+        {
+            hitResult = new TrackableHit();
+            var nativeSession = LifecycleManager.Instance.NativeSession;
+            if (nativeSession == null)
+            {
+                return false;
+            }
+
+            bool foundHit = nativeSession.HitTestApi.Raycast(nativeSession.FrameHandle, origin, direction, maxDistance,
+                filter, s_TmpTrackableHitList);
 
             if (foundHit && s_TmpTrackableHitList.Count != 0)
             {
@@ -118,10 +152,11 @@ namespace GoogleARCore
         /// </summary>
         /// <param name="x">Horizontal touch position in Unity's screen coordiante.</param>
         /// <param name="y">Vertical touch position in Unity's screen coordiante.</param>
-        /// <param name="filter">A filter bitmask where each {@link TrackableHitFlag} which is set represents a category
+        /// <param name="filter">A filter bitmask where each set bit in {@link TrackableHitFlags} represents a category
         /// of raycast hits the method call should consider valid.</param>
         /// <param name="hitResults">A list of {@link TrackableHit} that will be set if the raycast is successful.</param>
         /// <returns><c>true</c> if the raycast had a hit, otherwise <c>false</c>.</returns>
+        [SuppressMemoryAllocationError(IsWarning = true, Reason = "List could be resized")]
         public static bool RaycastAll(float x, float y, TrackableHitFlags filter, List<TrackableHit> hitResults)
         {
             hitResults.Clear();
@@ -131,7 +166,35 @@ namespace GoogleARCore
                 return false;
             }
 
-            return nativeSession.HitTestApi.Raycast(nativeSession.FrameHandle, x, Screen.height - y, filter, hitResults, true);
+            return nativeSession.HitTestApi.Raycast(nativeSession.FrameHandle, x, Screen.height - y, filter,
+                hitResults);
+        }
+
+        /// <summary>
+        /// Performs a raycast against physical objects being tracked by ARCore.
+        /// Output all hits from the origin.
+        /// </summary>
+        /// <param name="origin">The starting point of the ray in world coordinates.</param>
+        /// <param name="direction">The direction of the ray.</param>
+        /// <param name="hitResults">A list of {@link TrackableHit} that will be set if the raycast is successful.</param>
+        /// <param name="maxDistance">The max distance the ray should check for collisions.</param>
+        /// <param name="filter">A filter bitmask where each set bit in {@link TrackableHitFlags} represents a category
+        /// of raycast hits the method call should consider valid.</param>
+        /// successful.</param>
+        /// <returns><c>true</c> if the raycast had a hit, otherwise <c>false</c>.</returns>
+        [SuppressMemoryAllocationError(IsWarning = true, Reason = "List could be resized")]
+        public static bool RaycastAll(Vector3 origin, Vector3 direction, List<TrackableHit> hitResults,
+            float maxDistance = Mathf.Infinity, TrackableHitFlags filter = TrackableHitFlags.Default)
+        {
+            hitResults.Clear();
+            var nativeSession = LifecycleManager.Instance.NativeSession;
+            if (nativeSession == null)
+            {
+                return false;
+            }
+
+            return nativeSession.HitTestApi.Raycast(nativeSession.FrameHandle, origin, direction, maxDistance,
+                filter, hitResults);
         }
 
         /// <summary>
@@ -155,7 +218,12 @@ namespace GoogleARCore
                     return false;
                 }
 
-                var metadataHandle = nativeSession.FrameApi.AcquireImageMetadata();
+                IntPtr metadataHandle = IntPtr.Zero;
+                if (!nativeSession.FrameApi.AcquireImageMetadata(ref metadataHandle))
+                {
+                    return false;
+                }
+
                 var isSuccess = nativeSession.CameraMetadataApi.TryGetValues(metadataHandle, metadataTag, outMetadataList);
                 nativeSession.CameraMetadataApi.Release(metadataHandle);
                 return isSuccess;
@@ -175,7 +243,12 @@ namespace GoogleARCore
                     return false;
                 }
 
-                var metadataHandle = nativeSession.FrameApi.AcquireImageMetadata();
+                IntPtr metadataHandle = IntPtr.Zero;
+                if (!nativeSession.FrameApi.AcquireImageMetadata(ref metadataHandle))
+                {
+                    return false;
+                }
+
                 var isSuccess = nativeSession.CameraMetadataApi.GetAllCameraMetadataTags(metadataHandle,
                     outMetadataTags);
                 nativeSession.CameraMetadataApi.Release(metadataHandle);
@@ -225,18 +298,34 @@ namespace GoogleARCore
             }
 
             /// <summary>
+            /// This method has been deprecated. Please use Frame.PointCloud.GetPointAsStruct instead.
             /// Gets a point from the point cloud at a given index.
             /// The point returned will be a Vector4 in the form <x,y,z,c> where the first three dimensions describe
             /// the position of the point in the world and the last represents a confidence estimation in the range [0, 1).
             /// </summary>
             /// <param name="index">The index of the point cloud point to get.</param>
             /// <returns>The point from the point cloud at <c>index</c> along with its confidence.</returns>
+            [System.Obsolete("Frame.PointCloud.GetPoint has been deprecated. " +
+             "Please use Frame.PointCloud.GetPointAsStruct instead.")]
             public static Vector4 GetPoint(int index)
             {
+                var point = GetPointAsStruct(index);
+                return new Vector4(point.Position.x, point.Position.y, point.Position.z, point.Confidence);
+            }
+
+            /// <summary>
+            /// Gets a point from the point cloud at the given index.  If the point is inaccessible due to session
+            /// state or an out-of-range index a point will be returns with the <c>Id</c> field set to
+            /// <c>PointCloudPoint.k_InvalidPointId</c>.
+            /// </summary>
+            /// <param name="index">The index of the point cloud point to get.</param>
+            /// <returns>The point from the point cloud at <c>index</c>.</returns>
+            public static PointCloudPoint GetPointAsStruct(int index)
+            {
                 var nativeSession = LifecycleManager.Instance.NativeSession;
-                if (nativeSession == null)
+                if (nativeSession == null || index >= PointCount)
                 {
-                    return Vector4.zero;
+                    return new PointCloudPoint(PointCloudPoint.InvalidPointId, Vector3.zero, 0.0f);
                 }
 
                 return nativeSession.PointCloudApi.GetPoint(nativeSession.PointCloudHandle, index);
@@ -248,6 +337,7 @@ namespace GoogleARCore
             /// of the point in the world and the last represents a confidence estimation in the range [0, 1).
             /// </summary>
             /// <param name="points">A list that will be filled with point cloud points by this method call.</param>
+            [System.Obsolete("Frame.PointCloud.CopyPoints has been deprecated. Please copy points manually instead.")]
             public static void CopyPoints(List<Vector4> points)
             {
                 points.Clear();
@@ -257,7 +347,11 @@ namespace GoogleARCore
                     return;
                 }
 
-                nativeSession.PointCloudApi.CopyPoints(nativeSession.PointCloudHandle, points);
+                for (int i = 0; i < PointCount; i++)
+                {
+                    var point = GetPointAsStruct(i);
+                    points.Add(new Vector4(point.Position.x, point.Position.y, point.Position.z, point.Confidence));
+                }
             }
         }
 

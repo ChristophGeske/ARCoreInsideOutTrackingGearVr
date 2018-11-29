@@ -16,3 +16,4 @@ MonoBehaviour:
   EnableLightEstimation: 0
   EnableCloudAnchor: 0
   AugmentedImageDatabase: {fileID: 0}
+  CameraFocusMode: 1

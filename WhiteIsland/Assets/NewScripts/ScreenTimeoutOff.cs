@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* On Daydream/Cardboard devices the screen might turn into TimeOff because it is on but doesn't get touched.
+ */
 public class ScreenTimeoutOff : MonoBehaviour {
 
 	// Use this for initialization

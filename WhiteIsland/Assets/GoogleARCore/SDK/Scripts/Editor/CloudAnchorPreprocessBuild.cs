@@ -28,23 +28,13 @@ namespace GoogleARCoreInternal
     using UnityEditor.Build;
     using UnityEngine;
 
-    internal class CloudAnchorPreprocessBuild : IPreprocessBuild
+    internal class CloudAnchorPreprocessBuild : PreprocessBuildBase
     {
         private const string k_ManifestTemplateGuid = "5e182918f0b8c4929a3d4b0af0ed6f56";
         private const string k_PluginsFolderGuid = "93be2b9777c348648a2d9151b7e233fc";
         private const string k_RuntimeSettingsPath = "GoogleARCore/Resources/RuntimeSettings";
 
-        [SuppressMessage("UnityRules.UnityStyleRules", "US1000:FieldsMustBeUpperCamelCase",
-         Justification = "Overriden property.")]
-        public int callbackOrder
-        {
-            get
-            {
-                return 0;
-            }
-        }
-
-        public void OnPreprocessBuild(BuildTarget target, string path)
+        public override void OnPreprocessBuild(BuildTarget target, string path)
         {
             if (target == BuildTarget.Android)
             {
@@ -89,7 +79,7 @@ namespace GoogleARCoreInternal
                 }
 
                 // Replace the project's cloud anchor AAR with the newly generated AAR.
-                Debug.Log("Enabling cloud anchors in this build.");
+                Debug.Log("Enabling Cloud Anchors in this build.");
 
                 var tempDirectoryPath = Path.Combine(cachedCurrentDirectory, FileUtil.GetUniqueTempPathInProject());
 
