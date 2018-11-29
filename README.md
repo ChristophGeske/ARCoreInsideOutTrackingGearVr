@@ -21,22 +21,23 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking. 
       
+      - Currently WhiteIsland.apk has the least amount of bugs but BoxyRoomCardboard.apk is the easiest to install.
+      
 
 # Software Description:
 
-++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled.
+++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. The WhiteIsland project is meant for GearVR and the BoxyRoomChardboard project is meant for Cardboard/Daydream devices. The WhiteIsland project uses the latest improvements and should be your first choice. The BoxyRoomChardboard project still has some bugs and I actively work on improving it. 
 
 ++ VikingVillage is a unity project where a Seurat generated mesh was imported. Attention: Some bigger folders are compressed and need to be unzipped bevore starting the project.
 
-++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable real world boundary visualisation.
+++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button (press half a second and relese quickly) to 
+enable/disable visualisation of real world boundaries. Press the touchped on the GearVR or the gear controller to recenter view when it gets missaligned.
 
 ++ BoxyRoomCardboard.apk is build for Google Cardboard and Daydream ready devices. The app should run on every smartphone with Android 7.0 but positional tracking also needs ARCore which is only supported by some newer smartphones. Check out if your device supports ARCore (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file.  ( Currently the controller is not supported so you have to walk through the room. ;) ) Lauren Weinstein published a possible solution to get a free camera view when using the daydream headset. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slighly outward after first putting them in the center of the daydream headset.
 
 ++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of an ultra high-quality environments and allows for free movement in this captured area.
 
 ++ VikingVillageCardboard.apk is the Daydream/Cardboard version of the Seurat experience. No signing needed just install ARcore and the .apk file.
-
-++ HelloARCore.apk is a small non GearVR app which can help you understand the scanning process of the ARCore app. This apk doesn't need to be signed because it isn't a GearVR app, but the ARCore app must be installed. ARCore v1.0.0 can scan horizontal plains (floor/ceiling) and highly textured vertical plaines (posters/bookshelf).
 
 ++ VikingVillageForOculusGO.apk The Oculus GO has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users I added controller support and Go users can now fly through the scene by pressing the touchpad. (Should work on the GO device but I haven't tested it myself. Let me know if it doesn't work.)
       
