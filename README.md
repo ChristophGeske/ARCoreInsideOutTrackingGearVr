@@ -21,7 +21,8 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking. 
       
-      - Currently WhiteIsland.apk has the least amount of bugs but BoxyRoomCardboard.apk is the easiest to install.
+      - Currently WhiteIsland.apk has the least amount of bugs but BoxyRoomCardboard.apk is still the easiest 
+      to install.
       
 
 # Software Description:
