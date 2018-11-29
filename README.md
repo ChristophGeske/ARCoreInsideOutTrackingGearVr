@@ -1,20 +1,16 @@
-# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.3.0
-ARCore v1.3.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
+# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.5.0
+ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
 
 # Introducing Remarks:
 
       
       - WARNING YOU MIGHT GET SICK: The positional tracking via the camera leads to small movements even 
       when standing still or moving slowly. When using the cardboard version without a daydream ready phone
-      the tracking is noticeably worse. If possible use the GearVR or Daydream capable device.  
+      the tracking is noticeably worse. If possible use a GearVR or Daydream capable device.  
       
       - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking
       severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is
-      best to stay still and only move slightly from left to right. 
-      After the tracking is initialised slowly move and look once around your room to allow ARCore to 
-      scan the area. Now the tracking should be stable enough for faster head movements. If the VR and 
-      real world movement doesn't line up correctly restart the app and keep your head steady when the app 
-      is starting up. To better understand how ARCore scans the room you can install the HelloARCore.apk.
+      best to stay still.   
       
       - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
@@ -78,9 +74,9 @@ Another option for signing an .apk file is explained in this video https://www.y
 
 # TODO's and future work:
 
-Since ARCores latest version supports multithreaded rendering, I expect much better performance when I switch to the latest ARCore Unity plugin. I will test this soon.
+Since ARCores latest version supports multithreaded rendering, I expect better performance. The WhiteIsland version has multithreaded rendering enabled and I will soon test if the phone now handels bigger worlds and more objects. 
 
-I am currently working on a version using the Vuforia Fusion Unity Plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
+I am currently working on a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
 There are a few disadvantages that I can already see and which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
 The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
 Because of these drawbacks and the bucket of bugs in my current version, I haven't published the 6DoF controller feature yet. If you can't wait to try it out let me know than I upload the buggy version for you.
@@ -93,11 +89,11 @@ I am currently working on implementing hand tracking using software from Manomot
 
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
-uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the beta at the moment.
+uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the software as well but had no luck so far.
 
 <a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
 
-In the future ARCore agumented image might be able to track a moving marker for example one on a glove. ARKit2 is already able to do it (https://www.youtube.com/watch?v=ySYFZwkZoio) and a 6DoF VR Game with hand control should already be possible on iPhones. This will be the first thing I implement when ARCore supports moving markers.
+In the future ARCore agumented image might be able to track a moving marker for example one on a glove. ARKit2 is already able to do it (https://www.youtube.com/watch?v=ySYFZwkZoio) and a 6DoF VR Game with hand control should already be possible on iPhones. 
 
 A multiplayer VR game using ARCores cloud ancor should be possible but I am currently not working on it. Here is how it could look like. https://i.imgur.com/ZX9Veen.gifv
 
@@ -106,7 +102,7 @@ A multiplayer VR game using ARCores cloud ancor should be possible but I am curr
 iPhone + ARKit + Cardboard project can be found here: 
 https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md
 
-Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues. 
+Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. 
 https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
 
 Using Google Tango:
@@ -117,32 +113,30 @@ https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well.
 
 # How to Seurat:
 
-What is seurat? Read the introduction here: https://developers.google.com/vr/discover/seurat
-In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see blue areas and distorted meshes. This is the limitation of this technique but the are can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
-Here you can learn how to capture your high quality scenes: 
+What is Seurat? Read the introduction here: https://developers.google.com/vr/discover/seurat
+In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
+Here you can learn how to capture a high quality scene: 
 https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/. Please watch this video if you are interested in how the scene was captured.
 
 
 <a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/42789551-2fcdf678-8966-11e8-9f7d-95efef814bc2.png" width="448"></a>
 
 
-You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipeline to transform the captured data. See the reddit post for more details 
+You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipeline to transform the captured data. See the reddit post for more details. 
 Here you can learn how to bring the captured scene in your unity project:
 https://github.com/googlevr/seurat-unity-plugin
 
 # Trouble Shooting:
 
-Loosing tracking is a problem you will experience when the room is not tracked completely and you moved your head to fast. Try to make slow movements and hold your head still for the first few seconds until ARCore has detected the surrounding.
+If you loose tracking and the virtual and real world movement doesn't line up correctly press the touchped on your GearVR controller or the touchped on the side of your GearVR to realign the view. If using the daydream versions there is no convenient solution yet and you need to restart the whole app I am working on a solution to make it easier or automatic. If you move slowly you can also avoid the the missalinement issue on Daydream devices.
 
-If the positional tracking does not work, please make sure you installed the right ARCore App (ARCore 1.2). 
+If the positional tracking does not work, please make sure you installed the right ARCore App (ARCore 1.2 or higher). 
 
 Sometimes the ARCore App seems to crash in the background stoping the positional tracking from working (in my case even the regular Camera freezes) restart the phone to fix this issue.
 
 If you experience very low frames and bad jittering please restart the phone and try again sometimes the phone does things in the background that hurt performance. The app should run smoothly at 60fps.
 
 Everything here was tested on the S7 if you have problems getting it to work please open a new issue and let me know.
-
-Overheating on the S7 might be an issue. Sticking a wet tissue to the back of the phone is an effective, cheap and simple solution.
 
 # Credit:
 
