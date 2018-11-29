@@ -16,7 +16,7 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
       yet. Because they use dedicated hardware they can offer better performance. A good review can be 
       found here (https://medium.com/@iBrews/standalone-vr-a-developers-review-1bb69feb6dcc) The Oculus 
-      Santa Cruz which is expected for 2019 will also offer 6DoF tracking and feature two 6DoF 
+      Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF 
       tracked hand controllers which should make it a highly desirable device. Interestingly the HTC 
       Vive Focus only uses one camera for 6DoF tracking while the Mirage Solo uses booth cameras for 
       positional tracking. 
