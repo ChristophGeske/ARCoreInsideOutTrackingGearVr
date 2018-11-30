@@ -73,12 +73,9 @@ Another option for signing an .apk file is explained in this video https://www.y
 
 # TODO's and future work:
 
-Since ARCores latest version supports multithreaded rendering, I expect better performance. The WhiteIsland version has multithreaded rendering enabled and I will soon test if the phone now handels bigger worlds and more objects. 
-
-I am currently working on a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
-There are a few disadvantages that I can already see and which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
+I was working on a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
+There are a few problems which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
 The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
-Because of these drawbacks and the bucket of bugs in my current version, I haven't published the 6DoF controller feature yet. If you can't wait to try it out let me know than I upload the buggy version for you.
 
 ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
 
