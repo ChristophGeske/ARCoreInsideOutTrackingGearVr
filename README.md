@@ -24,6 +24,10 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       - Currently WhiteIsland.apk has the least amount of bugs but BoxyRoomCardboard.apk is still the easiest 
       to install.
       
+      - Your phone might get hot very quickly. Make sure to end the game after using it. The Daydream/Chardboard 
+      version seems to stay on even if the phone gets very hot while the GearVR version turns itself off if the 
+      phone gets to hot. Therefore Daydream/Cardboard users should make sure to end the game after use.
+      
 
 # Software Description:
 
