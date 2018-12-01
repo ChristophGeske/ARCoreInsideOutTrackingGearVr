@@ -68,7 +68,15 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 
 <b>Signing the .apk file:</b>
 
-Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+Download the WhiteIsland.apk. or the vikingVillage.apk. 
+
+The quickest option I found is signing the apk by using the Injector for GearVR app: 
+https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en
+Just safe the .apk file on your phone use the Injector app to sign it and install. 
+Make sure the app you wanna sign and install is not already installed on your phone because in my case this prevents the app from installing.  
+
+If the Injector app doesn't work for you try this alternative:
+Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 
 <a href="https://youtu.be/WX626Dbj1Cc"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
