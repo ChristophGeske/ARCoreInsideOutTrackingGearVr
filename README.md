@@ -76,8 +76,6 @@ Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID 
 
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
 
-Another option for signing an .apk file is explained in this video https://www.youtube.com/watch?v=UkhA10S9VrY and you don't need to use the terminal for that option. Instead of Warp which doesn't seem to work anymore please use the app Device ID to acess your ID. You might also need to create your own asset folder when following the given steps.
-
 # TODO's and future work:
 
 I was working on a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
