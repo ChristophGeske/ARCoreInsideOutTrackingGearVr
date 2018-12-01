@@ -113,10 +113,28 @@ namespace GoogleARCore
         }
 
         /// <summary>
+        /// Gets the type of the plane.
+        /// </summary>
+        public DetectedPlaneType PlaneType
+        {
+            get
+            {
+                if (_IsSessionDestroyed())
+                {
+                    Debug.LogError("PlaneType:: Trying to access a session that has already been destroyed.");
+                    return DetectedPlaneType.HorizontalUpwardFacing;
+                }
+
+                return m_NativeSession.PlaneApi.GetPlaneType(m_TrackableNativeHandle);
+            }
+        }
+
+        /// <summary>
         /// Gets a list of points (in clockwise order) in Unity world space representing a boundary polygon for
         /// the plane.
         /// </summary>
         /// <param name="boundaryPolygonPoints">A list of <b>Vector3</b> to be filled by the method call.</param>
+        [SuppressMemoryAllocationError(Reason = "List could be resized.")]
         public void GetBoundaryPolygon(List<Vector3> boundaryPolygonPoints)
         {
             if (_IsSessionDestroyed())

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class antialisingCorrection : MonoBehaviour {
+/* Antialising smoothes corners and setting it via script was easier than setting it under the 
+ * quality options.
+ */
+public class AntialisingCorrection : MonoBehaviour {
 
 	void Start () {
-		QualitySettings.antiAliasing = 2;
+        // higher values up to 4 ight look better but 2 is recommendet for mobile VR.
+        QualitySettings.antiAliasing = 2;
 	}
 }
-
-
-
