@@ -59,7 +59,7 @@ Video showing BoxyRoomCardboard.apk in action.
 
 # GearVR Versions (apps need to be signed first):
 
-GearVR: Installing is a bit more complicated because apps need to be signed to work on your device. If you have a S8 or S9 it's much easier to just use the Cardboard/Daydream version which doesn't need to be signed. 
+GearVR: Installing is a bit more complicated because apps need to be signed to work on your device. If you have a S8 or S9 und you just wanna try it out it's much easier to use the Cardboard/Daydream version which doesn't need to be signed. However the GearVR version is better because I can test it myself and I include all the new features there first. 
 
 <a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
