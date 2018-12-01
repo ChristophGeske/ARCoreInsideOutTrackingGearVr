@@ -67,6 +67,7 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 
 
 Signing the .apk file:
+
 Download the WhiteIsland.apk. or the vikingVillage.apk. Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 
