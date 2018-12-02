@@ -101,6 +101,8 @@ A multiplayer VR game using ARCores cloud ancor should be possible but I am curr
 
 # Other Interesting Projects:
 
+The iconic shooter game Quake can now be played using the GearVR with the option to use positional tracking. A good introduction video can be found here: https://youtu.be/acEz98Ol8NI. The game and sourcecode can be downloaded here: https://github.com/DrBeef/QuakeGVR/releases. After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the tracking accuracy, the high framerate of the camera and the performance even on old phones like the S7. It seems like the developer did not use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone. He also seemed to manage to get a higher framerate from the ARCore camera and doesn't need to use tricks to simulate 60fps like I did in this project. I think this is excellent work and you should check it out.  
+
 iPhone + ARKit + Cardboard project can be found here: 
 https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md
 
