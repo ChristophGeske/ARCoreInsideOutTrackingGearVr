@@ -157,7 +157,7 @@ Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 # Detailed Implementation Information :
 
-Follow these steps to get Inside-Out-Tracking working on your GearVR:
+Following some of the steps which where required for this project. Those steps might not be compleate or up to date.
 
 1.) Import the arcore-unity-sdk-v1.3.0.unitypackage into Unity like outlined here: https://developers.google.com/ar/develop/unity/quickstart
       
