@@ -1,0 +1,12 @@
+{
+    "name": "VuforiaEditorScripts",
+    "references": [
+        "VuforiaScripts"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

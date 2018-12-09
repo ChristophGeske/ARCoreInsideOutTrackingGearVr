@@ -38,6 +38,9 @@ namespace GoogleARCoreInternal
     {
         private NativeSession m_NativeSession;
 
+        // Throttle warnings to at most once every N seconds.
+        private ThrottledLogMessage m_FailedToAcquireWarning = new ThrottledLogMessage(5f);
+
         public FrameApi(NativeSession nativeSession)
         {
             m_NativeSession = nativeSession;
@@ -71,7 +74,9 @@ namespace GoogleARCoreInternal
                 m_NativeSession.FrameHandle, ref cameraImageHandle);
             if (status != ApiArStatus.Success)
             {
-                Debug.LogWarningFormat("Failed to acquire camera image with status {0}", status);
+                m_FailedToAcquireWarning.ThrottledLogWarningFormat(
+                    "Failed to acquire camera image with status {0}.\n" +
+                    "Will continue to retry.", status);
                 return new CameraImageBytes(IntPtr.Zero);
             }
 
@@ -99,7 +104,7 @@ namespace GoogleARCoreInternal
                 m_NativeSession.FrameHandle, ref imageMetadataHandle);
             if (status != ApiArStatus.Success)
             {
-                Debug.LogErrorFormat("Unabled to aquire camera image metadata: {0}", status);
+                Debug.LogErrorFormat("Failed to aquire camera image metadata with status {0}", status);
                 return false;
             }
 

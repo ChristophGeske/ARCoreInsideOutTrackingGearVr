@@ -40,10 +40,21 @@ namespace GoogleARCoreInternal
     {
         public AugmentedImageDatabaseApi(NativeSession nativeSession)
         {
+            if (Application.isEditor)
+            {
+                Debug.LogWarning("Augmented Images not supported in editor.\n" +
+                                 "To test your app, build and run on device.");
+            }
         }
 
         public IntPtr CreateArPrestoAugmentedImageDatabase(byte[] rawData)
         {
+            if (Application.isEditor)
+            {
+                // ArPrestoAugmentedImageDatabase_create() not supported in editor.
+                return IntPtr.Zero;
+            }
+
             IntPtr outDatabaseHandle = IntPtr.Zero;
             GCHandle handle = new GCHandle();
             IntPtr rawDataHandle = IntPtr.Zero;
