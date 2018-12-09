@@ -1,5 +1,5 @@
-# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.5.0
-ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
+# Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0
+ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
 
 # Introducing Remarks:
 
@@ -8,17 +8,16 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       when standing still or moving slowly. When using the cardboard version without a daydream ready phone
       the tracking is noticeably worse. If possible use a GearVR or Daydream capable device.  
       
-      - Fast movements, featureless white areas and poorly lit areas can affect the quality of tracking
-      severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is
-      best to stay still.   
+      - Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the 
+      app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still.   
       
-      - Your phone might get hot very quickly. Make sure to end the game after using it. The Daydream/Chardboard 
+      - Your phone might get hot very quickly. Make sure to end the game after using. The Daydream/Chardboard 
       version seems to stay on even if the phone gets very hot while the GearVR version turns itself off if the 
-      phone gets to hot. Therefore Daydream/Cardboard users should make sure to end the game after use.
+      phone gets to hot. Therefore Daydream/Cardboard users should make sure to end the app after use.
       
       - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
-      Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere 
-      yet. Because they use dedicated hardware they can offer better performance. The Oculus 
+      Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. 
+      Because they use dedicated hardware they can offer better performance and quality tracking. The Oculus 
       Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF 
       tracked hand controllers which should make it a highly desirable device. 
       
@@ -30,6 +29,8 @@ ARCore v1.5.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ VikingVillage is a unity project where a Seurat generated mesh was imported. Attention: Some bigger folders are compressed and need to be unzipped bevore starting the project.
 
+++ MovingMarkerTracking is a Unity Project using Vuforia Vusion to combine ARCore and Vuforia markertracking. This combination of good positional tracking and acceptable moving marker tracking allows for 6DOF hand inputs in a limited area in front of the camera.
+
 ++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button (press half a second and relese quickly) to 
 enable/disable visualisation of real world boundaries. Press the touchped on the GearVR headset to recenter view when you experience a missalignement between real and virtual movement (This feature was introduced in the latest updates.). 
 
@@ -40,6 +41,7 @@ enable/disable visualisation of real world boundaries. Press the touchped on the
 ++ VikingVillageCardboard.apk is the Daydream/Cardboard version of the Seurat experience. No signing needed just install ARcore and the .apk file.
 
 ++ VikingVillageForOculusGO.apk The Oculus GO has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users as well I added controller support and Go users can now fly through the scene by pressing the touchpad. (Should work on GO devices but I haven't tested it myself. Let me know if it doesn't work.)
+
       
 # Installation options:
 
@@ -79,9 +81,7 @@ Video showing VikingVillage (Seurat) 6DoF GearVR version.
 
 # TODO's and future work:
 
-I was working on a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I can already confirm that it works. By using a small paper marker that I attached to the controller I can move the controller in 6DoF. 
-There are a few problems which will likely prevent the GearVR from ever having acceptable 6DoF controller tracking via the camera.
-The biggest issue is that the area in which the marker can be seen by the camera is way to small to feel immersed. Another issue is that when the marker comes to close to the camera the room tracking gets affected negatively.
+MovingMarkerTracking is a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I do not realy like the Vuforia Fusion Unity plugin since some settings are still very confusing and I miss some of the usfull settings I know from ARCore. So far i was not able to combine the marker tracking with my other projects. This either needs some more thinking or is not possible at this stage. So enought work to do on this front. 
 
 ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
 
