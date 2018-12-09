@@ -87,7 +87,7 @@ ALVR might profit from some good head tracking. Check out the project if you hav
 
 The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by the Lerp function. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. It seems ARCore allows for different FPS on different devices https://stackoverflow.com/questions/47105427/framerate-issues-on-samsung-s8. I don't have a Pixel 2 phone to test this but if it is true the Pixel 2 could have much better tracking capabilities because the ARCore frame rate is a real bottelneck. 
 
-I am currently working on implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore this should be possible now. 
+I am currently looking into implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore this should be possible. Unfortenatly the performance requirements are very high preventing it from beeing used for VR applications. Moving marker tracking looks like it could work better since the software is more optemized. Also detecting skinn coulour and therby the hands seems to be complicated and doesnt work very well right now.   
 
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
@@ -95,9 +95,9 @@ uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tra
 
 <a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
 
-In the future ARCore agumented image might be able to track a moving marker for example one on a glove. ARKit2 is already able to do it (https://www.youtube.com/watch?v=ySYFZwkZoio) and a 6DoF VR Game with hand control should already be possible on iPhones. 
+In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. See here for ARKit2 marker tracking (https://www.youtube.com/watch?v=ySYFZwkZoio) and see my MovingMarkerTracking project if you are interested in a working version for Android. 
 
-A multiplayer VR game using ARCores cloud ancor should be possible but I am currently not working on it. Here is how it could look like. https://i.imgur.com/ZX9Veen.gifv
+A multiplayer VR game using ARCores cloud ancors should be possible but I am currently not working on it. Here is how it could look like. https://i.imgur.com/ZX9Veen.gifv
 
 # Other Interesting Projects:
 
