@@ -115,6 +115,10 @@ Tango is only available on the Asus Zenfone AR and has better room tracking abil
 Cardboard AR (HoloKit): 
 https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well. 
 
+Kinect + GearVR seems be suited to bring full body movement to the GearVR: https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/
+Since Kinect and Leap Motion sensors are quite cheap combining this and ARCore head tracking could result in a cheap emersive VR experience. 
+
+
 # How to Seurat:
 
 What is Seurat? Read the introduction here: https://developers.google.com/vr/discover/seurat
