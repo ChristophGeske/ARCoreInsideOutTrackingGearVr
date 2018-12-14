@@ -29,7 +29,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 ++ VikingVillage is a unity project where a Seurat generated mesh was imported. Attention: Some bigger folders are compressed and need to be unzipped bevore starting the project.
 
-++ MovingMarkerTracking is a Unity project using Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF hand interactions in a limited area in front of the camera.
+++ MovingMarkerTracking is a Unity project using Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. Tha marker that this app is able to track can be found here (https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply display the marker on your pc screen or print it on paper and look at through the camera when the app is running. 
 
 ++ WhiteIsland.apk is an optimised positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button (press half a second and relese quickly) to 
 enable/disable visualisation of real world boundaries. Press the touchped on the GearVR headset to recenter view when you experience a missalignement between real and virtual movement (This feature was introduced in the latest updates.). 
