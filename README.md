@@ -85,9 +85,7 @@ MovingMarkerTracking is a version using the Vuforia Fusion Unity plugin (https:/
 
 ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
 
-The tracking could be more stable regarding the issue with the low frame rates (30fps) of the ARCamera (on Samsung phones). My latest updates almost fixes the problem completely by making it less noticeable through smoothing the camera movement by the SmoothDamp method. The issue with low frame rates was shortly discussed in the ARCore developer forum here: (https://github.com/google-ar/arcore-unity-sdk/issues/34) and here: (https://github.com/google-ar/arcore-unity-sdk/issues/141) but it is unclear if Google is working on improving this issue. 
-
-I am currently looking into implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore this should be possible. Unfortenatly the performance requirements are very high preventing it from beeing used for VR applications. Moving marker tracking looks like it could work better since the software is more optemized. Also detecting skinn coulour and therby the hands seems to be complicated and doesnt work very well right now.   
+I am currently looking into implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore. Unfortenatly the performance requirements are very high preventing it from beeing used for VR applications. Moving marker tracking looks like it could work better since the software is more optemized. Also detecting skinn coulour and therby the hands seems to be complicated and doesnt work very well right now.   
 
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
 
