@@ -82,7 +82,7 @@ Video showing VikingVillage (Seurat) 6DoF GearVR version.
 
 # TODO's and future work:
 
-I am currently only focused on improving the tracking quality. The current versions uses lerp to simulate 60fps and there are some jumps in the tracking which I try to eliminate with the help of filters. 
+I am currently only focused on improving the tracking quality. The current versions uses smoothing functions to simulate 60fps and reduce tracking errors but this introduces latency which leads to motion sickness. The main problem is that ARCore and VR settings in Unity are not compatible which makes these tricks necessary. I am currently working on creating my own VR camera hopfully this will help solve most of the issues the current versions are suffering from. 
 
 MovingMarkerTracking is a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. I do not realy like the Vuforia Fusion Unity plugin since some settings are still very confusing and I miss some of the usfull settings I know from ARCore. So far i was not able to combine the marker tracking with my other projects. This either needs some more thinking or is not possible at this stage. So enought work to do on this front. 
 
