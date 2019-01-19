@@ -22,6 +22,10 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF 
       tracked hand controllers which should make it a highly desirable device. 
       
+      - If you just wanna see how 6dof head tracking feels I would recommend instaling the free game Quake 
+      http://www.quakevr.com/ which currently deliveres the best experience for GearVR/Carrdboard. I hope
+      to deliver you a better tracking experience soon but for now the Quake game is better.
+      
       
 
 # Software Description:
