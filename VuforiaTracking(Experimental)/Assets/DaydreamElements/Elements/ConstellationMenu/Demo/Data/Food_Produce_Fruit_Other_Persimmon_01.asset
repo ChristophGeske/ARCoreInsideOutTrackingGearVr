@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Produce_Fruit_Other_Persimmon_01
+  m_EditorClassIdentifier: 
+  id: 200
+  icon: {fileID: 21300000, guid: 90d77ace2ff52476c891ad8e13ac876a, type: 3}
+  prefab: {fileID: 1738242181574038, guid: 942d1941f0fd49741a3d1a98afa56dfb, type: 2}
+  toolTip: Persimmon
+  tooltipSprite: {fileID: 21300000, guid: 869a7290ea9264aa5947b267f4290f65, type: 3}
+  closeAfterSelected: 1

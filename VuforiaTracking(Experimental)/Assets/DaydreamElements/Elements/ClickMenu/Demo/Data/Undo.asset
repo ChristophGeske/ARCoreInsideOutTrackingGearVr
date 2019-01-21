@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d3480dc2db50146bf7ac1c7c2d6e77, type: 3}
+  m_Name: Undo
+  m_EditorClassIdentifier: 
+  id: 20
+  icon: {fileID: 21300000, guid: 1afda22d0502d1b44b16d3790ba913f1, type: 3}
+  background: {fileID: 0}
+  toolTip: Undo
+  closeAfterSelected: 0

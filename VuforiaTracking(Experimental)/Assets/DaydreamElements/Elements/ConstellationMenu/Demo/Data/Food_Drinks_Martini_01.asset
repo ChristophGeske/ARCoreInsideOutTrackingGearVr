@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Drinks_Martini_01
+  m_EditorClassIdentifier: 
+  id: 154
+  icon: {fileID: 21300000, guid: 10524d37e71114cdfa4a62abf7acd88a, type: 3}
+  prefab: {fileID: 1125162066864956, guid: b765f325404830749a14a74575ab89db, type: 2}
+  toolTip: Martini
+  tooltipSprite: {fileID: 21300000, guid: fec7d1068d432470685301fcb377816b, type: 3}
+  closeAfterSelected: 1

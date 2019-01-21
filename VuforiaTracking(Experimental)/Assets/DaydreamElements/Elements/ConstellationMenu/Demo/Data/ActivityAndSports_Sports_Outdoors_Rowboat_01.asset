@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Outdoors_Rowboat_01
+  m_EditorClassIdentifier: 
+  id: 34
+  icon: {fileID: 21300000, guid: 0880d5007012f4e0288f58f605665807, type: 3}
+  prefab: {fileID: 1020908939558766, guid: 06883fb0eeeb49246b3f9b668f646256, type: 2}
+  toolTip: Rowboat
+  tooltipSprite: {fileID: 21300000, guid: 5c81e946e66194026b81af2ae295f823, type: 3}
+  closeAfterSelected: 1

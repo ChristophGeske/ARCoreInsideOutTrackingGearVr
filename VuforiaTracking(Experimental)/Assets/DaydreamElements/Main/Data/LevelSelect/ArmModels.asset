@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8465ac6a4bb547dd97116832e098653, type: 3}
+  m_Name: ArmModels
+  m_EditorClassIdentifier: 
+  sceneAsset: {fileID: 102900000, guid: 534bf9c38d87545af806b5997a3b119f, type: 3}
+  sceneAssetName: ArmModelsDemo
+  displayName: Arm Models
+  backgroundSprite: {fileID: 21300000, guid: db56299b73a7a4209b7245d4bb4d9746, type: 3}
+  levelSelectResponderPrefab: {fileID: 1000012368361368, guid: 506f649593620468484600f3c2c417c2,
+    type: 2}

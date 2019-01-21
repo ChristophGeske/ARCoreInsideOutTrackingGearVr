@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Snacks_Lollipop_01
+  m_EditorClassIdentifier: 
+  id: 238
+  icon: {fileID: 21300000, guid: 254a9f171b20549dc86f5856e143e215, type: 3}
+  prefab: {fileID: 1768551080525950, guid: f818f97817ebd3c42a030abfc38cff4d, type: 2}
+  toolTip: Lollipop
+  tooltipSprite: {fileID: 21300000, guid: 5d5d819cd90ac4a8a827f42862986510, type: 3}
+  closeAfterSelected: 1

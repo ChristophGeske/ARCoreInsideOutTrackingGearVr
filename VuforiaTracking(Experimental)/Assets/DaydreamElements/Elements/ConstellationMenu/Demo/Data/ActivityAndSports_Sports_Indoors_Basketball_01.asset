@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Indoors_Basketball_01
+  m_EditorClassIdentifier: 
+  id: 16
+  icon: {fileID: 21300000, guid: a48f38dac3bdf428baf63f934cbab2a7, type: 3}
+  prefab: {fileID: 1873846789706618, guid: aec5f29e5fba5594382d2e885a6990a5, type: 2}
+  toolTip: Basketball
+  tooltipSprite: {fileID: 21300000, guid: 0f88c7c5f93134147939206fc591da6c, type: 3}
+  closeAfterSelected: 1

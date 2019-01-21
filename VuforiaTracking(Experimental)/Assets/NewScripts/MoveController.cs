@@ -1,0 +1,31 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/* By using the touchpad you can fly through the Scene.
+ */
+public class MoveController : MonoBehaviour { // By using the touchpad you can fly through the Scene.
+
+    public Vector2 touchPadDirection;
+    public float distance = 1.5f;
+	
+	// Update is called once per frame
+	void Update () {
+
+        // Movement is only possible by pressing the touchpad of the GearVR controller
+        if (OVRInput.Get(OVRInput.Button.One)) 
+        {
+            // moves the player forward in viewing direction when the controller touchpad is pressed.
+            transform.position = transform.position + Camera.main.transform.forward * distance * Time.deltaTime;
+        }
+
+        /*
+        // This code could be used to stear in all four directions
+        if ((touchPadDirection.x >= 0.5f || touchPadDirection.y >= 0.5 || touchPadDirection.x <= -0.5f || touchPadDirection.y <= -0.5) && OVRInput.Get(OVRInput.Button.One)) // If touchpad is gently touched
+        {
+            touchPadDirection = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad, OVRInput.Controller.RTrackedRemote);
+            
+        }
+        */
+    }
+}

@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 03f56efc564a66a489b81a9c9f925ad9
+timeCreated: 1493302860
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CorinthianColumnPlaceholder_GRP
+    100002: IslandPlaceholder_GEO
+    100004: LampPostsPlaceholder_GEO
+    100006: Lf_Back_CorinthianColumn_01_Geo
+    100008: Lf_Back_CorinthianColumn_02_Geo
+    100010: Lf_Back_CorinthianColumn_03_Geo
+    100012: Lf_Back_CorinthianColumn_04_Geo
+    100014: Lf_Back_CorinthianColumn_05_Geo
+    100016: Lf_Back_CorinthianColumn_06_Geo
+    100018: Lf_Frnt_CorinthianColumn_01_Geo
+    100020: Lf_Frnt_CorinthianColumn_02_Geo
+    100022: Lf_Frnt_CorinthianColumn_03_Geo
+    100024: Lf_Frnt_CorinthianColumn_04_Geo
+    100026: Lf_Frnt_CorinthianColumn_05_Geo
+    100028: Lf_Frnt_CorinthianColumn_06_Geo
+    100030: //RootNode
+    100032: Rt_Back_CorinthianColumn_01_Geo
+    100034: Rt_Back_CorinthianColumn_02_Geo
+    100036: Rt_Back_CorinthianColumn_03_Geo
+    100038: Rt_Back_CorinthianColumn_04_Geo
+    100040: Rt_Back_CorinthianColumn_05_Geo
+    100042: Rt_Back_CorinthianColumn_06_Geo
+    100044: Rt_Frnt_CorinthianColumn_01_Geo
+    100046: Rt_Frnt_CorinthianColumn_02_Geo
+    100048: Rt_Frnt_CorinthianColumn_03_Geo
+    100050: Rt_Frnt_CorinthianColumn_04_Geo
+    100052: Rt_Frnt_CorinthianColumn_05_Geo
+    100054: Rt_Frnt_CorinthianColumn_06_Geo
+    100056: SkyMonumentArchwayBrickPlaceholder_Geo
+    100058: SkyMonumentArchwayPlaceholder_Geo
+    100060: SkyMonumentArchwayPlaceholder_Geo_MeshPart0
+    100062: SkyMonumentArchwayPlaceholder_Geo_MeshPart1
+    100064: WingLeftPlaceholder_GEO
+    100066: WingRightPlaceholder_GEO
+    100068: PlazaPlaceholder_GEO
+    400000: CorinthianColumnPlaceholder_GRP
+    400002: IslandPlaceholder_GEO
+    400004: LampPostsPlaceholder_GEO
+    400006: Lf_Back_CorinthianColumn_01_Geo
+    400008: Lf_Back_CorinthianColumn_02_Geo
+    400010: Lf_Back_CorinthianColumn_03_Geo
+    400012: Lf_Back_CorinthianColumn_04_Geo
+    400014: Lf_Back_CorinthianColumn_05_Geo
+    400016: Lf_Back_CorinthianColumn_06_Geo
+    400018: Lf_Frnt_CorinthianColumn_01_Geo
+    400020: Lf_Frnt_CorinthianColumn_02_Geo
+    400022: Lf_Frnt_CorinthianColumn_03_Geo
+    400024: Lf_Frnt_CorinthianColumn_04_Geo
+    400026: Lf_Frnt_CorinthianColumn_05_Geo
+    400028: Lf_Frnt_CorinthianColumn_06_Geo
+    400030: //RootNode
+    400032: Rt_Back_CorinthianColumn_01_Geo
+    400034: Rt_Back_CorinthianColumn_02_Geo
+    400036: Rt_Back_CorinthianColumn_03_Geo
+    400038: Rt_Back_CorinthianColumn_04_Geo
+    400040: Rt_Back_CorinthianColumn_05_Geo
+    400042: Rt_Back_CorinthianColumn_06_Geo
+    400044: Rt_Frnt_CorinthianColumn_01_Geo
+    400046: Rt_Frnt_CorinthianColumn_02_Geo
+    400048: Rt_Frnt_CorinthianColumn_03_Geo
+    400050: Rt_Frnt_CorinthianColumn_04_Geo
+    400052: Rt_Frnt_CorinthianColumn_05_Geo
+    400054: Rt_Frnt_CorinthianColumn_06_Geo
+    400056: SkyMonumentArchwayBrickPlaceholder_Geo
+    400058: SkyMonumentArchwayPlaceholder_Geo
+    400060: SkyMonumentArchwayPlaceholder_Geo_MeshPart0
+    400062: SkyMonumentArchwayPlaceholder_Geo_MeshPart1
+    400064: WingLeftPlaceholder_GEO
+    400066: WingRightPlaceholder_GEO
+    400068: PlazaPlaceholder_GEO
+    2300000: IslandPlaceholder_GEO
+    2300002: LampPostsPlaceholder_GEO
+    2300004: Lf_Back_CorinthianColumn_01_Geo
+    2300006: Lf_Back_CorinthianColumn_02_Geo
+    2300008: Lf_Back_CorinthianColumn_03_Geo
+    2300010: Lf_Back_CorinthianColumn_04_Geo
+    2300012: Lf_Back_CorinthianColumn_05_Geo
+    2300014: Lf_Back_CorinthianColumn_06_Geo
+    2300016: Lf_Frnt_CorinthianColumn_01_Geo
+    2300018: Lf_Frnt_CorinthianColumn_02_Geo
+    2300020: Lf_Frnt_CorinthianColumn_03_Geo
+    2300022: Lf_Frnt_CorinthianColumn_04_Geo
+    2300024: Lf_Frnt_CorinthianColumn_05_Geo
+    2300026: Lf_Frnt_CorinthianColumn_06_Geo
+    2300028: Rt_Back_CorinthianColumn_01_Geo
+    2300030: Rt_Back_CorinthianColumn_02_Geo
+    2300032: Rt_Back_CorinthianColumn_03_Geo
+    2300034: Rt_Back_CorinthianColumn_04_Geo
+    2300036: Rt_Back_CorinthianColumn_05_Geo
+    2300038: Rt_Back_CorinthianColumn_06_Geo
+    2300040: Rt_Frnt_CorinthianColumn_01_Geo
+    2300042: Rt_Frnt_CorinthianColumn_02_Geo
+    2300044: Rt_Frnt_CorinthianColumn_03_Geo
+    2300046: Rt_Frnt_CorinthianColumn_04_Geo
+    2300048: Rt_Frnt_CorinthianColumn_05_Geo
+    2300050: Rt_Frnt_CorinthianColumn_06_Geo
+    2300052: SkyMonumentArchwayBrickPlaceholder_Geo
+    2300054: SkyMonumentArchwayPlaceholder_Geo_MeshPart0
+    2300056: SkyMonumentArchwayPlaceholder_Geo_MeshPart1
+    2300058: WingLeftPlaceholder_GEO
+    2300060: WingRightPlaceholder_GEO
+    2300062: PlazaPlaceholder_GEO
+    3300000: IslandPlaceholder_GEO
+    3300002: LampPostsPlaceholder_GEO
+    3300004: Lf_Back_CorinthianColumn_01_Geo
+    3300006: Lf_Back_CorinthianColumn_02_Geo
+    3300008: Lf_Back_CorinthianColumn_03_Geo
+    3300010: Lf_Back_CorinthianColumn_04_Geo
+    3300012: Lf_Back_CorinthianColumn_05_Geo
+    3300014: Lf_Back_CorinthianColumn_06_Geo
+    3300016: Lf_Frnt_CorinthianColumn_01_Geo
+    3300018: Lf_Frnt_CorinthianColumn_02_Geo
+    3300020: Lf_Frnt_CorinthianColumn_03_Geo
+    3300022: Lf_Frnt_CorinthianColumn_04_Geo
+    3300024: Lf_Frnt_CorinthianColumn_05_Geo
+    3300026: Lf_Frnt_CorinthianColumn_06_Geo
+    3300028: Rt_Back_CorinthianColumn_01_Geo
+    3300030: Rt_Back_CorinthianColumn_02_Geo
+    3300032: Rt_Back_CorinthianColumn_03_Geo
+    3300034: Rt_Back_CorinthianColumn_04_Geo
+    3300036: Rt_Back_CorinthianColumn_05_Geo
+    3300038: Rt_Back_CorinthianColumn_06_Geo
+    3300040: Rt_Frnt_CorinthianColumn_01_Geo
+    3300042: Rt_Frnt_CorinthianColumn_02_Geo
+    3300044: Rt_Frnt_CorinthianColumn_03_Geo
+    3300046: Rt_Frnt_CorinthianColumn_04_Geo
+    3300048: Rt_Frnt_CorinthianColumn_05_Geo
+    3300050: Rt_Frnt_CorinthianColumn_06_Geo
+    3300052: SkyMonumentArchwayBrickPlaceholder_Geo
+    3300054: SkyMonumentArchwayPlaceholder_Geo_MeshPart0
+    3300056: SkyMonumentArchwayPlaceholder_Geo_MeshPart1
+    3300058: WingLeftPlaceholder_GEO
+    3300060: WingRightPlaceholder_GEO
+    3300062: PlazaPlaceholder_GEO
+    4300000: WingLeftPlaceholder_GEO
+    4300002: IslandPlaceholder_GEO
+    4300004: WingRightPlaceholder_GEO
+    4300006: SkyMonumentArchwayBrickPlaceholder_Geo
+    4300008: SkyMonumentArchwayPlaceholder_Geo_MeshPart0
+    4300010: SkyMonumentArchwayPlaceholder_Geo_MeshPart1
+    4300012: LampPostsPlaceholder_GEO
+    4300014: Rt_Back_CorinthianColumn_05_Geo
+    4300016: Rt_Back_CorinthianColumn_06_Geo
+    4300018: Rt_Frnt_CorinthianColumn_05_Geo
+    4300020: Rt_Frnt_CorinthianColumn_04_Geo
+    4300022: Rt_Back_CorinthianColumn_02_Geo
+    4300024: Rt_Frnt_CorinthianColumn_06_Geo
+    4300026: Rt_Frnt_CorinthianColumn_01_Geo
+    4300028: Lf_Frnt_CorinthianColumn_02_Geo
+    4300030: Lf_Back_CorinthianColumn_04_Geo
+    4300032: Lf_Frnt_CorinthianColumn_03_Geo
+    4300034: Lf_Back_CorinthianColumn_01_Geo
+    4300036: Rt_Back_CorinthianColumn_04_Geo
+    4300038: Lf_Back_CorinthianColumn_02_Geo
+    4300040: Lf_Frnt_CorinthianColumn_06_Geo
+    4300042: Rt_Back_CorinthianColumn_03_Geo
+    4300044: Rt_Frnt_CorinthianColumn_02_Geo
+    4300046: Rt_Frnt_CorinthianColumn_03_Geo
+    4300048: Rt_Back_CorinthianColumn_01_Geo
+    4300050: Lf_Back_CorinthianColumn_06_Geo
+    4300052: Lf_Back_CorinthianColumn_05_Geo
+    4300054: Lf_Frnt_CorinthianColumn_01_Geo
+    4300056: Lf_Back_CorinthianColumn_03_Geo
+    4300058: Lf_Frnt_CorinthianColumn_05_Geo
+    4300060: Lf_Frnt_CorinthianColumn_04_Geo
+    4300062: PlazaPlaceholder_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

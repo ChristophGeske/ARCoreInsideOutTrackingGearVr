@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 95545589f4ee031429fea934f3b70259
+timeCreated: 1485273628
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arcticTern_GEO
+    100004: Head
+    100006: Hips
+    100008: Jaw
+    100010: LeftAnkle
+    100012: LeftArm
+    100014: LeftArm_FeatherInfluence
+    100016: LeftElbow
+    100018: LeftEye
+    100020: LeftEyelidLower
+    100022: LeftEyelidUpper
+    100024: LeftFingerBase
+    100026: LeftFingers
+    100028: LeftFoot
+    100030: LeftHand
+    100032: LeftKnee
+    100034: LeftLeg
+    100036: LeftTailFeathers
+    100038: LeftToeBase
+    100040: LeftToeBig
+    100042: LeftToeMiddle
+    100044: LeftToePinky
+    100046: Neck
+    100048: Neck1
+    100050: Neck2
+    100052: RightAnkle
+    100054: RightArm
+    100056: RightArm_FeatherInfluence
+    100058: RightElbow
+    100060: RightEye
+    100062: RightEyelidLower
+    100064: RightEyelidUpper
+    100066: RightFingerBase
+    100068: RightFingers
+    100070: RightFoot
+    100072: RightHand
+    100074: RightKnee
+    100076: RightLeg
+    100078: RightTailFeathers
+    100080: RightToeBase
+    100082: RightToeBig
+    100084: RightToeMiddle
+    100086: RightToePinky
+    100088: Root
+    100090: Spine
+    100092: Tail
+    400000: //RootNode
+    400002: arcticTern_GEO
+    400004: Head
+    400006: Hips
+    400008: Jaw
+    400010: LeftAnkle
+    400012: LeftArm
+    400014: LeftArm_FeatherInfluence
+    400016: LeftElbow
+    400018: LeftEye
+    400020: LeftEyelidLower
+    400022: LeftEyelidUpper
+    400024: LeftFingerBase
+    400026: LeftFingers
+    400028: LeftFoot
+    400030: LeftHand
+    400032: LeftKnee
+    400034: LeftLeg
+    400036: LeftTailFeathers
+    400038: LeftToeBase
+    400040: LeftToeBig
+    400042: LeftToeMiddle
+    400044: LeftToePinky
+    400046: Neck
+    400048: Neck1
+    400050: Neck2
+    400052: RightAnkle
+    400054: RightArm
+    400056: RightArm_FeatherInfluence
+    400058: RightElbow
+    400060: RightEye
+    400062: RightEyelidLower
+    400064: RightEyelidUpper
+    400066: RightFingerBase
+    400068: RightFingers
+    400070: RightFoot
+    400072: RightHand
+    400074: RightKnee
+    400076: RightLeg
+    400078: RightTailFeathers
+    400080: RightToeBase
+    400082: RightToeBig
+    400084: RightToeMiddle
+    400086: RightToePinky
+    400088: Root
+    400090: Spine
+    400092: Tail
+    4300000: arcticTern_GEO
+    7400000: A_ArcticTern_Flap
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: arcticTern_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: A_ArcticTern_Flap
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arcticTern_GEO
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/LeftLeg
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot/LeftToeBase/LeftToeBig
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot/LeftToeBase/LeftToeMiddle
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot/LeftToeBase/LeftToePinky
+        weight: 1
+      - path: Root/Hips/RightLeg
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot/RightToeBase
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot/RightToeBase/RightToeBig
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot/RightToeBase/RightToeMiddle
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot/RightToeBase/RightToePinky
+        weight: 1
+      - path: Root/Hips/Tail
+        weight: 1
+      - path: Root/Hips/Tail/LeftTailFeathers
+        weight: 1
+      - path: Root/Hips/Tail/RightTailFeathers
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/LeftArm
+        weight: 1
+      - path: Root/Spine/LeftArm/LeftArm_FeatherInfluence
+        weight: 1
+      - path: Root/Spine/LeftArm/LeftElbow
+        weight: 1
+      - path: Root/Spine/LeftArm/LeftElbow/LeftHand
+        weight: 1
+      - path: Root/Spine/LeftArm/LeftElbow/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Root/Spine/LeftArm/LeftElbow/LeftHand/LeftFingerBase/LeftFingers
+        weight: 1
+      - path: Root/Spine/Neck
+        weight: 1
+      - path: Root/Spine/Neck/Neck1
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/LeftEye
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/LeftEyelidLower
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/LeftEyelidUpper
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/RightEye
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/RightEyelidLower
+        weight: 1
+      - path: Root/Spine/Neck/Neck1/Neck2/Head/RightEyelidUpper
+        weight: 1
+      - path: Root/Spine/RightArm
+        weight: 1
+      - path: Root/Spine/RightArm/RightArm_FeatherInfluence
+        weight: 1
+      - path: Root/Spine/RightArm/RightElbow
+        weight: 1
+      - path: Root/Spine/RightArm/RightElbow/RightHand
+        weight: 1
+      - path: Root/Spine/RightArm/RightElbow/RightHand/RightFingerBase
+        weight: 1
+      - path: Root/Spine/RightArm/RightElbow/RightHand/RightFingerBase/RightFingers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

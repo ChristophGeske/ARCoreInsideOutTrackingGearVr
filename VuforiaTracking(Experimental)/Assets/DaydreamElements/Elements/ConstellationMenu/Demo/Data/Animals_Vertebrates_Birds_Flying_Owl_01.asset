@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Birds_Flying_Owl_01
+  m_EditorClassIdentifier: 
+  id: 71
+  icon: {fileID: 21300000, guid: b65f76905fc3c4cffb878d605a1691bc, type: 3}
+  prefab: {fileID: 1203429264878692, guid: 64dde1562e3b29a409096f7f0e7c700c, type: 2}
+  toolTip: Owl
+  tooltipSprite: {fileID: 21300000, guid: 148ef23cbc2254c3cadd6eccc49cc13f, type: 3}
+  closeAfterSelected: 1

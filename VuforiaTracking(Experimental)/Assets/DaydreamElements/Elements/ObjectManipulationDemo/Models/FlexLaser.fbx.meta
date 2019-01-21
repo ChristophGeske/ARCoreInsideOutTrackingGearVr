@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 97391a69c51446b458f9bb05c110e112
+timeCreated: 1500415921
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FlexLaser_GEO
+    100004: FlexLaser_Influence0
+    100006: FlexLaser_Influence1
+    100008: FlexLaser_Influence10
+    100010: FlexLaser_Influence11
+    100012: FlexLaser_Influence12
+    100014: FlexLaser_Influence13
+    100016: FlexLaser_Influence14
+    100018: FlexLaser_Influence15
+    100020: FlexLaser_Influence16
+    100022: FlexLaser_Influence17
+    100024: FlexLaser_Influence18
+    100026: FlexLaser_Influence19
+    100028: FlexLaser_Influence2
+    100030: FlexLaser_Influence20
+    100032: FlexLaser_Influence21
+    100034: FlexLaser_Influence22
+    100036: FlexLaser_Influence23
+    100038: FlexLaser_Influence24
+    100040: FlexLaser_Influence3
+    100042: FlexLaser_Influence4
+    100044: FlexLaser_Influence5
+    100046: FlexLaser_Influence6
+    100048: FlexLaser_Influence7
+    100050: FlexLaser_Influence8
+    100052: FlexLaser_Influence9
+    100054: FlexLaser_Influence_0
+    100056: FlexLaser_Influence_1
+    100058: FlexLaser_Influence_10
+    100060: FlexLaser_Influence_11
+    100062: FlexLaser_Influence_12
+    100064: FlexLaser_Influence_13
+    100066: FlexLaser_Influence_14
+    100068: FlexLaser_Influence_15
+    100070: FlexLaser_Influence_16
+    100072: FlexLaser_Influence_17
+    100074: FlexLaser_Influence_18
+    100076: FlexLaser_Influence_19
+    100078: FlexLaser_Influence_2
+    100080: FlexLaser_Influence_20
+    100082: FlexLaser_Influence_21
+    100084: FlexLaser_Influence_22
+    100086: FlexLaser_Influence_23
+    100088: FlexLaser_Influence_24
+    100090: FlexLaser_Influence_3
+    100092: FlexLaser_Influence_4
+    100094: FlexLaser_Influence_5
+    100096: FlexLaser_Influence_6
+    100098: FlexLaser_Influence_7
+    100100: FlexLaser_Influence_8
+    100102: FlexLaser_Influence_9
+    400000: //RootNode
+    400002: FlexLaser_GEO
+    400004: FlexLaser_Influence0
+    400006: FlexLaser_Influence1
+    400008: FlexLaser_Influence10
+    400010: FlexLaser_Influence11
+    400012: FlexLaser_Influence12
+    400014: FlexLaser_Influence13
+    400016: FlexLaser_Influence14
+    400018: FlexLaser_Influence15
+    400020: FlexLaser_Influence16
+    400022: FlexLaser_Influence17
+    400024: FlexLaser_Influence18
+    400026: FlexLaser_Influence19
+    400028: FlexLaser_Influence2
+    400030: FlexLaser_Influence20
+    400032: FlexLaser_Influence21
+    400034: FlexLaser_Influence22
+    400036: FlexLaser_Influence23
+    400038: FlexLaser_Influence24
+    400040: FlexLaser_Influence3
+    400042: FlexLaser_Influence4
+    400044: FlexLaser_Influence5
+    400046: FlexLaser_Influence6
+    400048: FlexLaser_Influence7
+    400050: FlexLaser_Influence8
+    400052: FlexLaser_Influence9
+    400054: FlexLaser_Influence_0
+    400056: FlexLaser_Influence_1
+    400058: FlexLaser_Influence_10
+    400060: FlexLaser_Influence_11
+    400062: FlexLaser_Influence_12
+    400064: FlexLaser_Influence_13
+    400066: FlexLaser_Influence_14
+    400068: FlexLaser_Influence_15
+    400070: FlexLaser_Influence_16
+    400072: FlexLaser_Influence_17
+    400074: FlexLaser_Influence_18
+    400076: FlexLaser_Influence_19
+    400078: FlexLaser_Influence_2
+    400080: FlexLaser_Influence_20
+    400082: FlexLaser_Influence_21
+    400084: FlexLaser_Influence_22
+    400086: FlexLaser_Influence_23
+    400088: FlexLaser_Influence_24
+    400090: FlexLaser_Influence_3
+    400092: FlexLaser_Influence_4
+    400094: FlexLaser_Influence_5
+    400096: FlexLaser_Influence_6
+    400098: FlexLaser_Influence_7
+    400100: FlexLaser_Influence_8
+    400102: FlexLaser_Influence_9
+    2300000: FlexLaser_GEO
+    3300000: FlexLaser_GEO
+    4300000: FlexLaser_GEO
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: FlexLaser_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

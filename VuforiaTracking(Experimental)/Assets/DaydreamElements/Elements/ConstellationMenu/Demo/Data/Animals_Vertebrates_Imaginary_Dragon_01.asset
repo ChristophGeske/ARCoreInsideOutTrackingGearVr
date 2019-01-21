@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Imaginary_Dragon_01
+  m_EditorClassIdentifier: 
+  id: 81
+  icon: {fileID: 21300000, guid: a8994892f87dc40f8bf66a496aa566b3, type: 3}
+  prefab: {fileID: 1874542400159972, guid: bded2c624a369f74c85971de6635ff2b, type: 2}
+  toolTip: Dragon
+  tooltipSprite: {fileID: 21300000, guid: b0330f5a0a4cd41cc9ce2b9fbe6916c6, type: 3}
+  closeAfterSelected: 1

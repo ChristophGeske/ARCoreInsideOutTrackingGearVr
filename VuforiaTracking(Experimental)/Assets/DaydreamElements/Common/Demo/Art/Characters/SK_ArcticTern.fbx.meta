@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 6bab3903a83eb184c9c4d100aa111554
+timeCreated: 1485274068
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arcticTern_GEO
+    100002: //RootNode
+    100004: Head
+    100006: Hips
+    100008: Jaw
+    100010: LeftAnkle
+    100012: LeftArm
+    100014: LeftArm_FeatherInfluence
+    100016: LeftElbow
+    100018: LeftEye
+    100020: LeftEyelidLower
+    100022: LeftEyelidUpper
+    100024: LeftFingerBase
+    100026: LeftFingers
+    100028: LeftFoot
+    100030: LeftHand
+    100032: LeftKnee
+    100034: LeftLeg
+    100036: LeftTailFeathers
+    100038: LeftToeBase
+    100040: LeftToeBig
+    100042: LeftToeMiddle
+    100044: LeftToePinky
+    100046: Neck
+    100048: Neck1
+    100050: Neck2
+    100052: RightAnkle
+    100054: RightArm
+    100056: RightArm_FeatherInfluence
+    100058: RightElbow
+    100060: RightEye
+    100062: RightEyelidLower
+    100064: RightEyelidUpper
+    100066: RightFingerBase
+    100068: RightFingers
+    100070: RightFoot
+    100072: RightHand
+    100074: RightKnee
+    100076: RightLeg
+    100078: RightTailFeathers
+    100080: RightToeBase
+    100082: RightToeBig
+    100084: RightToeMiddle
+    100086: RightToePinky
+    100088: Root
+    100090: Spine
+    100092: Tail
+    400000: arcticTern_GEO
+    400002: //RootNode
+    400004: Head
+    400006: Hips
+    400008: Jaw
+    400010: LeftAnkle
+    400012: LeftArm
+    400014: LeftArm_FeatherInfluence
+    400016: LeftElbow
+    400018: LeftEye
+    400020: LeftEyelidLower
+    400022: LeftEyelidUpper
+    400024: LeftFingerBase
+    400026: LeftFingers
+    400028: LeftFoot
+    400030: LeftHand
+    400032: LeftKnee
+    400034: LeftLeg
+    400036: LeftTailFeathers
+    400038: LeftToeBase
+    400040: LeftToeBig
+    400042: LeftToeMiddle
+    400044: LeftToePinky
+    400046: Neck
+    400048: Neck1
+    400050: Neck2
+    400052: RightAnkle
+    400054: RightArm
+    400056: RightArm_FeatherInfluence
+    400058: RightElbow
+    400060: RightEye
+    400062: RightEyelidLower
+    400064: RightEyelidUpper
+    400066: RightFingerBase
+    400068: RightFingers
+    400070: RightFoot
+    400072: RightHand
+    400074: RightKnee
+    400076: RightLeg
+    400078: RightTailFeathers
+    400080: RightToeBase
+    400082: RightToeBig
+    400084: RightToeMiddle
+    400086: RightToePinky
+    400088: Root
+    400090: Spine
+    400092: Tail
+    4300000: arcticTern_GEO
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: arcticTern_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Terrestrial_Felids_Cat_01
+  m_EditorClassIdentifier: 
+  id: 103
+  icon: {fileID: 21300000, guid: 389d79f2c490c4a219758cff3aee809d, type: 3}
+  prefab: {fileID: 1848725468354396, guid: c3aad38c4c821bd48b259eab4bf9d448, type: 2}
+  toolTip: Cat
+  tooltipSprite: {fileID: 21300000, guid: a4594fcbdb31447d1a4f2ae7b24be85f, type: 3}
+  closeAfterSelected: 1

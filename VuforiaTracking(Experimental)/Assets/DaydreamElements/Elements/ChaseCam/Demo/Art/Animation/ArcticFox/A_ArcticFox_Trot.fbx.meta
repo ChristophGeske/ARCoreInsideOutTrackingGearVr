@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: c82a24e06246245aca19e395b3bdc2a1
+timeCreated: 1489787772
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fox_GEO
+    100004: Head
+    100006: Hips
+    100008: Jaw
+    100010: LeftAnkle
+    100012: LeftEar
+    100014: LeftElbow
+    100016: LeftEye
+    100018: LeftEyelidLower
+    100020: LeftEyelidUpper
+    100022: LeftFoot
+    100024: LeftHand
+    100026: LeftKnee
+    100028: LeftLeg
+    100030: LeftShoulder
+    100032: LeftWrist
+    100034: Neck
+    100036: Neck1
+    100038: Nose
+    100040: RightAnkle
+    100042: RightEar
+    100044: RightElbow
+    100046: RightEye
+    100048: RightEyelidLower
+    100050: RightEyelidUpper
+    100052: RightFoot
+    100054: RightHand
+    100056: RightKnee
+    100058: RightLeg
+    100060: RightShoulder
+    100062: RightWrist
+    100064: Root
+    100066: Spine1
+    100068: Spine2
+    100070: Spine3
+    100072: Tail1
+    100074: Tail2
+    100076: Tail3
+    100078: Tail4
+    100080: Tail5
+    100082: ArcticFox_GEO
+    100084: ArcticFox_CTRL
+    100086: Eyes_CTRL
+    100088: Head 1
+    100090: Head_CTRL
+    100092: Hips 1
+    100094: Hips_CTRL
+    100096: Jaw 1
+    100098: Jaw_CTRL
+    100100: LeftAnkle 1
+    100102: LeftAnkle_CTRL
+    100104: LeftEar 1
+    100106: LeftEar_CTRL
+    100108: LeftElbow 1
+    100110: LeftEye 1
+    100112: LeftEyelidLower 1
+    100114: LeftEyelidUpper 1
+    100116: LeftFoot 1
+    100118: LeftFoot_CTRL
+    100120: LeftHand 1
+    100122: LeftHand_CTRL
+    100124: LeftKnee 1
+    100126: LeftLeg 1
+    100128: LeftShoulder 1
+    100130: LeftWrist 1
+    100132: LeftWrist_CTRL
+    100134: Neck 1
+    100136: Neck1 1
+    100138: Neck1_CTRL
+    100140: Neck_CTRL
+    100142: Nose 1
+    100144: Nose_CTRL
+    100146: RightAnkle 1
+    100148: RightAnkle_CTRL
+    100150: RightEar 1
+    100152: RightEar_CTRL
+    100154: RightElbow 1
+    100156: RightEye 1
+    100158: RightEyelidLower 1
+    100160: RightEyelidUpper 1
+    100162: RightFoot 1
+    100164: RightFoot_CTRL
+    100166: RightHand 1
+    100168: RightHand_CTRL
+    100170: RightKnee 1
+    100172: RightLeg 1
+    100174: RightShoulder 1
+    100176: RightWrist 1
+    100178: RightWrist_CTRL
+    100180: Root 1
+    100182: Root_CTRL
+    100184: RootOffset_CTRL
+    100186: Spine1 1
+    100188: Spine1_CTRL
+    100190: Spine2 1
+    100192: Spine2_CTRL
+    100194: Spine3 1
+    100196: Spine3_CTRL
+    100198: Tail1 1
+    100200: Tail1_CTRL
+    100202: Tail2 1
+    100204: Tail2_CTRL
+    100206: Tail3 1
+    100208: Tail3_CTRL
+    100210: Tail4 1
+    100212: Tail4_CTRL
+    100214: Tail5 1
+    100216: Tail_CTRL
+    400000: //RootNode
+    400002: fox_GEO
+    400004: Head
+    400006: Hips
+    400008: Jaw
+    400010: LeftAnkle
+    400012: LeftEar
+    400014: LeftElbow
+    400016: LeftEye
+    400018: LeftEyelidLower
+    400020: LeftEyelidUpper
+    400022: LeftFoot
+    400024: LeftHand
+    400026: LeftKnee
+    400028: LeftLeg
+    400030: LeftShoulder
+    400032: LeftWrist
+    400034: Neck
+    400036: Neck1
+    400038: Nose
+    400040: RightAnkle
+    400042: RightEar
+    400044: RightElbow
+    400046: RightEye
+    400048: RightEyelidLower
+    400050: RightEyelidUpper
+    400052: RightFoot
+    400054: RightHand
+    400056: RightKnee
+    400058: RightLeg
+    400060: RightShoulder
+    400062: RightWrist
+    400064: Root
+    400066: Spine1
+    400068: Spine2
+    400070: Spine3
+    400072: Tail1
+    400074: Tail2
+    400076: Tail3
+    400078: Tail4
+    400080: Tail5
+    400082: ArcticFox_GEO
+    400084: ArcticFox_CTRL
+    400086: Eyes_CTRL
+    400088: Head 1
+    400090: Head_CTRL
+    400092: Hips 1
+    400094: Hips_CTRL
+    400096: Jaw 1
+    400098: Jaw_CTRL
+    400100: LeftAnkle 1
+    400102: LeftAnkle_CTRL
+    400104: LeftEar 1
+    400106: LeftEar_CTRL
+    400108: LeftElbow 1
+    400110: LeftEye 1
+    400112: LeftEyelidLower 1
+    400114: LeftEyelidUpper 1
+    400116: LeftFoot 1
+    400118: LeftFoot_CTRL
+    400120: LeftHand 1
+    400122: LeftHand_CTRL
+    400124: LeftKnee 1
+    400126: LeftLeg 1
+    400128: LeftShoulder 1
+    400130: LeftWrist 1
+    400132: LeftWrist_CTRL
+    400134: Neck 1
+    400136: Neck1 1
+    400138: Neck1_CTRL
+    400140: Neck_CTRL
+    400142: Nose 1
+    400144: Nose_CTRL
+    400146: RightAnkle 1
+    400148: RightAnkle_CTRL
+    400150: RightEar 1
+    400152: RightEar_CTRL
+    400154: RightElbow 1
+    400156: RightEye 1
+    400158: RightEyelidLower 1
+    400160: RightEyelidUpper 1
+    400162: RightFoot 1
+    400164: RightFoot_CTRL
+    400166: RightHand 1
+    400168: RightHand_CTRL
+    400170: RightKnee 1
+    400172: RightLeg 1
+    400174: RightShoulder 1
+    400176: RightWrist 1
+    400178: RightWrist_CTRL
+    400180: Root 1
+    400182: Root_CTRL
+    400184: RootOffset_CTRL
+    400186: Spine1 1
+    400188: Spine1_CTRL
+    400190: Spine2 1
+    400192: Spine2_CTRL
+    400194: Spine3 1
+    400196: Spine3_CTRL
+    400198: Tail1 1
+    400200: Tail1_CTRL
+    400202: Tail2 1
+    400204: Tail2_CTRL
+    400206: Tail3 1
+    400208: Tail3_CTRL
+    400210: Tail4 1
+    400212: Tail4_CTRL
+    400214: Tail5 1
+    400216: Tail_CTRL
+    4300000: fox_GEO
+    4300002: ArcticFox_GEO
+    7400000: ArcticFox_Trot
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: fox_GEO
+    13700002: ArcticFox_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArcticFox_Trot
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ArcticFox_GEO
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/LeftLeg
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot
+        weight: 1
+      - path: Root/Hips/RightLeg
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot
+        weight: 1
+      - path: Root/Hips/Tail1
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow/LeftWrist/LeftHand
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/Jaw
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEar
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEye
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEyelidLower
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEyelidUpper
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/Nose
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEar
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEye
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEyelidLower
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEyelidUpper
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow/RightWrist/RightHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 448247f0db1b5431b98baf4fa3ab33ce,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

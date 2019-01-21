@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Terrestrial_Felids_Tiger_01
+  m_EditorClassIdentifier: 
+  id: 108
+  icon: {fileID: 21300000, guid: 25880b5a40de040e8a86df8a534ec137, type: 3}
+  prefab: {fileID: 1341783540980136, guid: 24a2749a4483d524cbccfb6f2e39054a, type: 2}
+  toolTip: Tiger
+  tooltipSprite: {fileID: 21300000, guid: c19284332ddd645e9be6e6ac4a5285f8, type: 3}
+  closeAfterSelected: 1

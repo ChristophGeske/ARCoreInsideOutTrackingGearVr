@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Instruments_Trumpet_01
+  m_EditorClassIdentifier: 
+  id: 12
+  icon: {fileID: 21300000, guid: 92c79ae7ae4994676a1da61a40e3ce60, type: 3}
+  prefab: {fileID: 1921829399002140, guid: 68519ff3a0dc9f546b48d37318d1f407, type: 2}
+  toolTip: Trumpet
+  tooltipSprite: {fileID: 21300000, guid: a3e05ba901e144588b6a8b4a92f4b1ce, type: 3}
+  closeAfterSelected: 1

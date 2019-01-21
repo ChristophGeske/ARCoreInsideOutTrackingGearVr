@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Invertebrates_Insects_Fly_01
+  m_EditorClassIdentifier: 
+  id: 52
+  icon: {fileID: 21300000, guid: 98ff079b7c8e6473bbc49c09356ad37c, type: 3}
+  prefab: {fileID: 1655272015012786, guid: 80d7cc30cbf177543a7da3d5171f34e8, type: 2}
+  toolTip: Fly
+  tooltipSprite: {fileID: 21300000, guid: 082d057252f564908a9b6da508e953aa, type: 3}
+  closeAfterSelected: 1

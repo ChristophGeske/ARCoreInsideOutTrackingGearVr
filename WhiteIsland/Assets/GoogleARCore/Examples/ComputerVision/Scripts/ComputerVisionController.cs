@@ -54,11 +54,6 @@ namespace GoogleARCore.Examples.ComputerVision
         public Text CameraIntrinsicsOutput;
 
         /// <summary>
-        /// A Text box that is used to show messages at runtime.
-        /// </summary>
-        public Text SnackbarText;
-
-        /// <summary>
         /// A toggle that is used to select the low resolution CPU camera configuration.
         /// </summary>
         public Toggle LowResConfigToggle;
@@ -69,14 +64,9 @@ namespace GoogleARCore.Examples.ComputerVision
         public Toggle HighResConfigToggle;
 
         /// <summary>
-        /// A toggle that is used to toggle between CPU image and GPU texture.
+        /// A PointClickHandler to detect touch on the entire screen.
         /// </summary>
-        public PointClickHandler ImageTextureToggle;
-
-        /// <summary>
-        /// A toggle that is used to toggle between Fixed and Auto focus modes.
-        /// </summary>
-        public Toggle AutoFocusToggle;
+        public PointClickHandler ScreenTouchHandler;
 
         /// <summary>
         /// A buffer that stores the result of performing edge detection on the camera image each frame.
@@ -100,7 +90,6 @@ namespace GoogleARCore.Examples.ComputerVision
         private bool m_UseHighResCPUTexture = false;
         private ARCoreSession.OnChooseCameraConfigurationDelegate m_OnChoseCameraConfiguration = null;
         private bool m_Resolutioninitialized = false;
-        private Text m_ImageTextureToggleText;
 
         /// <summary>
         /// The Unity Start() method.
@@ -109,18 +98,7 @@ namespace GoogleARCore.Examples.ComputerVision
         {
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
-            ImageTextureToggle.OnPointClickDetected += _OnBackgroundClicked;
-
-            m_ImageTextureToggleText = ImageTextureToggle.GetComponentInChildren<Text>();
-#if UNITY_EDITOR
-            AutoFocusToggle.GetComponentInChildren<Text>().text += "\n(Not supported in editor)";
-            HighResConfigToggle.GetComponentInChildren<Text>().text += "\n(Not supported in editor)";
-            SnackbarText.text =
-                "Use mouse/keyboard in the editor Game view to toggle settings.\n" +
-                "(Tapping on the device screen will not work while running in the editor)";
-#else
-            SnackbarText.text = string.Empty;
-#endif
+            ScreenTouchHandler.OnPointClickDetected += _OnBackgroundClicked;
 
             // Register the callback to set camera config before arcore session is enabled.
             m_OnChoseCameraConfiguration = _ChooseCameraConfiguration;
@@ -144,8 +122,6 @@ namespace GoogleARCore.Examples.ComputerVision
             // Change the CPU resolution checkbox visibility.
             LowResConfigToggle.gameObject.SetActive(EdgeDetectionBackgroundImage.enabled);
             HighResConfigToggle.gameObject.SetActive(EdgeDetectionBackgroundImage.enabled);
-            m_ImageTextureToggleText.text = EdgeDetectionBackgroundImage.enabled ?
-                    "Switch to GPU Texture" : "Switch to CPU Image";
 
             if (!Session.Status.IsValid())
             {
@@ -164,7 +140,7 @@ namespace GoogleARCore.Examples.ComputerVision
 
             var cameraIntrinsics = EdgeDetectionBackgroundImage.enabled
                 ? Frame.CameraImage.ImageIntrinsics : Frame.CameraImage.TextureIntrinsics;
-            string intrinsicsType = EdgeDetectionBackgroundImage.enabled ? "CPU Image" : "GPU Texture";
+            string intrinsicsType = EdgeDetectionBackgroundImage.enabled ? "Image" : "Texture";
             CameraIntrinsicsOutput.text = _CameraIntrinsicsToString(cameraIntrinsics, intrinsicsType);
         }
 
@@ -465,12 +441,11 @@ namespace GoogleARCore.Examples.ComputerVision
             float fovX = 2.0f * Mathf.Atan2(intrinsics.ImageDimensions.x, 2 * intrinsics.FocalLength.x) * Mathf.Rad2Deg;
             float fovY = 2.0f * Mathf.Atan2(intrinsics.ImageDimensions.y, 2 * intrinsics.FocalLength.y) * Mathf.Rad2Deg;
 
-            string message = string.Format("Unrotated Camera {4} Intrinsics:{0}  Focal Length: {1}{0}  " +
-                "Principal Point: {2}{0}  Image Dimensions: {3}{0}  Unrotated Field of View: ({5}°, {6}°)",
+            return string.Format("Unrotated Camera {4} Intrinsics: {0}  Focal Length: {1}{0}  " +
+                "Principal Point:{2}{0}  Image Dimensions: {3}{0}  Unrotated Field of View: ({5}º, {6}º)",
                 Environment.NewLine, intrinsics.FocalLength.ToString(),
                 intrinsics.PrincipalPoint.ToString(), intrinsics.ImageDimensions.ToString(),
                 intrinsicsType, fovX, fovY);
-            return message;
         }
 
         /// <summary>
@@ -484,10 +459,10 @@ namespace GoogleARCore.Examples.ComputerVision
             {
                 Vector2 ImageSize = supportedConfigurations[0].ImageSize;
                 LowResConfigToggle.GetComponentInChildren<Text>().text = string.Format(
-                    "Low Resolution CPU Image ({0} x {1})", ImageSize.x, ImageSize.y);
+                    "Low Resolution ({0} x {1})", ImageSize.x, ImageSize.y);
                 ImageSize = supportedConfigurations[supportedConfigurations.Count - 1].ImageSize;
                 HighResConfigToggle.GetComponentInChildren<Text>().text = string.Format(
-                    "High Resolution CPU Image ({0} x {1})", ImageSize.x, ImageSize.y);
+                    "High Resolution ({0} x {1})", ImageSize.x, ImageSize.y);
 
                 m_Resolutioninitialized = true;
             }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Miscellaneous_Sushi_01
+  m_EditorClassIdentifier: 
+  id: 173
+  icon: {fileID: 21300000, guid: 084734fef88434fca83f24e8e5db21bb, type: 3}
+  prefab: {fileID: 1827119871231080, guid: 2885d23a4c49f044991aa165edb19ac5, type: 2}
+  toolTip: Sushi
+  tooltipSprite: {fileID: 21300000, guid: 471b98976f2ed4af6a78830ea8e5312a, type: 3}
+  closeAfterSelected: 1

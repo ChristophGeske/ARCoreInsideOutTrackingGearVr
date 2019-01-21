@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Reptiles_Gecko_01
+  m_EditorClassIdentifier: 
+  id: 137
+  icon: {fileID: 21300000, guid: 2c6cb271f52ba4deeb07eb39144b8b23, type: 3}
+  prefab: {fileID: 1233894109079368, guid: 27d3a68444705364194dbdaa96bdc1c2, type: 2}
+  toolTip: Gecko
+  tooltipSprite: {fileID: 21300000, guid: 3d2695a6f2ff54413bd9373ce7e1b3ec, type: 3}
+  closeAfterSelected: 1

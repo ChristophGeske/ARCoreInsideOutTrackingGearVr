@@ -30,7 +30,7 @@ namespace GoogleARCore
     /// </summary>
     public struct CameraConfig
     {
-        internal CameraConfig(Vector2 imageSize, Vector2 textureSize) : this()
+        internal CameraConfig(Vector2 imageSize, Vector2 textureSize)
         {
             ImageSize = imageSize;
             TextureSize = textureSize;

@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 6dbd284c6bbc44b60bbb41980be0cc7c
+timeCreated: 1490065122
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: fox_GEO
+    100002: Head
+    100004: Hips
+    100006: Jaw
+    100008: LeftAnkle
+    100010: LeftEar
+    100012: LeftElbow
+    100014: LeftEye
+    100016: LeftEyelidLower
+    100018: LeftEyelidUpper
+    100020: LeftFoot
+    100022: LeftHand
+    100024: LeftKnee
+    100026: LeftLeg
+    100028: LeftShoulder
+    100030: LeftWrist
+    100032: Neck
+    100034: Neck1
+    100036: Nose
+    100038: RightAnkle
+    100040: RightEar
+    100042: RightElbow
+    100044: RightEye
+    100046: RightEyelidLower
+    100048: RightEyelidUpper
+    100050: RightFoot
+    100052: RightHand
+    100054: RightKnee
+    100056: RightLeg
+    100058: RightShoulder
+    100060: RightWrist
+    100062: Root
+    100064: //RootNode
+    100066: Spine1
+    100068: Spine2
+    100070: Spine3
+    100072: Tail1
+    100074: Tail2
+    100076: Tail3
+    100078: Tail4
+    100080: Tail5
+    400000: fox_GEO
+    400002: Head
+    400004: Hips
+    400006: Jaw
+    400008: LeftAnkle
+    400010: LeftEar
+    400012: LeftElbow
+    400014: LeftEye
+    400016: LeftEyelidLower
+    400018: LeftEyelidUpper
+    400020: LeftFoot
+    400022: LeftHand
+    400024: LeftKnee
+    400026: LeftLeg
+    400028: LeftShoulder
+    400030: LeftWrist
+    400032: Neck
+    400034: Neck1
+    400036: Nose
+    400038: RightAnkle
+    400040: RightEar
+    400042: RightElbow
+    400044: RightEye
+    400046: RightEyelidLower
+    400048: RightEyelidUpper
+    400050: RightFoot
+    400052: RightHand
+    400054: RightKnee
+    400056: RightLeg
+    400058: RightShoulder
+    400060: RightWrist
+    400062: Root
+    400064: //RootNode
+    400066: Spine1
+    400068: Spine2
+    400070: Spine3
+    400072: Tail1
+    400074: Tail2
+    400076: Tail3
+    400078: Tail4
+    400080: Tail5
+    4300000: fox_GEO
+    7400000: ArcticFox_Idle
+    9500000: //RootNode
+    13700000: fox_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArcticFox_Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fox_GEO
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/LeftLeg
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Root/Hips/LeftLeg/LeftKnee/LeftAnkle/LeftFoot
+        weight: 1
+      - path: Root/Hips/RightLeg
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle
+        weight: 1
+      - path: Root/Hips/RightLeg/RightKnee/RightAnkle/RightFoot
+        weight: 1
+      - path: Root/Hips/Tail1
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Root/Hips/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/LeftShoulder/LeftElbow/LeftWrist/LeftHand
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/Jaw
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEar
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEye
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEyelidLower
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/LeftEyelidUpper
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/Nose
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEar
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEye
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEyelidLower
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Neck/Neck1/Head/RightEyelidUpper
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/RightShoulder/RightElbow/RightWrist/RightHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 448247f0db1b5431b98baf4fa3ab33ce,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

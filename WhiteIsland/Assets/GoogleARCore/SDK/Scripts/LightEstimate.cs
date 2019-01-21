@@ -37,7 +37,7 @@ namespace GoogleARCore
         /// <param name="colorCorrection">Color correction RGB scaling factors to be
         /// applied to the final color computed by the fragment shader to match the
         /// ambient color.</param>
-        public LightEstimate(LightEstimateState state, float pixelIntensity, Color colorCorrection) : this()
+        public LightEstimate(LightEstimateState state, float pixelIntensity, Color colorCorrection)
         {
             State = state;
             PixelIntensity = pixelIntensity;

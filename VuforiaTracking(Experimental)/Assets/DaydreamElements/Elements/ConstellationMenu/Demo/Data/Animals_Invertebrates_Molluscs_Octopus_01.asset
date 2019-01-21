@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Invertebrates_Molluscs_Octopus_01
+  m_EditorClassIdentifier: 
+  id: 55
+  icon: {fileID: 21300000, guid: 6e979d116b85d42da8e680ca1b711204, type: 3}
+  prefab: {fileID: 1808061059912326, guid: c56f726ba2122a84fa60dd1f3ed92c65, type: 2}
+  toolTip: Octopus
+  tooltipSprite: {fileID: 21300000, guid: 1bafddde7562e4a6c9823d9839ed3286, type: 3}
+  closeAfterSelected: 1

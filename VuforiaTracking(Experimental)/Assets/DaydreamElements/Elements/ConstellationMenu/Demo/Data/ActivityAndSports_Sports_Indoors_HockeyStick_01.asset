@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Indoors_HockeyStick_01
+  m_EditorClassIdentifier: 
+  id: 17
+  icon: {fileID: 21300000, guid: f8670f085507e4f8fb5b68593961c708, type: 3}
+  prefab: {fileID: 1772884993358216, guid: 89564d9cdfa37b84087e962de88f89d8, type: 2}
+  toolTip: Hockey Stick
+  tooltipSprite: {fileID: 21300000, guid: c8e187a2c88dc43179153dd0bade703a, type: 3}
+  closeAfterSelected: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Terrestrial_Ungulates_Deer_01
+  m_EditorClassIdentifier: 
+  id: 125
+  icon: {fileID: 21300000, guid: adf79132870a749f1b81a6ab8017d2ed, type: 3}
+  prefab: {fileID: 1945664660417650, guid: ac4a159578fb2504caef9d961b03a778, type: 2}
+  toolTip: Deer
+  tooltipSprite: {fileID: 21300000, guid: 172b747361b9c4f418f992dabbf80bdd, type: 3}
+  closeAfterSelected: 1

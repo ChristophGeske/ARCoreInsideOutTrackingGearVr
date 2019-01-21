@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Birds_Flying_Hawk_01
+  m_EditorClassIdentifier: 
+  id: 70
+  icon: {fileID: 21300000, guid: 90bc300cc9e56487aa5dd5d092155812, type: 3}
+  prefab: {fileID: 1199761594783418, guid: c1466c140142f254e9efac2274082e6a, type: 2}
+  toolTip: Hawk
+  tooltipSprite: {fileID: 21300000, guid: b8571200c9f864ad688c95a5cd841d7b, type: 3}
+  closeAfterSelected: 1

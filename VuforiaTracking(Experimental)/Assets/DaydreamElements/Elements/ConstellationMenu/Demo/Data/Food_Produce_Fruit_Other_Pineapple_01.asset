@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Produce_Fruit_Other_Pineapple_01
+  m_EditorClassIdentifier: 
+  id: 201
+  icon: {fileID: 21300000, guid: 97532579ff9d14ae0a69d29c887fcc3e, type: 3}
+  prefab: {fileID: 1963672372548944, guid: 0b48dcb63ba0aa24c8e50e9de302e87b, type: 2}
+  toolTip: Pineapple
+  tooltipSprite: {fileID: 21300000, guid: 80729186956154629b9e6afe8726e050, type: 3}
+  closeAfterSelected: 1

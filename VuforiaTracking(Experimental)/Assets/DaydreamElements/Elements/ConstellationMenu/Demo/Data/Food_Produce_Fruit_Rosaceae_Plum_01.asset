@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Produce_Fruit_Rosaceae_Plum_01
+  m_EditorClassIdentifier: 
+  id: 210
+  icon: {fileID: 21300000, guid: 2e66c43fb4842423a95bb61ae7769ee9, type: 3}
+  prefab: {fileID: 1791618497429564, guid: 5d1d7e55beef8864e96beb6c75bcec53, type: 2}
+  toolTip: Plum
+  tooltipSprite: {fileID: 21300000, guid: c0ad1f1d0fdb54d0ab9ffc069e687df8, type: 3}
+  closeAfterSelected: 1

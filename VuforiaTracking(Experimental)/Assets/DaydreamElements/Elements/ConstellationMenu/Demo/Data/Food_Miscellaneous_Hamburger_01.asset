@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Miscellaneous_Hamburger_01
+  m_EditorClassIdentifier: 
+  id: 167
+  icon: {fileID: 21300000, guid: 6183bac3a08a84210ba7d71031492539, type: 3}
+  prefab: {fileID: 1886436065285872, guid: e76b1df3bb23ddc40b5693b18aaa4350, type: 2}
+  toolTip: Hamburger
+  tooltipSprite: {fileID: 21300000, guid: 1ddb4e078fbff4a609ff69aaa8931b95, type: 3}
+  closeAfterSelected: 1

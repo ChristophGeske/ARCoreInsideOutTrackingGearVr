@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Indoors_PingPongBall_01
+  m_EditorClassIdentifier: 
+  id: 19
+  icon: {fileID: 21300000, guid: b887ca657ae32403eac02cfdc298185e, type: 3}
+  prefab: {fileID: 1464436949862850, guid: db03a277d08d1bd41a8de03452c354f9, type: 2}
+  toolTip: Ping Pong Ball
+  tooltipSprite: {fileID: 21300000, guid: 055320de97f64442580bb88f316055cc, type: 3}
+  closeAfterSelected: 1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Miscellaneous_PeanutButterAndJellyJars_01
+  m_EditorClassIdentifier: 
+  id: 169
+  icon: {fileID: 21300000, guid: 82d61e2b2c8e8451fbb9d69c15958c4d, type: 3}
+  prefab: {fileID: 1778675649412232, guid: bcde57b2cc4dd4e4bb643cf372c1ad31, type: 2}
+  toolTip: 'Peanut Butter &
+
+    Jelly Jars'
+  tooltipSprite: {fileID: 21300000, guid: fc6eefc7f1df4472bbe852d7e90753f5, type: 3}

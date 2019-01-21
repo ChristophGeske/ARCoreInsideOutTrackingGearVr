@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Aquatic_Orca_01
+  m_EditorClassIdentifier: 
+  id: 87
+  icon: {fileID: 21300000, guid: d3eb825d5a3404860a107313a6105b86, type: 3}
+  prefab: {fileID: 1816254870896910, guid: 779ac552ce2f02d4381c4b00ac9317e4, type: 2}
+  toolTip: Orca
+  tooltipSprite: {fileID: 21300000, guid: 8123825a3567d41baacaacfae12f9caf, type: 3}
+  closeAfterSelected: 1

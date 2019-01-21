@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Outdoors_Surfboard_01
+  m_EditorClassIdentifier: 
+  id: 37
+  icon: {fileID: 21300000, guid: e4706a4e8a7524143b507a7763c64d8a, type: 3}
+  prefab: {fileID: 1684402924995896, guid: f8fdbc7f8d2bb9d4f9af113cabb06e5a, type: 2}
+  toolTip: Surfboard
+  tooltipSprite: {fileID: 21300000, guid: a7955babf6891479182d08ceae43b654, type: 3}
+  closeAfterSelected: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Outdoors_FishingPole_01
+  m_EditorClassIdentifier: 
+  id: 30
+  icon: {fileID: 21300000, guid: 1150ec8ae12c34554996851cf53b7652, type: 3}
+  prefab: {fileID: 1148219944563250, guid: 330284e523903704b911867486a6aacc, type: 2}
+  toolTip: Fishing Pole
+  tooltipSprite: {fileID: 21300000, guid: 2bddd878e9fc543acb2da9f35c0d6869, type: 3}
+  closeAfterSelected: 1

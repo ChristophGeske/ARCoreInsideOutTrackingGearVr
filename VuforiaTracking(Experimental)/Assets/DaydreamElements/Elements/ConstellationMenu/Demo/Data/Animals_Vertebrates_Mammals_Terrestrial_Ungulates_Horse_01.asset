@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Terrestrial_Ungulates_Horse_01
+  m_EditorClassIdentifier: 
+  id: 130
+  icon: {fileID: 21300000, guid: dab300292b4eb4564ab6a4d0e37db9b3, type: 3}
+  prefab: {fileID: 1155150460086302, guid: f61b49f39db704343b96f0792c08f88e, type: 2}
+  toolTip: Horse
+  tooltipSprite: {fileID: 21300000, guid: 1d7c618ef19be4c49b643d915ae4a4b5, type: 3}
+  closeAfterSelected: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Produce_Fruit_Citrus_Grapefruit_01
+  m_EditorClassIdentifier: 
+  id: 185
+  icon: {fileID: 21300000, guid: 314f7510d21c440f6b215a939310f415, type: 3}
+  prefab: {fileID: 1293372809366238, guid: 23a7a1b166938334dade0cf423d1e54c, type: 2}
+  toolTip: Grapefruit
+  tooltipSprite: {fileID: 21300000, guid: 3f6b4735278cc44c2a80631eb9e356e0, type: 3}
+  closeAfterSelected: 1

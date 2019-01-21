@@ -32,7 +32,7 @@ namespace GoogleARCore
     {
         private IntPtr m_ImageHandle;
 
-        internal CameraImageBytes(IntPtr imageHandle) : this()
+        internal CameraImageBytes(IntPtr imageHandle)
         {
             m_ImageHandle = imageHandle;
             if (m_ImageHandle != IntPtr.Zero)

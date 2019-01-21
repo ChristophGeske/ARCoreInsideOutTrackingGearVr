@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Other_Trophy_01
+  m_EditorClassIdentifier: 
+  id: 24
+  icon: {fileID: 21300000, guid: f0ee3dfee3c144302bda9d888c57f43d, type: 3}
+  prefab: {fileID: 1410656802140892, guid: 674b6980a55bd6d43bc9b1eb68745864, type: 2}
+  toolTip: Trophy
+  tooltipSprite: {fileID: 21300000, guid: 59cc77eb772dd4405bf7b9b6b6067b8a, type: 3}
+  closeAfterSelected: 1

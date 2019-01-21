@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Aquatic_Seal_01
+  m_EditorClassIdentifier: 
+  id: 88
+  icon: {fileID: 21300000, guid: c28dcbf63bae24313929134d432e01b9, type: 3}
+  prefab: {fileID: 1672816836289370, guid: 5a666ce33b9c4aa4eb10e5cb3eaf4147, type: 2}
+  toolTip: Seal
+  tooltipSprite: {fileID: 21300000, guid: f760b8bf333594640933858b359ea425, type: 3}
+  closeAfterSelected: 1

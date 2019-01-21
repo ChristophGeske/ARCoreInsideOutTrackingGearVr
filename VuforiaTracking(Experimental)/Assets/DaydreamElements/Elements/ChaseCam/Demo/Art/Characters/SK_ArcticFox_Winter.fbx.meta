@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 0131516c8454cf54cb314834a35cee43
+timeCreated: 1493246559
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArcticFox_Uprez
+    100002: //RootNode
+    100004: Head
+    100006: Hips
+    100008: Jaw
+    100010: LeftAnkle
+    100012: LeftEar
+    100014: LeftElbow
+    100016: LeftEye
+    100018: LeftEyelidLower
+    100020: LeftEyelidUpper
+    100022: LeftFoot
+    100024: LeftHand
+    100026: LeftKnee
+    100028: LeftLeg
+    100030: LeftShoulder
+    100032: LeftWrist
+    100034: Neck
+    100036: Neck1
+    100038: Nose
+    100040: RightAnkle
+    100042: RightEar
+    100044: RightElbow
+    100046: RightEye
+    100048: RightEyelidLower
+    100050: RightEyelidUpper
+    100052: RightFoot
+    100054: RightHand
+    100056: RightKnee
+    100058: RightLeg
+    100060: RightShoulder
+    100062: RightWrist
+    100064: Root
+    100066: Spine1
+    100068: Spine2
+    100070: Spine3
+    100072: Tail1
+    100074: Tail2
+    100076: Tail3
+    100078: Tail4
+    100080: Tail5
+    100082: ArcticFox_GEO
+    400000: ArcticFox_Uprez
+    400002: //RootNode
+    400004: Head
+    400006: Hips
+    400008: Jaw
+    400010: LeftAnkle
+    400012: LeftEar
+    400014: LeftElbow
+    400016: LeftEye
+    400018: LeftEyelidLower
+    400020: LeftEyelidUpper
+    400022: LeftFoot
+    400024: LeftHand
+    400026: LeftKnee
+    400028: LeftLeg
+    400030: LeftShoulder
+    400032: LeftWrist
+    400034: Neck
+    400036: Neck1
+    400038: Nose
+    400040: RightAnkle
+    400042: RightEar
+    400044: RightElbow
+    400046: RightEye
+    400048: RightEyelidLower
+    400050: RightEyelidUpper
+    400052: RightFoot
+    400054: RightHand
+    400056: RightKnee
+    400058: RightLeg
+    400060: RightShoulder
+    400062: RightWrist
+    400064: Root
+    400066: Spine1
+    400068: Spine2
+    400070: Spine3
+    400072: Tail1
+    400074: Tail2
+    400076: Tail3
+    400078: Tail4
+    400080: Tail5
+    400082: ArcticFox_GEO
+    4300000: ArcticFox_Uprez
+    4300002: ArcticFox_GEO
+    7400000: Take 001
+    9500000: //RootNode
+    11400000: ArcticFox_Uprez
+    13700000: ArcticFox_Uprez
+    13700002: ArcticFox_GEO
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

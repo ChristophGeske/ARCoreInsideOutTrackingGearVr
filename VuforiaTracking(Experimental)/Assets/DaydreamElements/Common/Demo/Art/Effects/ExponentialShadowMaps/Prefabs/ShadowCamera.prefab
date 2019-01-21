@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1165895681810466}
+  m_IsPrefabParent: 1
+--- !u!1 &1165895681810466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4698437616814846}
+  - component: {fileID: 20140487880739972}
+  - component: {fileID: 114836933829188688}
+  m_Layer: 0
+  m_Name: ShadowCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4698437616814846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165895681810466}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!20 &20140487880739972
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165895681810466}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.99264705, g: 0.99264705, b: 0.99264705, a: 0.99607843}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 1
+  far clip plane: 40
+  field of view: 90
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 17
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0
+  m_StereoMirrorMode: 0
+--- !u!114 &114836933829188688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165895681810466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c522ac3f2c74669942609a551782f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderStaticShadows: 1
+  dynamicShadowCasterLayerID: 4
+  shadowExponent: 10
+  shadowDistance: 40
+  staticBlurIterations: 4
+  dynamicBlurIterations: 1
+  quad: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  camera: {fileID: 20140487880739972}
+  depthShader: {fileID: 4800000, guid: cb7a653c1592a4bb4822c867f0bbf730, type: 3}
+  shadowTexture: {fileID: 0}
+  staticShadowTexture: {fileID: 0}
+  shadowTextureA: {fileID: 0}
+  shadowTextureB: {fileID: 0}
+  shadowTextureDisplay: {fileID: 0}
+  blurMaterial: {fileID: 2100000, guid: f132f63a39e8b4b23b2c93f8f8b26569, type: 2}
+  combineBlurMaterial: {fileID: 2100000, guid: 4400999cb9ed9481a957a802b4d429f7, type: 2}
+  blitMat: {fileID: 2100000, guid: 7e680989be6e24e468e81581f011c2eb, type: 2}

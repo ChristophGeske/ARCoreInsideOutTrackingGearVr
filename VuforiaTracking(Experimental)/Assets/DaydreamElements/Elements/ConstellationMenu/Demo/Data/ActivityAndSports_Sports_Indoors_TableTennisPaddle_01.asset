@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Indoors_TableTennisPaddle_01
+  m_EditorClassIdentifier: 
+  id: 21
+  icon: {fileID: 21300000, guid: 8b7d993e4e3ef45828dd47d3c638ac92, type: 3}
+  prefab: {fileID: 1628872164840438, guid: f3df22dfafa5a6144903c4ce90404c31, type: 2}
+  toolTip: Table Tennis Paddle
+  tooltipSprite: {fileID: 21300000, guid: dc80b173e2d0243c08794496b403b0ac, type: 3}
+  closeAfterSelected: 1

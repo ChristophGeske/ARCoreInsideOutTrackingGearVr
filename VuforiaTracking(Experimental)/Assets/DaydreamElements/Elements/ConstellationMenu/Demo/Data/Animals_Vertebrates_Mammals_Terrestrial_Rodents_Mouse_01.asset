@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Animals_Vertebrates_Mammals_Terrestrial_Rodents_Mouse_01
+  m_EditorClassIdentifier: 
+  id: 119
+  icon: {fileID: 21300000, guid: f88e568545c2a4ae7a411f5e69e2fe0d, type: 3}
+  prefab: {fileID: 1570606264182354, guid: 39cd0d6d5b0b4a24eb8b8fd041f4cced, type: 2}
+  toolTip: Mouse
+  tooltipSprite: {fileID: 21300000, guid: f549a48e451dd49fba5a3d95e3dad031, type: 3}
+  closeAfterSelected: 1

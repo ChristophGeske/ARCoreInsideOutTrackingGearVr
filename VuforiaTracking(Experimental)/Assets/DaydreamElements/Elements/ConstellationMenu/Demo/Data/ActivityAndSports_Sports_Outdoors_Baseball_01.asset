@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Outdoors_Baseball_01
+  m_EditorClassIdentifier: 
+  id: 26
+  icon: {fileID: 21300000, guid: c90e0bb5712c142dc8c9eaa20a1b392f, type: 3}
+  prefab: {fileID: 1598272973023422, guid: 9222113f4e06e7d48bb3d0a74138f065, type: 2}
+  toolTip: Baseball
+  tooltipSprite: {fileID: 21300000, guid: aba107c927f924f188004e3107814a3f, type: 3}
+  closeAfterSelected: 1

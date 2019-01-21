@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Miscellaneous_PizzaSlice_01
+  m_EditorClassIdentifier: 
+  id: 172
+  icon: {fileID: 21300000, guid: 811874bffa13e4d6b9aa8a965c376573, type: 3}
+  prefab: {fileID: 1117187888229646, guid: a6cf57a23e335e741872dabb7b7419d5, type: 2}
+  toolTip: Pizza Slice
+  tooltipSprite: {fileID: 21300000, guid: bed3181308360437096bc06fdcd1a18a, type: 3}
+  closeAfterSelected: 1

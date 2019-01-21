@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: ActivityAndSports_Sports_Indoors_PoolBall_01
+  m_EditorClassIdentifier: 
+  id: 20
+  icon: {fileID: 21300000, guid: b9130ce1119fb430c84743d9a99041b2, type: 3}
+  prefab: {fileID: 1360672050589726, guid: 2dc6d439826c5cb45868c6614fa7244f, type: 2}
+  toolTip: Pool Ball
+  tooltipSprite: {fileID: 21300000, guid: 03d410041414248afa062cd6b7189412, type: 3}
+  closeAfterSelected: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a2a4a6ea8894a76b1f4a2a81038f38, type: 3}
+  m_Name: Food_Drinks_GlassOfMilk_01
+  m_EditorClassIdentifier: 
+  id: 152
+  icon: {fileID: 21300000, guid: b330beae2cee24b2fada126e75ce6672, type: 3}
+  prefab: {fileID: 1666976104522748, guid: ea14569ced51a3746b8013acbd31ea3b, type: 2}
+  toolTip: Glass Of Milk
+  tooltipSprite: {fileID: 21300000, guid: 6c2594eb2c90b4322a316ab030eab1f8, type: 3}
+  closeAfterSelected: 1

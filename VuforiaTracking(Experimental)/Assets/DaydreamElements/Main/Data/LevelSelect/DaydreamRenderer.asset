@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8465ac6a4bb547dd97116832e098653, type: 3}
+  m_Name: DaydreamRenderer
+  m_EditorClassIdentifier: 
+  sceneAsset: {fileID: 102900000, guid: 5dd82da88787282469c30bd406d7ba9f, type: 3}
+  sceneAssetName: SkyMonument
+  displayName: Daydream Renderer
+  backgroundSprite: {fileID: 21300000, guid: d49835b282ee14a2199b4e990b38fe7e, type: 3}
+  levelSelectResponderPrefab: {fileID: 1000012368361368, guid: 05e462e506f524e70ab218c9fd348419,
+    type: 2}

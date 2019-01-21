@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8465ac6a4bb547dd97116832e098653, type: 3}
+  m_Name: Teleport
+  m_EditorClassIdentifier: 
+  sceneAsset: {fileID: 102900000, guid: a1777162207744855b17dee588b26f9c, type: 3}
+  sceneAssetName: Teleport
+  displayName: Teleport
+  backgroundSprite: {fileID: 21300000, guid: 5e0f68acc1cb947a48a4be585102da37, type: 3}
+  levelSelectResponderPrefab: {fileID: 1000012368361368, guid: 1e7f19489de6841f2ad5235d07ebb251,
+    type: 2}
