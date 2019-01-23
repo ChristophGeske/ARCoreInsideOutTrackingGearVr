@@ -1,50 +1,46 @@
 # Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0
 ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
 
+
 # Introducing Remarks:
 
+
+- WARNING YOU MIGHT GET SICK: The current version uses interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet. I am working very hard on a fix so stay tuned for future updates. 
       
-      - WARNING YOU MIGHT GET SICK: The current version uses interpolation and smoothing functions to cover up
-      unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people
-      who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps
-      are not for you jet. I am working very hard on a fix so stay tuned for future updates. 
+- Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still.   
       
-      - Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the 
-      app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still.   
+- Your phone might get hot very quickly. Make sure to end the game after using. The Cardboard version seems to stay on even if the phone gets very hot while the GearVR version turns itself off if the phone gets too hot. Therefore Cardboard users should make sure to end the app after use.
       
-      - Your phone might get hot very quickly. Make sure to end the game after using. The Daydream/Cardboard 
-      version seems to stay on even if the phone gets very hot while the GearVR version turns itself off if the 
-      phone gets to hot. Therefore Daydream/Cardboard users should make sure to end the app after use.
+- This project can give you a good taste for the capabilities of the HTC Vive Focus and the Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly desirable device. 
       
-      - This project can give you a good taste for the capabilities of the HTC Vive Focus and the 
-      Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. 
-      Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus 
-      Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF 
-      tracked hand controllers which should make it a highly desirable device. 
+- Before installing one of the apps (.apk files) make sure you have installed Google ARCore (Playstore) on your device. Also check if your device is supported on [this page](https://developers.google.com/ar/discover/supported-devices).
+      
+- GearVR users can use the touchpad on the side of the headset to recenter the view when you notice misalignment. Cardboard users need to restart the app since there is no finished solution yet.    
+
 
 # Software Description:
 
-++ WhiteIsland and BoxyRoomChardboard are working Unity projects you can use to build your own app with positional tracking enabled. The WhiteIsland project is meant for GearVR and the BoxyRoomChardboard project is meant for Cardboard/Daydream devices. The WhiteIsland project uses the latest improvements and should be your first choice. The BoxyRoomChardboard project still has some bugs and desperately needs some updates. 
 
-++ VikingVillage is a unity project where a Seurat generated mesh was imported. 
+|App (.apk)|Description|Recommended Devices|VR Headset|
+|---|---|---|---|
+| | | | |
+|WhiteIsland|Simple environment. Using nativeARCore for tracking. Noticeable latency due to the used smoothing function. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable visualization of real-world boundaries.|S7|GearVR|
+| | | | |
+|BoxyRoomCardboard|App should run on every smartphone with ARCore support. Daydream users need to free the camera maybe like explained [here](https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications) and might need to turn of NFC to avoid Daydream from starting.|All ARcore compatible devices|Cardboard|
+| | | | |
+|VikingVillage|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|S7|GearVR|
+| | | | |
+|VikingVillageCardboard|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|S7|Cardboard|
+| | | | |
+|VikingVillageForOculusGO|The Oculus GO has no camera so there is no head tracking possible, but because the high quality environment scene captured with the Seurat tool could be interesting for Go users as well, I added controller support so that flying through the scene by pressing the touchpad is possible. (I haven't tested the app on the GO myself so please let me know if it works or not.|OculusGo|OculusGo|
+| | | | |
+|VuforiaTracking(Experimental)|This app uses Vuforia to combine GearVR and ARCore which might help fix an ARCore bug which leads to low performance when VR support is activated in Unity. This app is experimental since I only tested it with the S7 which as I said works not that well.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR|
+| | | | |
+|NativeARCoreTracking(Experimental)|The Native ARCore in combination with VR leads to a bug which results in bad performance. Therefore, the S7 cannot handle this combination very well. More capable GearVR devices should have enough performance so that the bug doesn't affect the tracking. Therefor this app requires a more powerful phone. This app is experimental since I only tested it with the S7 which as I said works not that well.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR|
+| | | | |
+MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR| 
 
-++ MovingMarkerTracking is a Unity project using Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker that this app can track can be found here (https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running. 
-
-++ WhiteIsland.apk is an optimized positional tracking app for GearVR which should run smoothly on all devices even the S7. Use the controller touchpad to fly forward in viewing direction and the trigger button (press half a second and release quickly) to enable/disable visualization of real-world boundaries. Press the touchpad on the GearVR headset to recenter the view when you experience a misalignment between real and virtual movement (This feature was introduced in the latest updates.). 
-
-++ BoxyRoomCardboard.apk for Google Cardboard and Daydream ready devices. The app should run on every smartphone with ARCore support. Check here if your device is supported (https://developers.google.com/ar/discover/supported-devices) and install ARCore before you install the .apk file. Lauren Weinstein published a possible solution to get a free camera view when using the daydream headset without drilling holes in the cover. https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications. Some phones with the camera close to the edge can be moved slightly outward after first putting them in the center of the Daydream headset.
-
-++ vikingVillage.apk is a 6DoF GearVR app in an environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments and allows for free movement in this captured area.
-
-++ VikingVillageCardboard.apk is the Daydream/Cardboard version of the Seurat experience. No signing needed just install ARCore and the .apk file.
-
-++ VikingVillageForOculusGO.apk The Oculus GO has no camera so there is no head tracking possible, but because Seurat could be interesting for Go users as well, I added controller support so that flying through the scene by pressing the touchpad is possible. (I haven't tested it myself. Let me know if it works or not.)
-
-++ VuforiaTracking(Experimental).apk This app uses Vuforia to combine GearVR and ARCore which might help fix an ARCore bug which leads to low performance when VR support is activated in Unity. The app is not working well on the S7 because Vuforia doesn't support it but the other GearVR capable phones like S8, Note 8 and S9 should be fine and might work better than using the native ARCore. The app is experimental since I could only test it with the S7 until now.
-
-++ NativeARCoreTracking(Experimental).apk The Native ARCore in combination with VR leads to a bug which leads to a loss in performance. Therefore, the S7 cannot handle this combination very well. More capable GearVR devices should have enough performance so that the bug doesn't affect the tracking. Therefor this app needs requires a more powerful phone than the S7 for example S8, S9 ore Note8. The app is experimental since I could only test it with the S7 until now.
-
-      
+     
 # Installation options:
 
 # Daydream and Cardboard Versions:
