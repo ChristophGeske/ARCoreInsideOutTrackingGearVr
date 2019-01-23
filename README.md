@@ -47,10 +47,13 @@ MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias adva
 
 Works best with daydream ready phones  but It also works with all other phone who support ARCore but quality depends on the phone sensors which are generally better in Daydream ready phones. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. Also install Google ARCore from the Play Store.   
 
+<p align="center">
+<a href="https://youtu.be/EFglp19C8tg"><img width="550" height="300" src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg"></a>
+</p>
 
-<a href="https://youtu.be/EFglp19C8tg"><img src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg" width="448"></a>
-
+<p align="center">
 Video showing BoxyRoomCardboard.apk in action.
+</p>
 
 # GearVR Versions (apps need to be signed first):
 
@@ -60,38 +63,52 @@ Installing on GearVR requires the app to be signed first. Since the current Gear
 
 First. Download the WhiteIsland.apk. or the vikingVillage.apk. 
 
-Second. The quickest option I found is to sign the apk using the free 'Injector for GearVR' app: 
-https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en
+Second. The quickest option I found is to sign the apk using the free [Injector for GearVR app](https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en).
 Just safe the .apk file on your phone, use the Injector app to sign it and install. 
 Make sure the app you wanna sign and install is not already installed on your phone because in my case this prevents the app from installing.  
 
 If the Injector app doesn't work for you try this alternative:
-Find out your device ID https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/. With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in this Youtube video https://www.youtube.com/watch?v=Ho1TbQozyO0. I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
+Find out your device ID [here](https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/). With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in [this Youtube video](https://www.youtube.com/watch?v=Ho1TbQozyO0). I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
-<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png" width="448"></a>
 
+<p align="center">
+<a href="https://youtu.be/HLbtWRxVu04"><img width="450" height="350" src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png"></a>
+</p>
+
+<p align="center">
 Video showing WhiteIsland.apk 6DoF GearVR version.
+</p>
 
-<a href="https://youtu.be/WX626Dbj1Cc"><img src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg" width="448"></a>
+<p align="center">
+<a href="https://youtu.be/WX626Dbj1Cc"><img width="450" height="300" src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg"></a>
+</p>
 
-
+<p align="center">
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
+</p>
+
 
 # TODO's and future work:
 
 I am currently only focused on improving the tracking quality. The current versions uses smoothing functions to simulate 60fps and reduce tracking errors but this introduces latency which leads to motion sickness. The main problem is that ARCore and VR settings in Unity are not compatible which makes these tricks necessary. I am currently working on creating my own VR camera hopfully this will help solve most of the issues the current versions are suffering from. 
 
-MovingMarkerTracking is a version using the Vuforia Fusion Unity plugin (https://library.vuforia.com/articles/Training/vuforia-fusion-article.html) to combine the power of ARCore and Vuforia marker tracking. But Vuforia Fusion is less convenient than ARCore
+I am currently looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) since the latest version supports ARCore. Unfortunately the performance requirements are very high preventing it from being used for VR applications. Moving marker tracking looks like it could work better since the software is more optimized. Also detecting skin color and thereby the hands seems to be complicated and doesn't work very well right now.   
 
-ALVR might profit from some good head tracking. Check out the project if you haven't heard about it. https://github.com/polygraphene/ALVR They already have an open issue dealing with this topic: https://github.com/polygraphene/ALVR/issues/8. 
-
-I am currently looking into implementing hand tracking using software from Manomotion (https://www.manomotion.com/) since the latest version supports ARCore. Unfortunately the performance requirements are very high preventing it from being used for VR applications. Moving marker tracking looks like it could work better since the software is more optimized. Also detecting skin color and thereby the hands seems to be complicated and doesn't work very well right now.   
-
+<p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
+</p>
 
-uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work I try to get access to the software as well but had no luck so far.
+<p align="center">
+[Manomotion](https://www.manomotion.com/) getting hand tracking via the smartphone camera to work. The tracking is not good enought at this point to replace hand controlers.
+</p>
 
+<p align="center">
 <a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
+</p>
+
+<p align="center">
+uSenseAR (https://en.usens.com/products/usensar/) is also trying to get hand tracking via the smartphone camera to work. Getting access to the software is not easy at the moment.
+</p>
 
 In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. See here for ARKit2 marker tracking (https://www.youtube.com/watch?v=ySYFZwkZoio) and see my MovingMarkerTracking project if you are interested in a working version for Android. 
 
@@ -103,32 +120,33 @@ The boundary system should be further improved the feature points alone are a go
 
 The iconic shooter game Quake can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found here: https://youtu.be/acEz98Ol8NI. The game and source code can be downloaded here: https://github.com/DrBeef/QuakeGVR/releases. After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
 
-iPhone + ARKit + Cardboard project can be found here: 
-https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md
+iPhone + ARKit + Cardboard project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md)
 
-Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. 
-https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct
+Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
 
 Using Google Tango:
-Tango is only available on the Asus Zenfone AR and has better room tracking abilities than ARCore. Useful links here: https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity and here: https://twitter.com/youten_redo/status/921295583180079104
+Tango is only available on the Asus Zenfone AR and has better room tracking abilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity) and [here](https://twitter.com/youten_redo/status/921295583180079104)
 
 Cardboard AR (HoloKit): 
-https://youtu.be/Wp21BynNl1k They used Tango but ARCore should work as well. 
+They used Tango but ARCore should work as well. Check out this [video](https://youtu.be/Wp21BynNl1k) to learn more.
 
-Kinect + GearVR seems be suited to bring full body movement to the GearVR: https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/
-Since Kinect and Leap Motion sensors are quite cheap combining this and ARCore head tracking could result in a cheap immersive VR experience. 
+Kinect + GearVR seems be suited to bring full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
 
+ALVR connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR). 
 
 # How to Seurat:
 
-What is Seurat? Read the introduction here: https://developers.google.com/vr/discover/seurat
+What is Seurat? Read the [introduction](https://developers.google.com/vr/discover/seurat)
 In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique, but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
-Here you can learn how to capture a high-quality scene: 
-https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/. Please watch this video if you are interested in how the scene was captured.
+Here you can learn how to capture a high-quality scene [here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/).
 
-
+<p align="center">
 <a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/42789551-2fcdf678-8966-11e8-9f7d-95efef814bc2.png" width="448"></a>
+</p>
 
+<p align="center">
+Video describes how a Searat scene is captured for later use with a mobile VR headset.
+</p>
 
 You will need to download this project (https://github.com/ddiakopoulos/seurat/releases) for the pipeline to transform the captured data. See the reddit post for more details. 
 Here you can learn how to bring the captured scene in your unity project:
@@ -147,10 +165,10 @@ Everything here was tested on the S7 if you have problems getting it to work ple
 # Credit:
 
 I want to give credit to the following developers who published useful information I used in building this project:
-+ FusedVR https://www.youtube.com/watch?v=4EWPUdE_kqU
-+ Roberto Lopez Mendez https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
-+ Dimitri Diakopoulos (ddiakopoulos) provided a simplified Seurat pipeline (https://github.com/ddiakopoulos/seurat/releases)
-+ Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information here (https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
++ [FusedVR](https://www.youtube.com/watch?v=4EWPUdE_kqU)
++ Roberto Lopez Mendez with his [Very first positional tracking project](https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/
++ Dimitri Diakopoulos (ddiakopoulos) provided a [simplified Seurat pipeline](https://github.com/ddiakopoulos/seurat/releases)
++ Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
 
 # Support this Project:
 
