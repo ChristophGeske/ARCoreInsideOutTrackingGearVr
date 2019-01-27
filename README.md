@@ -41,9 +41,8 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR| 
 
      
-# Installation options:
 
-# Daydream and Cardboard Versions:
+# Installation on Cardboard:
 
 Works best with daydream ready phones but it also works with all other phone who support ARCore. The quality depends on the phone sensors which are generally better in Daydream ready phones. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. Also install Google ARCore from the Play Store.   
 
@@ -55,7 +54,7 @@ Works best with daydream ready phones but it also works with all other phone who
 Video showing BoxyRoomCardboard.apk in action.
 </p>
 
-# GearVR Versions (apps need to be signed first):
+# Installation on GearVR (apps need to be signed first):
 
 Installing on GearVR requires the app to be signed first. Since the current GearVR version is better than the Daydream version the few extra steps to sign it are worth it.
 
@@ -87,6 +86,13 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
 </p>
 
+# Installation on Daydream and iPhone
+
+I do not have access to a Daydream or iPhone so I did not dare to upload a version for those devices. 
+
+Daydream. You can download one of the project folders you are interested in and in the build settings simply switch to Daydream. Ideally you use a cardboard project because I had some issues reverting a former GearVR project back to cardboard.
+
+iPhone: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md). You can also activate ARKit tracking with vuforia fusion. You might need to adjust the Vuforia settings so that Device Tracker is activated to get positional tracking to work but I am not 100% sure I just did it for ARCore where it is a bit different.
 
 # TODO's and future work:
 
