@@ -90,9 +90,9 @@ Video showing VikingVillage (Seurat) 6DoF GearVR version.
 
 I do not have access to a Daydream or iPhone so I did not dare to upload a version for those devices. 
 
-Daydream. You can download one of the project folders you are interested in and in the build settings simply switch to Daydream. Ideally you use a cardboard project because I had some issues reverting a former GearVR project back to cardboard.
+Daydream: You can download one of the project folders and in the build settings simply switch to Daydream. I would recommend to use a cardboard project like "BoxyRoomChardboard" and not one of the GearVR projects because I had some issues reverting a former GearVR project back to cardboard.
 
-iPhone: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md). You can also activate ARKit tracking with vuforia fusion. You might need to adjust the Vuforia settings so that Device Tracker is activated to get positional tracking to work but I am not 100% sure I just did it for ARCore where it is a bit different.
+iPhone: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. You can also activate ARKit tracking with vuforia fusion. You might need to adjust the Vuforia settings so that Device Tracker is activated to get positional tracking to work but I am not 100% sure I just did it for ARCore where it is a bit different.
 
 # TODO's and future work:
 
