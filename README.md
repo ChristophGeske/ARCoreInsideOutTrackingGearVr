@@ -5,7 +5,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 # Introducing Remarks:
 
 
-- WARNING YOU MIGHT GET SICK: The current version uses interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet. I am working very hard on a fix and the two experimental apps might already have fixed the issue on some phones. 
+- WARNING YOU MIGHT GET SICK: The current version uses interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet.
       
 - Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still.   
       
