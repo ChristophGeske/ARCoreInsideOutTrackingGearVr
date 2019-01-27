@@ -127,7 +127,7 @@ iPhone + ARKit + Cardboard project can be found [here](https://github.com/andrew
 Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
 
 Using Google Tango:
-Tango is only available on the Asus Zenfone AR and has better room tracking abilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity) and [here](https://twitter.com/youten_redo/status/921295583180079104)
+Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity) and [here](https://twitter.com/youten_redo/status/921295583180079104)
 
 Cardboard AR (HoloKit): 
 They used Tango but ARCore should work as well. Check out this [video](https://youtu.be/Wp21BynNl1k) to learn more.
