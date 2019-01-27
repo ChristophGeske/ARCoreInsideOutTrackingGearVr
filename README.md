@@ -116,6 +116,8 @@ A multiplayer VR game using ARCores cloud anchors should be possible, but I am c
 
 The boundary system should be further improved the feature points alone are a good start but it could be better and be activated automatically.
 
+For the misalignment of head tracking and real world movement it would be nice to develop an angle measuring script which readjusts the camera so the user doesn't have to click the touchpad to realign the view.
+
 # Other Interesting Projects:
 
 The iconic shooter game Quake can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
@@ -154,7 +156,7 @@ Here you can learn [here](https://github.com/googlevr/seurat-unity-plugin) how t
 
 # Trouble Shooting:
 
-If you lose tracking and the virtual and real-world movement doesn't line up correctly press the touchpad on your GearVR controller or on the side of your GearVR to realign the view. If using the daydream version there is no convenient solution yet and you need to restart the whole app. Automatically detecting the angle of the offset would be a possible solution. Moving slowly also prevents the cameras from becoming misaligned on Daydream devices.
+If you lose tracking and the virtual and real-world movement doesn't line up correctly press the touchpad on your GearVR controller or on the side of your GearVR to realign the view. If using the cardboard version there is no convenient solution yet and you need to restart the whole app. Moving slowly also prevents the cameras from becoming misaligned on Daydream devices.
 
 If the positional tracking does not work, please make sure you have installed the ARCore App from the Appstore. 
 
