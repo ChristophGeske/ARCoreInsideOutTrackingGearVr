@@ -165,7 +165,7 @@ Everything here was tested on the S7 if you have problems getting it to work ple
 # Credit:
 
 I want to give credit to the following developers who published useful information I used in building this project:
-+ [FusedVR](https://www.youtube.com/watch?v=4EWPUdE_kqU)
++ [FusedVR](https://www.youtube.com/watch?v=4EWPUdE_kqU) did some very erly work in this area.
 + Roberto Lopez Mendez with his [Very first positional tracking project](https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/)
 + Dimitri Diakopoulos (ddiakopoulos) provided a [simplified Seurat pipeline](https://github.com/ddiakopoulos/seurat/releases)
 + Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
