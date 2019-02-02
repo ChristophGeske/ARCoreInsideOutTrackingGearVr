@@ -4,22 +4,18 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 # Introducing Remarks:
 
-
-- WARNING YOU MIGHT GET SICK: The current version uses interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet.
+- WARNING YOU MIGHT GET SICK: The current versions use interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet.
       
-- Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to stay still.   
+- Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to move just a little.   
       
-- Your phone might get hot very quickly. Make sure to end the game after using. The Cardboard version seems to stay on even if the phone gets very hot while the GearVR version turns itself off if the phone gets too hot. Therefore, cardboard users should make sure to end the app after use.
+- Your phone might get hot very quickly. Make sure to end the game after using. The Cardboard version seems to stay on even if the phone gets very hot while the GearVR version turns itself off automatically. Therefore, cardboard users should make sure to manually end the app after use.
       
 - This project can give you a good taste for the capabilities of the HTC Vive Focus and the Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly desirable device. 
       
 - Before installing one of the apps (.apk files) make sure you have installed Google ARCore (Play Store) on your device. Also check if your device is supported on [this page](https://developers.google.com/ar/discover/supported-devices).
-      
-- GearVR users can use the touchpad on the side of the headset to recenter the view when you notice misalignment. Cardboard users need to restart the app since there is no finished solution yet.    
 
 
 # Software Description:
-
 
 |App (.apk)|Description|Recommended Devices|VR Headset|
 |---|---|---|---|
@@ -40,11 +36,10 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 | | | | |
 MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR| 
 
-     
 
 # Installation on Cardboard:
 
-Works best with daydream ready phones but it also works with all other phone who support ARCore. The quality depends on the phone sensors which are generally better in Daydream ready phones. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. Also install Google ARCore from the Play Store.   
+Works with all phone who support ARCore. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. 
 
 <p align="center">
 <a href="https://youtu.be/EFglp19C8tg"><img width="550" height="300" src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg"></a>
@@ -53,6 +48,11 @@ Works best with daydream ready phones but it also works with all other phone who
 <p align="center">
 Video showing BoxyRoomCardboard.apk in action.
 </p>
+
+You need to restart the app when missalignment is observed. 
+
+If you have a GearVR capable device but no GearVR you might be able to use [this trick](https://www.youtube.com/watch?v=gWHdzIsRPLg) to activate GearVR developer mode and use GearVR apps or improve the cardboard quality by activating the GearVR developer mode. I am not sure if this still works but you can give it a try and let me know if it worked for you.
+
 
 # Installation on GearVR (apps need to be signed first):
 
@@ -68,7 +68,6 @@ Make sure the app you want to sign and install is not already installed on your 
 
 If the Injector app doesn't work for you try this alternative:
 Find out your device ID [here](https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/). With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in [this Youtube video](https://www.youtube.com/watch?v=Ho1TbQozyO0). I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
-
 
 <p align="center">
 <a href="https://youtu.be/HLbtWRxVu04"><img width="450" height="350" src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png"></a>
@@ -86,13 +85,17 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
 </p>
 
+You can use the touchpad on the side of the headset to recenter the view when you notice misalignment.
+
+
 # Installation on Daydream and iPhone
 
-I do not have access to a Daydream or iPhone so I did not dare to upload a version for those devices. 
+I do not have access to a Daydream or iPhone so I did not upload a version for those devices yet. 
 
-Daydream: You can download one of the project folders and in the build settings simply switch to Daydream. I would recommend to use a cardboard project like "BoxyRoomChardboard" and not one of the GearVR projects because I had some issues reverting a former GearVR project back to cardboard.
+Daydream user: You can simply switch a cardboard project over to Daydream inside the Unity project ("BoxyRoomChardboard") under the build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users soon. 
 
-iPhone: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. You can also activate ARKit tracking with vuforia fusion. You might need to adjust the Vuforia settings so that Device Tracker is activated to get positional tracking to work but I am not 100% sure I just did it for ARCore where it is a bit different.
+iPhone user: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. You can also activate ARKit tracking with vuforia fusion or use the ARFoundation. I will look into ARFoundation maybe I can upload a iPhone version as well in the near future.
+
 
 # TODO's and future work:
 
@@ -124,6 +127,7 @@ The boundary system should be further improved the feature points alone are a go
 
 For the misalignment of head tracking and real world movement it would be nice to develop an angle measuring script which readjusts the camera so the user doesn't have to click the touchpad to realign the view.
 
+
 # Other Interesting Projects:
 
 The iconic shooter game Quake can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
@@ -141,6 +145,7 @@ They used Tango but ARCore should work as well. Check out this [video](https://y
 Kinect + GearVR seems be suited to bring full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
 
 ALVR connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR). 
+
 
 # How to Seurat:
 
@@ -170,6 +175,7 @@ If you experience very low frames and bad jittering please restart the phone and
 
 Everything here was tested on the S7 if you have problems getting it to work please open a new issue and let me know.
 
+
 # Credit:
 
 I want to give credit to the following developers who published useful information I used in building this project:
@@ -177,6 +183,7 @@ I want to give credit to the following developers who published useful informati
 + Roberto Lopez Mendez with his [Very first positional tracking project](https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/)
 + Dimitri Diakopoulos (ddiakopoulos) provided a [simplified Seurat pipeline](https://github.com/ddiakopoulos/seurat/releases)
 + Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
+
 
 # Support this Project:
 
