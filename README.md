@@ -99,8 +99,6 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 # TODO's and future work:
 
-I currently focus on improving the tracking quality. The current versions uses smoothing functions to simulate 60fps and reduce tracking errors but this introduces latency which leads to motion sickness. The main problem is that ARCore and VR settings in Unity are not compatible which makes these tricks necessary. I am currently working on creating my own VR camera hopefully this will help solve most of the issues the current versions are suffering from. 
-
 I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized. Also detecting skin color and thereby the hands seems to be complicated issue not fully solved yet by the developers.
 
 <p align="center">
