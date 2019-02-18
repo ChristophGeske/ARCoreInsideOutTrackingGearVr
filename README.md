@@ -20,21 +20,21 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 |App (.apk)|Description|Recommended Devices|VR Headset|
 |---|---|---|---|
 | | | | |
-|WhiteIsland|Simple environment. Using nativeARCore for tracking. Noticeable latency due to the used smoothing function. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable visualization of real-world boundaries.|All ARcore compatible devices|GearVR|
+|WhiteIsland|Simple environment. Using nativeARCore for tracking. Noticeable latency due to the used smoothing function. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable visualization of real-world boundaries.|All ARcore + GearVR compatible devices|GearVR|
 | | | | |
 |BoxyRoomCardboard|App should run on every smartphone with ARCore support. Daydream users need to free the camera maybe like explained [here](https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications) and might need to turn of NFC to avoid Daydream from starting.|All ARcore compatible devices|Cardboard|
 | | | | |
-|VikingVillage|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|All ARcore compatible devices|GearVR|
+|VikingVillage|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|All ARcore + GearVR compatible devices|GearVR|
 | | | | |
 |VikingVillageCardboard|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|All ARcore compatible devices|Cardboard|
 | | | | |
 |VikingVillageForOculusGO|The Oculus GO has no camera so there is no head tracking possible, but because the high-quality environment scene captured with the Seurat tool could be interesting for Go users as well, I added controller support so that flying through the scene by pressing the touchpad is possible. (I haven't tested the app on the GO myself so please let me know if it works or not.|OculusGo|OculusGo|
 | | | | |
-|VuforiaTracking(Experimental)|This app uses Vuforia to combine GearVR and ARCore which might help fix an ARCore bug which leads to low performance when VR support is activated in Unity. This app is experimental since I only tested it with the S7 which as I said works not that well. If it works the tracking should be better than with the other apps here.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR|
+|VuforiaTracking(Experimental)|This app uses Vuforia which has an ARCore integration. But the performance of the ARCore integration is very low compared to native ARCore. Therfore this project will be discontinued.|All GearVR capable devices (low tracking quality)|GearVR|
 | | | | |
-|NativeARCoreTracking(Experimental)|The Native ARCore in combination with VR leads to a bug which results in bad performance. Therefore, the S7 cannot handle this combination very well. More capable GearVR devices should have enough performance so that the bug doesn't affect the tracking. Therefor this app requires a more powerful phone. This app is experimental since I only tested it with the S7 which as I said works not that well. If it works the tracking should be better than with the other apps here.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR|
+|NativeARCoreTracking(Experimental)| Is not up to date and will be removed next update. Please use WhiteIsland instead. |All ARCore + GearVR capable devices|GearVR|
 | | | | |
-MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices, (S6 and S7 with low tracking quality)|GearVR| 
+MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices (low tracking quality)|GearVR| 
 
 
 # Installation on Cardboard:
