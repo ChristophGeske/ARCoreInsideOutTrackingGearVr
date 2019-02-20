@@ -4,7 +4,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 # Introducing Remarks:
 
-- WARNING YOU MIGHT GET SICK: The current versions use interpolation and smoothing functions to cover up unprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness these apps are not for you jet.
+- WARNING YOU MIGHT GET SICK: The current versions use interpolation and smoothing functions to cover up imprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness, these apps might not be for you jet.
       
 - Fast movements, featureless and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to move just a little.   
       
@@ -49,9 +49,9 @@ Works with all phone who support ARCore. Just download the BoxyRoomCardboard.apk
 Video showing BoxyRoomCardboard.apk in action.
 </p>
 
-You need to restart the app when missalignment is observed. 
+You need to restart the app when misalignment between the headset and the head movement is observed. 
 
-If you have a GearVR capable device but no GearVR you might be able to use [this trick](https://www.youtube.com/watch?v=gWHdzIsRPLg) to activate GearVR developer mode and use GearVR apps or improve the cardboard quality by activating the GearVR developer mode. I am not sure if this still works but you can give it a try and let me know if it worked for you.
+CardboardVR lags the time warp function that we can use in GearVR and Daydream apps therefore the head rotation is less smooth. If you can please try to use Daydream or GearVR the experience will be noticeably better.
 
 
 # Installation on GearVR (apps need to be signed first):
