@@ -161,7 +161,7 @@ The top of the list is somehow speculative since it is not released yet but the 
 
 What is Seurat? Read the [introduction](https://developers.google.com/vr/discover/seurat)
 In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique, but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
-Here you can learn how to capture a high-quality scene [here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/).
+[Here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/) you can learn how to capture a high-quality scene.
 
 <p align="center">
 <a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/42789551-2fcdf678-8966-11e8-9f7d-95efef814bc2.png" width="448"></a>
@@ -172,7 +172,7 @@ Video describes how a Searat scene is captured for later use with a mobile VR he
 </p>
 
 You will need to download [this project](https://github.com/ddiakopoulos/seurat/releases) for the pipeline to transform the captured data. See the reddit post for more details. 
-Here you can learn [here](https://github.com/googlevr/seurat-unity-plugin) how to bring the captured scene in your unity project.
+[Here](https://github.com/googlevr/seurat-unity-plugin) you can learn how to bring the captured scene in your unity project.
 
 
 # Trouble Shooting:
@@ -198,6 +198,6 @@ I want to give credit to the following developers who published useful informati
 # Support this Project:
 
 If you like this work and you want to support the development of free software, please consider a donation via Bitcoin. 
-Bitcoin wallet address: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+My Bitcoin wallet address is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="148"></a>
