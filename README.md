@@ -198,6 +198,6 @@ I want to give credit to the following developers who published useful informati
 # Support this Project:
 
 If you like this work and you want to support the development of free software, please consider a donation via Bitcoin. 
-My Bitcoin wallet address is: 15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4
+My Bitcoin wallet address is: [15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4](https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf)
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="148"></a>
