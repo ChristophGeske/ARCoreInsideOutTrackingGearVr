@@ -99,14 +99,14 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 # TODO's and future work:
 
-I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized. Also detecting skin color and thereby the hands seems to be complicated issue not fully solved yet by the developers.
+I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. I have access to the developer software of Manomotion but not the one from uSenseAR. First tests with Manomotion where not so successful but I will follow the development closly. Another disadvantage is that the Manomotion software is not free of charge so I can not publish it here but I could upload videos and maybe a paid app in the future. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized.
 
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
 </p>
 
 <p align="center">
-Manomotion getting hand tracking via the smartphone camera to work. The tracking is not good enough at this point to replace hand controllers.
+Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
 
 <p align="center">
@@ -114,7 +114,7 @@ Manomotion getting hand tracking via the smartphone camera to work. The tracking
 </p>
 
 <p align="center">
-uSenseAR is also trying to get hand tracking via the smartphone camera to work. Getting access to the software is not easy at this time.
+Video showing uSenseAR hand tracking.
 </p>
 
 In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) if you are interested in a working version for Android. 
