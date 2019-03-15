@@ -42,7 +42,7 @@ MovingMarkerTracking|Uses Vuforia Vusion which combines ARCore and Vuforias adva
 Works with all phone who support ARCore. Just download the BoxyRoomCardboard.apk or the VikingVillageCardboard.apk (Seurat) and install. 
 
 <p align="center">
-<a href="https://youtu.be/EFglp19C8tg"><img width="550" height="300" src="https://user-images.githubusercontent.com/12700187/42138751-a815c4d4-7d82-11e8-90d9-ac537b67ce7b.jpg"></a>
+<a href="https://youtu.be/EFglp19C8tg"><img src="https://user-images.githubusercontent.com/12700187/54432048-5e6d5c00-4728-11e9-82b8-994b5ab7114b.png" width="100%"></a>
 </p>
 
 <p align="center">
@@ -70,7 +70,7 @@ If the Injector app doesn't work for you try this alternative:
 Find out your device ID [here](https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/). With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in [this Youtube video](https://www.youtube.com/watch?v=Ho1TbQozyO0). I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
 
 <p align="center">
-<a href="https://youtu.be/HLbtWRxVu04"><img width="450" height="350" src="https://user-images.githubusercontent.com/12700187/42417805-6778b948-8293-11e8-8d00-973239fa4345.png"></a>
+<a href="https://youtu.be/HLbtWRxVu04"><img src="https://user-images.githubusercontent.com/12700187/54431979-26feaf80-4728-11e9-9045-6ac215b8c5bc.png" width="100%"></a>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 </p>
 
 <p align="center">
-<a href="https://youtu.be/WX626Dbj1Cc"><img width="450" height="300" src="https://user-images.githubusercontent.com/12700187/42417779-b72dc812-8292-11e8-87a4-4639223cc6f0.jpg"></a>
+<a href="https://youtu.be/WX626Dbj1Cc"><img src="https://user-images.githubusercontent.com/12700187/54431833-b8b9ed00-4727-11e9-9c3c-911e16503dd6.png" width="100%"></a>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized. Also detecting skin color and thereby the hands seems to be complicated issue not fully solved yet by the developers.
 
 <p align="center">
-<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/41001778-3c12a10a-6912-11e8-9bc2-c0bc9016022d.png" width="448"></a>
+<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
 </p>
 
 <p align="center">
@@ -110,7 +110,7 @@ Manomotion getting hand tracking via the smartphone camera to work. The tracking
 </p>
 
 <p align="center">
-<a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/41001899-923ad9c6-6912-11e8-90bd-48f4588c08fb.png" width="448"></a>
+<a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/54431593-21ed3080-4727-11e9-8752-2e9eaacbbea3.png" width="100%"></a>
 </p>
 
 <p align="center">
@@ -163,8 +163,9 @@ What is Seurat? Read the introduction [here](https://developers.google.com/vr/di
 In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique, but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
 [Here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/) you can learn how to capture a high-quality scene.
 
+
 <p align="center">
-<a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/42789551-2fcdf678-8966-11e8-9f7d-95efef814bc2.png" width="448"></a>
+<a href="https://youtu.be/CpZ94YDufqk"><img src="https://user-images.githubusercontent.com/12700187/54431116-d1c19e80-4725-11e9-802d-61d15897cf2f.png" width="100%" ></a>
 </p>
 
 <p align="center">
