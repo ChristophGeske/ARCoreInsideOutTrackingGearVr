@@ -121,10 +121,6 @@ In the future ARCore might get moving marker tracking like ARKit2 and Vuforia ar
 
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
 
-The boundary system should be further improved the feature points alone are a good start but it could be better and be activated automatically.
-
-For the misalignment of head tracking and real world movement it would be nice to develop an angle measuring script which readjusts the camera so the user doesn't have to click the touchpad to realign the view.
-
 
 # Other Interesting Projects:
 
@@ -147,25 +143,23 @@ ALVR connects the GearVR to the pc and uses head tracking for simulating expensi
 
 # Some thoughts about the optimal and future hardware:
 
-1. The top of the list but still somehow speculative since it is not released yet is the Galaxy S10 5G which will feature a hQVGA 3d depth sensor which when we get access to tha depth sensing data might deliver great low latency positional tracking, just like the Asus Zenfone AR. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. All this seems possible, but most of the underling software is still not even developed so don't expect these features when the phone is released later this year and it might take many months before these features are available. 
+1. The top of the list but still somehow speculative since it is not released yet is the Galaxy S10 5G which will feature a hQVGA 3d depth sensor. When we get access to the depth sensing data low latency positional tracking similar to the Asus Zenfone AR could be possible. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. All this seems possible, but most of the underling software is still not even developed so don't expect these features when the phone is released later this year and it might take many months before these features are available. 
 
 2. The Asus Zenfone AR is supporting Daydream which delivers a good enough VR experience (not quite as good as the GearVR) and in combination with it's highly accurate depth camera and the Google Tango software it allows for excellent positional tracking. 
-The disadvantage is that Google stopped developing Tango, that almost noone ones the hardware and that no performance improvements are expected in the future making the development for this device and the Tango platform not very attractive. 
+The disadvantage is that Google stopped developing Tango, that almost no one owns the hardware and that no performance improvements are expected in the future making the development for this device and the Tango platform not very attractive. 
 
-3. The Galaxy S10 and S10+ where just released and with the better performance better games in addition to positional tracking are possible. The ultrawide field of view camera could be interesting for improving hand and marker tracking but currently depends on the tracking software (Manomotion or uSense) and ARcore because they need to supports the wide field camera in the S10.
+3. The Galaxy  S10 and S10+, S8, S9 , Note8 and so on deliver better performance than the S7 which is interesting for running hand tracking and better looking games. In terms of image quality, field of view and tracking latency they are identical to the S7. The ultrawide field of view camera of the S10 and S10+ could also be interesting for improving hand and marker tracking in the future but this would depend on the tracking software (Manomotion or uSense) and ARcore if they support the wide field of view camera.
 
-4. The Galaxy S8, S9 , Note8 and so on deliver better performance than the S7 which is interesting for running hand tracking and better looking games. In terms of image quality, field of view and tracking latency they are identical to the S7. 
+4. The Galaxy S7 which is running ARCore and GearVR without immediately overheating is the lowest spec device allowing for positional tracking. For hand-tracking the performance might not be enough but this is still an open research question. In combination with a cheap second hand GearVR for roughly 30$ it might be the best value device for experiencing VR right now.
 
-5. The Galaxy S7 which is running ARCore and GearVR without immediately overheating is the lowest spec device allowing for positional tracking. For hand-tracking the performance might not be enough but this is still an open research question. In combination with a cheap second hand GearVR for roughly 30$ it might be the best value buy for experiencing VR right now.
+5. Daydream ready phones are powerful and often also support ARCore. The VR quality with the second generation Daydream View is almost as good as GearVR. Currently, this project is working better on GearVR since resetting the view is somewhat complicated using the Daydream software. This might change in the future if the issue can be solved.
 
-6. Daydream ready phones are powerful and often also support ARCore. The VR quality with the second generation Daydream View is almost as good as GearVR. Currently this project is working better on GearVR since reseting the view is somewhat complicated using the Daydream software. This might change in the future if the issue can be solved.
-
-7. ARCore ready phones who do not support GearVR or Daydream work with google cardboard but the experience is noticably worse because of two facrors. The lense quality of cardboard lenses and inferiour cardboard software affecting refrashrate of the display. This project offeres a cardboard version but only because it is so accesible and cheap. I do not recommend using it when you have the option to use a GearVR or Daydream View headset. The quality is just not good enough.  
+6. ARCore ready phones that do not support GearVR or Daydream work with google cardboard but the experience is noticeably worse because of two factors. The lense quality of cardboard lenses and the inferior cardboard software affecting refrashrate of the display. This project offers a cardboard version but only because it is so accesible and cheap. I do not recommend using it when you have the option to use a GearVR or Daydream View headset instead. The quality is just not good enough.  
 
 
 # How to Seurat:
 
-What is Seurat? Read the [introduction](https://developers.google.com/vr/discover/seurat)
+What is Seurat? Read the introduction [here](https://developers.google.com/vr/discover/seurat)
 In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique, but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
 [Here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/) you can learn how to capture a high-quality scene.
 
