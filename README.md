@@ -123,10 +123,6 @@ Video showing uSenseAR hand tracking.
 
 In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) if you are interested in a working version for Android. 
 
-<p align="center"> <b>Multiplayer Game</b> </p> 
-
-A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
-
 <p align="center"> <b>3D Scenning The Environment</b> </p> 
 
 <p align="center">
@@ -134,6 +130,12 @@ A multiplayer VR game using ARCores cloud anchors should be possible, but I am c
 </p>
 
 3D Scanner for ARCore is a project using arcore for object/room scanning. The [Tango version "Open Constructor"](https://github.com/lvonasek/tango/wiki/Open-Constructor) is open source the [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is not but can be bought as an Unity plugin [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and even having a virtual environment which fits perfectly over your real environment. This is increadible and I will try to implement it as soon as possible. You can also download the 3D scanning app for free [here](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US)
+
+<p align="center"> <b>Further Ideas Worth Exploring</b> </p> 
+
+A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
+
+Using VR outside is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Using real-world information and [3D maps from Google] (https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting games consisting of AR and VR elements.
 
 
 # Other Interesting Projects:
