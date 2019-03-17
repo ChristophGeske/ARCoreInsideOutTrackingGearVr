@@ -99,6 +99,8 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 # TODO's and future work:
 
+<p align="center"> <b>Hand Tracking</b> </p> 
+
 I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. I have access to the developer software of Manomotion but not the one from uSenseAR. First tests with Manomotion where not so successful but I will follow the development closly. Another disadvantage is that the Manomotion software is not free of charge so I can not publish it here but I could upload videos and maybe a paid app in the future. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized.
 
 <p align="center">
@@ -117,9 +119,21 @@ Video showing Manomotion hand tracking in combination with ARCore.
 Video showing uSenseAR hand tracking.
 </p>
 
+<p align="center"> <b>Moving Marker Tracking</b> </p> 
+
 In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) if you are interested in a working version for Android. 
 
+<p align="center"> <b>Multiplayer Game</b> </p> 
+
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
+
+<p align="center"> <b>3D Scenning The Environment</b> </p> 
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
+</p>
+
+3D Scanner for ARCore is a project using arcore for object/room scanning. The [Tango version "Open Constructor"](https://github.com/lvonasek/tango/wiki/Open-Constructor) is open source the [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is not but can be bought as an Unity plugin [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundery system and even having a virtual environment which fits perfectly over your real environment. This is increadible and I will try to implement it as soon as possible. You can also download the 3D scanning app for free [here](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US)
 
 
 # Other Interesting Projects:
