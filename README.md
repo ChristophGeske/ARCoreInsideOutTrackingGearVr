@@ -225,4 +225,4 @@ Bitcoin wallet address is: [15aaSbgsZzwP3mrAGdZm7yvuZbu62f6JY4](https://www.coin
 
 
 
-Paypal.Me [link](https://www.paypal.me/ChristophGeske). 
+Paypal: [paypal.me/ChristophGeske](https://www.paypal.me/ChristophGeske). 
