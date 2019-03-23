@@ -12,7 +12,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 - This project can give you a good taste for the capabilities of the HTC Vive Focus and the Daydream powered Lenovo Mirage Solo. Both devices are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Santa Cruz/Quest which is expected for early 2019 will also offer 6DoF tracking and feature two 6DoF tracked hand controllers which should make it a highly desirable device. 
       
-- Before installing one of the apps (.apk files) make sure you have installed Google ARCore (Play Store) on your device. Also check if your device is supported on [this page](https://developers.google.com/ar/discover/supported-devices).
+- Before installing one of the apps (.apk files) make sure you have installed Google ARCore from the [Play Store](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en) on your device. Check if your device supports ARCore on [this page](https://developers.google.com/ar/discover/supported-devices).
 
 
 # Software Description:
@@ -99,6 +99,10 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 # TODO's and future work:
 
+<p align="center"> <b>Improve Head Tracking</b> </p> 
+
+The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extrema situations but I predict a future version will offer almost perfect head tracking when performing normal head movements. 
+
 <p align="center"> <b>Hand Tracking</b> </p> 
 
 I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. I have access to the developer software of Manomotion but not the one from uSenseAR. First tests with Manomotion where not so successful but I will follow the development closly. Another disadvantage is that the Manomotion software is not free of charge so I can not publish it here but I could upload videos and maybe a paid app in the future. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized.
@@ -130,6 +134,10 @@ In the future ARCore might get moving marker tracking like ARKit2 and Vuforia ar
 </p>
 
 3D Scanner for ARCore is a project using ARCore for object/room scanning. The [Tango version "Open Constructor"](https://github.com/lvonasek/tango/wiki/Open-Constructor) is open source the [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is not but can be bought as an Unity plugin [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and even having a virtual environment which fits perfectly over your real environment. This is increadible and I will try to implement it as soon as possible. You can also download the 3D scanning app for free [here](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US)
+
+<p align="center"> <b>Building An Usefull first App</b> </p> 
+
+I thought about building an app for the GearVR and Daydream store when all the tracking issues are resolved and a safe boundary/guardian system is in place. The freedom to move the head allows for many new interaction abilities and I think sport games where the head movement is in the focus would be perfect for the first app. Getting people moving is not just fun but also good for the users health so maybe such games could become popular in the future. I also think a fitness game could be easily ported to the Oculus Quest in the future. 
 
 <p align="center"> <b>Further Ideas Worth Exploring</b> </p> 
 
