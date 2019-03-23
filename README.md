@@ -101,7 +101,7 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 <p align="center"> <b>Improve Head Tracking</b> </p> 
 
-The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extrema situations but I predict a future version will offer almost perfect head tracking when performing normal head movements. 
+The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extrema situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. 
 
 <p align="center"> <b>Hand Tracking</b> </p> 
 
