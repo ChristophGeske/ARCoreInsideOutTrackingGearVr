@@ -135,15 +135,17 @@ In the future ARCore might get moving marker tracking like ARKit2 and Vuforia ar
 
 Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects online. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar as well. I recommend reading the [related paper](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out.
 
-<p align="center"> <b>Building An App</b> </p> 
+<p align="center"> <b>6DOF Images, Videos and Light Fields</b> </p> 
 
-I thought about building an app for the GearVR and Daydream store when all the tracking issues are resolved and a safe boundary/guardian system is in place. The freedom to move the head allows for many new interaction abilities and I think sport games where the head movement is in the focus would be perfect for the first app. Getting people moving is not just fun but also good for the users health so maybe such games could become popular in the future. I also think a fitness game could be easily ported to the Oculus Quest in the future. 
+360° and 180° fotos and videos are nice but with additional depth information they become really interesting. Positional tracking on GearVR would be a natural fit since no hand controllers are needed, mobile phones can display high resolution images and since the head movements are rather slow we have no problems with camera motion blur and loss of tracking. There are two distinct ways of approaching this idea. 1.) Image overlayed on a depth map either by capturing the depth map separately or by using software to recover a point cloud from a stereoscopic video [(seen here)](https://www.youtube.com/watch?v=HSXMs2wnNc4) and further discussed [here](https://www.reddit.com/r/6DoF/). 2.) Using [a light field](https://www.blog.google/products/google-ar-vr/experimenting-light-fields/) captured environments. An demo project [(video)](https://www.youtube.com/watch?v=a-JX3ZPi720) was published by Google running only on pc VR headsets. But with a bit of work and using the seurat pipeline and [this github light field project](https://github.com/PeturDarri/Fluence-Unity-Plugin/tree/master/Assets) it might be possible to bring the same experience to mobile VR. I am currently exploring this idea for my first app for the Oculus store.
 
 <p align="center"> <b>Further Ideas Worth Exploring</b> </p> 
 
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
 
 Using VR outside or in a large play space is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Using real-world information and [3D maps](https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting games consisting of AR and VR elements.
+
+Sport games where the head movement is the primary way to interact would be interesting, but the movements might be to fast and result in loss of tracking caused by motion blure (needs further testing of the tracking recovery after fast movements). Getting people into doing more exercise without moving would benefit the users health so maybe such games could become popular in the future. A fitness game might also be easily ported to the Oculus Quest in the future. 
 
 
 # Other Interesting Projects:
@@ -187,7 +189,7 @@ An overview over all the commercially available mobile VR headsets can be found 
 
 What is Seurat? Read the introduction [here](https://developers.google.com/vr/discover/seurat)
 In short it can capture a high-quality scene and make it run on a mobile device. The catch only a predefined area looks sharp and correct. In this experience it is a 2x3 meter box between the wooden gate and the stone bridge. This means if you try to cross the bridge you will see holes in the textures and distorted meshes. This is the limitation of this technique, but the area can be made bigger. I am not sure how big the area can get I will try that later for now enjoy the limited area between bridge and wooden gate. ;)
-[Here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/) you can learn how to capture a high-quality scene.
+[Here](https://www.reddit.com/r/daydream/comments/8vsdnx/have_give_google_seurat_tool_a_try_using_unity/) and [here](https://www.youtube.com/watch?v=FTI_79f02Lg) you can learn how to capture a high-quality scene.
 
 
 <p align="center">
