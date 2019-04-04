@@ -141,6 +141,8 @@ Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com
 
 <p align="center"> <b>Further Ideas Worth Exploring</b> </p> 
 
+Object detection/classification using the camera feet could allow for some unique game and application mechanics. Two projects using Google tensor flow as the underling mashine learning software are available [here](https://github.com/Syn-McJ/TFClassify-Unity) and [here](https://github.com/MatthewHallberg/TensorFlowUnity-ImageClassification).
+
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
 
 Using VR outside or in a large play space is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Using real-world information and [3D maps](https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting games consisting of AR and VR elements.
