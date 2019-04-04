@@ -168,6 +168,8 @@ Kinect + GearVR seems be suited to bring full body movement to the GearVR: Check
 
 ALVR connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR).
 
+Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and let us know about it.
+
 
 # Some thoughts about the optimal and future hardware:
 
