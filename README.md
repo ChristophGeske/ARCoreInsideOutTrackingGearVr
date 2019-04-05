@@ -141,6 +141,8 @@ Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com
 
 ### Further Ideas Worth Exploring 
 
+For safty reasons a boundery system like shown in this [video](https://youtu.be/aVdWED6kfKc) would be nice as soon as the tracking works well enough.
+
 Object detection/classification using the camera feet could allow for some unique game and application mechanics. Two projects using Google tensor flow as the underling machine learning software are available [here](https://github.com/Syn-McJ/TFClassify-Unity) and [here](https://github.com/MatthewHallberg/TensorFlowUnity-ImageClassification).
 
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
