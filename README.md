@@ -229,7 +229,7 @@ I want to give credit to the following developers who published useful informati
 
 # Privacy Notice:
 
-This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook(Oculus) by using thair software we agree to their privacy terms and conditions. In principle gyro/accelorometer sensor data like head rotation and what you are looking at could be logged in the background. Data about your movement can be used to make predictions about your physical health and provide a digital fingerprint since the movement is unique to you. Keep this in mind when using this project which has to agree to conditions like the following: 
+This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook (Oculus) by using thair software we have to agree to their privacy terms and conditions. In principle gyro/accelerometer sensor data like head rotation and heat maps of what you are looking at could be logged in the background. Data about your movement could be used to make predictions about your physical health and provide a digital fingerprint of you since the movement is unique to every user. This project doesn't store any of your data but I can not speak for the big tech companies. 
 
 [Google Privacy Policy](https://policies.google.com/privacy)
 
