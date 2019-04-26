@@ -229,9 +229,10 @@ I want to give credit to the following developers who published useful informati
 
 # Privacy Notice:
 
-This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook(Oculus) booth companies have thair own privacy policies and by using thair software we agree to their privacy terms. This project does not store or share any of your data and if you work no data offline, should be, send to the Google/Facebook cloud. In principle gyro/accelorometer/sensor data like the head rotation and what you are looking at could be logged and send if you go online. Data about your movement can also be used to make predictions about your physical health and provides a digital fingerprint since the movement is unique and could be used to identify you. Keep this in mind when using this project which has to agree to conditions like the following: 
+This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook(Oculus) by using thair software we agree to their privacy terms and conditions. In principle gyro/accelorometer sensor data like head rotation and what you are looking at could be logged in the background. Data about your movement can be used to make predictions about your physical health and provide a digital fingerprint since the movement is unique to you. Keep this in mind when using this project which has to agree to conditions like the following: 
 
 [Google Privacy Policy](https://policies.google.com/privacy)
+
 "This application runs on ARCore, which is provided by Google LLC and governed by the Google Privacy Policy"
 
 [Oculus Privacy Policy](https://support.oculus.com/947039345464468/)
