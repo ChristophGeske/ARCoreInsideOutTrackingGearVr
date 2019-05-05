@@ -182,12 +182,11 @@ The disadvantage is that Google stopped developing Tango, that almost no one own
 
 4. The Galaxy S7 which is running ARCore and GearVR without immediately overheating is the lowest spec device allowing for positional tracking. For hand-tracking the performance might not be enough but this is still an open research question. In combination with a cheap second hand GearVR for roughly 30$ it might be the best value device for experiencing VR right now.
 
-5. Daydream ready phones are powerful and often also support ARCore. The VR quality with the second generation Daydream View is almost as good as GearVR. Currently, this project is working better on GearVR since resetting the view is somewhat complicated using the Daydream software. This might change in the future if the issue can be solved.
+5. Daydream ready phones are powerful, often also support ARCore and the VR quality with the second generation Daydream View is almost as good as GearVR. Daydream is a much more open platform compared to GearVR and runs on [multiple phones](https://vr.google.com/daydream/smartphonevr/phones/) which only need to meet the [hardware requirements](https://www.androidauthority.com/google-daydream-ready-phones-705245/) to be supported. Currently, this project is working better on GearVR since resetting the view is somewhat more complicated using the Daydream software. This might change in the future if the issue can be solved.
 
 6. ARCore ready phones that do not support GearVR or Daydream work with google cardboard but the experience is noticeably worse because of two factors. The lense quality of cardboard lenses and the inferior cardboard software affecting refrashrate of the display. This project offers a cardboard version but only because it is so accesible and cheap. I do not recommend using it when you have the option to use a GearVR or Daydream View headset instead. The quality is just not good enough.  
 
 An overview over all the commercially available mobile VR headsets can be found [here](https://www.aniwaa.com/best-of/vr-ar/best-standalone-vr-headset/).
-
 
 # How to Seurat:
 
