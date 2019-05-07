@@ -125,7 +125,7 @@ Video showing uSenseAR hand tracking.
 
 ### Moving Marker Tracking
 
-In the future ARCore might get moving marker tracking like ARKit2 and Vuforia are already able to. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) if you are interested in a working but very buggy version for Android. Based on Vuforia which shows different performance on different phones e.g. the performance on the S7 is not very good but better on S8 and later models.
+In the future ARCore might get moving marker tracking but currently only ARKit2 and Vuforia are able to offer that feature. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) which uses Vuforia marker tracking if you are interested in a working but very buggy version for Android. When using Vuforia marker tracking you will experience different performance results on different phones e.g. the performance on the S7 is not very good but better on S8 and later models. If you are interested why that is you can finf more informations on the [Vuforia Fusion page](https://library.vuforia.com/articles/Training/vuforia-fusion-article.html).
 
 ### 3D Scenning The Environment 
 
