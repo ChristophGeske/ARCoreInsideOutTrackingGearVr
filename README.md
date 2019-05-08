@@ -34,7 +34,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 | | | | |
 |NativeARCoreTracking(Experimental)| Is not up to date and will be removed soon. Please use WhiteIsland instead. |All ARCore + GearVR capable devices|GearVR|
 | | | | |
-[MovingMarkerTracking.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/MovingMarkerTracking/MovingMarkerTracking.apk)|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices (low tracking quality)|GearVR| 
+[MovingMarkerTracking.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/MovingMarkerTracking/MovingMarkerTracking.apk)|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running.|All GearVR capable devices (low tracking quality) Since Google just announced that they also support moving marker tracking this project will probably be replaced soon since Vuforia Marker tracking has some issues.|GearVR| 
 
 
 # Installation 
@@ -125,7 +125,8 @@ Video showing uSenseAR hand tracking.
 
 ### Moving Marker Tracking
 
-In the future ARCore might get moving marker tracking but currently only ARKit2 and Vuforia are able to offer that feature. [ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio) seems to be the best at the moment. See [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) which uses Vuforia marker tracking if you are interested in a working but very buggy version for Android. When using Vuforia marker tracking you will experience different performance results on different phones e.g. the performance on the S7 is not very good but better on S8 and later models. If you are interested why that is you can finf more informations on the [Vuforia Fusion page](https://library.vuforia.com/articles/Training/vuforia-fusion-article.html).
+ARCore just announced that version 1.9 now supports moving marker tracking. Read more about it [here](https://developers.google.com/ar/develop/unity/augmented-images/). 
+Until now only ARKit2([ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio)) and Vuforia where able to offer that feature and some time ago I experimented with it the result is [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) which uses Vuforia marker tracking. I am currently looking into ARCore based moving marker tracking which should be a much better solution. The interesting questions moving marker tracking opens up are: 1) If we can use it to further improve tracking. 2) If you can add a marker to your hands/controller to get some sort of hand/controller tracking but even if it works the limited field of view of the camera will probably not make it that useful for many applications but for some application it might be just enough. 
 
 ### 3D Scenning The Environment 
 
