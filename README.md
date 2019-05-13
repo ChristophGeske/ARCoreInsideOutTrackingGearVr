@@ -209,13 +209,13 @@ If you own a high-end smartphone already, you can get good VR for a very low pri
 
 ### Best Deal| Oculus Quest:
 
-The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside, many features that ARCore provides like marker tracking, cloud anchors (multiplayer in one location) or hand tracking will probably never be available. In short it is a great product with more limitations for developers.
+The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright, many features that ARCore provides like marker tracking, cloud anchors (multiplayer in one location) or hand tracking will not be available. But it will be a great device nonetheless.
 
 <p align="left">
 <a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a>
 </p>
 
-These amazon links are so called affiliated links and by using them you can directly support my work if you buy from Amazon anyway. Using them will not increase the price for you, but Amazon will pay me up to 4.00% for bringing customers to their store.    
+These Amazon links are affiliated links and using them will not increase the price for you, using them is an easy way to support my work directly. 
 
 # How to Seurat:
 
