@@ -200,14 +200,14 @@ If you are looking for a new phone which is well suited for VR and works in comb
 
 <a href="https://www.amazon.co.uk/gp/product/B06XYMCMHD/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B06XYMCMHD&linkCode=as2&tag=christophge03-21&linkId=df992f57728629e394a1d8c0412a1bc6"><img src="https://user-images.githubusercontent.com/12700187/57588508-7ccbba00-7515-11e9-9ef1-d3db759597f5.png" width="35%"></a> <a href="https://www.amazon.co.uk/gp/product/B07NWR7QYQ/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07NWR7QYQ&linkCode=as2&tag=christophge03-21&linkId=99a1abe6046750764feb01bd85d42be4"><img src="https://user-images.githubusercontent.com/12700187/57588556-48a4c900-7516-11e9-9a22-4bf8b316f0ba.png" width="35%"></a> <a href="https://www.amazon.com/gp/product/B07CTYBVMM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07CTYBVMM&linkCode=as2&tag=christophgesk-20&linkId=47d8897fa39d664057ec1bb41e4978c5"><img src="https://user-images.githubusercontent.com/12700187/57588666-bf8e9180-7517-11e9-9533-9235f834043b.png" width="35%"></a> 
 
-### Cheapest Options| GearVR and Daydream View:
+### Cheapest Deal | GearVR and Daydream View:
 
-If you own a high-end smartphone already, you can get good VR for a very low price. If you own a Samsung Smartphone S7 or above it will support ARCore and I recommend the GearVR with a controller. Make sure to find the right GearVR headset for your phone the connector and size requirements might change depending on your phone. If you own a smartphone which only has Daydream support, I can also recommend the second generation of the Daydream headsets the View 2 wich includes a controller. I cannot recommend the Cardboard headset the quality is just not good enough. In short they offer great 3DOF VR experiences and interesting experimental 6DOF and computer vision possibilities.
+If you own a high-end smartphone already, you can get good VR for a very low price. If you own a Samsung Smartphone S7 or above it will support ARCore and I recommend the GearVR with a controller. Make sure to find the right GearVR headset for your phone the connector and size requirements might change depending on your phone. If you own a smartphone which only has Daydream support, I can also recommend the second generation of the Daydream headsets the View 2 which includes a controller. I cannot recommend the Cardboard headset the quality is just not good enough. In short they offer great 3DOF VR experiences and interesting experimental 6DOF and computer vision possibilities.
 
 <a href="https://www.amazon.co.uk/gp/product/B07142L1V6/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07142L1V6&linkCode=as2&tag=christophge03-21&linkId=9e83db0ebbc078333027f48745c506fe"><img src="https://user-images.githubusercontent.com/12700187/57588245-88b57d00-7511-11e9-8cc6-58e94b2e1d39.png" width="30%"></a>
 <a href="https://www.amazon.co.uk/gp/product/B0773RZWV1/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B0773RZWV1&linkCode=as2&tag=christophge03-21&linkId=7ec33d0127adf6dbafa89690a2fa7af4"><img src="https://user-images.githubusercontent.com/12700187/57588145-738c1e80-7510-11e9-8d98-d9e4188ff43b.png" width="30%"></a> 
 
-### Best Deal| Oculus Quest:
+### Best Deal | Oculus Quest:
 
 The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright, the tracking area is limited to 60m^2 ~ (7mx7m), many features that ARCore provides like marker tracking, cloud anchors (multiplayer in one location) and hand tracking will not be available but it will be a great device, nonetheless.
 
@@ -215,7 +215,7 @@ The Oculus Quest is an all in one device with better resolution, better head/con
 <a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a>
 </p>
 
-These Amazon links are affiliated links and using them will not increase the price for you, using them is an easy way to support my work directly. 
+These are Amazon affiliated links, they are a great way to support my work directly. Using them will not change the price for you. 
 
 # How to Seurat:
 
