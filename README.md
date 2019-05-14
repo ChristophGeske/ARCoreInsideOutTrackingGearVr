@@ -105,7 +105,7 @@ The current tracking version you find in this repository suffers from lag, jumps
 
 ### Hand Tracking 
 
-I am also looking into implementing hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/). Unfortunately, the performance requirements are very high. I have access to the developer software of Manomotion but not the one from uSenseAR. First tests with Manomotion where not so successful but I will follow the development closely. Another disadvantage is that the Manomotion software is not free of charge so I can not publish it here but I could upload videos and maybe a paid app in the future. Moving marker tracking looks like it could work more reliable and with better performance since the software is more optimized.
+Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. Manomotion is already accessible and uSenseAR is not available yet. First tests with Manomotion where not so successful but I will follow the development closely. Another disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand look like it could work more reliable and with better performance for now.
 
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
@@ -113,14 +113,6 @@ I am also looking into implementing hand tracking using software from [Manomotio
 
 <p align="center">
 Video showing Manomotion hand tracking in combination with ARCore. 
-</p>
-
-<p align="center">
-<a href="https://youtu.be/wdiC7l_Wecg"><img src="https://user-images.githubusercontent.com/12700187/54431593-21ed3080-4727-11e9-8752-2e9eaacbbea3.png" width="100%"></a>
-</p>
-
-<p align="center">
-Video showing uSenseAR hand tracking.
 </p>
 
 ### Moving Marker Tracking
@@ -134,7 +126,7 @@ Until now only ARKit2([ARKit2 marker tracking](https://www.youtube.com/watch?v=y
 <a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
 </p>
 
-Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects online. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar as well. I recommend reading the [related paper](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology.
+Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar as well. I recommend reading the [related paper](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology.
 
 ### 6DOF Images, Videos and Light Fields  
 
@@ -228,8 +220,11 @@ If you own a high-end smartphone already, you can get good VR for a very low pri
 The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright, the tracking area is limited to 60m^2 ~ (7mx7m), many features that ARCore provides like marker tracking, cloud anchors (multiplayer in one location) and hand tracking will not be available but it will be a great device, nonetheless.
 
 <p align="left">
-<a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a>
+<a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a> 
 </p>
+
+Amazon Store Links: [USA](https://www.amazon.com/Oculus-Quest-All-Gaming-Headset-android/dp/B07PRDGYTW/ref=as_sl_pc_tf_til?tag=christophgesk-20&linkCode=w00&linkId=02f542650443d2d2e88177ea73cdb6c2&creativeASIN=B07PRDGYTW) | [UK](https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b) | [DE](https://www.amazon.de/Oculus-Quest-All-Gaming-Headset/dp/B07P6Y5DNT/ref=as_sl_pc_tf_til?tag=christophgesk-21&linkCode=w00&linkId=15c29b24c42becf5c701c6b13b4c1296&creativeASIN=B07P6Y5DNT)     
+
 
 These are Amazon affiliated links, they are a great way to support my work directly. Using them will not change the price for you. 
 
