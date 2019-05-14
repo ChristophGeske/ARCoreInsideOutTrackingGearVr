@@ -153,21 +153,37 @@ Using VR outside or in a large play space is a lot of fun and feels very differe
 
 # Other Interesting Projects:
 
-The iconic shooter game Quake can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
+### Shooter game Quake 
+This iconic game can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
 
-iPhone + ARKit + Cardboard projects can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View)
+### iPhone + ARKit + Cardboard 
+Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View)
 
-Fast Travel Games also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
+### Fast Travel Games 
+They also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
 
-Using Google Tango:
+### Google Tango
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
 
-Cardboard AR (HoloKit): 
-They used Tango but ARCore should work as well. Check out this [video](https://youtu.be/Wp21BynNl1k) to learn more.
+### HoloKit (Cardboard AR) 
 
-Kinect + GearVR seems be suited to bring full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
+<a href="https://www.amazon.com/HoloKit-Cardboard-like-Augmented-Everyone-Compatible/dp/B075FB1ZVX/ref=as_li_ss_tl?keywords=HoloKit&qid=1557830221&s=electronics&sr=1-1-catcorr&linkCode=ll1&tag=christophgesk-20&linkId=49edf4d1665f30169ebadfe26914bb04&language=en_US"><img src="https://user-images.githubusercontent.com/12700187/57692138-522d4e80-7646-11e9-9ea2-185a19396093.png" width="35%"></a>
 
-ALVR connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR).
+<p align="left">
+If the Amazon link is dead check out the HoloKit website instead (https://holokit.io/).
+
+[This introductory video](https://www.youtube.com/watch?v=ao8Gb9yDrBM) gives you a good overview and the [github project](https://github.com/holokit/holokitsdk) is also informative.
+The possibilities such a headset provide are almost limitless some examples [here (markers)](https://www.youtube.com/watch?v=8fNdM0q7gUc), [here (hand tracking)](https://www.youtube.com/watch?v=N5xl3HBNsqg) and [here](https://www.youtube.com/watch?time_continue=2&v=NwkpiE4Tgjs)
+
+There is also a company (Aryzon) selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. Their website is https://www.aryzon.com/.
+
+Be care full when buying a no name headset they are very likely not compatible since distance between the lenses and phone might be important for a good experience.
+
+### Kinect + GearVR 
+This combination seems be suited for bringing full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
+
+### ALVR 
+This sweet open source software project connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR). Might be interesting for the Oculus Quest too.
 
 Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and let us know about it.
 
