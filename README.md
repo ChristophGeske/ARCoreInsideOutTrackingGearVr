@@ -245,8 +245,7 @@ The Oculus Quest is an all in one device with better resolution, better head/con
 
 Amazon Store Links: [USA](https://www.amazon.com/Oculus-Quest-All-Gaming-Headset-android/dp/B07PRDGYTW/ref=as_sl_pc_tf_til?tag=christophgesk-20&linkCode=w00&linkId=02f542650443d2d2e88177ea73cdb6c2&creativeASIN=B07PRDGYTW) | [UK](https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b) | [DE](https://www.amazon.de/Oculus-Quest-All-Gaming-Headset/dp/B07P6Y5DNT/ref=as_sl_pc_tf_til?tag=christophgesk-21&linkCode=w00&linkId=15c29b24c42becf5c701c6b13b4c1296&creativeASIN=B07P6Y5DNT)     
 
-These are Amazon affiliated links, they are a great way to support my work directly. Using them will not change the price for you. 
-
+The Amazon store links are affiliated links and they are a great way to support my work directly. Using them will not change the price for you.
 
 # How to Seurat:
 
