@@ -205,8 +205,7 @@ If you are willing to mess around, you can try to force Daydream on the phone li
 ARCore runs on many more phones and your phone might support it even when Daydream is not supported. When your phone is not an ARCore ready phone you can force ARCore on to it but you need to root and install a ROM of an ARCore supported device onto it. This way you emulate the correct hardware but since ARCore is specifically adjusted to the camera of the phone you might experience drift and bad tracking so your chances that this trick works are low but it would work in principle and if you get it to work let us know.
 There is also the [ARCore for everyone github project](https://github.com/tomthecarrot/arcore-for-all) if you are interested, but it is not up to date and only older ARCore versions might be accessible that way. 
 
-### OnePlus 7 Pro 
-This phone is mentioned here since it will offer a 90Hz refresh rate display which should make a noticeable difference in the visual quality. Currently, it is not clear if it will get ARCore support and if forcing Daydream onto it will works. So no recommendations yet but it is an interesting device for a good price.
+The OnePlus 7 Pro should also be mentioned here since it will offer a 90Hz refresh rate display which should make a noticeable difference in the visual quality. Currently, it is not clear if it will get ARCore support and if forcing Daydream onto it will work. So no recommendation yet but keep an eye on this interesting device.
 
 An overview over all the commercially available mobile VR headsets can be found [here](https://www.aniwaa.com/best-of/vr-ar/best-standalone-vr-headset/).
 
