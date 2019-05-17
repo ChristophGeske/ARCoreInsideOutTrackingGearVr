@@ -168,7 +168,7 @@ The possibilities such a headset provide are almost limitless some examples [her
 
 There is also a company ([Aryzon](https://www.aryzon.com/)) selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. 
 
-Be careful when buying a no name headset they are very likely not compatible since distance between the lenses and phone might be important for a good experience. You find a hands on video [here](https://www.youtube.com/watch?v=DGHtPX1HfMI).
+Be careful when buying a no name headset they are very likely not compatible since distance between the lenses and phone should make a big difference. The lenses on the original HoloKit ([video](https://vimeo.com/215842939)) look much more advanced compared to the ones on the cheaper Chinese versions ([video 1](https://www.youtube.com/watch?v=O8LKG2MqVe8) and [video 2](https://www.youtube.com/watch?v=l_Br9Ehbf7s). 
 
 ### Kinect + GearVR 
 This combination seems be suited for bringing full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
