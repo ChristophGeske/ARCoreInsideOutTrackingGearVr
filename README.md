@@ -163,7 +163,7 @@ Some projects use the camera seethrough mode for AR projects but I don't think i
 
 [This introductory video](https://www.youtube.com/watch?v=ao8Gb9yDrBM), the [github project site](https://github.com/holokit/holokitsdk) and the [HoloKit website](https://holokit.io/) can give you a good overview over the HoloKit project. You can also buy the headset from thair website but more on that down below.
 
-There is also a company called [Aryzon](https://www.aryzon.com/) which is selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. 
+There is also a company called [Aryzon](https://www.aryzon.com/) which is selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. A video looking through the headset can be found [here](https://www.youtube.com/watch?v=EFDl5Nyah3Y) tracking in the video seems not very good and I think this is because they used Vuforia previously with ARCore it should be much better.
 
 There are many possibilities that such a headset would allow for some examples [here (markers)](https://www.youtube.com/watch?v=8fNdM0q7gUc), [here (hand tracking)](https://www.youtube.com/watch?v=N5xl3HBNsqg) and [here](https://www.youtube.com/watch?time_continue=2&v=NwkpiE4Tgjs). 
 
