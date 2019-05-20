@@ -92,7 +92,7 @@ You can use the touchpad on the side of the headset to recenter the view when yo
 
 ### On Daydream and iPhone
 
-Daydream users: You can simply switch a cardboard project over to Daydream inside the Unity project. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a daydream device and headset to test it. 
+Daydream users: You can either use one of the Cardboard .apks or even better switch a cardboard project over to Daydream inside the Unity project. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a Daydream device and headset to test it. 
 
 iPhone user: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. Unfortenatly only Cardboard VR which lacks some critical features like reprojection and low persistency screen mode runs on iphones making iphones not well suited for mobile VR.
 
