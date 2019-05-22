@@ -115,12 +115,16 @@ Hand tracking using software from [Manomotion](https://www.manomotion.com/) and 
 Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
 
+An open source project for ARKit gesture recognition can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit)
+
 ### Moving Marker Tracking
 
 ARCore just announced that version 1.9 now supports moving marker tracking. Read more about it [here](https://developers.google.com/ar/develop/unity/augmented-images/). 
 Until now only ARKit2([ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio)) and Vuforia where able to offer that feature and some time ago I experimented with it the result is [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) which uses Vuforia marker tracking. I am currently looking into ARCore based moving marker tracking which should be a much better solution. The interesting questions moving marker tracking opens up are: 1) If we can use it to further improve tracking. 2) If you can add a marker to your hands/controller to get some sort of hand/controller tracking but even if it works the limited field of view of the camera will probably not make it that useful for many applications but for some application it might be just enough. 
 
-### 3D Scenning The Environment 
+The company ZapBox already sells kits based on this idea as you can see in this [video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). With ARCore 1.9 supporting moving marker tracking this functionality can be added to the regular 3DoF controller making it 6DoF. Notice that they use a clip-on-lens to the smartphone this probably serves two functions. First: Since they show the see through camera feed directly to the user they get a bigger field of view (but still only 2D). Second: With the bigger field of view the area where the moving markers can be tracked gets bigger. I am not sure if ARCore would also keep tracking the surrounding correctly if you add such a magnifying lens but the ARCore team states that they need full control over the camera specifications to maximize tracking quality as you can read [here](https://github.com/google-ar/arcore-android-sdk/issues/56). Since some of the latest smartphones like the S10 have a dedicated wide field of view camera this could be helpfull for getting a wider field of view for marker tracking as well.
+
+### 3D Scanning The Environment 
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
@@ -145,8 +149,8 @@ Using VR outside or in a large play space is a lot of fun and feels very differe
 
 # Other Interesting Projects:
 
-### Shooter game Quake 
-This iconic game can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should try it out.  
+### Shooter Game Quake 
+This iconic shooter game can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should check it out.  
 
 ### iPhone + ARKit + Cardboard 
 Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View)
@@ -157,13 +161,13 @@ They also experimented with ARCore and GearVR. They put some serious thought in 
 ### Google Tango
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
 
-### HoloKit (Cardboard AR) 
+### HoloKit, Aryzon, ZapBox (Cardboard AR) 
 
-Some projects use the camera seethrough mode for AR projects but I don't think it is a good approach to use a mono camera and add 3D objects on top of the 2D camera image. This is guaranteed to give you a bad experience. The HoloKit project builds on a much better idea but would profit from a better headset design and some improvements we already see in the Daydream and GearVR headsets like low persistency screen mode and smooth head tracking. It would also profit from smoother positional head tracking which is the mission of this project. 
+Some projects (e.g. [ZapBox](https://www.zappar.com/zapbox/)) use the camera seethrough mode for AR projects but I don't think it is a good approach to use a mono camera and add 3D objects on top of the 2D camera image. This is guaranteed to give you a bad experience. The HoloKit project builds on a much better idea but would profit from a better headset design and some improvements we already see in the Daydream and GearVR headsets like low persistency screen mode and smooth head tracking. It would also profit from smoother positional head tracking which is the mission of this project. 
 
 [This introductory video](https://www.youtube.com/watch?v=ao8Gb9yDrBM), the [github project site](https://github.com/holokit/holokitsdk) and the [HoloKit website](https://holokit.io/) can give you a good overview over the HoloKit project. You can also buy the headset from thair website but more on that down below.
 
-There is also a company called [Aryzon](https://www.aryzon.com/) which is selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. A good review of this headset can be found [here](https://skarredghost.com/2018/07/04/aryzon-ar-headset-2-0-unboxing-and-review/). I only found an [older video](https://www.youtube.com/watch?v=EFDl5Nyah3Y) showing a view through the headset with the tracking looking terible. Tracking using the new ARCore should be much better. 
+There is also a company called [Aryzon](https://www.aryzon.com/) which is selling almost the same product with thair own SDK but I don't know why this company even exists when there is HoloKit as an open-source alternative. A good review of this headset can be found [here](https://skarredghost.com/2018/07/04/aryzon-ar-headset-2-0-unboxing-and-review/). I only found an [older video](https://www.youtube.com/watch?v=EFDl5Nyah3Y) showing a view through the headset with the tracking looking terrible. Tracking using the new ARCore should be much better. 
 
 There are many possibilities that such a headset would allow for some examples [here (markers)](https://www.youtube.com/watch?v=8fNdM0q7gUc), [here (hand tracking)](https://www.youtube.com/watch?v=N5xl3HBNsqg) and [here](https://www.youtube.com/watch?time_continue=2&v=NwkpiE4Tgjs). 
 
@@ -242,7 +246,7 @@ Amazon Store: [USA](https://www.amazon.com/gp/product/B074GB37V8?ie=UTF8&tag=chr
 
 ### Best Deal | Oculus Quest:
 
-The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright, the tracking area is limited to 60m^2 ~ (7mx7m), many features that ARCore provides like marker tracking, cloud anchors (multiplayer in one location) and hand tracking will not be available but it will be a great device, nonetheless.
+The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright (at dawn it seems to work quite well see this [video](https://www.youtube.com/watch?v=Eb_xZYDAfjM)), the tracking area is limited to 60m^2 ~ (7mx7m), many features that ARCore provides like marker tracking, cloud anchors for multiplayer (some experiments kind of work already see this [video](https://www.youtube.com/watch?v=msbTbfep_sY)) and hand tracking will not be available but it will be a great device, nonetheless.
 
 <p align="left">
 <a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a> 
