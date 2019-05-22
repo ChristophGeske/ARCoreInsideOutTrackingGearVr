@@ -310,6 +310,7 @@ This project uses software from Google (ARCore, Daydream, Cardboard) and Faceboo
 # Support this Project:
 
 If you like this work and you want to support the development of this free software project, please consider a donation via Bitcoin and PayPal.
+Also recommend this resource to friends who might be interested in it. I am also looking forward to structuring this project better so that it becomes easier for you to collaborate if you are interested.
 
 <a href="https://www.coinbase.com/join/5a7a5c59852a7a06c9329bcf"><img src="https://user-images.githubusercontent.com/12700187/40888344-38a572f8-6756-11e8-9a93-eedc76f0d676.jpg" width="148" href="https://www.paypal.me/ChristophGeske"><img src="https://user-images.githubusercontent.com/12700187/54650628-c23caf80-4aaf-11e9-8747-59d55fc90090.png" width="100">  </a>
 
