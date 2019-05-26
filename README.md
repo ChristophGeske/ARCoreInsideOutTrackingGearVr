@@ -148,6 +148,8 @@ Using the seurat pipeline and [this github light field project](https://github.c
 
 ### Further Ideas Worth Exploring 
 
+To further increase the reach, it makes sense to build apps that run on Android and iOS devices. The [AR Foundation github project](https://github.com/Unity-Technologies/arfoundation-samples) brings this functionality to Unity. Unfortunately the combination of VR and AR is not working yet I hope this changes in the future so we only need to build an app once.   
+
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
 
 Using VR outside or in a large play space is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Here accessing  [3D maps](https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting apps consisting of AR and VR elements.
