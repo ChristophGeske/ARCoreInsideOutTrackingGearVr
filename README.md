@@ -51,22 +51,22 @@ Works with all phones who support ARCore. Just download the BoxyRoomCardboard.ap
 Video showing BoxyRoomCardboard.apk in action.
 </p>
 
-You need to restart the app when misalignment between the headset and the head movement is observed. 
+You need to restart the app when misalignment between the headset and the head movement is observed . The missaligning is a bug which was solved for the GearVR version but is still present in the Cardboard version. 
 
-CardboardVR lags the time warp function that we can use in GearVR and Daydream apps therefore the head rotation is less smooth. If you can please try to use Daydream or GearVR the experience will be noticeably better.
+CardboardVR lags the time warp and low persistency functionalities that we can use in GearVR and Daydream apps. If you can use a GearVR or Daydream headset to get a noticeably improved experience.
 
 
 ### On GearVR (apps need to be signed first):
 
-Installing on GearVR requires the app to be signed first. Since the current GearVR version is better than the Daydream version the few extra steps to sign it are worth it.
+Installing on GearVR requires the app to be signed first. But since the current GearVR version is better than the Daydream/Cardboard version the few extra steps to sign it are worth it.
 
 <b>Signing the .apk file:</b>
 
-First. Download the WhiteIsland.apk. or the vikingVillage.apk. 
+First. Download the WhiteIsland.apk. or the VikingVillage.apk. 
 
-Second. The quickest option I found is to sign the apk using the free [Injector for GearVR app](https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en).
+Second. Sign the apk using the free [Injector for GearVR app](https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en).
 Just safe the .apk file on your phone, use the Injector app to sign it and install. 
-Make sure the app you want to sign and install is not already installed on your phone because in my case this prevents the app from installing.  
+Make sure the app you want to sign and install is not already installed on your phone because in my case this prevents the app from installing again.  
 
 If the Injector app doesn't work for you try this alternative:
 Find out your device ID [here](https://startvr.co/how-to-get-your-samsung-gear-vr-device-id/). With the .apk file and the device ID you can sign the apk yourself. How you can sign the apk is explained in [this Youtube video](https://www.youtube.com/watch?v=Ho1TbQozyO0). I recommend the option where you download the addosig.bat program to sign the apk. You can either follow the link under the Youtube page or download the Add OSIG.zip file containing the addosig.bat program directly from this repository. 
@@ -87,12 +87,12 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
 </p>
 
-You can use the touchpad on the side of the headset to recenter the view when you notice misalignment.
+You can click the touchpad on the side of the headset once to recenter the view when you notice misalignment.
 
 
 ### On Daydream and iPhone
 
-Daydream users: You can either use one of the Cardboard .apks or even better switch a cardboard project over to Daydream inside the Unity project. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a Daydream device and headset to test it. 
+Daydream users: You can either use one of the Cardboard .apks or even better switch a cardboard project over to Daydream inside the Unity project yourself. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a Daydream device and headset to test it. 
 
 iPhone user: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. Unfortenatly only Cardboard VR which lags some critical features like reprojection and low persistency screen mode runs on iphones making iphones not well suited for mobile VR.
 
@@ -101,11 +101,12 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 ### Improve Head Tracking 
 
-The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extrema situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. 
+The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extreme situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. Since ARCore also gets improvements over time this should get better over time.
 
 ### Hand Tracking 
 
 Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. Manomotion is already accessible and uSenseAR is not available yet. First tests with Manomotion where not so successful but I will follow the development closely. Another disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand look like it could work more reliable and with better performance for now.
+An open-source project for gesture recognition is available for ARKit and can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit) it might work more reliable compared to the full hand tracking solutions provided by manomotion.
 
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
@@ -115,35 +116,37 @@ Hand tracking using software from [Manomotion](https://www.manomotion.com/) and 
 Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
 
-An open source project for ARKit gesture recognition can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit)
-
 ### Moving Marker Tracking
 
-ARCore just announced that version 1.9 now supports moving marker tracking. Read more about it [here](https://developers.google.com/ar/develop/unity/augmented-images/). 
-Until now only ARKit2([ARKit2 marker tracking](https://www.youtube.com/watch?v=ySYFZwkZoio)) and Vuforia where able to offer that feature and some time ago I experimented with it the result is [my MovingMarkerTracking project](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/tree/master/MovingMarkerTracking) which uses Vuforia marker tracking. I am currently looking into ARCore based moving marker tracking which should be a much better solution. The interesting questions moving marker tracking opens up are: 1) If we can use it to further improve tracking. 2) If you can add a marker to your hands/controller to get some sort of hand/controller tracking but even if it works the limited field of view of the camera will probably not make it that useful for many applications but for some application it might be just enough. 
+ARCore version 1.9 now supports moving marker tracking. Read more about it [here](https://developers.google.com/ar/develop/unity/augmented-images/). 
+The MovingMarkerTracking app you find in this project is currently using an older version based on Vuforia marker tracking. I am now looking into ARCore based moving marker tracking which should be a much better solution. The interesting questions moving marker tracking opens up are: 
+1) Can we use it to further improve head tracking? 2) Can we add a marker to your hands/elbows/feets/controller to get some sort of hand/body/controller tracking? But even if it works the limited field of view of the camera will probably make it less useful for many applications. 
 
-The company ZapBox already sells kits based on this idea as you can see in this [video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). With ARCore 1.9 supporting moving marker tracking this functionality can be added to the regular 3DoF controller making it 6DoF. Notice that they use a clip-on-lens to the smartphone this probably serves two functions. First: Since they show the see through camera feed directly to the user they get a bigger field of view (but still only 2D). Second: With a bigger field of view, the area where the moving markers can be tracked gets bigger. 
+The company ZapBox already sells kits based on this idea as you can see in [this video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). Notice that they use a clip-on-lens to the smartphone this probably serves two functions. First: Since they show the see through camera feed directly to the user they get a bigger field of view (but still only 2D). Second: With a bigger field of view, the area where the moving markers can be tracked gets bigger. 
 I tested multiple wide angle clip-on-lenses but non of them worked with ARCore either stoping tracking all together or drifting heavily. The same seems to be true for ARKit as you can read [here](https://forum.zap.works/t/will-zapworks-integrate-arkit-capabilities-for-ios/867). 
-Since some of the latest smartphones like the S10 have a dedicated wide field of view camera we can only hope that the ARCore team adds support for these cameras as well.
+Since some of the latest smartphones like the S10 have a dedicated wide field of view camera we can only hope that the ARCore team adds support for these cameras as well (ARCore needs to be calibrated for each camera in the phone seperatly).
 
-### 3D Scanning The Environment 
+### Environmental Understanding, 3D Scanning And Boundary System
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
 </p>
 
-Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar as well. I recommend reading the [related paper](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology.
+Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar when the tracking works well. I recommend reading the [related paper](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology.
+
+Another idea for the boundary system could be a kind of edge detection and visualisation algorithm as shown in this [video](https://youtu.be/aVdWED6kfKc).
+
+Object detection/classification using the camera feet could allow for some unique game and application mechanics. Two projects using Google tensor flow as the underling machine learning software are available [here](https://github.com/Syn-McJ/TFClassify-Unity) and [here](https://github.com/MatthewHallberg/TensorFlowUnity-ImageClassification).
 
 ### 6DOF Images, Videos and Light Fields  
 
-360° and 180° photos and videos are nice but with additional depth information they become really interesting. Positional tracking on GearVR would be a natural fit since no hand controllers are needed, mobile phones can display high resolution images and since the head movements are rather slow we have no problems with camera motion blur and loss of tracking. There are three distinct ways of approaching this idea. 1.) Image overlayed on a depth map either by capturing the depth map separately or by using software to recover a point cloud from a stereoscopic video [(seen here)](https://www.youtube.com/watch?v=HSXMs2wnNc4) and further discussed [here](https://www.reddit.com/r/6DoF/). There is already an [app](https://www.oculus.com/experiences/go/1790370494337451/) available on the Oculus store for GearVR. 2.) Photogrametry allows for higly realistic 3D models. 3.) Using [a light field](https://www.blog.google/products/google-ar-vr/experimenting-light-fields/) capture of the environment. A demo project [(video)](https://www.youtube.com/watch?v=a-JX3ZPi720) was published by Google for free but is only running on desktop pc VR headsets. 
+360° and 180° photos and videos are nice but with additional depth information they become really interesting. Positional tracking on GearVR would be a natural fit since no hand controllers are needed, mobile phones can display high resolution images and since the head movements are rather slow we have no problems with camera motion blur and loss of tracking. There are three distinct ways of approaching this idea. 
+1.) Image overlayed on a depth map either by capturing the depth map separately or by using software to recover a point cloud from a stereoscopic video [(seen here)](https://www.youtube.com/watch?v=HSXMs2wnNc4) and further discussed [here](https://www.reddit.com/r/6DoF/). There is already an [app](https://www.oculus.com/experiences/go/1790370494337451/) available on the Oculus store for GearVR which displays images and videos with additional 3D depth information. 
+2.) Photogrametry allows for higly realistic but static 3D models. 
+3.) Using [a light field](https://www.blog.google/products/google-ar-vr/experimenting-light-fields/) capture of the environment seems to be the holy grail of 3D photography. A demo project [(video)](https://www.youtube.com/watch?v=a-JX3ZPi720) was published by Google for free but is only running on desktop pc VR headsets. 
 Using the seurat pipeline and [this github light field project](https://github.com/PeturDarri/Fluence-Unity-Plugin/tree/master/Assets) it might be possible to bring the same experience to mobile VR. The same is true for bringing very detailed photogrametry models on the phone in VR. I am currently exploring those ideas for my first app for the Oculus store.
 
 ### Further Ideas Worth Exploring 
-
-For safty reasons a boundery system like shown in this [video](https://youtu.be/aVdWED6kfKc) would be nice as soon as the tracking works well enough.
-
-Object detection/classification using the camera feet could allow for some unique game and application mechanics. Two projects using Google tensor flow as the underling machine learning software are available [here](https://github.com/Syn-McJ/TFClassify-Unity) and [here](https://github.com/MatthewHallberg/TensorFlowUnity-ImageClassification).
 
 A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
 
@@ -191,6 +194,8 @@ This sweet open source software project connects the GearVR to the pc and uses h
 
 Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and let us know about it.
 
+### Phantom AR A Cloud Processing and Networking Platform
+Using the computing power of the cloud to process data seems to be the path of the future. The Phantom AR project explores the possibilities of such a future. Learn more about it in this [video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be)
 
 # Some thoughts about the optimal and future hardware:
 
