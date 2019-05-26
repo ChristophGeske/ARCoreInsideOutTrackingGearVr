@@ -193,11 +193,13 @@ This combination seems be suited for bringing full body movement to the GearVR: 
 
 ### ALVR 
 This sweet open source software project connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR). Might be interesting for the Oculus Quest too.
-
-Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and let us know about it.
+For Oculus Quest users this should be interesting as well, see [this video](https://www.youtube.com/watch?v=gtmJInS7RxU) to learn more. 
 
 ### Phantom AR A Cloud Processing and Networking Platform
 Using the computing power of the cloud to process data seems to be the path of the future. The Phantom AR project explores the possibilities of such a future. Learn more about it in this [video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be)
+
+### Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and spread the word.
+
 
 # Some thoughts about the optimal and future hardware:
 
