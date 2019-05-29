@@ -150,8 +150,6 @@ Using the seurat pipeline and [this github light field project](https://github.c
 
 To further increase the reach, it makes sense to build apps that run on Android and iOS devices. The [AR Foundation github project](https://github.com/Unity-Technologies/arfoundation-samples) brings this functionality to Unity. Unfortunately the combination of VR and AR is not working yet I hope this changes in the future so we only need to build an app once.   
 
-A multiplayer VR game using ARCores cloud anchors should be possible, but I am currently not working on it. [Here](https://i.imgur.com/ZX9Veen.gifv) is how it could look like.
-
 Using VR outside or in a large play space is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Here accessing  [3D maps](https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting apps consisting of AR and VR elements.
 
 # Other Interesting Projects:
@@ -197,6 +195,13 @@ For Oculus Quest users this should be interesting as well, see [this video](http
 
 ### Phantom AR A Cloud Processing and Networking Platform
 Using the computing power of the cloud to process data seems to be the path of the future. The Phantom AR project explores the possibilities of such a future. Learn more about it in this [video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be)
+
+### Multi User Experiences
+The [Just a Line experimental project](https://www.blog.google/products/google-vr/just-line-first-cross-platform-collaborative-ar-app-doodling/) explored the possibilities of multiuser experiences between iPhone and Android phones. This project makes use of the cloud anchor capabilities of ARCore.
+
+Owlchemy labs showed of the [research project mobile spectator](https://owlchemylabs.com/owlchemy-mobile-spectator-ar-spectator-camera/) which allow a third person to use a mobile phone running ARCore to see and participate in a VR experience. This allows for interesting new experiences/games or could make VR more social. 
+
+A multiplayer VR game based just on the same starting point ([seen here](https://i.imgur.com/ZX9Veen.gifv)) would also be possible not requiring a connection to the cloud but some kind of marker or phone to phone communication to know the location of the other player. However in my opinion using cloud anchors is the right way to go since it relies on finding the same feature points in a scene to match the location. 
 
 ### Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and spread the word.
 
