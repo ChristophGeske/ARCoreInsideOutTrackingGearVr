@@ -120,7 +120,12 @@ Video showing Manomotion hand tracking in combination with ARCore.
 
 ARCore version 1.9 now supports moving marker tracking. Read more about it [here](https://developers.google.com/ar/develop/unity/augmented-images/). 
 The MovingMarkerTracking app you find in this project is currently using an older version based on Vuforia marker tracking. I am now looking into ARCore based moving marker tracking which should be a much better solution. The interesting questions moving marker tracking opens up are: 
-1) Can we use it to further improve head tracking? 2) Can we add a marker to your hands/elbows/feets/controller to get some sort of hand/body/controller tracking? But even if it works the limited field of view of the camera will probably make it less useful for many applications. 
+
+1) Can we use it to further improve head tracking? 
+
+2) Can we add a marker to your hands/elbows/feets/controller to get some sort of hand/body/controller tracking? 
+
+But even if it works the limited field of view of the camera will probably make it less useful for many applications. 
 
 The company ZapBox already sells kits based on this idea as you can see in [this video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). Notice that they use a clip-on-lens to the smartphone this probably serves two functions. First: Since they show the see through camera feed directly to the user they get a bigger field of view (but still only 2D). Second: With a bigger field of view, the area where the moving markers can be tracked gets bigger. 
 I tested multiple wide angle clip-on-lenses but non of them worked with ARCore either stoping tracking all together or drifting heavily. The same seems to be true for ARKit as you can read [here](https://forum.zap.works/t/will-zapworks-integrate-arkit-capabilities-for-ios/867). 
