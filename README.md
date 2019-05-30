@@ -53,7 +53,7 @@ Video showing BoxyRoomCardboard.apk in action.
 
 You need to restart the app when misalignment between the headset and the head movement is observed . The missaligning is a bug which was solved for the GearVR version but is still present in the Cardboard version. 
 
-CardboardVR lags the time warp and low persistency functionalities that we can use in GearVR and Daydream apps. If you can use a GearVR or Daydream headset to get a noticeably improved experience.
+Cardboard VR apps lag the time warp and low persistency functionalities on most phones (Daydream ready phones are slightly better) that we can use in GearVR and Daydream apps. The Cardboard headset is not very good either if you can use a GearVR or Daydream headset to get a noticeably improved experience.
 
 
 ### On GearVR (apps need to be signed first):
