@@ -153,6 +153,8 @@ Using the seurat pipeline and [this github light field project](https://github.c
 
 ### Further Ideas Worth Exploring 
 
+Forcing 6DoF onto old 3DoF apps would be an amazing feature if we could bring it to GearVR. This feature is available on the Lenovo Mirage Solo [see here](https://www.youtube.com/watch?v=Giy9FmeKjGk&t=329s) and now also on the Oculus Quest [see here](https://www.youtube.com/watch?v=dGrRQPE0pYc). I have absolutely no idea how this works since the apps where never intended to be used in 6DoF but I would love to get this working as well for ARCore enabled positional tracking. If you have an idea how this works please open an issue and let me know. 
+
 To further increase the reach, it makes sense to build apps that run on Android and iOS devices. The [AR Foundation github project](https://github.com/Unity-Technologies/arfoundation-samples) brings this functionality to Unity. Unfortunately the combination of VR and AR is not working yet I hope this changes in the future so we only need to build an app once.   
 
 Using VR outside or in a large play space is a lot of fun and feels very different from games experienced inside where the ability to move freely is limited. Here accessing  [3D maps](https://cloud.google.com/maps-platform/gaming/) might be interesting and result in exiting apps consisting of AR and VR elements.
