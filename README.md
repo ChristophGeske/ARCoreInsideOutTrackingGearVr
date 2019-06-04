@@ -101,7 +101,7 @@ iPhone user: You should look at [this project](https://github.com/andrewnakas/AR
 
 ### Improve Head Tracking 
 
-The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. First tests look very promising so stay tuned for improved versions in the future. I don't think we reach the same quality as dual camera setups in extreme situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. Since ARCore also gets improvements over time this should get better over time.
+The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. For filtereing errors the kalman filter looks like a good start but there are also more advanced techniques which use mashine learning to predict future poitions, read the [paper here](http://www.ipab.inf.ed.ac.uk/cgvu/phasefunction.pdf). I don't think we reach the same quality as dual camera setups in extreme situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. Since ARCore and phones get improved all the time the tracking should get constantly better. 
 
 ### Hand Tracking 
 
