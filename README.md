@@ -329,7 +329,7 @@ This project uses software from Google (ARCore, Daydream, Cardboard) and Faceboo
 
 [Oculus Privacy Policy](https://support.oculus.com/947039345464468/)
 
-An excellent vice article about the challenges we face in VR/AR privacy can be found [here](https://www.vice.com/en_us/article/bj9ygv/the-eyes-are-the-prize-eye-tracking-technology-is-advertisings-holy-grail) and I can highly recommend this read if the topic is new to you.
+An excellent vice article about the challenges we face in VR/AR privacy can be found [here](https://www.vice.com/en_us/article/bj9ygv/the-eyes-are-the-prize-eye-tracking-technology-is-advertisings-holy-grail) and I can highly recommend this read if the topic is new to you. If this topic is close to your heart you might be interested in the [openarcloud.org](https://www.openarcloud.org) oragnisation as well.
 
 
 # Support this Project:
