@@ -167,7 +167,7 @@ This iconic shooter game can now be played using the GearVR with the option of u
 Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View). A paper comparing ARCore and ARKit can be found [here](https://link.springer.com/chapter/10.1007/978-3-030-19501-4_36) (use [sci-hub.tw](https://sci-hub.tw/) if you don't have access to the full text). Most important findings of the paper for this project are that ARKit tracks with 60fps, can deal with faster movements and plain detection is more accurate indoors. ARCore seems to be better outdoors. Also noticeable is the finding that the performance drops on some older Android phones like Nexus 6P and Nexus 5X. According to @lvonasek ARKit is more accurate because of a better camera calibration process by Apple.  
 
 <p align="center">
-<img src="http://i.imgur.com/WedVqFt.gif" width="40%">
+href="https://www.youtube.com/watch?v=8d9Qbt3J9Uo"> <img src="http://i.imgur.com/WedVqFt.gif" width="40%">
 </p>
 <p align="center">
 Positional tracking on iPhone using ARKit + Cardboard. 
@@ -187,7 +187,6 @@ Fast Travel Games showing of simplefied Apex Construct running on GearVR.
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
 
 ### HoloKit, Aryzon, ZapBox (Cardboard AR) 
-
 <a href="https://www.zappar.com/zapbox/"><img src="https://user-images.githubusercontent.com/12700187/59551535-6f25ac00-8f7b-11e9-95e7-fd818d94e14e.jpeg" width="30%"></a> 
 <a href="https://holokit.io/"><img src="https://user-images.githubusercontent.com/12700187/59551463-26212800-8f7a-11e9-9cfe-e5f0de8acb69.jpg" width="30%"></a> <a href="https://www.aryzon.com/"><img src="https://user-images.githubusercontent.com/12700187/59551506-fd4d6280-8f7a-11e9-82e3-2f354b76b9f4.jpg" width="30%"></a> 
 <p align="center">
@@ -218,8 +217,11 @@ ZapBox shows of some interesting ideas like a lens to increase the field of view
 Marker based 6DoF hand controller developed by ZapBox. 
 </p>
 
+However, the ZapBox software needs a lot of improvement (video showing funny tracking errors [here](https://www.youtube.com/watch?v=LzIwlPfBmuc)) and in my opinion lags far behind Googles ARCore tracking. The underling idea of creating a mixed reality headset with only one camera seems somewhat silly, and I can not recommend doing it when not also tackling the stereoscopic issue. Zapbox tries to improve the image by using depth informations from the pointcloud and bluring parts of the image as they state in [this reddit post](https://www.reddit.com/r/oculus/comments/5f2pvs/zapbox_mixed_reality_for_30/). 
+The Phantom AR project also worked on the issue of generating a stereoscopic view from a monoscopic image [see here](https://www.reddit.com/r/PHNTM) for more info. You can try out the 2D to 3D conversion results yourself by watching [this video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be) and putting your phone inside a headset starting at timestamp 2:31. 
 
-However the ZapBox software needs a lot of improvement (video showing funny tracking errors [here](https://www.youtube.com/watch?v=LzIwlPfBmuc)) and in my opinion lags far behind Googles ARCore. The underling idea of creating a mixed reality headset with only one camera sounds very silly to me, and I can not recommend doing it when not also tackling the stereoscopic issue. Interestingly the Phantom AR project seems to have solved this issue [see here](https://www.reddit.com/r/PHNTM) for some more explanations and try it out yourself by watching [this video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be) by putting your phone inside a headset starting at timestamp 2:31.  
+To get a 3D view from a 2D image it is a good approach to first capture a depth map and use it together with the mono camera image to generate a 3D stereoscopic view. For this approach the upcoming depth sensors in the latest phones could be leveraged. There is also a lot of machine learning research in the area of inferring depth information from 2D video or directly [generating 3D video output from 2D video input](https://arxiv.org/pdf/1604.03650.pdf). 
+Having a high quality, low latency, wide field of view 3D passthrough image on the GearVR would open the possibility for some interesting mixed reality applications on such a cheap headset and would also be beneficial to the boundary system so something similar to the solution found in the Oculus Quest where the real world is displayed to the user when he comes to close to objects could be implemented. 
 
 ### Kinect + GearVR 
 This combination seems be suited for bringing full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
