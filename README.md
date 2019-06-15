@@ -176,7 +176,6 @@ Positional tracking on iPhone using ARKit + Cardboard.
 ### Fast Travel Games 
 They also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
 
-
 <p align="center">
 <a href="https://twitter.com/fasttravelgames/status/971791094915780611/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E971791094915780611&ref_url=https%3A%2F%2Fcommunity.arm.com%2Fdeveloper%2Ftools-software%2Fgraphics%2Fb%2Fblog%2Fposts%2Fachieving-console-like-experiences-on-mobile-vr-with-apex-construct"><img src="https://user-images.githubusercontent.com/12700187/59551307-eeb17c00-8f77-11e9-9881-808c89eaca33.jpg" width="60%"></a>
 </p>
@@ -188,6 +187,12 @@ Fast Travel Games showing of simplefied Apex Construct running on GearVR.
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
 
 ### HoloKit, Aryzon, ZapBox (Cardboard AR) 
+
+<a href="https://www.zappar.com/zapbox/"><img src="https://user-images.githubusercontent.com/12700187/59551535-6f25ac00-8f7b-11e9-95e7-fd818d94e14e.jpeg" width="30%"></a> 
+<a href="https://holokit.io/"><img src="https://user-images.githubusercontent.com/12700187/59551463-26212800-8f7a-11e9-9cfe-e5f0de8acb69.jpg" width="30%"></a> <a href="https://www.aryzon.com/"><img src="https://user-images.githubusercontent.com/12700187/59551506-fd4d6280-8f7a-11e9-82e3-2f354b76b9f4.jpg" width="30%"></a> 
+<p align="center">
+ZapBox, HoloKit and Aryzon headsets. 
+</p>
 
 Some projects (e.g. [ZapBox](https://www.zappar.com/zapbox/)) use the camera seethrough mode for AR projects but I don't think it is a good approach to use a mono camera and add 3D objects on top of the 2D camera image. This is guaranteed to give you a bad experience. The HoloKit project builds on a much better idea but would profit from a better headset design and some improvements we already see in the Daydream and GearVR headsets like low persistency screen mode and smooth head tracking. It would also profit from smoother positional head tracking which is the mission of this project. 
 
