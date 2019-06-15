@@ -111,7 +111,6 @@ An open-source project for gesture recognition is available for ARKit and can be
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
 </p>
-
 <p align="center">
 Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
@@ -165,10 +164,25 @@ Using VR outside or in a large play space is a lot of fun and feels very differe
 This iconic shooter game can now be played using the GearVR with the option of using positional tracking. A good introduction video can be found [here](https://youtu.be/acEz98Ol8NI). The game and source code can be downloaded [here](https://github.com/DrBeef/QuakeGVR/releases). After signing the .apk you can use the GearVR controller to activate the positional tracking mode in the game settings. I am very impressed with the performance and tracking quality even on old phones like the S7. The developer didn't use a game engine like Unity to build the game but instead used the Android Studio which seemed to allow him to get a higher performance out of the phone by putting some tasks on different cores. I like the way he managed to give the user a window to the outside by tapping the headset but I think it is better to show the surrounding automatically when you come closer to an obstacle since you might forget to check the surrounding when you immersed in the game (I will start working on this soon since I have an idea already). I think this is excellent work and you should check it out.  
 
 ### iPhone + ARKit + Cardboard 
-Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View). A paper comparing ARCore and ARKit can be found [here](https://link.springer.com/chapter/10.1007/978-3-030-19501-4_36) (use [sci-hub.tw](https://sci-hub.tw/) if you don't have access to the full text). Most important findings of the paper for this project are that ARKit tracks with 60fps, can deal with faster movements and plain detection is more accurate indoors. ARCore seems to be better outdoors. Also noticeable is the finding that the performance drops on some older Android phones like Nexus 6P and Nexus 5X. According to @lvonasek ARKit is more accurate because of a better camera calibration process by Apple.    
+Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View). A paper comparing ARCore and ARKit can be found [here](https://link.springer.com/chapter/10.1007/978-3-030-19501-4_36) (use [sci-hub.tw](https://sci-hub.tw/) if you don't have access to the full text). Most important findings of the paper for this project are that ARKit tracks with 60fps, can deal with faster movements and plain detection is more accurate indoors. ARCore seems to be better outdoors. Also noticeable is the finding that the performance drops on some older Android phones like Nexus 6P and Nexus 5X. According to @lvonasek ARKit is more accurate because of a better camera calibration process by Apple.  
+
+<p align="center">
+<img src="http://i.imgur.com/WedVqFt.gif" width="40%">
+</p>
+<p align="center">
+Positional tracking on iPhone using ARKit + Cardboard. 
+</p>
 
 ### Fast Travel Games 
 They also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
+
+
+<p align="center">
+<a href="https://twitter.com/fasttravelgames/status/971791094915780611/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E971791094915780611&ref_url=https%3A%2F%2Fcommunity.arm.com%2Fdeveloper%2Ftools-software%2Fgraphics%2Fb%2Fblog%2Fposts%2Fachieving-console-like-experiences-on-mobile-vr-with-apex-construct"><img src="https://user-images.githubusercontent.com/12700187/59551307-eeb17c00-8f77-11e9-9881-808c89eaca33.jpg" width="60%"></a>
+</p>
+<p align="center">
+Fast Travel Games showing of simplefied Apex Construct running on GearVR. 
+</p>
 
 ### Google Tango
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
@@ -190,7 +204,17 @@ Despite the interesting use cases, I can not give an unconditional recommendatio
 Improvements to the ergonomic would also be required. A different headset design which was already planed and promised for the end of 2018 by the HoloKit team is still not available and I would suggests the software flaws need to be fixed first.
 Improving the HoloKit idea further seems to be an interesting project and I am currently testing the Aryzon headset to see if it can be made better with the right software tweaks.
 
-ZapBox shows of some interesting ideas like a lens to increase the field of view and markers for the controller tracking but the software needs a lot of improvement (video showing funny tracking errors [here](https://www.youtube.com/watch?v=LzIwlPfBmuc)) and in my opinion lags far behind Googles ARCore. The underling idea of creating a mixed reality headset with only one camera sounds very silly to me, and I can not recommend doing it when not also tackling the stereoscopic issue. Interestingly the Phantom AR project seems to have solved this issue [see here](https://www.reddit.com/r/PHNTM) for some more explanations and try it out yourself by watching [this video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be) by putting your phone inside a headset starting at timestamp 2:31.  
+ZapBox shows of some interesting ideas like a lens to increase the field of view and markers for the controller tracking.
+
+<p align="center">
+<a href="https://youtu.be/LzIwlPfBmuc"><img src="https://user-images.githubusercontent.com/12700187/59551251-f0c70b00-8f76-11e9-9068-1ed5a5dc9a79.png" width="50%"></a>
+</p>
+<p align="center">
+Marker based 6DoF hand controller developed by ZapBox. 
+</p>
+
+
+However the ZapBox software needs a lot of improvement (video showing funny tracking errors [here](https://www.youtube.com/watch?v=LzIwlPfBmuc)) and in my opinion lags far behind Googles ARCore. The underling idea of creating a mixed reality headset with only one camera sounds very silly to me, and I can not recommend doing it when not also tackling the stereoscopic issue. Interestingly the Phantom AR project seems to have solved this issue [see here](https://www.reddit.com/r/PHNTM) for some more explanations and try it out yourself by watching [this video](https://www.youtube.com/watch?v=SRmVH2_rPpY&feature=youtu.be) by putting your phone inside a headset starting at timestamp 2:31.  
 
 ### Kinect + GearVR 
 This combination seems be suited for bringing full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
