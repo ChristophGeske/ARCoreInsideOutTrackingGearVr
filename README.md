@@ -167,7 +167,7 @@ This iconic shooter game can now be played using the GearVR with the option of u
 Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View). A paper comparing ARCore and ARKit can be found [here](https://link.springer.com/chapter/10.1007/978-3-030-19501-4_36) (use [sci-hub.tw](https://sci-hub.tw/) if you don't have access to the full text). Most important findings of the paper for this project are that ARKit tracks with 60fps, can deal with faster movements and plain detection is more accurate indoors. ARCore seems to be better outdoors. Also noticeable is the finding that the performance drops on some older Android phones like Nexus 6P and Nexus 5X. According to @lvonasek ARKit is more accurate because of a better camera calibration process by Apple.  
 
 <p align="center">
-href="https://www.youtube.com/watch?v=8d9Qbt3J9Uo"> <img src="http://i.imgur.com/WedVqFt.gif" width="40%">
+<a href="https://www.youtube.com/watch?v=8d9Qbt3J9Uo"><img src="http://i.imgur.com/WedVqFt.gif" width="40%">
 </p>
 <p align="center">
 Positional tracking on iPhone using ARKit + Cardboard. 
