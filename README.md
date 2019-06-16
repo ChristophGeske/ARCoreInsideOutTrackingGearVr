@@ -314,7 +314,7 @@ The Oculus Quest is an all in one device with better resolution, better head/con
 
 Amazon Store: [USA](https://www.amazon.com/Oculus-Quest-All-Gaming-Headset-android/dp/B07HNW68ZC/ref=as_li_ss_tl?&th=1&linkCode=ll1&tag=christophgesk-20&linkId=1eb7709b3238a101bb39c92201816aed&language=en_US) | [UK](https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b) | [CA](https://www.amazon.ca/gp/product/B07HNW68ZC?ie=UTF8&tag=christophge06-20&camp=15121&linkCode=xm2&creativeASIN=B07HNW68ZC) | [DE](https://www.amazon.de/Oculus-Quest-All-Gaming-Headset/dp/B07P6Y5DNT/ref=as_sl_pc_tf_til?tag=christophgesk-21&linkCode=w00&linkId=15c29b24c42becf5c701c6b13b4c1296&creativeASIN=B07P6Y5DNT) | [FR](https://www.amazon.fr/gp/product/B07P6Y5DNT/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=christophge02-21&linkId=5af3d32bea8cb7ac86b5e3ca730d5eb4) |     
 
-The Amazon store links are affiliated links and they are a great way to support my work directly. Using them will not change the price for you.
+The Amazon store links are affiliated links and they are a great way to support my work directly if you use Amazon anyway. Using the link will not change the price for you but Amazon rewards me after each purchase with 2.5% of the product price. Nevertheless, I would recommend to buy second hand items if possible, which will protect the environment and your wallet.
 
 # How to Seurat:
 
