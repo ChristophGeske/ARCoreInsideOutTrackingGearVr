@@ -241,7 +241,7 @@ Owlchemy labs showed of the [research project mobile spectator](https://owlchemy
 A multiplayer VR game based just on the same starting point ([seen here](https://i.imgur.com/ZX9Veen.gifv)) would also be possible not requiring a connection to the cloud but some kind of marker or phone to phone communication to know the location of the other player. However in my opinion using cloud anchors is the right way to go since it relies on finding the same feature points in a scene to match the location. 
 
 ### Leveraging The Front Camera For Eye Tracking
-Is an interesting idea and in [this paper](http://www.makufunk.de/wp-content/papercite-data/pdf/greenwald2016eye.pdf) a working version was developed. However archiving a useful eye-tracking module this way seems currently a long way of.     
+Is an interesting idea and in [this paper](https://dl.acm.org/citation.cfm?doid=3131785.3131809) a working version was developed. 
 
 ### Are you aware of further interesting projects, or you work on an interesting project yourself? Please don't hesitate to open a new issue and spread the word.
 
