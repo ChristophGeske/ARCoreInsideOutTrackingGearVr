@@ -132,7 +132,7 @@ Since some of the latest smartphones like the S10 have a dedicated wide field of
 
 ### Markerless Controller Tracking
 
-Google clearly thought about solutions to 6DOF controller tracking as well. Read more about it in this [roadToVR article](https://www.roadtovr.com/google-mobile-6dof-vr-controller-tracking-inside-out/).
+Google clearly thought about solutions to 6DOF controller tracking as well. Read more about it in this [roadToVR article](https://www.roadtovr.com/google-mobile-6dof-vr-controller-tracking-inside-out/). But since thay use stereo cameras the results may not be directly transferable to mobilephones with only a single camera.
 
 <p align="center">
 <a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
