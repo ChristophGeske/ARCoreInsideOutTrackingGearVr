@@ -259,6 +259,19 @@ Is an interesting idea and in [this paper](https://dl.acm.org/citation.cfm?doid=
 
 # Some thoughts about the optimal and future hardware:
 
+### Qualcomm Chips 
+
+Qualcomm already offers chips that have positional tracking in mind. Starting with the Snapdragon 835 in the Samsung S8 better stereo camera based tracking should be possible regarding to Qualcomm and you can read more about it here. Qualcomm mentions 4 key advantages of stereo over monocular 6-DoF:
+
+• Instant accurate scene depth
+
+• Faster initialization
+
+• Better performance with quick and rotational motions
+
+• Improved tolerance to camera occlusion
+
+
 ### Galaxy S10 5G and Note 10 5G 
 On top of the list but still somehow speculative since they are not released yet these phones will feature a hQVGA 3d depth sensor. When we get access to the depth sensing data low latency positional tracking similar to the Asus Zenfone AR could be possible. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand/moving marker tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. Interestingly it seems that support for the Daydream platform was dropped for these phones. Also be aware that most of the underling software is still not even developed so don't expect these features to be available anytime soon. 
 
