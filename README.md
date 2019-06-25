@@ -130,6 +130,17 @@ The company ZapBox already sells kits based on this idea as you can see in [this
 I tested multiple wide angle clip-on-lenses but non of them worked with ARCore either stoping tracking all together or drifting heavily. The same seems to be true for ARKit as you can read [here](https://forum.zap.works/t/will-zapworks-integrate-arkit-capabilities-for-ios/867). 
 Since some of the latest smartphones like the S10 have a dedicated wide field of view camera we can only hope that the ARCore team adds support for these cameras as well (ARCore needs to be calibrated for each camera in the phone seperatly).
 
+### Markerless Controller Tracking
+
+Google clearly thought about solutions to 6DOF controller tracking as well. Read more about it in this [roadToVR article](https://www.roadtovr.com/google-mobile-6dof-vr-controller-tracking-inside-out/).
+
+<p align="center">
+<a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
+</p>
+
+Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
+
+
 ### Environmental Understanding, 3D Scanning And Boundary System
 
 <p align="center">
