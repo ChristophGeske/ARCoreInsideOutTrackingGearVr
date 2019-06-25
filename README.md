@@ -196,6 +196,7 @@ Fast Travel Games showing of simplefied Apex Construct running on GearVR.
 
 ### Google Tango
 Tango is only available on the Asus Zenfone AR and has better room tracking capabilities than ARCore. Useful links [here](https://community.arm.com/graphics/b/blog/posts/mobile-inside-out-vr-tracking-now-on-your-phone-with-unity), [here](https://twitter.com/youten_redo/status/921295583180079104) and an excellent talk about the underlying technology [here](http://voicesofvr.com/544-google-tangos-engineering-director-on-ar-capabilities-enabled-by-depth-sensors/).
+It was also shown in [this video](https://www.youtube.com/watch?v=_tcIezxtjF4) that some form of hand tracking using the depth sensor is possible. The main issue with the now rather old devices is that the chip can't handle all the performance requirements and overheats rather quickly as was mentioned in [this article](https://uploadvr.com/inside-out-google-solve-tracking/). 
 
 ### HoloKit, Aryzon, ZapBox (Cardboard AR) 
 <a href="https://www.zappar.com/zapbox/"><img src="https://user-images.githubusercontent.com/12700187/59551535-6f25ac00-8f7b-11e9-95e7-fd818d94e14e.jpeg" width="30%"></a> 
@@ -277,7 +278,7 @@ On top of the list but still somehow speculative since they are not released yet
 
 ### Asus Zenfone AR 
 Supporting Daydream which delivers a good enough VR experience and in combination with its highly accurate depth camera and the Google Tango software it allows for excellent positional tracking. 
-The disadvantage is that Google stopped developing Tango, that almost no one owns the hardware and that no performance improvements are expected in the future making the development for this device and the Tango platform not very attractive.
+The disadvantage is that Google stopped developing Tango, that almost no one owns the hardware and that no performance improvements are expected in the future making the development for this device and the Tango platform not very attractive. If you decide to purchase this device be aware of the overheating issue due to the rather old chipset.
 
 ### Galaxy S10 and S10+, S8, S9 , Note8 and so on 
 They deliver better performance than the S7 which is important for running hand tracking and better looking games. In terms of image quality, field of view and tracking latency, they are identical to the S7. The ultrawide field of view camera of the S10 and S10+ could be interesting for improving hand and marker tracking in the future but this would depend on the tracking software (Manomotion or uSense) and ARCore if they support the wide field of view camera. Be aware that the S10 dose not support Daydream so if you want to use Daydream and GearVR on the same device you should get an S8 or S9 instead.
