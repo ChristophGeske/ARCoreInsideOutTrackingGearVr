@@ -6,11 +6,11 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 
 - WARNING YOU MIGHT GET SICK: The current versions use interpolation and smoothing functions to cover up imprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness, these apps might not be for you jet.
       
-- Fast movements, featureless, extream sunny and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to move just a little.   
+- Fast movements, featureless, extrem sunny and poorly lit areas can affect the quality of tracking severely. When the app starts up it takes 3-5 seconds for ARCore to detect a plain at this stage it is best to move just a little.   
       
 - Your phone might get hot very quickly. Make sure to end the game after using. The Cardboard version seems to stay on even if the phone gets very hot while the GearVR version turns itself off automatically. Therefore, cardboard users should make sure to manually end the app after use.
       
-- The goal of this project is to bring high quality (6DoF) positional tracking to GearVR, Daydream and Cardboard using ARCore/ARKit software. The HTC Vive Focus and the Daydream powered Lenovo Mirage Solo offer this functionality already but are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Santa Cruz/Quest which is also offer 6DoF tracking and features two 6DoF tracked hand controllers which makes it a highly desirable device. 
+- The goal of this project is to bring high quality (6DoF) positional tracking to GearVR, Daydream and Cardboard using ARCore/ARKit software. The HTC Vive Focus and the Daydream powered Lenovo Mirage Solo offer this functionality already but are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Santa Cruz/Quest currently offers the best 6DoF head and controller tracking which makes it a highly desirable device. 
       
 - Before installing one of the apps (.apk files) make sure you have installed Google ARCore from the [Play Store](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en) on your device. Check if your device supports ARCore on [this page](https://developers.google.com/ar/discover/supported-devices).
 
@@ -22,19 +22,19 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
 | | | | |
 |[WhiteIsland.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/WhiteIsland.apk)|Simple environment. Using nativeARCore for tracking. Noticeable latency due to the used smoothing function. Use the controller touchpad to fly forward in viewing direction and the trigger button to enable/disable visualization of real-world boundaries.|All ARcore + GearVR compatible devices|GearVR|
 | | | | |
-|[BoxyRoomCardboard.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/BoxyRoomCardboard.apk)|App should run on every smartphone with ARCore support. Daydream users need to free the camera maybe like explained [here](https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications) and might need to turn of NFC to avoid Daydream from starting.|All ARcore compatible devices|Cardboard|
+|[BoxyRoomCardboard.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/BoxyRoomCardboard.apk)|App should run on every smartphone with ARCore support. Daydream users need to uncover the camera e.g. as explained [here](https://lauren.vortex.com/2018/05/20/using-googles-daydream-vr-headset-for-augmented-reality-and-positional-tracking-applications) and might need to turn of NFC to avoid Daydream from starting on top of the Cardboard app.|All ARCore compatible devices|Cardboard|
 | | | | |
-|[VikingVillageGearVR.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageGearVR.apk)|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|All ARcore + GearVR compatible devices|GearVR|
+|[VikingVillageGearVR.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageGearVR.apk)|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environment which allows for a limited free movement only in this captured area.|All ARCore + GearVR compatible devices|GearVR|
 | | | | |
-|[VikingVillageCardboard.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageCardboard.apk)|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement in this captured area.|All ARcore compatible devices|Cardboard|
+|[VikingVillageCardboard.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageCardboard.apk)|Interesting because of the high-quality environment which was captured with the Seurat tool. This tool allows for the capture of a (small) area of a high-quality environments which allows for a limited free movement only in this captured area.|All ARCore compatible devices|Cardboard|
 | | | | |
-|[VikingVillageForOculusGO.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageForOculusGO.apk)|The Oculus GO has no camera so there is no head tracking possible, but because the high-quality environment scene captured with the Seurat tool could be interesting for Go users as well, I added controller support so that flying through the scene by pressing the touchpad is possible. (I haven't tested the app on the GO myself so please let me know if it works or not.|OculusGo|OculusGo|
+|[VikingVillageForOculusGO.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/VikingVillageForOculusGO.apk)|The Oculus GO has no camera so there is no head tracking possible, but because the high-quality environment scene captured with the Seurat tool could be interesting for Go users as well, I added controller support so that flying through the scene by pressing the touchpad is possible.|OculusGo|OculusGo|
 | | | | |
-|VuforiaTracking(Experimental)|This app uses Vuforia which has an ARCore integration. But the performance of the ARCore integration is very low compared to native ARCore. Therfore this project will be discontinued.|All GearVR capable devices (low tracking quality)|GearVR|
+|VuforiaTracking(Experimental)|This app uses Vuforia which has an ARCore integration for tracking. But the performance of the ARCore integration is very poor compared to native ARCore. Therfore this project will be discontinued.|All GearVR capable devices (low tracking quality)|GearVR|
 | | | | |
 |NativeARCoreTracking(Experimental)| Is not up to date and will be removed soon. Please use WhiteIsland instead. |All ARCore + GearVR capable devices|GearVR|
 | | | | |
-[MovingMarkerTracking.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/MovingMarkerTracking/MovingMarkerTracking.apk)|Uses Vuforia Vusion which combines ARCore and Vuforias advanced marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running. Since Google just announced that ARCore 1.9 now supports moving marker tracking this project will probably be replaced soon since Vuforia Marker tracking has many issues.|All GearVR capable devices (low tracking quality)|GearVR| 
+[MovingMarkerTracking.apk](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/raw/master/MovingMarkerTracking/MovingMarkerTracking.apk)|Uses Vuforia Vusion which combines ARCore and Vuforias marker tracking. This combination allows for 6DOF marker tracking in a limited area in front of the camera. The marker can be found [here](https://github.com/ChristophGeske/ARCoreInsideOutTrackingGearVr/blob/master/MovingMarkerTracking/King.jpg). Simply open the marker on your pc screen or print it on paper and look at it through the camera when the app is running. Since ARCore 1.9 now supports moving marker tracking this project will likely be replaced soon since Vuforia Marker tracking has many issues.|All GearVR capable devices (low tracking quality)|GearVR| 
 
 
 # Installation 
@@ -51,14 +51,14 @@ Works with all phones who support ARCore. Just download the BoxyRoomCardboard.ap
 Video showing BoxyRoomCardboard.apk in action.
 </p>
 
-You need to restart the app when misalignment between the headset and the head movement is observed. The misaligning is a bug which was solved for the GearVR version but is still present in the Cardboard/Daydream version. 
+You need to restart the app when misalignment between the headset and the head movement is observed. The misaligning is a bug which was solved for the GearVR version but is still present in the Cardboard/Daydream versions. 
 
 Cardboard VR apps lag the time warp functionalities that we can use in GearVR and Daydream apps. The Cardboard headset is not very good either if you can use a GearVR or Daydream headset to get a noticeably improved experience.
 
 
 ### On GearVR (apps need to be signed first):
 
-Installing on GearVR requires the app to be signed first. But since the current GearVR version is better than the Daydream/Cardboard version the few extra steps to sign it are worth it.
+Installing on GearVR requires the app to be signed first. But since the current GearVR version is better than the Daydream/Cardboard version the few extra steps to sign the apk file are worth it for you.
 
 <b>Signing the .apk file:</b>
 
@@ -87,26 +87,26 @@ Video showing WhiteIsland.apk 6DoF GearVR version.
 Video showing VikingVillage (Seurat) 6DoF GearVR version.
 </p>
 
-You can click the touchpad on the side of the headset once to recenter the view when you notice misalignment.
+Click the touchpad on the side of the headset once to recenter the view when you notice misalignment.
 
 
 ### On Daydream and iPhone
 
-Daydream users: You can either use one of the Cardboard apks or even better switch a cardboard project over to Daydream inside the Unity project yourself. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a Daydream device and headset to test it. 
+Daydream users: You can either use one of the Cardboard apks or even better switch the Cardboard project over to Daydream inside the Unity project yourself. Use for example the "BoxyRoomChardboard" project and under build settings, XR settings replace Cardboard with Daydream. I will upload a version specifically build for Daydream users as soon as I get access to a Daydream device and headset to test it. 
 
 iPhone user: You should look at [this project](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) first for a quick solution. Unfortunately only Cardboard VR, which lags some critical features like reprojection runs on iphones making iphones not well suited for mobile VR.
-
 
 # TODO's and future work:
 
 ### Improve Head Tracking 
 
-The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that full time. The most promising solution seems to use a filter which detects tracking errors and removes them. For filtering errors the kalman filter [(video lecture here)](https://www.youtube.com/playlist?list=PLX2gX-ftPVXU3oUFNATxGXY90AULiqnWT) looks like a good start and an Unity implementation can be found [here](https://github.com/zalo/MathUtilities). I don't think we reach the same quality as dual camera setups in extreme situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. Since ARCore and phones get improved all the time, the tracking should constantly get better. 
+The current tracking version you find in this repository suffers from lag, jumps in position, drift from tracking being lost and other inconveniences. Fixing these issues seems very doable, and I am currently working on that most of the time. The most promising solution seems to use a filter which detects tracking errors and removes them. For filtering errors the kalman filter [(video lecture here)](https://www.youtube.com/playlist?list=PLX2gX-ftPVXU3oUFNATxGXY90AULiqnWT) looks like a good start and an Unity implementation can also be found [here](https://github.com/zalo/MathUtilities). I don't think we reach the same quality as dual camera setups in extreme situations but I predict a future version could offer almost perfect head tracking when just performing normal head movements. Since ARCore and phones get improved all the time, the tracking should constantly get better. 
 
 ### Hand Tracking 
 
-Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. Manomotion is already accessible and uSenseAR is not available yet. First tests with Manomotion where not so successful but I will follow the development closely. Another disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand look like it could work more reliable and with better performance for now.
-An open-source project for gesture recognition is available for ARKit and can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit) it might work more reliable compared to the full hand tracking solutions provided by manomotion.
+Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. First tests with Manomotion where not so successful but I will follow the development closely. One disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand looks like a worthy alternative since it is included for free in the ARCore software and also works more reliable and with better performance compared to the hand detection.
+
+An open-source project for hand gesture recognition is available for ARKit and can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit).
 
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
@@ -126,13 +126,13 @@ The MovingMarkerTracking app you find in this project is currently using an olde
 
 But even if it works the limited field of view of the camera will probably make it less useful for many applications. 
 
-The company ZapBox already sells kits based on this idea as you can see in [this video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). Notice that they use a clip-on-lens to the smartphone this probably serves two functions. First: Since they show the see through camera feed directly to the user they get a bigger field of view (but still only 2D). Second: With a bigger field of view, the area where the moving markers can be tracked gets bigger. 
+The company ZapBox already sells kits based on this idea as you can see in [this video](https://www.youtube.com/watch?v=SMyPTfuy8Ms). Notice that they use a clip-on-lens to achive a greater field of view for the see-through image and the area where the moving markers can be tracked also gets bigger. 
 I tested multiple wide angle clip-on-lenses but non of them worked with ARCore either stoping tracking all together or drifting heavily. The same seems to be true for ARKit as you can read [here](https://forum.zap.works/t/will-zapworks-integrate-arkit-capabilities-for-ios/867). 
-Since some of the latest smartphones like the S10 have a dedicated wide field of view camera we can only hope that the ARCore team adds support for these cameras as well (ARCore needs to be calibrated for each camera in the phone seperatly).
+Since some of the latest smartphones like the S10 have a dedicated wide field of view camera we can only hope that the ARCore team adds support for these cameras as well.
 
 ### Markerless Controller Tracking
 
-Google clearly thought about solutions to 6DOF controller tracking as well. Read more about it in this [roadToVR article](https://www.roadtovr.com/google-mobile-6dof-vr-controller-tracking-inside-out/). But since thay use stereo cameras the results may not be directly transferable to mobilephones with only a single camera.
+Google clearly thought about solutions to 6DOF controller tracking as you can read in this [roadToVR article](https://www.roadtovr.com/google-mobile-6dof-vr-controller-tracking-inside-out/). But since thay use stereo cameras the results may not be directly transferable to mobile phones with only a single camera.
 
 <p align="center">
 <a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
@@ -140,14 +140,15 @@ Google clearly thought about solutions to 6DOF controller tracking as well. Read
 
 Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
 
-
 ### Environmental Understanding, 3D Scanning And Boundary System
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
 </p>
 
-Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects. An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar when the tracking works well. I recommend reading the [related paper here](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and [here](https://dl.acm.org/citation.cfm?id=3275041) (use [scihub.tw](https://sci-hub.tw/) to get free access). Also download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out directly. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology.
+Two 3D Scanner projects using Google Tango [Open Constructor](https://github.com/lvonasek/tango/wiki/Open-Constructor) and the [master thesis Tango-Poc](https://github.com/stetro/project-tango-poc#pointcloud-app-pc) are available as open source projects. I also recommend this informative [video](https://youtu.be/1TF7esI3sMQ) about Tango 3D scanning technology. 
+
+An [ARCore version](https://github.com/lvonasek/tango/wiki/3D-Scanner-for-ARcore) is also available (not open source) and a plugin for Unity can be bought [here](https://assetstore.unity.com/packages/tools/integration/3d-reconstruction-for-arcore-android-only-136919). It could be used to further improve the boundary system and automatically building a virtual environment which fits perfectly over your real environment. This is incredible, and I will try to implement something similar when the tracking works well. I recommend reading the [related paper here](https://scss.tcd.ie/publications/theses/diss/2018/TCD-SCSS-DISSERTATION-2018-035.pdf) and [here](https://dl.acm.org/citation.cfm?id=3275041) (use [scihub.tw](https://sci-hub.tw/) to get free access). Also download the [free 3D scanning app](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner&hl=en_US) to check it out directly. 
 
 Another idea for the boundary system could be a kind of edge detection and visualisation algorithm as shown in this [video](https://youtu.be/aVdWED6kfKc).
 
