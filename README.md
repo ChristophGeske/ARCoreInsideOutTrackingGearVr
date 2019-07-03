@@ -179,14 +179,14 @@ This iconic shooter game can now be played using the GearVR with the option of u
 Such a project can be found [here](https://github.com/andrewnakas/ARKit-Cardboard-VR/blob/master/README.md) and [here](https://github.com/hanleyweng/iOS-ARKit-Headset-View). A paper comparing ARCore and ARKit can be found [here](https://link.springer.com/chapter/10.1007/978-3-030-19501-4_36) (use [sci-hub.tw](https://sci-hub.tw/) if you don't have access to the full text). Most important findings of the paper for this project are that ARKit tracks with 60fps, can deal with faster movements and plain detection is more accurate indoors. ARCore seems to be better outdoors. Also noticeable is the finding that the performance drops on some older Android phones like Nexus 6P and Nexus 5X. According to @lvonasek ARKit is more accurate because of a better camera calibration process by Apple.  
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=8d9Qbt3J9Uo"><img src="http://i.imgur.com/WedVqFt.gif" width="40%">
+<a href="https://www.youtube.com/watch?v=8d9Qbt3J9Uo"><img src="http://i.imgur.com/WedVqFt.gif" width="40%"></a>
 </p>
 <p align="center">
 Positional tracking on iPhone using ARKit + Cardboard. 
 </p>
 
 ### Fast Travel Games 
-They also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct)
+They also experimented with ARCore and GearVR. They put some serious thought in solving many of the little issues but the code they use seems not to be public. Learn more [here](https://community.arm.com/graphics/b/blog/posts/achieving-console-like-experiences-on-mobile-vr-with-apex-construct).
 
 <p align="center">
 <a href="https://twitter.com/fasttravelgames/status/971791094915780611/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E971791094915780611&ref_url=https%3A%2F%2Fcommunity.arm.com%2Fdeveloper%2Ftools-software%2Fgraphics%2Fb%2Fblog%2Fposts%2Fachieving-console-like-experiences-on-mobile-vr-with-apex-construct"><img src="https://user-images.githubusercontent.com/12700187/59551307-eeb17c00-8f77-11e9-9881-808c89eaca33.jpg" width="60%"></a>
