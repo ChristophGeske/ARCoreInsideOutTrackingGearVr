@@ -14,7 +14,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 - Before installing one of the apps (.apk files) make sure you have installed Google ARCore from the [Play Store](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en) on your device. Check if your device supports ARCore on [this page](https://developers.google.com/ar/discover/supported-devices).
 
-- NEWS: The latest ARCore version (v1.11.0) now called "Google Play Services for AR" promises to support 60fps tracking which would be great for a smoother head tracking. I am looking into the new version today and in the coming days and let you know as soon as possible if something has improved. The previous ARCore versions which are still used in this project use the 30fps tracking which in reality are not even real 30fps since there are a lot of tracking errors even with perfect lighting and environment condition. I am curious to see if the new version delivers the promised 60fps and if that also works on the S7.
+- NEWS: The latest ARCore version [(v1.11.0)](https://github.com/google-ar/arcore-unity-sdk/releases/tag/v1.11.0.1) now called "Google Play Services for AR" promises to support 60fps tracking which would be great for a smoother head tracking. I am looking into the new version today and in the coming days and let you know as soon as possible if something has improved. The previous ARCore versions which are still used in this project use the 30fps tracking which in reality are not even real 30fps since there are a lot of tracking errors even with perfect lighting and environment condition. I am curious to see if the new version delivers the promised 60fps and if that also works on the S7.
 
 
 # Software Description:
