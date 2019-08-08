@@ -14,7 +14,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 - Before installing one of the apps (.apk files) make sure you have installed Google ARCore from the [Play Store](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en) on your device. Check if your device supports ARCore on [this page](https://developers.google.com/ar/discover/supported-devices).
 
-- LATEST NEWS: The new ARCore version [(v1.11.0)](https://github.com/google-ar/arcore-unity-sdk/releases/tag/v1.11.0.1) now called "Google Play Services for AR" promises to support 60fps tracking which would be great for a smoother head tracking. The previous ARCore versions which are still used in this project use the 30fps tracking which in reality are not even real 30fps since there are a lot of tracking errors even with perfect lighting and environment condition. My first test showed that older devices like the S7 can not yet make use of the new 60fps feature and Google lists only the Pixel 2 and Pixel 3 as 60fps compatible on the [supported device page](https://developers.google.com/ar/discover/supported-devices). Also, the new ARCore supports build in depth cameras which might be interesting for the S10 5G and Note 10+ and should improve tracking even more. 
+- LATEST NEWS: The new ARCore version [(v1.11.0)](https://github.com/google-ar/arcore-unity-sdk/releases/tag/v1.11.0.1) now called "Google Play Services for AR" promises to support 60fps tracking which would be great for a smoother head tracking. The previous ARCore versions which are still used in this project use the 30fps tracking which in reality are not even real 30fps since there are a lot of tracking errors even with perfect lighting and environment condition. My first test showed that older devices like the S7 can not yet make use of the new 60fps feature and Google lists only the Pixel 2 and Pixel 3 as 60fps compatible on the [supported device page](https://developers.google.com/ar/discover/supported-devices). Also, the new ARCore supports build in depth cameras which might be interesting for the S10 5G and should improve tracking even more. 
 
 
 # Software Description:
@@ -263,6 +263,11 @@ Is an interesting idea and in [this paper](https://dl.acm.org/citation.cfm?doid=
 
 # Some thoughts about the optimal and future hardware:
 
+### The End For Mobile Smartphone Based VR?
+
+The Daydream and GearVR platforms are both loosing momentum with Daydream not beeing supported by the latest Pixel phones and GearVR no longer beeing supported by the upcomming Note 10. All this is understandable since new GearVR and Daydream headsets might be the cheapest way to get into VR when you already own a compatible phone but with ever more affordable standalone headsets like the Oculus GO and Quest which offer a simpler setup and often a better experience customer have a great alternative.
+Nonetheless I believe there are still many people who would like to see these platforms keep developing and there are so many VR capable phones and headsets out there that these platforms will continue to be used for quite some time.
+
 ### Qualcomm Chips 
 
 Qualcomm already offers chips that have positional tracking in mind. Starting with the Snapdragon 835 in the Samsung S8 better stereo camera based tracking should be possible regarding to Qualcomm and you can read more about it here. Qualcomm mentions 4 key advantages of stereo over monocular 6-DoF:
@@ -276,8 +281,8 @@ Qualcomm already offers chips that have positional tracking in mind. Starting wi
 • Improved tolerance to camera occlusion
 
 
-### Galaxy S10 5G and Note 10 5G 
-On top of the list but still somehow speculative since they are not released yet these phones will feature a hQVGA 3d depth sensor which is a [time of flight sensor](https://www.youtube.com/watch?v=OMDfQC0m4i4). When we get access to the depth sensing data low latency positional tracking similar to the Asus Zenfone AR could be possible. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand/moving marker tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. Interestingly it seems that support for the Daydream platform was dropped for these phones. Also be aware that most of the underling software is still not even developed so don't expect these features to be available anytime soon. 
+### Galaxy S10 5G 
+On top of the list but still somehow speculative since it is not clear if the featured hQVGA 3d [depth/time of flight sensor](https://www.youtube.com/watch?v=OMDfQC0m4i4) will work in combination with the GearVR. When we get access to the depth sensing data low latency positional tracking similar to the Asus Zenfone AR could be possible. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand/moving marker tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. Interestingly it seems that support for the Daydream platform was dropped for these phones. Also be aware that most of the underling software is still not even developed so don't expect these features to be available anytime soon. 
 
 ### Asus Zenfone AR 
 Supporting Daydream which delivers a good enough VR experience and in combination with its highly accurate depth camera and the Google Tango software it allows for excellent positional tracking. 
@@ -292,6 +297,7 @@ Runs ARCore and works with many GearVR headsets without immediately overheating.
 ### Daydream ready phones 
 They are powerful, often also support ARCore and the VR quality with the second generation Daydream View is almost as good as GearVR. Daydream is a much more open platform compared to GearVR and runs on [multiple phones](https://vr.google.com/daydream/smartphonevr/phones/) which only need to meet the [hardware requirements](https://www.androidauthority.com/google-daydream-ready-phones-705245/) and the ok from Google or the device manufacturer to be supported. That said the S10 didn't seem to get Daydream support which is strange since it clearly has the capable hardware. It should be possible to root and force Daydream on the S10 or other ARCore ready phones but that trick comes which some risks and might not work for you in my case testing it on the S7 once it kind of worked but I had many issues making it unusable. If you are interested in how to force Daydream on your device have a look at [this](https://www.xda-developers.com/force-daydream-vr-compatibility/) and [this XDA developer post](https://forum.xda-developers.com/mobile-vr/google-daydream-vr/magisk-daydream-cardboard-enabler-nfc-t3917601). 
 Currently, this project is working better on GearVR since resetting the view on Daydream is somewhat more complicated. This might change in the future if the issue can be solved.
+Since the Pixel 3 is one of the few phones which now supports 60fps tracking it might become one of the best phones for mobile VR with positional tracking and this should be further investigated.
 
 ### Most other phones 
 Most phones out there do not support GearVR or Daydream and if you are not willing to mess with the system, your only option is Google Cardboard which is noticeably worse because of two factors. The lense quality of Cardboard lenses and the inferior Cardboard software. This project offers a Cardboard version but I recommend when you have the option to use a GearVR or Daydream project instead. 
