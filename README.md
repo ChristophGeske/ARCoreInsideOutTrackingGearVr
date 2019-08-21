@@ -108,14 +108,23 @@ The current tracking version you find in this repository suffers from lag, jumps
 
 Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. First tests with Manomotion where not so successful but I will follow the development closely. One disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand looks like a worthy alternative since it is included for free in the ARCore software and also works more reliable and with better performance compared to the hand detection.
 
-An open-source project for hand gesture recognition is available for ARKit and can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit).
-
 <p align="center">
 <a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
 </p>
 <p align="center">
 Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
+
+Google recently released an apparently extremely fast and robust monocamera hand tracking solution that is open source and can be found [here](https://github.com/google/mediapipe).
+
+<p align="center">
+<a href="https://github.com/google/mediapipe"><img src="https://user-images.githubusercontent.com/12700187/63429941-b157e780-c41b-11e9-9e77-15dcfd08b0d9.gif" width="20%"></a>
+</p>
+<p align="center">
+Robust and quick mono camera hand tracking developed by Google. 
+</p>
+
+Another open-source project for hand gesture recognition on ARKit can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit).
 
 ### Moving Marker Tracking
 
