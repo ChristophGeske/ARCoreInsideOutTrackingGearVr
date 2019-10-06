@@ -115,7 +115,7 @@ Hand tracking using software from [Manomotion](https://www.manomotion.com/) and 
 Video showing Manomotion hand tracking in combination with ARCore. 
 </p>
 
-Google recently released an apparently extremely fast and robust monocamera hand tracking solution that is open source and can be found [here](https://github.com/google/mediapipe).
+Google recently released an apparently extremely fast and robust monocamera hand tracking solution. The open source code can be found [here](https://github.com/google/mediapipe) and a blog post [here](https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html).
 
 <p align="center">
 <a href="https://github.com/google/mediapipe"><img src="https://user-images.githubusercontent.com/12700187/63429941-b157e780-c41b-11e9-9e77-15dcfd08b0d9.gif" width="20%"></a>
