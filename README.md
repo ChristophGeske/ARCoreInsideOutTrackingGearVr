@@ -106,22 +106,31 @@ The current tracking version you find in this repository suffers from lag, jumps
 
 ### Hand Tracking 
 
-Hand tracking using software from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) is available and works with VR and ARCore. Unfortunately, the performance requirements are very high. First tests with Manomotion where not so successful but I will follow the development closely. One disadvantage is that the Manomotion software is not free of charge. Moving markers attached to the hand looks like a worthy alternative since it is included for free in the ARCore software and also works more reliable and with better performance compared to the hand detection.
+Hand and finger tracking seems to be the easiest way to bring 6DoF input to phone-based VR systems, luckily ARKit which is ahead of ARCore in many aspects recently announced full body tracking and joint detection which can also be used for hand (but not finger) tracking without the need to use special external software allowing for high performance hand tracking on phones supporting ARKit 3 right now.
 
 <p align="center">
-<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
+<a href="https://youtu.be/YnvoSJkmMjs"><img src="https://user-images.githubusercontent.com/12700187/67143663-02465980-f26e-11e9-9bff-a5e64dbc6ad2.png" width="100%"></a>
 </p>
 <p align="center">
-Video showing Manomotion hand tracking in combination with ARCore. 
+Video showing ARKit 3 hand tracking. 
 </p>
 
-Google recently released an apparently extremely fast and robust monocamera hand tracking solution. The open source code can be found [here](https://github.com/google/mediapipe) and a blog post [here](https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html).
+Google recently released an apparently extremely fast and robust mono camera hand and finger tracking solution. The open-source code can be found [here](https://github.com/google/mediapipe) and a blog post [here](https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html).
 
 <p align="center">
 <a href="https://github.com/google/mediapipe"><img src="https://user-images.githubusercontent.com/12700187/63429941-b157e780-c41b-11e9-9e77-15dcfd08b0d9.gif" width="20%"></a>
 </p>
 <p align="center">
 Robust and quick mono camera hand tracking developed by Google. 
+</p>
+
+Hand and finger tracking software is also available from [Manomotion](https://www.manomotion.com/) and [uSenseAR](https://en.usens.com/products/usensar/) ([video](https://youtu.be/wdiC7l_Wecg)) and works in combination with VR and ARCore. Unfortunately, the performance requirements are very high and the software is not free of charge. 
+
+<p align="center">
+<a href="https://youtu.be/z7-JSaSOgfU"><img src="https://user-images.githubusercontent.com/12700187/54431726-72fd2480-4727-11e9-8719-322ee3dae8f0.png" width="100%"></a>
+</p>
+<p align="center">
+Video showing Manomotion hand and finger tracking in combination with ARCore. 
 </p>
 
 Another open-source project for hand gesture recognition on ARKit can be found [here](https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit).
