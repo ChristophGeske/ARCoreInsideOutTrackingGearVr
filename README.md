@@ -260,7 +260,7 @@ Having a high quality, low latency, wide field of view 3D passthrough image on t
 This combination seems be suited for bringing full body movement to the GearVR: Check out the related [reddit post](https://www.reddit.com/r/GearVR/comments/4k78ur/gearvr_positional_tracking/)
 
 ### ALVR 
-This sweet open source software project connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project if you haven't heard about it [here](https://github.com/polygraphene/ALVR). Might be interesting for the Oculus Quest too.
+This sweet open source software project connects the GearVR to the pc and uses head tracking for simulating expensive headsets. Check out the project [here](https://github.com/polygraphene/ALVR) if you haven't heard about it. 
 For Oculus Quest users this should be interesting as well, see [this video](https://www.youtube.com/watch?v=gtmJInS7RxU) to learn more. 
 
 ### Phantom AR A Cloud Processing and Networking Platform
