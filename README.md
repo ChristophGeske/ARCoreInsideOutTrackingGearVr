@@ -286,7 +286,10 @@ Is an interesting idea and in [this paper](https://dl.acm.org/citation.cfm?doid=
 ### The End For Mobile Smartphone Based VR?
 
 The Daydream and GearVR platforms are both loosing momentum with Daydream not beeing supported by the latest Pixel phones and GearVR no longer beeing supported by the upcomming Note 10. All this is understandable since new GearVR and Daydream headsets might be the cheapest way to get into VR when you already own a compatible phone but with ever more affordable standalone headsets like the Oculus GO and Quest which offer a simpler setup and often a better experience customer have a great alternative.
-Nonetheless I believe there are still many people who would like to see these platforms keep developing and there are so many VR capable phones and headsets out there that these platforms will continue to be used for quite some time.
+
+Unity 2019.3 also drops support for phone based VR like Daydream and GearVR in coming updates, [read here](https://blogs.unity3d.com/2020/01/24/unity-xr-platform-updates/)
+
+Phones will get better in the future and get more capable when it comes to display VR experiences. However they will likely not play a significant role despite them beeing the chepest way to enter VR if you have the phone already and only a headset with lenses is required. But with the losing support it will get harder and harder and as a developer to create experiences and distribute them to your followers therfore you should not think twice about it and go with a standalone Oculus Quest, PC headset or the PSVR.
 
 ### Qualcomm Chips 
 
