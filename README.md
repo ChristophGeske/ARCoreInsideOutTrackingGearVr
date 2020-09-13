@@ -171,7 +171,9 @@ ARCore finaly supports depth maps. This means a 3D depth mesh of your souroundin
 <p align="center">
 <a href="https://www.youtube.com/watch?v=VOVhCTb-1io"><img src="https://user-images.githubusercontent.com/12700187/93025713-98ab0880-f600-11ea-9a04-d14f99451b2e.jpg" width="100%"></a>
 </p>
-
+<p align="center">
+      Introduction video and some early apps developed with the new ARCore depth API 
+</p>
 
 Also be aware that many phones do not support this feature yet. If your phone supports this new feature can be foun on the ARCore supported devices page. When your phone supports the new depth API this feature should work. For example the Snapdragon version of the S10 supports the new depth API but the international Exynos version doesn't. Why there are these differences even on phones with the same name I dont know, maybe this feature requires a special chip architecture.
 
