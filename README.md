@@ -160,12 +160,20 @@ Google clearly thought about solutions to 6DOF controller tracking as you can re
 <p align="center">
 <a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
 </p>
+Introductiin and some use cases of the new ARCore depth API.
 
 Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
 
 ### Environmental Understanding, 3D Scanning And Boundary System
 
-ARCore finaly supports depth maps. This means a 3D depth mesh of your sourounding is generated which can be used for exciting new features. Read about it in [this article](https://medium.com/@riteshkanjee/how-googles-arcore-depth-api-tackles-occlusion-with-a-single-camera-6cbd8d23708b). Also be aware that many phones do not support this feature yet. If your phone supports this new feature can be foun on the ARCore supported devices page. When your phone supports the new depth API this feature should work. For example the Snapdragon version of the S10 supports the new depth API but the international Exynos version doesn't. Why there are these differences even on phones with the same name I dont know, maybe this feature requires a special chip architecture.
+ARCore finaly supports depth maps. This means a 3D depth mesh of your sourounding is generated which can be used for exciting new features. Read about it in [this article](https://medium.com/@riteshkanjee/how-googles-arcore-depth-api-tackles-occlusion-with-a-single-camera-6cbd8d23708b). 
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=VOVhCTb-1io"><img src="https://user-images.githubusercontent.com/12700187/93025713-98ab0880-f600-11ea-9a04-d14f99451b2e.jpg" width="100%"></a>
+</p>
+
+
+Also be aware that many phones do not support this feature yet. If your phone supports this new feature can be foun on the ARCore supported devices page. When your phone supports the new depth API this feature should work. For example the Snapdragon version of the S10 supports the new depth API but the international Exynos version doesn't. Why there are these differences even on phones with the same name I dont know, maybe this feature requires a special chip architecture.
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=sN61K-6Ai1c"><img src="https://user-images.githubusercontent.com/12700187/54491273-6ad6ed80-48bd-11e9-8978-fdec337e10f0.png" width="100%"></a>
