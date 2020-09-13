@@ -161,8 +161,10 @@ Google clearly thought about solutions to 6DOF controller tracking as you can re
 <a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
 </p>
 <p align="center">
-      Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
+      Images from a paper published by Google describing markerless controller tracking.
 </p>
+
+Read the Google [paper here](https://arxiv.org/pdf/1804.05870.pdf).
 
 ### Environmental Understanding, 3D Scanning And Boundary System
 
