@@ -160,9 +160,9 @@ Google clearly thought about solutions to 6DOF controller tracking as you can re
 <p align="center">
 <a href="https://arxiv.org/pdf/1804.05870.pdf"><img src="https://user-images.githubusercontent.com/12700187/60089175-371f2580-9740-11e9-8f86-cbdb5794c673.png" width="100%"></a>
 </p>
-Introductiin and some use cases of the new ARCore depth API.
-
-Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
+<p align="center">
+      Images from a [paper](https://arxiv.org/pdf/1804.05870.pdf) published by Google describing markerless controller tracking.
+</p>
 
 ### Environmental Understanding, 3D Scanning And Boundary System
 
