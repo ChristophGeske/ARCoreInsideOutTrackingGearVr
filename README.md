@@ -304,31 +304,15 @@ Unity 2019.3 also drops support for phone based VR like Daydream and GearVR in c
 
 Phones will get better in the future and get more capable when it comes to display VR experiences. However they will likely not play a significant role despite them beeing the chepest way to enter VR if you have the phone already and only a headset with lenses is required. But with the losing support it will get harder and harder and as a developer to create experiences and distribute them to your followers therfore you should not think twice about it and go with a standalone Oculus Quest, PC headset or the PSVR.
 
-### Qualcomm Chips 
-
-Qualcomm already offers chips that have positional tracking in mind. Starting with the Snapdragon 835 in the Samsung S8 better stereo camera based tracking should be possible regarding to Qualcomm and you can read more about it here. Qualcomm mentions 4 key advantages of stereo over monocular 6-DoF:
-
-• Instant accurate scene depth
-
-• Faster initialization
-
-• Better performance with quick and rotational motions
-
-• Improved tolerance to camera occlusion
-
-
-### Galaxy S10 5G 
-On top of the list but still somehow speculative since it is not clear if the featured hQVGA 3d [depth/time of flight sensor](https://www.youtube.com/watch?v=OMDfQC0m4i4) will work in combination with the GearVR. When we get access to the depth sensing data low latency positional tracking similar to the Asus Zenfone AR could be possible. The ultrawide field of view of the camera as well as the depth sensor could be used for better hand/moving marker tracking. Compatibility with the GearVR should result in a great VR experience and the 5G feature might allow for streaming high quality data directly from the cloud allowing for experiences outperforming even desktop VR. Interestingly it seems that support for the Daydream platform was dropped for these phones. Also be aware that most of the underling software is still not even developed so don't expect these features to be available anytime soon. 
-
 ### Asus Zenfone AR 
 Supporting Daydream which delivers a good enough VR experience and in combination with its highly accurate depth camera and the Google Tango software it allows for excellent positional tracking. 
 The disadvantage is that Google stopped developing Tango, that almost no one owns the hardware and that no performance improvements are expected in the future making the development for this device and the Tango platform not very attractive. If you decide to purchase this device be aware of the overheating issue due to the rather old chipset.
 
-### Galaxy S10 and S10+, S8, S9 , Note8 and so on 
-They deliver better performance than the S7 which is important for running hand tracking and better looking games. In terms of image quality, field of view and tracking latency, they are identical to the S7. The ultrawide field of view camera of the S10 and S10+ could be interesting for improving hand and marker tracking in the future but this would depend on the tracking software (Manomotion or uSense) and ARCore if they support the wide field of view camera. Be aware that the S10 dose not support Daydream so if you want to use Daydream and GearVR on the same device you should get an S8 or S9 instead.
+### Galaxy S10, S8, S9, Note8 and so on 
+They deliver better performance than the S7 which is important for running hand tracking and better looking games. In terms of image quality, field of view and tracking latency, they are identical to the S7. The ultrawide field of view camera of the S10 could be interesting for improving hand and marker tracking in the future but this would depend on the tracking software (Manomotion or uSense) and ARCore if they support the wide field of view camera. Be aware that the S10 doesn't support Daydream so if you want to use Daydream and GearVR on the same device you should get an S8 or S9 instead.
 
 ### Galaxy S7 
-Runs ARCore and works with many GearVR headsets without immediately overheating. For hand-tracking the performance might be not enough but this is still an open research question. In combination with a cheap second hand GearVR for roughly 30$ it might be the best value device for experiencing VR right now. This software project was tested on the S7. 
+Runs ARCore and works with many GearVR headsets but tends to overheat quickly. In combination with a cheap second hand GearVR for roughly 30$ it might be the cheapest device for experiencing mobile VR right now. This software project was tested on the S7. 
 
 ### Daydream ready phones 
 They are powerful, often also support ARCore and the VR quality with the second generation Daydream View is almost as good as GearVR. Daydream is a much more open platform compared to GearVR and runs on [multiple phones](https://vr.google.com/daydream/smartphonevr/phones/) which only need to meet the [hardware requirements](https://www.androidauthority.com/google-daydream-ready-phones-705245/) and the ok from Google or the device manufacturer to be supported. That said the S10 didn't seem to get Daydream support which is strange since it clearly has the capable hardware. It should be possible to root and force Daydream on the S10 or other ARCore ready phones but that trick comes which some risks and might not work for you in my case testing it on the S7 once it kind of worked but I had many issues making it unusable. If you are interested in how to force Daydream on your device have a look at [this](https://www.xda-developers.com/force-daydream-vr-compatibility/) and [this XDA developer post](https://forum.xda-developers.com/mobile-vr/google-daydream-vr/magisk-daydream-cardboard-enabler-nfc-t3917601). 
@@ -346,35 +330,6 @@ But the chances of getting good tracking when forcing ARCore on an unsupported d
 The OnePlus 7 Pro should also be mentioned here since it will offer a 90Hz refresh rate display which should make a noticeable difference in the visual quality. Currently, it is not clear if it will get ARCore support and if forcing Daydream onto it will work. So no recommendation yet but keep an eye on this interesting device.
 
 An overview over all the commercially available mobile VR headsets can be found [here](https://www.aniwaa.com/best-of/vr-ar/best-standalone-vr-headset/).
-
-
-# Best Hardware To Buy Right Now:
-
-## Mobile VR:
-
-### Best VR Ready Smartphones:
-
-If you are looking for a new phone which is well suited for VR and works in combination with this project I can recommend these 3 devices:
-
-<a href="https://www.amazon.co.uk/gp/product/B06XYMCMHD/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B06XYMCMHD&linkCode=as2&tag=christophge03-21&linkId=df992f57728629e394a1d8c0412a1bc6"><img src="https://user-images.githubusercontent.com/12700187/57588508-7ccbba00-7515-11e9-9ef1-d3db759597f5.png" width="35%"></a> <a href="https://www.amazon.co.uk/gp/product/B07NWR7QYQ/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07NWR7QYQ&linkCode=as2&tag=christophge03-21&linkId=99a1abe6046750764feb01bd85d42be4"><img src="https://user-images.githubusercontent.com/12700187/57588556-48a4c900-7516-11e9-9a22-4bf8b316f0ba.png" width="35%"></a> 
-
-<a href="https://www.amazon.com/gp/product/B07CTYBVMM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07CTYBVMM&linkCode=as2&tag=christophgesk-20&linkId=47d8897fa39d664057ec1bb41e4978c5"><img src="https://user-images.githubusercontent.com/12700187/57588666-bf8e9180-7517-11e9-9533-9235f834043b.png" width="35%"></a> 
-
-### Cheapest Deal | GearVR and Daydream View:
-
-If you own a Samsung Smartphone S7 or above it will support ARCore and I recommend the GearVR with a controller. Make sure to find the right GearVR headset for your phone the connector and size requirements might change depending on your phone. If you own a smartphone which only has Daydream support, I can also recommend the second generation of the Daydream View headsets which offers improved lenses compared to the first Daydream View generation. Booth GearVR and Daydream View 2 offer great 3DOF VR experiences and interesting experimental 6DOF and computer vision capabilities.
-I cannot recommend the Cardboard headset the quality is just not good enough. 
-
-<a href="https://www.amazon.co.uk/gp/product/B07142L1V6/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07142L1V6&linkCode=as2&tag=christophge03-21&linkId=9e83db0ebbc078333027f48745c506fe"><img src="https://user-images.githubusercontent.com/12700187/57588245-88b57d00-7511-11e9-8cc6-58e94b2e1d39.png" width="30%"></a>
-<a href="https://www.amazon.co.uk/gp/product/B0773RZWV1/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B0773RZWV1&linkCode=as2&tag=christophge03-21&linkId=7ec33d0127adf6dbafa89690a2fa7af4"><img src="https://user-images.githubusercontent.com/12700187/57588145-738c1e80-7510-11e9-8d98-d9e4188ff43b.png" width="30%"></a> 
-
-### Best Deal | Oculus Quest:
-
-The Oculus Quest is an all in one device with better resolution, better head/controller tracking. But it has some disadvantages compared to the phone based solutions for example the tracking will not work outside when the sun is to bright (at dawn it seems to work quite well see this [video](https://www.youtube.com/watch?v=Eb_xZYDAfjM)), the tracking area is limited to 60m^2 ~ (7mx7m), many features that ARCore provides like marker tracking, cloud anchors for multiplayer (some experiments kind of work already see this [video](https://www.youtube.com/watch?v=msbTbfep_sY)) and hand tracking will not be available but it will be a great device, nonetheless.
-
-<p align="left">
-<a href="https://www.amazon.co.uk/gp/product/B07P6RJ39C/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07P6RJ39C&linkCode=as2&tag=christophge03-21&linkId=2caf77e9cd6bb286b5234e844d36501b"><img src="https://user-images.githubusercontent.com/12700187/57587580-6dde0b00-7507-11e9-87af-cd566ab1d8e1.png" width="35%"></a> 
-</p>
 
 # How to Seurat:
 
@@ -415,7 +370,7 @@ I want to give credit to the following developers who published useful informati
 
 # Privacy Notice:
 
-This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook (Oculus) and we don't know exactly what data is collected now or in the future. When using their software, we also have to agree to their privacy terms and conditions. In principle gyro/accelerometer sensor data like head rotation and heat maps of what you are looking at could be logged in the background and passwords could be infer from this [read related paper](https://pdfs.semanticscholar.org/ab85/10d054b232a5693bdd88b20422bde9ea4b26.pdf) to learn more about the risks. Data about your movement could be used to make predictions about your physical health and provide a digital fingerprint of you since the movement is unique to every user. Information about your surrounding using the camera might be even more problematic and should not be sent to Google servers. This project doesn't store any of your data but please refer to the privacy policy of Google and Oculus to learn what data they might collect on you.
+This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook (Oculus) and I don't know exactly what data is collected now or in the future. When using their software, we also have to agree to their privacy terms and conditions. Data about your movement could be used to make predictions about your physical health and provide a digital fingerprint of you since the movement is unique to every user. Information about your surrounding using the camera might be even more problematic and should not be sent to Google servers. This project doesn't store any of your data but please refer to the privacy policy of Google and Oculus to learn what data they might collect on you.
 
 [Google Privacy Policy](https://policies.google.com/privacy)
 
