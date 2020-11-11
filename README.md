@@ -166,9 +166,9 @@ Google clearly thought about solutions to 6DOF controller tracking as you can re
 
 Read the Google [paper here](https://arxiv.org/pdf/1804.05870.pdf).
 
-### Environmental Understanding, 3D Scanning And Boundary System
+### Environmental Understanding, 3D Scanning, Depth Maps And Boundary System
 
-ARCore finaly supports depth maps. This means a 3D depth mesh of your sourounding is generated which can be used for exciting new features. Read about it in [this article](https://medium.com/@riteshkanjee/how-googles-arcore-depth-api-tackles-occlusion-with-a-single-camera-6cbd8d23708b). 
+ARCore finaly supports depth maps. This means a 3D depth mesh of your sourounding is generated which can be used for exciting new features. Read about it in [this article](https://medium.com/@riteshkanjee/how-googles-arcore-depth-api-tackles-occlusion-with-a-single-camera-6cbd8d23708b) and on the [google developer page](https://developers.google.com/ar/develop/java/depth/overview).
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=VOVhCTb-1io"><img src="https://user-images.githubusercontent.com/12700187/93025713-98ab0880-f600-11ea-9a04-d14f99451b2e.jpg" width="100%"></a>
