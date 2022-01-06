@@ -1,7 +1,6 @@
 # Inside Out Positional Head Tracking (standalone 6DoF) for GearVR/Cardboard/Daydream using ARCore v1.6.0
 ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) for all ARCore capable devices.
 
-
 # Introducing Remarks:
 
 - WARNING YOU MIGHT GET SICK: The current versions use interpolation and smoothing functions to cover up imprecise tracking. This leads to relative high latency in response to head motion. This is bad for people who get sick from motion sickness quickly. If you know that you are susceptible to motion sickness, these apps might not be for you jet.
@@ -10,7 +9,7 @@ ARCore v1.6.0 enabled Inside Out Positional Tracking (six degrees of freedom) fo
       
 - Your phone might get hot very quickly. Make sure to end the game after using. The Cardboard version seems to stay on even if the phone gets very hot while the GearVR version turns itself off automatically. Therefore, cardboard users should make sure to manually end the app after use.
       
-- The goal of this project is to bring high quality (6DoF) positional tracking to GearVR, Daydream and Cardboard using ARCore/ARKit software. The HTC Vive Focus and the Daydream powered Lenovo Mirage Solo offer this functionality already but are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The [Oculus Quest 2](https://github.com/ChristophGeske/ChristophGeske.github.io) currently offers the best 6DoF head and controller tracking which makes it a highly desirable device.  
+- The goal of this project is to bring high quality (6DoF) positional tracking to GearVR, Daydream and Cardboard using ARCore/ARKit software. The HTC Vive Focus and the Daydream powered Lenovo Mirage Solo offer this functionality already but are very pricy and not available everywhere yet. Because they use dedicated hardware, they can offer better performance and quality tracking. The Oculus Quest 2 currently offers the best 6DoF head and controller tracking which makes it a highly desirable device. [Oculus/Meta Quest 2 - 128GB version - Amazon (Paid Link)](http://amzn.to/2UKwLru)
       
 - Before installing one of the apps (.apk files) make sure you have installed Google ARCore from the [Play Store](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en) on your device. Check if your device supports ARCore on [this page](https://developers.google.com/ar/discover/supported-devices).
 
@@ -359,7 +358,6 @@ If you experience very low frames and bad jittering please restart the phone and
 
 Everything here was tested on the S7 if you have problems getting it to work please open a new issue and let me know.
 
-
 # Credit:
 
 I want to give credit to the following developers who published useful information I used in building this project:
@@ -367,6 +365,9 @@ I want to give credit to the following developers who published useful informati
 + Roberto Lopez Mendez with his [very first positional tracking project](https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/). [Paper](https://www.researchgate.net/publication/326918327_Mobile_inside-out_VR_tracking_now_available_on_your_phone_extended_abstract) (you can use [sci-hub.tw](https://sci-hub.tw/) to get free access)
 + Dimitri Diakopoulos (ddiakopoulos) provided a [simplified Seurat pipeline](https://github.com/ddiakopoulos/seurat/releases)
 + Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
+
+# Affiliate Disclaimer:
+We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com, Amazon.fr, Amazon.de and affiliate sites.
 
 # Privacy Notice:
 
