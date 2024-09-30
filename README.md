@@ -364,14 +364,11 @@ I want to give credit to the following developers who published useful informati
 + [FusedVR](https://www.youtube.com/watch?v=4EWPUdE_kqU) did some very early work in this area.
 + Roberto Lopez Mendez with his [very first positional tracking project](https://blogs.unity3d.com/2017/10/18/mobile-inside-out-vr-tracking-now-readily-available-on-your-phone-with-unity/). [Paper](https://www.researchgate.net/publication/326918327_Mobile_inside-out_VR_tracking_now_available_on_your_phone_extended_abstract) (you can use [sci-hub.tw](https://sci-hub.tw/) to get free access)
 + Dimitri Diakopoulos (ddiakopoulos) provided a [simplified Seurat pipeline](https://github.com/ddiakopoulos/seurat/releases)
-+ Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be).  
-
-# Affiliate Disclaimer:
-We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com, Amazon.fr, Amazon.de and affiliate sites.
++ Reddit user st6315 (Jung Yi Hung) provided me with a mesh for the vikingVillage app and posted useful information [here](https://www.youtube.com/watch?v=CpZ94YDufqk&feature=youtu.be). 
 
 # Privacy Notice:
 
-This project uses software from Google (ARCore, Daydream, Cardboard) and Facebook (Oculus) and I don't know exactly what data is collected now or in the future. When using their software, we also have to agree to their privacy terms and conditions. Data about your movement could be used to make predictions about your physical health and provide a digital fingerprint of you since the movement is unique to every user. Information about your surrounding using the camera might be even more problematic and should not be sent to Google servers. This project doesn't store any of your data but please refer to the privacy policy of Google and Oculus to learn what data they might collect on you.
+This project doesn't store any of your data but please refer to the privacy policy of Google and Oculus to learn what data they might collect on you.
 
 [Google Privacy Policy](https://policies.google.com/privacy)
 
